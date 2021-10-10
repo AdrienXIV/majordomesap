@@ -5,18 +5,17 @@ import Header from "@components/other/Header"
 import Meta from "@components/other/Meta"
 import TitreProReconnuRncp from "@components/accueil/TitreProReconnuRncp"
 import Head from "next/head"
-import styles from "../styles/Home.module.css"
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Create Next App</title>
         <Meta />
       </Head>
       <Header />
 
-      <main className={styles.main}>
+      <main>
         <TitreProReconnuRncp />
       </main>
       <Footer />
