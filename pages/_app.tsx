@@ -1,4 +1,3 @@
-import "../styles/globals.css"
 import type { AppProps } from "next/app"
 import "primereact/resources/themes/saga-blue/theme.css"
 import "primereact/resources/primereact.min.css"
