@@ -20,6 +20,7 @@
   justify-content: space-between;
   height: 150px;
   margin: 0 15px;
+  border-radius: 5px;
   transition-duration: 750ms;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
