@@ -1,17 +1,8 @@
-#titre-pro-reconnu-rncp {
-  margin: 50px 0;
-  padding: 0 300px;
-}
-#titre-pro-reconnu-rncp > .bloc-texte {
+#titre-pro-reconnu-rncp > .bloc-texte > div {
+  background-color: #ca0032;
   margin: 25px 0;
-  align-items: center;
-}
-
-#titre-pro-reconnu-rncp img {
-  transition-duration: 500ms;
-}
-#titre-pro-reconnu-rncp img:hover {
-  transform: scale(0.95);
+  padding: 25px 300px;
+  color: white;
 }
 
 #titre-pro-reconnu-rncp i {
@@ -20,6 +11,7 @@
 }
 
 #titre-pro-reconnu-rncp > .bloc-icons {
+  padding: 25px 300px;
   text-align: center;
 }
 #titre-pro-reconnu-rncp > .bloc-icons > div {
@@ -27,17 +19,18 @@
   flex-direction: column;
   justify-content: space-between;
   height: 150px;
-  margin: 0 10px;
-  transition-duration: 250ms;
+  margin: 0 15px;
+  transition-duration: 750ms;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#titre-pro-reconnu-rncp > .bloc-icons > div:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 #titre-pro-reconnu-rncp > .bloc-icons > div:first-child {
   margin: 0 25px 0 0;
 }
 #titre-pro-reconnu-rncp > .bloc-icons > div:last-child {
   margin: 0 0 0 25px;
-}
-#titre-pro-reconnu-rncp > .bloc-icons > div:hover {
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 #titre-pro-reconnu-rncp > .bloc-icons > div > div {
   margin: 25px 0;
