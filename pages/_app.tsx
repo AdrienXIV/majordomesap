@@ -3,6 +3,9 @@ import "primereact/resources/themes/saga-blue/theme.css"
 import "primereact/resources/primereact.min.css"
 import "primeicons/primeicons.css"
 import "primeflex/primeflex.css"
+import "@styles/accueil.css"
+import "@styles/global.css"
+import "@fortawesome/fontawesome-free/css/all.css"
 import axios from "axios"
 
 axios.defaults.baseURL = process.env.URL // http://localhost:3000

@@ -1,0 +1,46 @@
+#titre-pro-reconnu-rncp {
+  margin: 50px 0;
+  padding: 0 300px;
+}
+#titre-pro-reconnu-rncp > .bloc-texte {
+  margin: 25px 0;
+  align-items: center;
+}
+
+#titre-pro-reconnu-rncp img {
+  transition-duration: 500ms;
+}
+#titre-pro-reconnu-rncp img:hover {
+  transform: scale(0.95);
+}
+
+#titre-pro-reconnu-rncp i {
+  font-size: 50px;
+  color: #ca0032;
+}
+
+#titre-pro-reconnu-rncp > .bloc-icons {
+  text-align: center;
+}
+#titre-pro-reconnu-rncp > .bloc-icons > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+  margin: 0 10px;
+  transition-duration: 250ms;
+}
+#titre-pro-reconnu-rncp > .bloc-icons > div:first-child {
+  margin: 0 25px 0 0;
+}
+#titre-pro-reconnu-rncp > .bloc-icons > div:last-child {
+  margin: 0 0 0 25px;
+}
+#titre-pro-reconnu-rncp > .bloc-icons > div:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#titre-pro-reconnu-rncp > .bloc-icons > div > div {
+  margin: 25px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
