@@ -1,7 +1,7 @@
 #titre-pro-reconnu-rncp > .bloc-texte > div {
   background-color: #ca0032;
   margin: 25px 0;
-  padding: 25px 300px;
+  padding: 50px 300px;
   color: white;
 }
 
@@ -11,7 +11,7 @@
 }
 
 #titre-pro-reconnu-rncp > .bloc-icons {
-  padding: 25px 300px;
+  padding: 50px 300px;
   text-align: center;
 }
 #titre-pro-reconnu-rncp > .bloc-icons > div {
@@ -37,4 +37,35 @@
   margin: 25px 0;
   font-size: 16px;
   font-weight: bold;
+}
+
+/* ###################################################################################" */
+#soyez-100-finance > div {
+  margin: 50px 0;
+  padding: 25px 300px;
+}
+#soyez-100-finance > div {
+  display: flex;
+  align-items: center;
+}
+#soyez-100-finance > div > div {
+  width: 50%;
+}
+#soyez-100-finance > div > div > button {
+  background-color: #ca0032;
+  border-color: #ca0032;
+  color: white;
+  transition-duration: 0ms;
+}
+#soyez-100-finance > div > div > button:hover {
+  color: #ca0032;
+  border-color: #ca0032;
+  background-color: white;
+}
+
+#soyez-100-finance > div > div > .carousel {
+  text-align: -webkit-right;
+}
+#soyez-100-finance > div > div > .carousel > div {
+  width: 66% !important;
 }

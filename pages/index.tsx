@@ -5,6 +5,7 @@ import Header from "@components/other/Header"
 import Meta from "@components/other/Meta"
 import TitreProReconnuRncp from "@components/accueil/TitreProReconnuRncp"
 import Head from "next/head"
+import Soyez100Finance from "@components/accueil/Soyez100Finance"
 
 const Home: NextPage = () => {
   return (
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
 
       <main>
         <TitreProReconnuRncp />
+        <Soyez100Finance />
       </main>
       <Footer />
     </div>
