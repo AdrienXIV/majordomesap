@@ -1,7 +1,6 @@
 import React from "react"
 import type { NextPage } from "next"
 import { Button } from "primereact/button"
-import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from "react-responsive-carousel"
 
 const Soyez100Finance: NextPage = () => {
