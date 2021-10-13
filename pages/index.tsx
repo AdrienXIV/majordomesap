@@ -5,6 +5,7 @@ import Header from "@components/other/Header"
 import Meta from "@components/other/Meta"
 import TitreProReconnuRncp from "@components/accueil/TitreProReconnuRncp"
 import Head from "next/head"
+import ImageAccueil from '@components/image-accueil/ImageAccueil';
 
 const Home: NextPage = () => {
   return (
@@ -14,6 +15,8 @@ const Home: NextPage = () => {
         <Meta />
       </Head>
       <Header />
+
+      <ImageAccueil/>
 
       <main>
         <TitreProReconnuRncp />

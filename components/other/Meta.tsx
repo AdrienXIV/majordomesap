@@ -1,6 +1,7 @@
 import React from "react";
+import { NextPage } from "next";
 
-const Meta = () => {
+const Meta: NextPage = () => {
   return (
     <>
       <meta charSet="utf-8" />
