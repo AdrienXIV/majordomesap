@@ -24,6 +24,7 @@ const Rncp = () => {
 
     return (
         <> 
+            <h2>Nos Foramtions RNCP CAP/BAC PRO</h2>
             <div className="grid grid-rncp">
                 <div className="lg:col-3 xl:col-3 md:col-6 xs:col-12">
                     <Card className="card-rncp" footer={footerCard} header={headerCard}>
