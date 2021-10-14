@@ -33,17 +33,15 @@ const TitreProReconnuRncp: NextPage = () => {
         </div>
       </div>
 
-      <div className="p-grid bloc-texte">
-        <div className="p-col">
-          <p>
-            Notre centre vous propose des formations de Majordomat et d’Assistance De Vie aux Familles (ADVF), des métiers du service à la personne
-            consistant à intervenir auprès des personnes ayant besoin d’assistance dans leurs activités quotidiennes.
-          </p>
-          <p>
-            Nous proposons des modules de formation certifiants permettant de valoriser vos compétences métier et ainsi d’
-            <b>obtenir un titre professionnel reconnu de niveau 3 inscrit au RNCP.</b>
-          </p>
-        </div>
+      <div className="bloc-texte">
+        <p>
+          Notre centre vous propose des formations de Majordomat et d’Assistance De Vie aux Familles (ADVF), des métiers du service à la personne
+          consistant à intervenir auprès des personnes ayant besoin d’assistance dans leurs activités quotidiennes.
+        </p>
+        <p>
+          Nous proposons des modules de formation certifiants permettant de valoriser vos compétences métier et ainsi d’
+          <b>obtenir un titre professionnel reconnu de niveau 3 inscrit au RNCP.</b>
+        </p>
       </div>
     </section>
   )
