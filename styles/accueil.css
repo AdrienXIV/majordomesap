@@ -55,6 +55,9 @@
 #soyez-100-finance {
   padding: 0;
 }
+#soyez-100-finance p {
+  text-align: start;
+}
 #soyez-100-finance > div {
   margin: 50px 0;
   padding: 25px 300px;
