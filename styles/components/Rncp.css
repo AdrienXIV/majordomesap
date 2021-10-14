@@ -8,6 +8,87 @@
 .block-rncp {
     padding-top: 5%;
     padding-bottom: 5%;
-    padding-left: 2%;
-    padding-right: 2%;
+}
+
+.grid-rncp {
+    align-items: center;
+}
+
+.title-rncp {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.p-button-rncp {
+    width: 100%
+}
+
+.p-button-rncp:hover {
+    animation: zoom 2s cubic-bezier(0.11, 0, 0.5, 0) 0s 1 normal backwards;
+}
+
+@keyframes zoom {
+    0% {
+        transform: translate(0);
+    }
+    2% {
+        transform: translate(-2px, -2px);
+    }
+    4% {
+        transform: translate(2px, -2px);
+    }
+    6% {
+        transform: translate(-2px, 2px);
+    }
+    8% {
+        transform: translate(2px, 2px);
+    }
+    10% {
+        transform: translate(-2px, -2px);
+    }
+    15% {
+        transform: translate(2px, -2px);
+    }
+    30% {
+        transform: translate(-2px, 2px);
+    }
+    50% {
+        transform: translate(-2px, -2px);
+    }
+    52% {
+        transform: translate(2px, -2px);
+    }
+    60% {
+        transform: translate(0);
+    }
+    62% {
+        transform: translate(-2px, -2px);
+    }
+    64% {
+        transform: translate(2px, -2px);
+    }
+    66% {
+        transform: translate(-2px, 2px);
+    }
+    68% {
+        transform: translate(2px, 2px);
+    }
+    70% {
+        transform: translate(-2px, -2px);
+    }
+    75% {
+        transform: translate(2px, -2px);
+    }
+    80% {
+        transform: translate(-2px, 2px);
+    }
+    90% {
+        transform: translate(-2px, -2px);
+    }
+    92% {
+        transform: translate(2px, -2px);
+    }
+    100% {
+        transform: translate(0);
+    }
 }
