@@ -1,0 +1,13 @@
+.items-menu-rncp,
+.items-menu-rncp>a>i {
+    font: 1.5rem "Amatic SC", sans-serif;
+    font-weight: bold;
+    border: 0px;
+}
+
+.block-rncp {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}

@@ -6,6 +6,7 @@ import "primeflex/primeflex.min.css"
 import "@styles/components/Header.css"
 import "@styles/components/Footer.css"
 import "@styles/components/ImageAccueil.css"
+import "@styles/components/Rncp.css"
 import "@styles/Config.css"
 import axios from "axios"
 

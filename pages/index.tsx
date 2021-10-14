@@ -6,6 +6,7 @@ import Meta from "@components/other/Meta"
 import TitreProReconnuRncp from "@components/accueil/TitreProReconnuRncp"
 import Head from "next/head"
 import ImageAccueil from '@components/image-accueil/ImageAccueil';
+import Rncp from "@components/rncp/Rncp"
 
 const Home: NextPage = () => {
   return (
@@ -17,6 +18,10 @@ const Home: NextPage = () => {
       <Header />
 
       <ImageAccueil/>
+
+      <div className="block-rncp">
+        <Rncp/>
+      </div>
 
       <main>
         <TitreProReconnuRncp />
