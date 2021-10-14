@@ -4,6 +4,8 @@ import type { NextPage } from "next"
 const TitreProReconnuRncp: NextPage = () => {
   return (
     <section id="titre-pro-reconnu-rncp">
+      <h2>Obtenez votre certification professionnelle</h2>
+
       <div className="p-grid bloc-icons">
         <div className="p-col">
           <i className="fas fa-wheelchair"></i>
