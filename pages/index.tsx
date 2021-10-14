@@ -7,6 +7,7 @@ import TitreProReconnuRncp from "@components/accueil/TitreProReconnuRncp"
 import Head from "next/head"
 import ImageAccueil from "@components/image-accueil/ImageAccueil"
 import Soyez100Finance from "@components/accueil/Soyez100Finance"
+import NosFormationsPersonnalisables from "@components/accueil/NosFormationsPersonnalisables"
 
 const Home: NextPage = () => {
   return (
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
         <ImageAccueil />
         <TitreProReconnuRncp />
         <Soyez100Finance />
+        <NosFormationsPersonnalisables />
       </main>
       <Footer />
     </div>

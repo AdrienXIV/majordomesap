@@ -84,3 +84,44 @@
 #soyez-100-finance > div > div > .carousel > div {
   width: 66% !important;
 }
+/* ########################################################## */
+#nos-formations-personnalisables {
+  position: relative;
+  padding: 75px 300px;
+  background: none;
+}
+#nos-formations-personnalisables > div > img {
+  filter: blur(2px);
+}
+#nos-formations-personnalisables h2 {
+  color: white;
+  text-shadow: -2px 2px 3px black;
+  filter: blur(0px);
+}
+#nos-formations-personnalisables > .bloc-cards {
+  display: flex;
+  justify-content: space-between;
+  z-index: 999;
+}
+#nos-formations-personnalisables > .bloc-cards > div {
+  width: 45%;
+  height: 300px;
+  overflow: auto;
+  opacity: 0.8;
+  transition-duration: 750ms;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#nos-formations-personnalisables > .bloc-cards > div .p-card-title {
+  text-align: center;
+  color: black;
+}
+#nos-formations-personnalisables > .bloc-cards > div:hover {
+  box-shadow: rgba(211, 0, 52, 0.4) -5px 5px, rgba(211, 0, 52, 0.3) -10px 10px, rgba(211, 0, 52, 0.2) -15px 15px, rgba(211, 0, 52, 0.1) -20px 20px,
+    rgba(211, 0, 52, 0.05) -25px 25px;
+}
+
+#nos-formations-personnalisables > .bloc-cards > div p {
+  line-height: 1.5em;
+  color: black;
+  text-align: start;
+}
