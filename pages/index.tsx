@@ -17,9 +17,8 @@ const Home: NextPage = () => {
       </Head>
       <Header />
 
-      <ImageAccueil />
-
       <main>
+        <ImageAccueil />
         <TitreProReconnuRncp />
         <Soyez100Finance />
       </main>
