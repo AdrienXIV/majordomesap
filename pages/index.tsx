@@ -11,6 +11,7 @@ import Rncp from "@components/rncp/Rncp";
 import NosFormationsPersonnalisables from "@components/accueil/NosFormationsPersonnalisables";
 import PersonnalisezVosModules from "@components/accueil/PersonnalisezVosModules";
 import UneEquipeQualifiee from "@components/accueil/UneEquipeQualifiee";
+import UneDemarcheSimple from "@components/accueil/UneDemarcheSimple";
 
 const Home: NextPage = () => {
   return (
@@ -31,6 +32,7 @@ const Home: NextPage = () => {
         <NosFormationsPersonnalisables />
         <PersonnalisezVosModules />
         <UneEquipeQualifiee />
+        <UneDemarcheSimple />
       </main>
       <Footer />
     </div>
