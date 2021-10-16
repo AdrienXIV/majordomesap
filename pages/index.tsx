@@ -9,6 +9,7 @@ import ImageAccueil from "@components/image-accueil/ImageAccueil"
 import Soyez100Finance from "@components/accueil/Soyez100Finance"
 import Rncp from "@components/rncp/Rncp"
 import NosFormationsPersonnalisables from "@components/accueil/NosFormationsPersonnalisables"
+import PersonnalisezVosModules from "@components/accueil/PersonnalisezVosModules"
 
 const Home: NextPage = () => {
   return (
@@ -27,6 +28,7 @@ const Home: NextPage = () => {
         <TitreProReconnuRncp />
         <Soyez100Finance />
         <NosFormationsPersonnalisables />
+        <PersonnalisezVosModules />
       </main>
       <Footer />
     </div>
