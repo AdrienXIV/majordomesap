@@ -18,7 +18,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Majordome Formation SAP</title>
         <Meta />
       </Head>
       <Header />
