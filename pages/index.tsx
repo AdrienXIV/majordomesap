@@ -12,6 +12,7 @@ import NosFormationsPersonnalisables from "@components/accueil/NosFormationsPers
 import PersonnalisezVosModules from "@components/accueil/PersonnalisezVosModules";
 import UneEquipeQualifiee from "@components/accueil/UneEquipeQualifiee";
 import UneDemarcheSimple from "@components/accueil/UneDemarcheSimple";
+import IlsNousOntFaitConfiances from "@components/accueil/IlsNousOntFaitConfiances";
 
 const Home: NextPage = () => {
   return (
@@ -33,6 +34,7 @@ const Home: NextPage = () => {
         <PersonnalisezVosModules />
         <UneEquipeQualifiee />
         <UneDemarcheSimple />
+        <IlsNousOntFaitConfiances />
       </main>
       <Footer />
     </div>

@@ -276,3 +276,40 @@
 #une-demarche-simple .p-timeline-event-opposite {
   line-height: 1;
 }
+/* #################################################################################### */
+#ils-nous-ont-fait-confiances {
+  padding: 75px 200px;
+}
+#ils-nous-ont-fait-confiances h2 {
+  color: #333;
+}
+#ils-nous-ont-fait-confiances > div {
+  display: flex;
+  align-items: start;
+  margin: 50px 0 0 0;
+}
+#ils-nous-ont-fait-confiances > div > div {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#ils-nous-ont-fait-confiances > div p {
+  /* text-align: start; */
+  line-height: 1.75em;
+  color: #333;
+}
+#ils-nous-ont-fait-confiances > div .avatar {
+  text-align: center;
+}
+#ils-nous-ont-fait-confiances > div .avatar legend {
+  color: #535c68;
+}
+#ils-nous-ont-fait-confiances > div .card-footer {
+  display: flex;
+  justify-content: center;
+}
+#ils-nous-ont-fait-confiances > div .card-footer i {
+  color: #f1c40f;
+  margin-right: 5px;
+}
