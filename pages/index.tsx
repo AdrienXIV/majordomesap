@@ -21,13 +21,11 @@ const Home: NextPage = () => {
 
       <ImageAccueil/>
 
-        <div className="block-rncp">
-          <Rncp/>
-        </div>
-
+      <div className="block-rncp">
+        <Rncp/>
+      </div>
 
       <main>
-        <ImageAccueil />
         <TitreProReconnuRncp />
         <Soyez100Finance />
         <NosFormationsPersonnalisables />
