@@ -63,6 +63,11 @@ const UneDemarcheSimple: NextPage = () => {
       <div className="timeline-step">
         <h3>{item.status}</h3>
         <p style={{ textAlign: item.numero % 2 === 1 ? "start" : "end" }}>{item.content}</p>
+        {item.numero === 6 && (
+          <p style={{ textAlign: "end" }}>
+            <b>Passage à l'examen</b>
+          </p>
+        )}
       </div>
     );
   };
