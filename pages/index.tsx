@@ -7,6 +7,7 @@ import TitreProReconnuRncp from "@components/accueil/TitreProReconnuRncp"
 import Head from "next/head"
 import ImageAccueil from "@components/image-accueil/ImageAccueil"
 import Soyez100Finance from "@components/accueil/Soyez100Finance"
+import Rncp from "@components/rncp/Rncp"
 import NosFormationsPersonnalisables from "@components/accueil/NosFormationsPersonnalisables"
 
 const Home: NextPage = () => {
@@ -20,6 +21,9 @@ const Home: NextPage = () => {
 
       <main>
         <ImageAccueil />
+        <div className="block-rncp">
+          <Rncp />
+        </div>
         <TitreProReconnuRncp />
         <Soyez100Finance />
         <NosFormationsPersonnalisables />
