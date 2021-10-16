@@ -140,6 +140,10 @@
 #personnalisez-vos-modules > .bloc-texte {
   margin: 0 0 50px 0;
 }
+#personnalisez-vos-modules > .bloc-texte > p {
+  max-width: 80%;
+  margin: 20px auto;
+}
 
 #personnalisez-vos-modules > .bloc-cards {
   display: flex;
