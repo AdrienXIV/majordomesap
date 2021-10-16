@@ -129,19 +129,10 @@
   justify-content: space-between;
   z-index: 999;
 }
-#nos-formations-personnalisables > .bloc-cards > div {
-  width: 45%;
-  height: 300px;
-  overflow: auto;
-  opacity: 0.8;
-  transition-duration: 750ms;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  color: #333;
-}
 
 #nos-formations-personnalisables > .bloc-cards > div {
   width: 45%;
-  height: 300px;
+  height: 350px;
   overflow: auto;
   opacity: 0.8;
   transition-duration: 750ms;
