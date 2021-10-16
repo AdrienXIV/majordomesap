@@ -163,7 +163,6 @@
 #personnalisez-vos-modules > .bloc-cards > div .module {
   margin: 20px 0;
   line-height: 1.5em;
-  font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 }
 #personnalisez-vos-modules > .bloc-cards > div .module:first-child {
   margin: 0 0 20px 0;

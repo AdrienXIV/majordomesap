@@ -1,12 +1,12 @@
-import React from "react"
-import type { NextPage } from "next"
-import { Card } from "primereact/card"
-import Image from "next/image"
+import React from "react";
+import type { NextPage } from "next";
+import { Card } from "primereact/card";
+import Image from "next/image";
 
 const NosFormationsPersonnalisables: NextPage = () => {
   return (
     <section id="nos-formations-personnalisables">
-      <Image src="/images/formations.jpeg" quality={100} layout="fill" objectFit="cover" />
+      <Image src="/images/formations.jpg" quality={100} layout="fill" objectFit="cover" />
       <h2>Nos formations personnalisables</h2>
       <br />
       <div className="bloc-cards">
@@ -24,7 +24,7 @@ const NosFormationsPersonnalisables: NextPage = () => {
         </Card>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default NosFormationsPersonnalisables
+export default NosFormationsPersonnalisables;
