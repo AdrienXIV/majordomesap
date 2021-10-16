@@ -18,8 +18,9 @@
 .card-rncp {
     margin: 5%;
     box-shadow: 2px 2px 5px 1px #aaa inset;
-    outline: 1px solid #ddd;
+    outline: 1px solid #dddddd;
     border-radius: 10%;
+    margin-bottom: 5%;
 }
 
 .section-rncp {
@@ -58,10 +59,10 @@
 .btn-color:active,
 .btn-color:focus,
 .btn-color:hover {
-    background-color: #e07e7b !important;
+    background-color: #ca0032 !important;
     border: none !important;
-    outline: #e07e7b;
-    box-shadow: #e07e7b inset;
+    outline: #ca0032;
+    box-shadow: #ca0032 inset;
 }
 
 .title-emplois {
