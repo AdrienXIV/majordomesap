@@ -17,6 +17,9 @@
 
 .card-rncp {
     margin: 5%;
+    box-shadow: 2px 2px 5px 1px #aaa inset;
+    outline: 1px solid #ddd;
+    border-radius: 10%;
 }
 
 .section-rncp {
@@ -35,6 +38,13 @@
     animation: voir 3s;
 }
 
+.card-rncp-menage {
+    margin: 5%;
+    box-shadow: 2px 2px 5px 1px #aaa inset;
+    outline: 1px solid #ddd;
+    border-radius: 100px;
+}
+
 @keyframes voir {
     0% {
         opacity: 0;
@@ -42,4 +52,41 @@
     100% {
         opacity: 1;
     }
+}
+
+.btn-color,
+.btn-color:active,
+.btn-color:focus,
+.btn-color:hover {
+    background-color: #e07e7b !important;
+    border: none !important;
+    outline: #e07e7b;
+    box-shadow: #e07e7b inset;
+}
+
+.title-emplois {
+    text-transform: capitalize;
+    font: bold 4rem "Amatic SC", sans-serif;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.3);
+    color: #333;
+    margin-bottom: 3%;
+    text-align: left;
+}
+
+.number-rncp {
+    text-transform: capitalize;
+    font: bold 6rem "Amatic SC", sans-serif;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.3);
+    color: #333;
+    margin-bottom: 3%;
+    text-align: left;
+}
+
+.p-emplois {
+    text-transform: capitalize;
+    font: bold 0.5rem "Amatic SC", sans-serif;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.3);
+    color: #333;
+    margin-bottom: 3%;
+    text-align: left;
 }
