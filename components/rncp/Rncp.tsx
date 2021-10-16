@@ -6,7 +6,7 @@ import majordome from '../../public/images/majordome.jpeg'
 import Lottie from "lottie-react";
 import menage from '../../animations/menage.json'
 
-const Rncp = () => {
+const Rncp = () => { 
 
     const [text1, setText1] = useState(false)
     const [text2, setText2] = useState(false)
@@ -29,7 +29,7 @@ const Rncp = () => {
 
     const headerCard2 =  <Image  className={text2 === false ? 'voir' : 'hidden'} alt="Card" layout='responsive' src={majordome}/>;
         
-    const footerCard2 = <div className="col-md-3">
+    const footerCard2 = <div>
         <h3 className="section-rncp">MAJORDOMAT <Button className="btn-color" onClick={() => setText2(text2 === false ? true : false)}>Voir</Button></h3>
         <div className={text2 === false ? 'hidden' : 'voir'}>
             <h5 className="p-title1">Adaptée pour tous</h5>
@@ -46,22 +46,23 @@ const Rncp = () => {
         <>
             <h2 className="text-center title-rncp">Nos Formations RNCP CAP/BAC PRO</h2>
             <div className="grid grid-rncp">
-                <div className="col-12 md:col-6 lg:col-4">
+                <div className="col-6 md:col-6 lg:col-3">
                     <Card className="card-rncp effet-rncp" footer={footerCard} header={text1 === false ? headerCard : ''}>
                     </Card>
                 </div>
-                <div className="col-12 md:col-6 lg:col-4">
+                <div className="col-6 md:col-6 lg:col-3">
                     <Card className="card-rncp effet-rncp" footer={footerCard2} header={text2 === false ? headerCard2 : ''}>
                     </Card>
                 </div>
             </div>
             <hr />
-            <div className="grid grid-rncp">
+            <div className="
+            grid grid-rncp">
                 <div className="grid grid-rncp card-rncp-menage">
-                    <div className="col-12 md:col-6 lg:col-4">
+                    <div className="col-6 md:col-6 lg:col-4">
                         <Lottie animationData={menage}/>
                     </div>
-                    <div className="col-12 md:col-6 lg:col-4">
+                    <div className="col- md:col-6 lg:col-4">
                         <h3 className="title-emplois"><span className="number-rncp">949</span> offres d'emploi pour majordome en 2021</h3>
                         <p className="p-emplois">Source : pôle emploi</p>
                     </div>
