@@ -1,7 +1,9 @@
 #titre-pro-reconnu-rncp {
   padding: 75px 0 0 0;
 }
-
+#titre-pro-reconnu-rncp h2 {
+  color: #333;
+}
 #titre-pro-reconnu-rncp > .bloc-texte {
   position: relative;
   bottom: 0;
@@ -28,6 +30,7 @@
   display: flex;
 }
 #titre-pro-reconnu-rncp > .bloc-icons > div {
+  color: #333;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -59,12 +62,16 @@
 #soyez-100-finance {
   padding: 75px 0;
 }
+#soyez-100-finance h2 {
+  color: #333;
+}
 #soyez-100-finance p {
   text-align: start;
 }
 #soyez-100-finance > div {
   margin: 0;
   padding: 0px 300px;
+  color: #333;
 }
 #soyez-100-finance > div {
   display: flex;
@@ -97,6 +104,7 @@
   padding: 75px 300px;
   background: none;
 }
+
 #nos-formations-personnalisables > div > img {
   filter: blur(2px);
 }
@@ -117,6 +125,7 @@
   opacity: 0.8;
   transition-duration: 750ms;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  color: #333;
 }
 #nos-formations-personnalisables > .bloc-cards > div .p-card-title {
   text-align: center;
@@ -134,15 +143,18 @@
 }
 /* ################################################################################### */
 #personnalisez-vos-modules {
-  padding: 75px 200px;
+  padding: 75px 300px;
 }
-
+#personnalisez-vos-modules h2 {
+  color: #333;
+}
 #personnalisez-vos-modules > .bloc-texte {
   margin: 0 0 50px 0;
 }
 #personnalisez-vos-modules > .bloc-texte > p {
-  max-width: 80%;
+  max-width: 100%;
   margin: 20px auto;
+  color: #333;
 }
 
 #personnalisez-vos-modules > .bloc-cards {
@@ -163,7 +175,9 @@
 #personnalisez-vos-modules > .bloc-cards > div .module {
   margin: 20px 0;
   line-height: 1.5em;
+  color: #333;
 }
+
 #personnalisez-vos-modules > .bloc-cards > div .module:first-child {
   margin: 0 0 20px 0;
 }
@@ -177,11 +191,12 @@
 }
 
 #personnalisez-vos-modules > .bloc-cards > div .p-card-footer > .card-footer-title {
-  color: #495057;
+  color: #333;
   font-weight: bold;
 }
 #personnalisez-vos-modules > .bloc-cards > div .p-card-footer > .module-transversaux {
   margin: 15px 0;
+  color: #333;
 }
 
 #personnalisez-vos-modules > .bloc-cards > div .p-card-footer > .module-transversaux:last-child {
