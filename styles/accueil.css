@@ -1,5 +1,5 @@
 #titre-pro-reconnu-rncp {
-  padding: 50px 0 0;
+  padding: 75px 0 0 0;
 }
 
 #titre-pro-reconnu-rncp > .bloc-texte {
@@ -55,16 +55,16 @@
   font-weight: bold;
 }
 
-/* ###################################################################################" */
+/* ################################################################################### */
 #soyez-100-finance {
-  padding: 0;
+  padding: 75px 0;
 }
 #soyez-100-finance p {
   text-align: start;
 }
 #soyez-100-finance > div {
-  margin: 50px 0;
-  padding: 25px 300px;
+  margin: 0;
+  padding: 0px 300px;
 }
 #soyez-100-finance > div {
   display: flex;
@@ -187,4 +187,34 @@
 
 #personnalisez-vos-modules > .bloc-cards > div .p-card-footer > .module-transversaux:last-child {
   margin: 15px 0 0 0;
+}
+/* #################################################################################### */
+#une-equipe-qualifiee {
+  padding: 0;
+}
+#une-equipe-qualifiee > div {
+  display: flex;
+  width: 100%;
+}
+#une-equipe-qualifiee > div > .bloc-image {
+  position: relative;
+  width: 50%;
+}
+#une-equipe-qualifiee > div > .bloc-image img {
+  transition-duration: 750ms;
+}
+#une-equipe-qualifiee > div > .bloc-image img:hover {
+  opacity: 0.75;
+  transform: scale(1.05);
+}
+
+#une-equipe-qualifiee > div > .bloc-texte {
+  background-color: #ca0032;
+  width: 50%;
+  padding: 75px;
+  color: white;
+}
+#une-equipe-qualifiee > div > .bloc-texte > p {
+  text-align: start;
+  padding-left: 0;
 }
