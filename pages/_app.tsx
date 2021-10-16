@@ -11,6 +11,8 @@ import "@styles/accueil.css"
 import "@styles/global.css"
 import "@fortawesome/fontawesome-free/css/all.css"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
+import "@styles/components/Rncp.css"
+import "@styles/Config.css"
 import axios from "axios"
 
 axios.defaults.baseURL = process.env.URL // http://localhost:3000

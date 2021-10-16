@@ -7,6 +7,8 @@ import TitreProReconnuRncp from "@components/accueil/TitreProReconnuRncp"
 import Head from "next/head"
 import ImageAccueil from "@components/image-accueil/ImageAccueil"
 import Soyez100Finance from "@components/accueil/Soyez100Finance"
+import Rncp from "@components/rncp/Rncp";
+
 
 const Home: NextPage = () => {
   return (
@@ -17,6 +19,16 @@ const Home: NextPage = () => {
       </Head>
       <Header />
 
+<<<<<<< HEAD
+=======
+      <ImageAccueil/>
+
+        <div className="block-rncp">
+          <Rncp/>
+        </div>
+
+
+>>>>>>> feature/section-rncp
       <main>
         <ImageAccueil />
         <TitreProReconnuRncp />
