@@ -1,7 +1,3 @@
-.block-rncp {
-  /* padding-top: %; */
-}
-
 .title-rncp {
   text-transform: capitalize;
   font: "Amatic SC", sans-serif;
@@ -89,4 +85,19 @@
   color: #333;
   margin-bottom: 3%;
   text-align: left;
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .number-rncp {
+    font: bold 4rem "Amatic SC", sans-serif;
+  }
+
+  .title-emplois {
+    text-align: center;
+    font: bold 2rem "Amatic SC", sans-serif;
+  }
+
+  .grid-rncp {
+    margin: 0;
+  }
 }
