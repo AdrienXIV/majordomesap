@@ -53,7 +53,7 @@ const Rncp = () => {
   );
 
   return (
-    <>
+    <div className="block-rncp">
       <div className="grid grid-rncp">
         <div className="grid grid-rncp card-rncp-menage">
           <div className="col-12 md:col-6 lg:col-5">
@@ -79,7 +79,7 @@ const Rncp = () => {
       </div>
       <br />
       <hr />
-    </>
+    </div>
   );
 };
 

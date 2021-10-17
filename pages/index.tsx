@@ -27,9 +27,7 @@ const Home: NextPage = () => {
         <ImageAccueil />
         <TitreProReconnuRncp />
         <Soyez100Finance />
-        <div className="block-rncp">
-          <Rncp />
-        </div>
+        <Rncp />
         <PersonnalisezVosModules />
         <UneEquipeQualifiee />
         <UneDemarcheSimple />
