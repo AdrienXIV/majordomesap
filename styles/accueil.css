@@ -128,55 +128,11 @@
 #soyez-100-finance > div > div > .carousel > div {
   width: 66% !important;
 }
-/* 2436x1125px at 458ppi */
+
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-  #soyez-100-finance h2 {
-    text-align: center;
-  }
-  #soyez-100-finance > div {
+  #soyez-100-finance {
     padding: 0;
   }
-  /* #soyez-100-finance {
-    padding: 75px 0;
-  }
-  #soyez-100-finance h2 {
-    color: #333;
-  }
-  
-  #soyez-100-finance p {
-    text-align: start;
-  }
- 
-  
-  #soyez-100-finance > div {
-    display: flex;
-    align-items: center;
-  }
-  
-  #soyez-100-finance > div > div {
-    width: 50%;
-  }
-  
-  #soyez-100-finance > div > div > button {
-    background-color: #ca0032;
-    border-color: #ca0032;
-    color: white;
-    transition-duration: 0ms;
-  }
-  
-  #soyez-100-finance > div > div > button:hover {
-    color: #ca0032;
-    border-color: #ca0032;
-    background-color: white;
-  }
-  
-  #soyez-100-finance > div > div > .carousel {
-    text-align: -webkit-right;
-  }
-  
-  #soyez-100-finance > div > div > .carousel > div {
-    width: 66% !important;
-  } */
 }
 /* ########################################################## */
 
@@ -219,6 +175,7 @@
   box-shadow: rgba(211, 0, 52, 0.4) -5px 5px, rgba(211, 0, 52, 0.3) -10px 10px, rgba(211, 0, 52, 0.2) -15px 15px, rgba(211, 0, 52, 0.1) -20px 20px,
     rgba(211, 0, 52, 0.05) -25px 25px;
 }
+
 /* ################################################################################### */
 #personnalisez-vos-modules {
   padding: 75px 300px;
@@ -238,6 +195,7 @@
 #personnalisez-vos-modules > .bloc-cards {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 #personnalisez-vos-modules > .bloc-cards > div {
@@ -279,6 +237,27 @@
 
 #personnalisez-vos-modules > .bloc-cards > div .p-card-footer > .module-transversaux:last-child {
   margin: 15px 0 0 0;
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  #personnalisez-vos-modules {
+    padding: 75px 0px;
+  }
+  #personnalisez-vos-modules h2 {
+    text-align: center;
+  }
+  #personnalisez-vos-modules > .bloc-texte {
+    margin: 0;
+  }
+  #personnalisez-vos-modules > .bloc-texte > p {
+    max-width: 100%;
+    text-align: start;
+  }
+
+  #personnalisez-vos-modules > .bloc-cards > div {
+    width: 95%;
+    margin: 25px 2.5%;
+  }
 }
 /* #################################################################################### */
 #une-equipe-qualifiee {
