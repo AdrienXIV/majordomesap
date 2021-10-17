@@ -59,7 +59,7 @@
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   #titre-pro-reconnu-rncp {
-    padding: 75px 0 0 0;
+    padding: 15px 0 0 0;
   }
   #titre-pro-reconnu-rncp h2 {
     text-align: center;
@@ -395,6 +395,7 @@
 }
 #ils-nous-ont-fait-confiances > div .avatar legend {
   color: #535c68;
+  text-align: center;
 }
 #ils-nous-ont-fait-confiances > div .card-footer {
   display: flex;
