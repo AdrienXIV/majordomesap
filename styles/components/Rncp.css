@@ -1,87 +1,92 @@
 .block-rncp {
-    padding-top: 5%;
+  /* padding-top: %; */
 }
 
 .title-rncp {
-    text-transform: capitalize;
-    font: 5rem "Amatic SC", sans-serif;
-    text-shadow: 2px 2px rgba(255, 255, 255, 0.3);
-    color: #333;
-    margin-bottom: 3%;
-    text-align: center;
+  text-transform: capitalize;
+  font: "Amatic SC", sans-serif;
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.3);
+  color: #333;
+  margin-bottom: 3%;
+  text-align: center;
 }
 
 .grid-rncp {
-    align-items: center;
+  align-items: center;
 }
 
 .card-rncp {
-    margin: 5%;
-    margin-bottom: 5%;
+  margin: 5%;
+  margin-bottom: 5%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition-duration: 500ms;
+}
+.card-rncp:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
 .section-rncp {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 .p-title1 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .p-text1 {
-    font-size: 1.0rem;
+  font-size: 1rem;
 }
 
 .voir {
-    animation: voir 3s;
+  animation: voir 3s;
 }
 
 .card-rncp-menage {
-    margin: 5%;
+  margin: 5%;
 }
 
 @keyframes voir {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .btn-color,
 .btn-color:active,
 .btn-color:focus,
 .btn-color:hover {
-    background-color: #ca0032 !important;
-    border: none !important;
-    outline: #ca0032;
-    box-shadow: #ca0032 inset;
+  background-color: #ca0032 !important;
+  border: none !important;
+  outline: #ca0032;
+  box-shadow: #ca0032 inset;
 }
 
 .title-emplois {
-    text-transform: capitalize;
-    font: bold 4rem "Amatic SC", sans-serif;
-    text-shadow: 2px 2px rgba(255, 255, 255, 0.3);
-    color: #333;
-    margin-bottom: 3%;
-    text-align: left;
+  text-transform: capitalize;
+  font: bold 4rem "Amatic SC", sans-serif;
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.3);
+  color: #333;
+  margin-bottom: 3%;
+  text-align: left;
 }
 
 .number-rncp {
-    text-transform: capitalize;
-    font: bold 6rem "Amatic SC", sans-serif;
-    text-shadow: 2px 2px rgba(255, 255, 255, 0.3);
-    color: #333;
-    margin-bottom: 3%;
-    text-align: left;
+  text-transform: capitalize;
+  font: bold 6rem "Amatic SC", sans-serif;
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.3);
+  color: #333;
+  margin-bottom: 3%;
+  text-align: left;
 }
 
 .p-emplois {
-    text-transform: capitalize;
-    font: bold 0.5rem "Amatic SC", sans-serif;
-    text-shadow: 2px 2px rgba(255, 255, 255, 0.3);
-    color: #333;
-    margin-bottom: 3%;
-    text-align: left;
+  text-transform: capitalize;
+  font: bold 0.5rem "Amatic SC", sans-serif;
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.3);
+  color: #333;
+  margin-bottom: 3%;
+  text-align: left;
 }
