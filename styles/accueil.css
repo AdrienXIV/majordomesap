@@ -348,6 +348,24 @@
 #une-demarche-simple .p-timeline-event-opposite {
   line-height: 1;
 }
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  #une-demarche-simple {
+    padding: 75px 5px;
+  }
+
+  #une-demarche-simple h2 {
+    text-align: center;
+  }
+
+  #une-demarche-simple > .bloc-texte .timeline-step {
+    padding: 5px 0px;
+  }
+
+  #une-demarche-simple > .bloc-texte .timeline-step p {
+    font-size: 13px;
+  }
+}
 /* #################################################################################### */
 #ils-nous-ont-fait-confiances {
   padding: 75px 200px;
