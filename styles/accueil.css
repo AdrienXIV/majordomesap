@@ -377,6 +377,7 @@
   display: flex;
   align-items: flex-start;
   margin: 50px 0 0 0;
+  flex-wrap: wrap;
 }
 #ils-nous-ont-fait-confiances > div > div {
   height: 300px;
@@ -401,4 +402,17 @@
 #ils-nous-ont-fait-confiances > div .card-footer i {
   color: #f1c40f;
   margin-right: 5px;
+}
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  #ils-nous-ont-fait-confiances {
+    padding: 75px 0px;
+  }
+
+  #ils-nous-ont-fait-confiances h2 {
+    text-align: center;
+  }
+
+  #ils-nous-ont-fait-confiances > div > div {
+    margin: 50px 0;
+  }
 }
