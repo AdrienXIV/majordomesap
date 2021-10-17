@@ -1,33 +1,33 @@
-import React from "react"
-import type { NextPage } from "next"
+import React from "react";
+import type { NextPage } from "next";
 
 const TitreProReconnuRncp: NextPage = () => {
   return (
     <section id="titre-pro-reconnu-rncp">
       <h2>Obtenez votre certification professionnelle</h2>
 
-      <div className="grid bloc-icons">
-        <div className="col">
+      <div className="p-grid bloc-icons">
+        <div className="col-2">
           <i className="fas fa-wheelchair"></i>
           <div>Accessible pour tous</div>
         </div>
-        <div className="col">
+        <div className="col-2">
           <i className="fas fa-euro-sign"></i>
           <div>Facilité de financement</div>
         </div>
-        <div className="col">
+        <div className="col-2">
           <i className="fas fa-graduation-cap"></i>
           <div>Reconnaissance nationale</div>
         </div>
-        <div className="col">
+        <div className="col-2">
           <i className="fas fa-handshake"></i>
           <div>Ouverture professionnelle</div>
         </div>
-        <div className="col">
+        <div className="col-2">
           <i className="far fa-comments"></i>
           <div>Equipe professionnelle et à l'écoute</div>
         </div>
-        <div className="col">
+        <div className="col-2">
           <i className="fas fa-magic"></i>
           <div>Formations enrichissantes et personnalisables</div>
         </div>
@@ -44,7 +44,7 @@ const TitreProReconnuRncp: NextPage = () => {
         </p>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default TitreProReconnuRncp
+export default TitreProReconnuRncp;
