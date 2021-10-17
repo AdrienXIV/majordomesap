@@ -17,9 +17,6 @@
 
 .card-rncp {
     margin: 5%;
-    box-shadow: 2px 2px 5px 1px #aaa inset;
-    outline: 1px solid #dddddd;
-    border-radius: 10%;
     margin-bottom: 5%;
 }
 
@@ -41,9 +38,6 @@
 
 .card-rncp-menage {
     margin: 5%;
-    box-shadow: 2px 2px 5px 1px #aaa inset;
-    outline: 1px solid #ddd;
-    border-radius: 100px;
 }
 
 @keyframes voir {
