@@ -1,30 +1,33 @@
 {
-  "name": "majordomeformationsap",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "axios": "^0.22.0",
-    "next": "11.1.2",
-    "next-connect": "^0.10.2",
-    "primeflex": "^3.0.1",
-    "primeicons": "^4.1.0",
-    "primereact": "^6.6.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "sass": "^1.42.1",
-    "sitemap": "^7.0.0"
-  },
-  "devDependencies": {
-    "@types/axios": "^0.14.0",
-    "@types/react": "17.0.27",
-    "eslint": "8.0.0",
-    "eslint-config-next": "11.1.2",
-    "typescript": "4.4.3"
-  }
+    "name": "majordomeformationsap",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.4",
+        "axios": "^0.22.0",
+        "lottie-react": "^2.1.0",
+        "next": "11.1.2",
+        "next-connect": "^0.10.2",
+        "primeflex": "^3.0.1",
+        "primeicons": "^4.1.0",
+        "primereact": "^6.6.0",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-responsive-carousel": "^3.2.21",
+        "react-transition-group": "^4.4.2",
+        "sitemap": "^7.0.0"
+    },
+    "devDependencies": {
+        "@types/axios": "^0.14.0",
+        "@types/react": "17.0.27",
+        "eslint": "8.0.0",
+        "eslint-config-next": "11.1.2",
+        "typescript": "4.4.3"
+    }
 }

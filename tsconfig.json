@@ -24,7 +24,8 @@
       "@middlewares/*": ["middlewares/*"],
       "@public/*": ["public/*"],
       "@utils/*": ["utils/*"],
-      "@animations/*": ["animations/*"]
+      "@animations/*": ["animations/*"],
+      "@data/*": ["data/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

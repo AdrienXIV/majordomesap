@@ -1,9 +1,17 @@
-import "../styles/globals.css"
 import type { AppProps } from "next/app"
 import "primereact/resources/themes/saga-blue/theme.css"
 import "primereact/resources/primereact.min.css"
+import "@styles/components/Header.css"
 import "primeicons/primeicons.css"
+import "@styles/components/Footer.css"
 import "primeflex/primeflex.css"
+import "@styles/components/ImageAccueil.css"
+import "@styles/accueil.css"
+import "@styles/global.css"
+import "@fortawesome/fontawesome-free/css/all.css"
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+import "@styles/Config.css"
+import "@styles/components/Rncp.css"
 import axios from "axios"
 
 axios.defaults.baseURL = process.env.URL // http://localhost:3000
