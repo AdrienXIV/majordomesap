@@ -265,6 +265,7 @@
 }
 #une-equipe-qualifiee > div {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
 #une-equipe-qualifiee > div > .bloc-image {
@@ -288,6 +289,20 @@
 #une-equipe-qualifiee > div > .bloc-texte > p {
   text-align: start;
   padding-left: 0;
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  #une-equipe-qualifiee > div > .bloc-image {
+    width: 100%;
+    height: 250px;
+  }
+  #une-equipe-qualifiee > div h2 {
+    text-align: center;
+  }
+  #une-equipe-qualifiee > div > .bloc-texte {
+    width: 100%;
+    padding: 25px;
+  }
 }
 /* #################################################################################### */
 #une-demarche-simple {
