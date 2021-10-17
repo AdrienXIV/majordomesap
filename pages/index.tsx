@@ -16,10 +16,9 @@ import IlsNousOntFaitConfiances from "@components/accueil/IlsNousOntFaitConfianc
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <>
       <Head>
         <title>Majordome Formation SAP</title>
-        <Meta />
       </Head>
       <Header />
 
@@ -27,16 +26,14 @@ const Home: NextPage = () => {
         <ImageAccueil />
         <TitreProReconnuRncp />
         <Soyez100Finance />
-        <div className="block-rncp">
-          <Rncp />
-        </div>
+        <Rncp />
         <PersonnalisezVosModules />
         <UneEquipeQualifiee />
         <UneDemarcheSimple />
         <IlsNousOntFaitConfiances />
       </main>
       <Footer />
-    </div>
+    </>
   );
 };
 

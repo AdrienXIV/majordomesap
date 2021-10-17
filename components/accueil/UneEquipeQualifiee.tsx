@@ -5,7 +5,7 @@ import Image from "next/image";
 const UneEquipeQualifiee: NextPage = () => {
   return (
     <section id="une-equipe-qualifiee">
-      <div>
+      <div className="p-grid">
         <div className="bloc-image">
           <Image src="/images/equipe.jpg" layout="fill" objectFit="cover" quality={80} />
         </div>

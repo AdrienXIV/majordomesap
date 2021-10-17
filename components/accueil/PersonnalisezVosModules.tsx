@@ -49,8 +49,8 @@ const PersonnalisezVosModules: NextPage = () => {
         </p>
       </div>
       <br />
-      <div className="bloc-cards">
-        <Card title="CCP 1" subTitle="Entretenir le logement et le linge d’un particulier" footer={footerCCP1}>
+      <div className="p-grid bloc-cards">
+        <Card className="col-3" title="CCP 1" subTitle="Entretenir le logement et le linge d’un particulier" footer={footerCCP1}>
           <div className="module">
             <i className="pi pi-check-circle"></i> <u>Module 1 :</u> Les fondamentaux du métier d’ADVF
           </div>
@@ -64,7 +64,7 @@ const PersonnalisezVosModules: NextPage = () => {
             <i className="pi pi-check-circle"></i> <u>Module 4 :</u> Techniques d’entretien du logement et du linge
           </div>
         </Card>
-        <Card title="CCP 2" subTitle="Accompagner la personne dans les actes essentiels du quotidien" footer={footerCCP2}>
+        <Card className="col-3" title="CCP 2" subTitle="Accompagner la personne dans les actes essentiels du quotidien" footer={footerCCP2}>
           <div className="module">
             <i className="pi pi-check-circle"></i> <u>Module 1 :</u> Développer une relation professionnelle
           </div>
@@ -81,7 +81,7 @@ const PersonnalisezVosModules: NextPage = () => {
             <i className="pi pi-check-circle"></i> <u>Module 5 :</u> Alimentation
           </div>
         </Card>
-        <Card title="CCP 3" subTitle="Relayer les parents dans la prise en charge des enfants à leur domicile">
+        <Card className="col-3" title="CCP 3" subTitle="Relayer les parents dans la prise en charge des enfants à leur domicile">
           <div className="module">
             <i className="pi pi-check-circle"></i> <u>Module 1 :</u> Définir le cadre de l’intervention
           </div>
