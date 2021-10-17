@@ -417,5 +417,9 @@
   #ils-nous-ont-fait-confiances > div > div {
     margin: 50px 0;
     width: 100%;
+    align-content: center;
+  }
+  #ils-nous-ont-fait-confiances > div .avatar legend {
+    text-align: center;
   }
 }
