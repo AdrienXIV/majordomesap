@@ -78,3 +78,45 @@
   text-align: start;
   padding-left: 0;
 }
+/* ################################################################################## */
+#formations {
+  padding: 0;
+}
+#formations h2 {
+  color: #333;
+  margin: 15px 0;
+}
+
+#formations > div {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+#formations > div > .bloc-image {
+  position: relative;
+  width: 50%;
+  height: 60vh;
+  cursor: pointer;
+}
+#formations > div > .bloc-image > div {
+  top: 45%;
+  text-align: center;
+  position: relative;
+  z-index: 999;
+  font-size: 50px;
+  color: white;
+
+  text-shadow: -2px 2px 3px black;
+}
+#formations > div > .bloc-image > div h3 {
+  font-size: 40px;
+}
+#formations > div > .bloc-image img {
+  transition-duration: 750ms;
+}
+#formations > div > .bloc-image img:hover {
+  opacity: 0.75;
+  transform: scale(1.05);
+}
