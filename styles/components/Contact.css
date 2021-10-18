@@ -1,0 +1,19 @@
+.block-contact-header {
+    margin: 5%;
+    padding: 10%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.btn-valider-form {
+    background: #ca0032;
+    border: #ca0032;
+}
+
+.block-contact-title {
+    font-size: 3rem;
+}
+
+.container-map {
+    height: 600px;
+}

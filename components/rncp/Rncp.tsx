@@ -2,7 +2,6 @@ import React, { useState } from "react"
 import { Card } from "primereact/card"
 import { Button } from "primereact/button"
 import Image from "next/image"
-import majordome from "../../public/images/majordome.jpeg"
 import Lottie from "lottie-react"
 import menage from "@animations/menage.json"
 

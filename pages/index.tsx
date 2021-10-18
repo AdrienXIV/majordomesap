@@ -13,6 +13,10 @@ import PersonnalisezVosModules from "@components/accueil/PersonnalisezVosModules
 import UneEquipeQualifiee from "@components/accueil/UneEquipeQualifiee";
 import UneDemarcheSimple from "@components/accueil/UneDemarcheSimple";
 import IlsNousOntFaitConfiances from "@components/accueil/IlsNousOntFaitConfiances";
+import dynamic from 'next/dynamic'
+const Contact = dynamic(() => import("@components/contact/Contact"), { ssr: false });
+
+
 
 const Home: NextPage = () => {
   return (
@@ -34,6 +38,7 @@ const Home: NextPage = () => {
         <UneEquipeQualifiee />
         <UneDemarcheSimple />
         <IlsNousOntFaitConfiances />
+        <Contact/>
       </main>
       <Footer />
     </div>
