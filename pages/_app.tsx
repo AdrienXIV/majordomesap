@@ -7,6 +7,7 @@ import "@styles/components/Footer.css";
 import "primeflex/primeflex.css";
 import "@styles/components/ImageAccueil.css";
 import "@styles/accueil.css";
+import "@styles/formations.css";
 import "@styles/global.css";
 import "@fortawesome/fontawesome-free/css/all.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";

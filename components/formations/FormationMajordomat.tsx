@@ -1,0 +1,53 @@
+import React from "react";
+import type { NextPage } from "next";
+import Image from "next/image";
+
+const FormationMajordomat: NextPage = () => {
+  return (
+    <section id="formation-majordomat">
+      <h2>FORMATION MAJORDOMAT</h2>
+      <div className="bloc-texte">
+        <p>
+          Le Titre Professionnel de Majordome de niveau 3 est délivré par le Ministère du Travail et inscrit au RNCP. Il permet d’accéder aux métiers
+          des services à la <b>personne en apportant une intervention professionnelle à domicile</b> de qualité auprès des personnes.
+        </p>
+      </div>
+
+      <div className="p-grid bloc">
+        <div>
+          <h3>Public visé</h3>
+          <p>Notre formation s’adresse à toute personne souhaitant se former au métier d’Assistant De Vie aux Familles</p>
+        </div>
+        <div>
+          <h3>Prérequis</h3>
+          <p>Avoir 18 ans, comprendre les consignes écrites et orales en français et posséder une base en calcul</p>
+        </div>
+        <div>
+          <h3>Qualités requises</h3>
+          <p>
+            Maitrise des savoirs de base, Autonomie, Responsabilité, Organisation, Patience, Bienveillance, Résistance physique et psychologique,
+            Gestion du stress
+          </p>
+        </div>
+      </div>
+
+      <div className="p-grid adaptee-pour-tous">
+        <div className="bloc-image">
+          <Image src="/images/AdobeStock_215615394-scaled.jpeg" layout="fill" objectFit="cover" quality={80} />
+        </div>
+        <div className="bloc-texte">
+          <h2>Adaptée pour tous</h2>
+          <p>
+            <b>Exercez dans le domaine et pour la cible qui vous convient le mieux.</b>
+          </p>
+          <p>
+            Avec les modules de Majordomat, vous aurez les aptitudes et les savoirs d’un majordome / gouvernante de maison qui vous permettront de
+            vous situer en tant que véritable professionnel de l’intervention à domicile.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default FormationMajordomat;
