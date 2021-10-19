@@ -13,7 +13,7 @@ import Ecole from '@animations/ecole.json';
 
 const Contact = () => {
 
-    const carte = <MapContainer className="container-map" center={[48.82991027832031, 2.264953136444092]} zoom={16} scrollWheelZoom={true}>
+    const carte = <MapContainer className="container-map" center={[48.8290, 2.264953136444092]} zoom={16} scrollWheelZoom={true}>
                         <TileLayer
                             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                             url="https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}"
@@ -26,7 +26,7 @@ const Contact = () => {
                                     iconAnchor: [4 / 2, 4 + 9],
                                     html: '<i class="fas fa-school size-school"></i>'
                                 })}
-                                position={[48.82991027832031, 2.264953136444092]}>
+                                position={[48.8290, 2.26]}>
                                 <Popup 
                                     onOpen={() => true}
                                     >
