@@ -36,7 +36,7 @@ const FormationMajordomat: NextPage = () => {
           <Image src="/images/AdobeStock_215615394-scaled.jpeg" layout="fill" objectFit="cover" quality={80} />
         </div>
         <div className="bloc-texte">
-          <h2>Adaptée pour tous</h2>
+          <h3>Adaptée pour tous</h3>
           <p>
             <b>Exercez dans le domaine et pour la cible qui vous convient le mieux.</b>
           </p>
@@ -44,6 +44,49 @@ const FormationMajordomat: NextPage = () => {
             Avec les modules de Majordomat, vous aurez les aptitudes et les savoirs d’un majordome / gouvernante de maison qui vous permettront de
             vous situer en tant que véritable professionnel de l’intervention à domicile.
           </p>
+        </div>
+      </div>
+
+      <div className="p-grid bloc-modules">
+        <div className="second">
+          <Image src="/images/fleurs.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <div>
+            <h3>Module 1 : L'art de la table &amp; l'art fleural</h3>
+            <p>
+              Développement de la vision esthétique, créer et entretenir un bouquet, élaborer un plan de table, dresser une table et maîtriser les
+              techniques du service à la table
+            </p>
+          </div>
+        </div>
+
+        <div className="second">
+          <Image src="/images/couture.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <div>
+            <h3>Module 2 : La couture</h3>
+            <p>Assimilation des éléments de base de la couture : Petits travaux de couture : Ourlet, bouton, ceinture...</p>
+          </div>
+        </div>
+        <div className="second">
+          <Image src="/images/etiquette.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <div>
+            <h3>Module 3 : L'étiquette</h3>
+            <p>Connaissance et suivi du protocole, apprentissage du code de bonnes manières et assimilation des bonnes tenues &amp; attitudes</p>
+          </div>
+        </div>
+        <div className="second">
+          <Image src="/images/oenologie.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <div>
+            <h3>Module 4 : Oenologie</h3>
+            <p>Connaissance des vins et des cépages, savoir accompagner les plats et établir une cave</p>
+          </div>
+        </div>
+
+        <div className="second">
+          <Image src="/images/gastronomie.png" layout="fill" objectFit="cover" quality={80} />
+          <div>
+            <h3>Module 5 : Gastronomie</h3>
+            <p>Connaissance des bases de la gastronomie française et savoir élaborer un menu pour une réception</p>
+          </div>
         </div>
       </div>
     </section>

@@ -17,6 +17,7 @@ const FormationsPage: NextPage = () => {
       <main>
         <section id="formations">
           <h2>Formations</h2>
+          <hr />
           <div className="p-grid">
             <Link href="/formation-majordomat" passHref>
               <a className="bloc-image">
