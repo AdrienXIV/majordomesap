@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 import Image from "next/image";
 import { Timeline } from "primereact/timeline";
 
-const FormationMajordomat: NextPage = () => {
+const Majordomat: NextPage = () => {
   const events1 = [
     {
       status: "1. Suivi de la formation",
@@ -171,4 +171,4 @@ const FormationMajordomat: NextPage = () => {
   );
 };
 
-export default FormationMajordomat;
+export default Majordomat;
