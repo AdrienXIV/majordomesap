@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 import Footer from "@components/other/Footer";
 import Header from "@components/other/Header";
 import Head from "next/head";
-import ImageAccueil from "@components/image-accueil/ImageAccueil";
+import ImageAccueil from "@components/accueil/ImageAccueil";
 import Soyez100Finance from "@components/accueil/Soyez100Finance";
 import Rncp from "@components/rncp/Rncp";
 import NosFormationsPersonnalisables from "@components/accueil/NosFormationsPersonnalisables";
@@ -14,6 +14,7 @@ import IlsNousOntFaitConfiances from "@components/accueil/IlsNousOntFaitConfianc
 import dynamic from 'next/dynamic'
 import TitreProReconnuRncp from "@components/accueil/TitreProReconnuRncp";
 const Contact = dynamic(() => import("@components/contact/Contact"), { ssr: false });
+import { Accueil } from '@components/accueil';
 
 
 

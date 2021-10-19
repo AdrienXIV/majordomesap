@@ -1,17 +1,21 @@
 import type { AppProps } from "next/app";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "primereact/resources/themes/saga-blue/theme.css";
+import "@fortawesome/fontawesome-free/css/all.css";
 import "primereact/resources/primereact.min.css";
-import "@styles/components/Header.css";
 import "primeicons/primeicons.css";
-import "@styles/components/Footer.css";
+import "leaflet/dist/leaflet.css";
 import "primeflex/primeflex.css";
+
 import "@styles/components/ImageAccueil.css";
+import "@styles/components/Contact.css";
+import "@styles/components/Header.css";
+import "@styles/components/Footer.css";
+import "@styles/components/Rncp.css";
 import "@styles/accueil.css";
 import "@styles/global.css";
-import "@fortawesome/fontawesome-free/css/all.css";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "@styles/Config.css";
-import "@styles/components/Rncp.css";
+
 import axios from "axios";
 import React from "react";
 import Meta from "@components/other/Meta";

@@ -17,3 +17,16 @@
 .container-map {
     height: 600px;
 }
+
+.size-school {
+    font-size: 3rem;
+    color: #ca0032;
+}
+
+.title-pop-up {
+    font-size: 1.5rem
+}
+
+.span-pop-up {
+    font-size: 1.0rem
+}
