@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import type { NextPage } from "next";
 import Footer from "@components/other/Footer";
 import Header from "@components/other/Header";
@@ -17,7 +17,7 @@ const Contact = dynamic(() => import("@components/contact/Contact"), { ssr: fals
 
 
 
-const Home: NextPage = () => {
+const HomePage: NextPage = () => {
   return (
     <>
       <Head>
@@ -43,4 +43,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default HomePage;
