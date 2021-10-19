@@ -135,14 +135,14 @@
 
 #formation-majordomat > .bloc-timeline {
   background-color: #ca0032;
-  padding: 75px 300px;
+  padding: 75px 250px;
   width: 100%;
 }
 #formation-majordomat > .bloc-timeline .timeline-step {
   padding: 5px 10px;
   transition-duration: 500ms;
   border-radius: 5px;
-  min-width: 150px;
+  min-width: 170px;
   max-width: 300px;
 }
 

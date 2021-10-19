@@ -6,27 +6,27 @@ import { Timeline } from "primereact/timeline";
 const FormationMajordomat: NextPage = () => {
   const events1 = [
     {
-      status: "Suivi de la formation",
+      status: "1. Suivi de la formation",
       color: "#f1c40f",
       numero: 1,
     },
     {
-      status: "Stage pratique",
+      status: "2. Stage pratique",
       color: "#3498db",
       numero: 2,
     },
     {
-      status: "Préparation au jury",
+      status: "3. Préparation au jury",
       color: "#8e44ad",
       numero: 3,
     },
     {
-      status: "Passage devant le jury",
+      status: "4. Passage devant le jury",
       color: "#006266",
       numero: 4,
     },
     {
-      status: "Aide à l'insertion",
+      status: "5. Aide à l'insertion",
       color: "#e74c3c",
       numero: 5,
     },
