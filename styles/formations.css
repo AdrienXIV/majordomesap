@@ -84,6 +84,7 @@
 }
 
 #formation-majordomat > .bloc-modules {
+  background-color: whitesmoke;
   padding: 50px 300px;
   text-align: center;
   display: flex;
@@ -130,6 +131,38 @@
 
 #formation-majordomat > .bloc-modules img {
   filter: blur(0.5px) brightness(75%);
+}
+
+#formation-majordomat > .bloc-timeline {
+  background-color: #ca0032;
+  padding: 75px 300px;
+  width: 100%;
+}
+#formation-majordomat > .bloc-timeline .timeline-step {
+  padding: 5px 10px;
+  transition-duration: 500ms;
+  border-radius: 5px;
+  min-width: 150px;
+  max-width: 300px;
+}
+
+#formation-majordomat > .bloc-timeline .timeline-step h3 {
+  font-size: 16px;
+  color: white;
+}
+#formation-majordomat .custom-marker {
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border-radius: 50%;
+  z-index: 1;
+  font-weight: bold;
+}
+#formation-majordomat .custom-marker i {
+  font-size: 2.5rem;
 }
 
 /* ################################################################################## */

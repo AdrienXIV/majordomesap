@@ -1,8 +1,75 @@
 import React from "react";
 import type { NextPage } from "next";
 import Image from "next/image";
+import { Timeline } from "primereact/timeline";
 
 const FormationMajordomat: NextPage = () => {
+  const events1 = [
+    {
+      status: "Suivi de la formation",
+      color: "#f1c40f",
+      numero: 1,
+    },
+    {
+      status: "Stage pratique",
+      color: "#3498db",
+      numero: 2,
+    },
+    {
+      status: "Préparation au jury",
+      color: "#8e44ad",
+      numero: 3,
+    },
+    {
+      status: "Passage devant le jury",
+      color: "#006266",
+      numero: 4,
+    },
+    {
+      status: "Aide à l'insertion",
+      color: "#e74c3c",
+      numero: 5,
+    },
+  ];
+
+  const customizedMarker = item => {
+    return (
+      <span className="custom-marker p-shadow-2">
+        {(() => {
+          switch (item.numero) {
+            case 1:
+              return <i className="pi pi-pencil"></i>;
+            case 2:
+              return <i className="pi pi-calendar"></i>;
+            case 3:
+              return <i className="pi pi-compass"></i>;
+            case 4:
+              return <i className="pi pi-users"></i>;
+            case 5:
+              return <i className="pi pi-thumbs-up"></i>;
+
+            default:
+              return <i className="pi pi-pencil"></i>;
+          }
+        })()}
+      </span>
+    );
+  };
+
+  const customizedContent = item => {
+    return (
+      <div className="timeline-step">
+        <h3>{item.status}</h3>
+        <p style={{ textAlign: item.numero % 2 === 1 ? "start" : "end" }}>{item.content}</p>
+        {item.numero === 6 && (
+          <p style={{ textAlign: "end" }}>
+            <b>Passage à l'examen</b>
+          </p>
+        )}
+      </div>
+    );
+  };
+
   return (
     <section id="formation-majordomat">
       <h2>FORMATION MAJORDOMAT</h2>
@@ -88,6 +155,17 @@ const FormationMajordomat: NextPage = () => {
             <p>Connaissance des bases de la gastronomie française et savoir élaborer un menu pour une réception</p>
           </div>
         </div>
+      </div>
+
+      <div className="bloc-timeline">
+        <Timeline
+          value={events1}
+          // align="alternate"
+          layout="horizontal"
+          className="customized-timeline"
+          marker={customizedMarker}
+          content={customizedContent}
+        />
       </div>
     </section>
   );
