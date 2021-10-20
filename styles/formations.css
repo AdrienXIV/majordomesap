@@ -1,5 +1,5 @@
 #formation-majordomat {
-  padding: 50px 0;
+  padding: 75px 0;
 }
 #formation-majordomat h2 {
   color: #333;
@@ -84,7 +84,7 @@
 }
 
 #formation-majordomat > .bloc-modules {
-  padding: 50px 300px;
+  padding: 0 300px 50px;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -116,6 +116,7 @@
   font-size: 18px;
   max-width: 100%;
   line-height: 1.75rem;
+  text-shadow: -2px 2px 3px #333;
   text-shadow: -2px 2px 3px #333;
 }
 #formation-majordomat > .bloc-modules > div h3 {
@@ -162,6 +163,114 @@
 }
 #formation-majordomat .custom-marker i {
   font-size: 2.5rem;
+}
+
+/* ADVF  */
+#formation-majordomat > .devennez-un-pro {
+  padding: 75px 300px 25px;
+}
+#formation-majordomat > .devennez-un-pro h2 {
+  text-align: center;
+}
+#formation-majordomat > .devennez-un-pro > p {
+  max-width: 100%;
+}
+#formation-majordomat > .module-titre {
+  padding: 0 300px 50px;
+  text-align: right;
+  width: 100%;
+  font-size: 30px;
+  color: #333;
+}
+#formation-majordomat > .module-titre > hr {
+  margin: 25px 0;
+  text-align: right;
+  width: 100%;
+}
+
+/* on surcharge la taille des cartes car y'a beaucoup plus de texte */
+#formation-majordomat > .modules-advf {
+  padding: 0 300px 75px;
+}
+#formation-majordomat > .modules-advf > div {
+  height: 350px;
+}
+
+/* plus-qu-un-simple-assistant */
+#formation-majordomat > .plus-qu-un-simple-assistant {
+  display: flex;
+  background-color: #ca0032;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+#formation-majordomat > .plus-qu-un-simple-assistant > .bloc-4-images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+#formation-majordomat > .plus-qu-un-simple-assistant > .bloc-4-images > .second {
+  position: relative;
+  width: 50%;
+  min-height: 300px;
+  z-index: 999;
+}
+#formation-majordomat > .plus-qu-un-simple-assistant > .bloc-4-images > .second > div {
+  text-align: center;
+  position: relative;
+  z-index: 999;
+  color: white;
+  top: 30%;
+}
+#formation-majordomat > .plus-qu-un-simple-assistant > .bloc-4-images > .second > div > h4 {
+  font-weight: bold;
+  font-size: 25px;
+  text-shadow: -2px 2px 3px #333;
+}
+
+#formation-majordomat > .plus-qu-un-simple-assistant > .bloc-4-images img {
+  transition-duration: 750ms;
+}
+#formation-majordomat > .plus-qu-un-simple-assistant > .bloc-4-images img:hover {
+  opacity: 0.75;
+  transform: scale(1.05);
+}
+
+#formation-majordomat > .plus-qu-un-simple-assistant > .bloc-texte {
+  background-color: #ca0032;
+  width: 50%;
+  padding: 75px;
+  color: white;
+}
+#formation-majordomat > .plus-qu-un-simple-assistant > .bloc-texte > h3 {
+  color: white;
+  font-size: 35px;
+}
+#formation-majordomat > .plus-qu-un-simple-assistant > .bloc-texte > p {
+  text-align: start;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#formation-majordomat > .bloc-timeline-advf {
+  background-color: whitesmoke;
+  padding: 75px 250px;
+  width: 100%;
+}
+#formation-majordomat > .bloc-timeline-advf .timeline-step {
+  padding: 5px 10px;
+  transition-duration: 500ms;
+  border-radius: 5px;
+  min-width: 170px;
+  max-width: 300px;
+}
+
+#formation-majordomat > .bloc-timeline-advf .timeline-step h3 {
+  font-size: 16px;
+  color: #ca0032;
+}
+#formation-majordomat .custom-marker i.icon-advf {
+  color: #ca0032;
 }
 
 /* ################################################################################## */
