@@ -41,7 +41,7 @@ const Contact = () => {
                         </Marker>
                     </MapContainer>
 
-    const formulaire = <div className="grid block-contact-header">
+    const formulaire = <div id="contact" className="grid block-contact-header">
         <h4 className="col-12 md:col-12 lg:col-12 block-contact-title">Formulaire de contact</h4>
         <div className="col-12 md:col-6 lg:col-6 block-contact">
             <InputText className="col-12 form-input-size" placeholder="Votre nom" type="text"/>

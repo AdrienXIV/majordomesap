@@ -1,9 +1,8 @@
 :root {
-    --white: #fff;
+    --white: #eee;
     --size-font: 1.5rem;
     --size-icon: 1.3rem;
     --size-padding: 2rem;
-    --color-black: #222;
 }
 
 .icons-nav-style>ul>li>a>span {
@@ -13,6 +12,9 @@
 .icons-nav-style {
     background-color: var(--white);
     border: 0px solid;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 
 .icons-nav-style>a>i {
@@ -22,6 +24,20 @@
 .icons-nav-style>a {
     margin-left: auto;
     padding: var(--size-padding);
+}
+
+.contact-nav,
+.contact-nav:hover {
+    background: #ca0032;
+    border-radius: 1px;
+    border: 1px solid #ca0032;
+    color: #ca0032 !important;
+}
+
+.contact-nav>a>span,
+.contact-nav>a>span:hover {
+    border-radius: 1px;
+    color: #fff !important;
 }
 
 .block-nav-header {
