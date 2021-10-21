@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import type { NextPage } from "next";
 import Image from "next/image";
 import { Timeline } from "primereact/timeline";
 
 const Majordomat: NextPage = () => {
+  const [layout, setLayout] = useState("horizontal");
+
+  useEffect(() => {
+    if (process.browser) {
+      window.innerWidth < 450 ? setLayout("vertical") : setLayout("horizontal");
+    }
+  }, []);
+
   const events1 = [
     {
       status: "1. Suivi de la formation",
@@ -156,7 +164,7 @@ const Majordomat: NextPage = () => {
         <Timeline
           value={events1}
           // align="alternate"
-          layout="horizontal"
+          layout={layout as any}
           className="customized-timeline"
           marker={customizedMarker}
           content={customizedContent}

@@ -6,7 +6,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/dist/client/router";
-import Contact from "@components/contact/Contact";
+import dynamic from "next/dynamic";
+const Contact = dynamic(() => import("@components/contact/Contact"), { ssr: false });
 
 const FormationsPage: NextPage = () => {
   const router = useRouter();
