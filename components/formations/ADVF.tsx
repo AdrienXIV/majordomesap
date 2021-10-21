@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import type { NextPage } from "next";
 import Image from "next/image";
 import { Timeline } from "primereact/timeline";
 
 const ADVF: NextPage = () => {
+  const [layout, setLayout] = useState("horizontal");
+
+  useEffect(() => {
+    if (process.browser) {
+      window.innerWidth < 450 ? setLayout("vertical") : setLayout("horizontal");
+    }
+  }, []);
+
   const events1 = [
     {
       status: "1. Suivi de la formation",
@@ -300,7 +308,7 @@ const ADVF: NextPage = () => {
       {/* /CCP3 */}
 
       <div className="bloc-timeline-advf">
-        <Timeline value={events1} layout="horizontal" className="customized-timeline" marker={customizedMarker} content={customizedContent} />
+        <Timeline value={events1} layout={layout as any} className="customized-timeline" marker={customizedMarker} content={customizedContent} />
       </div>
 
       <div className="p-grid plus-qu-un-simple-assistant">
