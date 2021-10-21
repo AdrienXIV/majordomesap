@@ -292,6 +292,7 @@
 #formations > div > .bloc-image {
   position: relative;
   width: 50%;
+  /* min-width: 550px; */
   height: 60vh;
   cursor: pointer;
 }
@@ -307,6 +308,7 @@
 }
 #formations > div > .bloc-image > div h3 {
   font-size: 40px;
+  word-break: break-word;
 }
 #formations > div > .bloc-image img {
   transition-duration: 750ms;
@@ -314,4 +316,18 @@
 #formations > div > .bloc-image img:hover {
   opacity: 0.75;
   transform: scale(1.05);
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  #formations {
+    padding: 100px 0 0 0;
+  }
+  #formations > div > .bloc-image {
+    width: 100%;
+  }
+
+  #formations > div > .bloc-image > div h3 {
+    text-align: center;
+    font-size: 35px;
+  }
 }
