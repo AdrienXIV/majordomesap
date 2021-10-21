@@ -281,7 +281,7 @@
     text-align: center;
   }
   #formation-majordomat > .bloc-texte {
-    padding: 50px 0px;
+    padding: 50px 0 0;
   }
   #formation-majordomat > .bloc > div {
     width: 100%;
