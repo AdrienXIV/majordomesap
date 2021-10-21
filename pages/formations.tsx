@@ -6,6 +6,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/dist/client/router";
+import Contact from "@components/contact/Contact";
 
 const FormationsPage: NextPage = () => {
   const router = useRouter();
@@ -46,6 +47,7 @@ const FormationsPage: NextPage = () => {
             </Link>
           </div>
         </section>
+        <Contact />
       </main>
       <Footer />
     </>
