@@ -75,7 +75,7 @@
   color: white;
 }
 #formation-majordomat > .adaptee-pour-tous > .bloc-texte > h3 {
-  color: #333;
+  color: white;
   font-size: 40px;
 }
 #formation-majordomat > .adaptee-pour-tous > .bloc-texte > p {
@@ -84,7 +84,7 @@
 }
 
 #formation-majordomat > .bloc-modules {
-  padding: 0 300px 50px;
+  padding: 0 0px 0px;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -103,9 +103,14 @@
 
 #formation-majordomat > .bloc-modules > .second {
   transition-duration: 500ms;
-  width: calc(33.33%);
+  width: 33.33%;
 }
-#formation-majordomat > .bloc-modules > .second > div {
+#formation-majordomat > .bloc-modules > .third {
+  transition-duration: 500ms;
+  width: 50%;
+}
+#formation-majordomat > .bloc-modules > .second > div,
+#formation-majordomat > .bloc-modules > .third > div {
   text-align: center;
   position: relative;
   z-index: 999;
@@ -113,7 +118,7 @@
 }
 
 #formation-majordomat > .bloc-modules > div p {
-  font-size: 18px;
+  font-size: 20px;
   max-width: 100%;
   line-height: 1.75rem;
   text-shadow: -2px 2px 3px #333;
@@ -125,7 +130,8 @@
   text-shadow: -2px 2px 3px #333;
 }
 
-#formation-majordomat > .bloc-modules > .second:hover {
+#formation-majordomat > .bloc-modules > .second:hover,
+#formation-majordomat > .bloc-modules > .third:hover {
   transform: scale(0.95);
 }
 
@@ -306,8 +312,13 @@
     padding: 0;
     text-align: center;
   }
-  #formation-majordomat > .bloc-modules > .second {
+  #formation-majordomat > .bloc-modules > .second,
+  #formation-majordomat > .bloc-modules > .third {
     width: 100%;
+  }
+  #formation-majordomat > .bloc-modules > .second p,
+  #formation-majordomat > .bloc-modules > .third p {
+    font-size: 18px;
   }
 
   #formation-majordomat > .bloc-timeline,

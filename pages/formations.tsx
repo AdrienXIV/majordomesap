@@ -31,7 +31,12 @@ const FormationsPage: NextPage = () => {
           <div className="p-grid">
             <Link href="/formation-majordomat" passHref>
               <a className="bloc-image">
-                <Image src="/images/AdobeStock_215615394-scaled.jpeg" layout="fill" objectFit="cover" quality={80} />
+                <Image
+                  src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-serveurs.jpeg"
+                  layout="fill"
+                  objectFit="cover"
+                  quality={80}
+                />
                 <div>
                   <h3>Formation MAJORDOMAT</h3>
                 </div>
@@ -40,7 +45,12 @@ const FormationsPage: NextPage = () => {
 
             <Link href="/formation-advf" passHref>
               <a className="bloc-image">
-                <Image src="/images/AdobeStock_236366402-1.jpeg" layout="fill" objectFit="cover" quality={80} />
+                <Image
+                  src="/images/majordomeformationsap/formationADVF/majordomeformationsap-garde-enfant-min.jpeg"
+                  layout="fill"
+                  objectFit="cover"
+                  quality={80}
+                />
                 <div>
                   <h3>Formation ADVF</h3>
                 </div>

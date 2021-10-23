@@ -103,7 +103,12 @@ const Majordomat: NextPage = () => {
 
       <div className="p-grid adaptee-pour-tous">
         <div className="bloc-image">
-          <Image src="/images/AdobeStock_215615394-scaled.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-serveurs.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
         </div>
         <div className="bloc-texte">
           <h3>Adaptée pour tous</h3>
@@ -143,7 +148,7 @@ const Majordomat: NextPage = () => {
             <p>Connaissance et suivi du protocole, apprentissage du code de bonnes manières et assimilation des bonnes tenues &amp; attitudes</p>
           </div>
         </div>
-        <div className="second">
+        <div className="third">
           <Image src="/images/oenologie.jpeg" layout="fill" objectFit="cover" quality={80} />
           <div>
             <h3>Module 4 : Oenologie</h3>
@@ -151,7 +156,7 @@ const Majordomat: NextPage = () => {
           </div>
         </div>
 
-        <div className="second">
+        <div className="third">
           <Image src="/images/gastronomie.png" layout="fill" objectFit="cover" quality={80} />
           <div>
             <h3>Module 5 : Gastronomie</h3>
