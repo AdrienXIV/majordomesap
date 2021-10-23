@@ -104,6 +104,7 @@ const Majordomat: NextPage = () => {
       <div className="p-grid adaptee-pour-tous">
         <div className="bloc-image">
           <Image
+            alt="majordomeformationsap-serveurs"
             src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-serveurs.jpeg"
             layout="fill"
             objectFit="cover"
@@ -124,7 +125,13 @@ const Majordomat: NextPage = () => {
 
       <div className="p-grid bloc-modules">
         <div className="second">
-          <Image src="/images/fleurs.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            alt="majordomeformationsap-art-floral"
+            src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-art-floral-majordomat.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Module 1 : L'art de la table &amp; l'art fleural</h3>
             <p>
@@ -135,21 +142,39 @@ const Majordomat: NextPage = () => {
         </div>
 
         <div className="second">
-          <Image src="/images/couture.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            alt="majordomeformationsap-couture-majordomat"
+            src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-couture-majordomat.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Module 2 : La couture</h3>
             <p>Assimilation des éléments de base de la couture : Petits travaux de couture : Ourlet, bouton, ceinture...</p>
           </div>
         </div>
         <div className="second">
-          <Image src="/images/etiquette.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            alt="majordomeformationsap-femme-chambre-majordomat"
+            src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-femme-chambre-majordomat.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Module 3 : L'étiquette</h3>
             <p>Connaissance et suivi du protocole, apprentissage du code de bonnes manières et assimilation des bonnes tenues &amp; attitudes</p>
           </div>
         </div>
         <div className="third">
-          <Image src="/images/oenologie.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            alt="majordomeformationsap-enologie-majordomat"
+            src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-enologie-majordomat.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Module 4 : Oenologie</h3>
             <p>Connaissance des vins et des cépages, savoir accompagner les plats et établir une cave</p>
@@ -157,7 +182,13 @@ const Majordomat: NextPage = () => {
         </div>
 
         <div className="third">
-          <Image src="/images/gastronomie.png" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            alt="majordomeformationsap-gastronomie-majordomat"
+            src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-gastronomie-majordomat.png"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Module 5 : Gastronomie</h3>
             <p>Connaissance des bases de la gastronomie française et savoir élaborer un menu pour une réception</p>
@@ -166,14 +197,7 @@ const Majordomat: NextPage = () => {
       </div>
 
       <div className="bloc-timeline">
-        <Timeline
-          value={events1}
-          // align="alternate"
-          layout={layout as any}
-          className="customized-timeline"
-          marker={customizedMarker}
-          content={customizedContent}
-        />
+        <Timeline value={events1} layout={layout as any} className="customized-timeline" marker={customizedMarker} content={customizedContent} />
       </div>
     </section>
   );

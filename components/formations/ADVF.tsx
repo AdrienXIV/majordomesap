@@ -105,6 +105,7 @@ const ADVF: NextPage = () => {
       <div className="p-grid adaptee-pour-tous">
         <div className="bloc-image">
           <Image
+            alt="majordomeformationsap-garde-enfant"
             src="/images/majordomeformationsap/formationADVF/majordomeformationsap-garde-enfant-min.jpeg"
             layout="fill"
             objectFit="cover"
@@ -146,6 +147,7 @@ const ADVF: NextPage = () => {
       <div className="p-grid bloc-modules modules-advf">
         <div className="second">
           <Image
+            alt="majordomeformationsap-fondamentaux"
             src="/images/majordomeformationsap/formationADVF/majordomeformationsap-fondamentaux-advf.jpeg"
             layout="fill"
             objectFit="cover"
@@ -162,6 +164,7 @@ const ADVF: NextPage = () => {
 
         <div className="second">
           <Image
+            alt="majordomeformationsap-sécurité-travail"
             src="/images/majordomeformationsap/formationADVF/majordomeformationsap-sécurité-travail-advf.jpeg"
             layout="fill"
             objectFit="cover"
@@ -177,6 +180,7 @@ const ADVF: NextPage = () => {
         </div>
         <div className="second">
           <Image
+            alt="majordomeformationsap-communication"
             src="/images/majordomeformationsap/formationADVF/majordomeformationsap-communication-advf.jpeg"
             layout="fill"
             objectFit="cover"
@@ -192,6 +196,7 @@ const ADVF: NextPage = () => {
         </div>
         <div className="third">
           <Image
+            alt="majordomeformationsap-entretien-logement"
             src="/images/majordomeformationsap/formationADVF/majordomeformationsap-entretien-logement-advf.jpeg"
             layout="fill"
             objectFit="cover"
@@ -205,6 +210,7 @@ const ADVF: NextPage = () => {
 
         <div className="third">
           <Image
+            alt="majordomeformationsap-couture"
             src="/images/majordomeformationsap/formationADVF/majordomeformationsap-couture-min.png"
             layout="fill"
             objectFit="cover"
@@ -229,6 +235,7 @@ const ADVF: NextPage = () => {
       <div className="p-grid bloc-modules modules-advf">
         <div className="second">
           <Image
+            alt="majordomeformationsap-relation-professionnelle"
             src="/images/majordomeformationsap/formationADVF/majordomeformationsap-relation-professionnelle-advf.jpeg"
             layout="fill"
             objectFit="cover"
@@ -245,6 +252,7 @@ const ADVF: NextPage = () => {
 
         <div className="second">
           <Image
+            alt="majordomeformationsap-prevention"
             src="/images/majordomeformationsap/formationADVF/majordomeformationsap-prevention-advf.jpeg"
             layout="fill"
             objectFit="cover"
@@ -260,6 +268,7 @@ const ADVF: NextPage = () => {
         </div>
         <div className="second">
           <Image
+            alt="majordomeformationsap-accompagnement"
             src="/images/majordomeformationsap/formationADVF/majordomeformationsap-accompagnement-advf.jpeg"
             layout="fill"
             objectFit="cover"
@@ -275,6 +284,7 @@ const ADVF: NextPage = () => {
         </div>
         <div className="second">
           <Image
+            alt="majordomeformationsap-aide-soin"
             src="/images/majordomeformationsap/formationADVF/majordomeformationsap-aide-soin-advf.jpeg"
             layout="fill"
             objectFit="cover"
@@ -287,6 +297,7 @@ const ADVF: NextPage = () => {
         </div>
         <div className="second">
           <Image
+            alt="majordomeformationsap-alimentation"
             src="/images/majordomeformationsap/formationADVF/majordomeformationsap-alimentation-advf.jpeg"
             layout="fill"
             objectFit="cover"
@@ -301,7 +312,13 @@ const ADVF: NextPage = () => {
           </div>
         </div>
         <div className="second">
-          <Image src="/images/majordomeformationsap/formationADVF/majordomeformationsap-vin-min.png" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            alt="majordomeformationsap-vin"
+            src="/images/majordomeformationsap/formationADVF/majordomeformationsap-vin-min.png"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Modules supplémentaires proposés</h3>
             <p>L’oenologie</p>
@@ -320,6 +337,7 @@ const ADVF: NextPage = () => {
       <div className="p-grid bloc-modules modules-advf">
         <div className="third">
           <Image
+            alt="majordomeformationsap-cadre"
             src="/images/majordomeformationsap/formationADVF/majordomeformationsap-cadre-advf.jpeg"
             layout="fill"
             objectFit="cover"
@@ -336,6 +354,7 @@ const ADVF: NextPage = () => {
 
         <div className="third">
           <Image
+            alt="majordomeformationsap-prévention-risque-enfant"
             src="/images/majordomeformationsap/formationADVF/majordomeformationsap-prévention-risque-enfant.jpeg"
             layout="fill"
             objectFit="cover"
@@ -351,6 +370,7 @@ const ADVF: NextPage = () => {
         </div>
         <div className="third">
           <Image
+            alt="majordomeformationsap-apprentissage-enfant"
             src="/images/majordomeformationsap/formationADVF/majordomeformationsap-apprentissage-enfant.jpeg"
             layout="fill"
             objectFit="cover"
@@ -366,6 +386,7 @@ const ADVF: NextPage = () => {
         </div>
         <div className="third">
           <Image
+            alt="majordomeformationsap-gestion-enfants"
             src="/images/majordomeformationsap/formationADVF/majordomeformationsap-gestion-enfants-advf.jpeg"
             layout="fill"
             objectFit="cover"
@@ -390,6 +411,7 @@ const ADVF: NextPage = () => {
         <div className="bloc-4-images">
           <div className="second">
             <Image
+              alt="majordomeformationsap-soutien-scolaire"
               src="/images/majordomeformationsap/formationADVF/majordomeformationsap-soutien-scolaire-min.jpeg"
               layout="fill"
               objectFit="cover"
@@ -401,6 +423,7 @@ const ADVF: NextPage = () => {
           </div>
           <div className="second">
             <Image
+              alt="majordomeformationsap-soutien-social"
               src="/images/majordomeformationsap/formationADVF/majordomeformationsap-soutien-social-min.jpeg"
               layout="fill"
               objectFit="cover"
@@ -412,6 +435,7 @@ const ADVF: NextPage = () => {
           </div>
           <div className="second">
             <Image
+              alt="majordomeformationsap-decouverte-environnement"
               src="/images/majordomeformationsap/formationADVF/majordomeformationsap-decouverte-environnement-advf.jpeg"
               layout="fill"
               objectFit="cover"
@@ -423,6 +447,7 @@ const ADVF: NextPage = () => {
           </div>
           <div className="second">
             <Image
+              alt="majordomeformationsap-aide-administration"
               src="/images/majordomeformationsap/formationADVF/majordomeformationsap-aide-administration-advf.jpeg"
               layout="fill"
               objectFit="cover"
