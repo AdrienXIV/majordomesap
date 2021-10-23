@@ -6,7 +6,7 @@ import Image from "next/image";
 const NosFormationsPersonnalisables: NextPage = () => {
   return (
     <section id="nos-formations-personnalisables">
-      <Image src="/images/formations.jpg" quality={80} layout="fill" objectFit="cover" />
+      <Image alt="formations" src="/images/formations.jpg" quality={80} layout="fill" objectFit="cover" />
       <h2>Nos formations personnalisables</h2>
       <br />
       <div className="bloc-cards">

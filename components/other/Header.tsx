@@ -41,8 +41,8 @@ const Header: NextPage = () => {
     {
       label: "Contact",
       icon: "pi pi-fw pi-envelope",
-      className: 'contact-nav',
-      url:'#contact'
+      className: "contact-nav",
+      url: "#contact",
     },
   ];
 
