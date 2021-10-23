@@ -170,7 +170,7 @@ const ADVF: NextPage = () => {
             </p>
           </div>
         </div>
-        <div className="second">
+        <div className="third">
           <Image src="/images/entretien-logement.jpeg" layout="fill" objectFit="cover" quality={80} />
           <div>
             <h3>Module 4 : Entretien du logement et du linge</h3>
@@ -178,7 +178,7 @@ const ADVF: NextPage = () => {
           </div>
         </div>
 
-        <div className="second">
+        <div className="third">
           <Image src="/images/couture.png" layout="fill" objectFit="cover" quality={80} />
           <div>
             <h3>Modules supplémentaires proposés</h3>
@@ -263,7 +263,7 @@ const ADVF: NextPage = () => {
       </div>
 
       <div className="p-grid bloc-modules modules-advf">
-        <div className="second">
+        <div className="third">
           <Image src="/images/cadre-intervention.jpeg" layout="fill" objectFit="cover" quality={80} />
           <div>
             <h3>Module 1 : Définir le cadre de l'intervention</h3>
@@ -274,7 +274,7 @@ const ADVF: NextPage = () => {
           </div>
         </div>
 
-        <div className="second">
+        <div className="third">
           <Image src="/images/securite-enfants.jpeg" layout="fill" objectFit="cover" quality={80} />
           <div>
             <h3>Module 2 : Prévenir les risques et assurer la sécurité des enfants</h3>
@@ -284,7 +284,7 @@ const ADVF: NextPage = () => {
             </p>
           </div>
         </div>
-        <div className="second">
+        <div className="third">
           <Image src="/images/activite-enfants.jpeg" layout="fill" objectFit="cover" quality={80} />
           <div>
             <h3>Module 3 : Accompagnement dans l’apprentissage de base, la socialisation et les activités des enfants</h3>
@@ -294,7 +294,7 @@ const ADVF: NextPage = () => {
             </p>
           </div>
         </div>
-        <div className="second">
+        <div className="third">
           <Image src="/images/gestes-pro.jpeg" layout="fill" objectFit="cover" quality={80} />
           <div>
             <h3>Module 4 : Les techniques et gestes professionnels</h3>
