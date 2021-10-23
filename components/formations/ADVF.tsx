@@ -104,7 +104,12 @@ const ADVF: NextPage = () => {
 
       <div className="p-grid adaptee-pour-tous">
         <div className="bloc-image">
-          <Image src="/images/garde-enfant.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            src="/images/majordomeformationsap/formationADVF/majordomeformationsap-garde-enfant-min.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
         </div>
         <div className="bloc-texte">
           <h3>Adaptée pour tous</h3>
@@ -140,7 +145,12 @@ const ADVF: NextPage = () => {
 
       <div className="p-grid bloc-modules modules-advf">
         <div className="second">
-          <Image src="/images/fondamentaux-advf.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            src="/images/majordomeformationsap/formationADVF/majordomeformationsap-fondamentaux-advf.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Module 1 : Les fondamentaux du métier d’ADVF</h3>
             <p>
@@ -151,7 +161,12 @@ const ADVF: NextPage = () => {
         </div>
 
         <div className="second">
-          <Image src="/images/travail-securite.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            src="/images/majordomeformationsap/formationADVF/majordomeformationsap-sécurité-travail-advf.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Module 2 : Le travail en sécurité</h3>
             <p>
@@ -161,7 +176,12 @@ const ADVF: NextPage = () => {
           </div>
         </div>
         <div className="second">
-          <Image src="/images/communication.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            src="/images/majordomeformationsap/formationADVF/majordomeformationsap-communication-advf.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Module 3 : La communication</h3>
             <p>
@@ -171,7 +191,12 @@ const ADVF: NextPage = () => {
           </div>
         </div>
         <div className="third">
-          <Image src="/images/entretien-logement.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            src="/images/majordomeformationsap/formationADVF/majordomeformationsap-entretien-logement-advf.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Module 4 : Entretien du logement et du linge</h3>
             <p>L'utilisation adéquate des produits d’entretien, Organiser la prestation, Entretienir le logement et le linge</p>
@@ -179,7 +204,12 @@ const ADVF: NextPage = () => {
         </div>
 
         <div className="third">
-          <Image src="/images/couture.png" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            src="/images/majordomeformationsap/formationADVF/majordomeformationsap-couture-min.png"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Modules supplémentaires proposés</h3>
             <p>L’art de la table &amp; L’art fleural</p>
@@ -198,7 +228,12 @@ const ADVF: NextPage = () => {
 
       <div className="p-grid bloc-modules modules-advf">
         <div className="second">
-          <Image src="/images/relation-pro.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            src="/images/majordomeformationsap/formationADVF/majordomeformationsap-relation-professionnelle-advf.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Module 1 : Développer une relation professionnelle</h3>
             <p>
@@ -209,7 +244,12 @@ const ADVF: NextPage = () => {
         </div>
 
         <div className="second">
-          <Image src="/images/prevention-risques.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            src="/images/majordomeformationsap/formationADVF/majordomeformationsap-prevention-advf.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Module 2 : Prévention des risques</h3>
             <p>
@@ -219,7 +259,12 @@ const ADVF: NextPage = () => {
           </div>
         </div>
         <div className="second">
-          <Image src="/images/comprendre-accompagner.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            src="/images/majordomeformationsap/formationADVF/majordomeformationsap-accompagnement-advf.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Module 3 : Comprendre et accompagner la perte d'autonomie</h3>
             <p>
@@ -229,14 +274,24 @@ const ADVF: NextPage = () => {
           </div>
         </div>
         <div className="second">
-          <Image src="/images/aide-soins.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            src="/images/majordomeformationsap/formationADVF/majordomeformationsap-aide-soin-advf.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Module 4 : Aide aux soins d'hygiène</h3>
             <p>L’aide à la toilette, l'aide à l’habillage et déshabillage et la manutention des personnes</p>
           </div>
         </div>
         <div className="second">
-          <Image src="/images/alimentation.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            src="/images/majordomeformationsap/formationADVF/majordomeformationsap-alimentation-advf.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Module 5 : Alimentation</h3>
             <p>
@@ -246,7 +301,7 @@ const ADVF: NextPage = () => {
           </div>
         </div>
         <div className="second">
-          <Image src="/images/10-1-300x300.png" layout="fill" objectFit="cover" quality={80} />
+          <Image src="/images/majordomeformationsap/formationADVF/majordomeformationsap-vin-min.png" layout="fill" objectFit="cover" quality={80} />
           <div>
             <h3>Modules supplémentaires proposés</h3>
             <p>L’oenologie</p>
@@ -264,7 +319,12 @@ const ADVF: NextPage = () => {
 
       <div className="p-grid bloc-modules modules-advf">
         <div className="third">
-          <Image src="/images/cadre-intervention.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            src="/images/majordomeformationsap/formationADVF/majordomeformationsap-cadre-advf.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Module 1 : Définir le cadre de l'intervention</h3>
             <p>
@@ -275,7 +335,12 @@ const ADVF: NextPage = () => {
         </div>
 
         <div className="third">
-          <Image src="/images/securite-enfants.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            src="/images/majordomeformationsap/formationADVF/majordomeformationsap-prévention-risque-enfant.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Module 2 : Prévenir les risques et assurer la sécurité des enfants</h3>
             <p>
@@ -285,7 +350,12 @@ const ADVF: NextPage = () => {
           </div>
         </div>
         <div className="third">
-          <Image src="/images/activite-enfants.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            src="/images/majordomeformationsap/formationADVF/majordomeformationsap-apprentissage-enfant.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Module 3 : Accompagnement dans l’apprentissage de base, la socialisation et les activités des enfants</h3>
             <p>
@@ -295,7 +365,12 @@ const ADVF: NextPage = () => {
           </div>
         </div>
         <div className="third">
-          <Image src="/images/gestes-pro.jpeg" layout="fill" objectFit="cover" quality={80} />
+          <Image
+            src="/images/majordomeformationsap/formationADVF/majordomeformationsap-gestion-enfants-advf.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={80}
+          />
           <div>
             <h3>Module 4 : Les techniques et gestes professionnels</h3>
             <p>
@@ -314,25 +389,45 @@ const ADVF: NextPage = () => {
       <div className="p-grid plus-qu-un-simple-assistant">
         <div className="bloc-4-images">
           <div className="second">
-            <Image src="/images/soutien-scolaire.jpeg" layout="fill" objectFit="cover" quality={80} />
+            <Image
+              src="/images/majordomeformationsap/formationADVF/majordomeformationsap-soutien-scolaire-min.jpeg"
+              layout="fill"
+              objectFit="cover"
+              quality={80}
+            />
             <div>
               <h4>Soutien scolaire</h4>
             </div>
           </div>
           <div className="second">
-            <Image src="/images/soutien-social.jpeg" layout="fill" objectFit="cover" quality={80} />
+            <Image
+              src="/images/majordomeformationsap/formationADVF/majordomeformationsap-soutien-social-min.jpeg"
+              layout="fill"
+              objectFit="cover"
+              quality={80}
+            />
             <div>
               <h4>Soutien social</h4>
             </div>
           </div>
           <div className="second">
-            <Image src="/images/decouverte-environnementale.jpeg" layout="fill" objectFit="cover" quality={80} />
+            <Image
+              src="/images/majordomeformationsap/formationADVF/majordomeformationsap-decouverte-environnement-advf.jpeg"
+              layout="fill"
+              objectFit="cover"
+              quality={80}
+            />
             <div>
               <h4>Découverte environnementale</h4>
             </div>
           </div>
           <div className="second">
-            <Image src="/images/aide-administrative.jpeg" layout="fill" objectFit="cover" quality={80} />
+            <Image
+              src="/images/majordomeformationsap/formationADVF/majordomeformationsap-aide-administration-advf.jpeg"
+              layout="fill"
+              objectFit="cover"
+              quality={80}
+            />
             <div>
               <h4>Aide administrative</h4>
             </div>
