@@ -16,7 +16,10 @@ const Soyez100Finance: NextPage = () => {
           </p>
           <p>Jusqu’à 100% de votre formation peut alors vous être alloué.</p>
           <br />
-          <Button label="Je découvre mon éligibilité CPF" />
+          <Button
+            label="Je découvre mon éligibilité CPF"
+            onClick={() => window.open("https://www.moncompteformation.gouv.fr/espace-prive/html", "_blank")}
+          />
         </div>
         <div className="bloc-image">
           <Image alt="sponsors" src="/images/sponsors.png" layout="fill" objectFit="contain" quality={80} />
