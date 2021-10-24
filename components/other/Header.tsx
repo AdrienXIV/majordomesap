@@ -1,61 +1,69 @@
 import React from "react";
-import { Menubar } from 'primereact/menubar';
+import { Menubar } from "primereact/menubar";
 import { NextPage } from "next";
-import Image from 'next/image'
-import logo from './../../public/images/logo.png'
-
+import Image from "next/image";
+import { useRouter } from "next/dist/client/router";
+import Link from "next/link";
 
 const Header: NextPage = () => {
+  const router = useRouter();
 
   const items = [
     {
-      label:'Accueil',
-      icon:'pi pi-fw pi-home',
+      label: "Accueil",
+      icon: "pi pi-fw pi-home",
+      command: e => {
+        e.originalEvent.preventDefault();
+        router.push("/");
+      },
+      url: "/",
     },
     {
-      label:'Formation',
-      icon:'pi pi-fw pi-pencil'
+      label: "Formations",
+      icon: "pi pi-fw pi-pencil",
+      command: e => {
+        e.originalEvent.preventDefault();
+        router.push("/formations");
+      },
+      url: "/formations",
     },
     {
-      label:'Financement',
-      icon:'pi pi-fw pi-money-bill'
+      label: "Financement",
+      icon: "pi pi-fw pi-money-bill",
+      command: e => {
+        e.originalEvent.preventDefault();
+        router.push("/financement");
+      },
+      url: "/financement",
     },
     {
-      label:'Qui sommes-nous ?',
-      icon:'pi pi-fw pi-user',
+      label: "Qui sommes-nous ?",
+      icon: "pi pi-fw pi-user",
     },
     {
-      label:'Prochaines rentrées',
-      icon:'pi pi-fw pi-calendar'
+      label: "Prochaines rentrées",
+      icon: "pi pi-fw pi-calendar",
     },
     {
-      label:'Contact',
-      icon:'pi pi-fw pi-envelope'
-    }
+      label: "Contact",
+      icon: "pi pi-fw pi-envelope",
+      className: "contact-nav",
+      url: "#contact",
+    },
   ];
 
-  const start = <Image src={logo} alt="logo" width={60} height={60} className="p-mr-2"/>;
+  const start = (
+    <Link href="/" passHref>
+      <a>
+        <Image src="/images/logo.png" alt="logo" width={60} height={60} className="p-mr-2" />
+      </a>
+    </Link>
+  );
 
   return (
-      <>
-        <div className="card block-nav-header">
-            <div className="flex card-container indigo-container">
-                <div className="col-4 p-3">
-                  <i className="pi pi-fw pi-compass"></i> 13 RUE CAMILLE DESMOULINS, 92130 ISSY LES MOULINEAUX
-                </div>
-                <div className="col-3 p-3">
-                  <i className="pi pi-fw pi-info-circle"></i> RER C - T3 - Bus (58, 260, 323)
-                </div>
-                <div className="col-3 p-3">
-                  <i className="pi pi-fw pi-mobile"></i> 01.58.04.24.18
-                </div>
-                <div className="col-2 p-3">
-                  <i className="pi pi-fw pi-envelope"></i> contact@majordomeformationsap.fr
-                </div>
-            </div>
-        </div>
-        <Menubar className="icons-nav-style " model={items} start={start} />
-      </>
+    <nav>
+      <Menubar className="icons-nav-style" model={items} start={start} />
+    </nav>
   );
 };
 

@@ -1,0 +1,122 @@
+#nhesitez-plus {
+  padding: 100px 0 0 0;
+}
+#nhesitez-plus h2 {
+  color: #333;
+  margin: 15px 0;
+}
+
+#nhesitez-plus > div {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+#nhesitez-plus > div > .bloc-image {
+  position: relative;
+  width: 50%;
+}
+
+#nhesitez-plus > div > .bloc-image img {
+  transition-duration: 750ms;
+}
+#nhesitez-plus > div > .bloc-image img:hover {
+  opacity: 0.75;
+  transform: scale(1.05);
+}
+
+#nhesitez-plus > div > .bloc-texte {
+  width: 50%;
+  padding: 75px;
+  background-color: #ca0032;
+}
+#nhesitez-plus > div > .bloc-texte > h3 {
+  font-size: 40px;
+  word-break: break-word;
+  color: white;
+}
+#nhesitez-plus > div > .bloc-texte > p {
+  max-width: 100%;
+  text-align: start;
+  width: 100%;
+  padding-left: 0;
+  color: white;
+}
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  #nhesitez-plus > div > .bloc-image {
+    width: 100%;
+    height: 250px;
+  }
+
+  #nhesitez-plus > div > .bloc-texte {
+    width: 100%;
+    padding: 0;
+  }
+  #nhesitez-plus > div > .bloc-texte > h3 {
+    text-align: center;
+    font-size: 35px;
+  }
+  #nhesitez-plus > div > .bloc-texte > p {
+    text-align: center;
+    padding: 0 20px;
+  }
+}
+/* ############################################ */
+#sponsors {
+  padding: 75px 50px;
+}
+
+#sponsors h3 {
+  color: #333;
+}
+#sponsors > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+#sponsors > div > div {
+  width: calc(33% - 50px);
+  padding: 15px;
+  height: 650px;
+  margin: 0 25px;
+}
+#sponsors > div p {
+  text-align: start;
+  line-height: 1.75em;
+  color: #333;
+  padding: 0;
+}
+#sponsors > div h3 {
+  text-align: center;
+}
+#sponsors > div button {
+  background-color: #ca0032;
+  border-color: #ca0032;
+  color: white;
+  transition-duration: 0ms;
+}
+#sponsors > div button:hover {
+  color: #ca0032;
+  border-color: #ca0032;
+  background-color: white;
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  #sponsors {
+    padding: 25px 10px;
+  }
+  #sponsors > div > div {
+    width: 100%;
+    height: auto;
+    margin: 25px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  #sponsors > div p {
+    padding: 0;
+  }
+  #sponsors > div h3 {
+    text-align: center;
+  }
+}

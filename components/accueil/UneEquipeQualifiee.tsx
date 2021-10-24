@@ -7,7 +7,7 @@ const UneEquipeQualifiee: NextPage = () => {
     <section id="une-equipe-qualifiee">
       <div className="p-grid">
         <div className="bloc-image">
-          <Image src="/images/equipe.jpg" layout="fill" objectFit="cover" quality={80} />
+          <Image alt="équipe" src="/images/equipe.jpg" layout="fill" objectFit="cover" quality={80} />
         </div>
         <div className="bloc-texte">
           <h2>Une équipe Qualifiée et Pédagogue</h2>

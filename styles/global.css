@@ -16,12 +16,18 @@ h2 {
   font-size: 50px;
   font-family: "Amatic SC", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 }
-
+h3 {
+  font-size: 25px;
+  font-family: "Amatic SC", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+}
+h4 {
+  font-size: 20px;
+  font-family: "Amatic SC", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+}
 div {
   font-family: "Amatic SC", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-h3,
 legend {
   font-family: "Amatic SC", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 }
