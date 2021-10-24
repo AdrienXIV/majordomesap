@@ -1,6 +1,7 @@
 import { NextPage } from "next";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const ImageAccueil: NextPage = () => {
   const [image, setImage] = useState("/images/1.jpg");
@@ -21,9 +22,9 @@ const ImageAccueil: NextPage = () => {
       <div className="hero-content-area">
         <h1>Devenez Majordome</h1>
         <h3>Titre Reconnue par l'état et le ministère du travail</h3>
-        <a href="#" className="btn">
-          Nous rejoindre
-        </a>
+        <Link href="/#contact" passHref>
+          <a className="btn">Nous rejoindre</a>
+        </Link>
       </div>
     </section>
   );
