@@ -29,16 +29,19 @@
 #nhesitez-plus > div > .bloc-texte {
   width: 50%;
   padding: 75px;
+  background-color: #ca0032;
 }
 #nhesitez-plus > div > .bloc-texte > h3 {
   font-size: 40px;
   word-break: break-word;
+  color: white;
 }
 #nhesitez-plus > div > .bloc-texte > p {
   max-width: 100%;
   text-align: start;
   width: 100%;
   padding-left: 0;
+  color: white;
 }
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   #nhesitez-plus > div > .bloc-image {
@@ -58,4 +61,48 @@
     text-align: center;
     padding: 0 20px;
   }
+}
+/* ############################################ */
+#sponsors {
+  padding: 75px 50px;
+}
+
+#sponsors h3 {
+  color: #333;
+}
+#sponsors > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+#sponsors > div > div {
+  width: calc(33% - 50px);
+  padding: 15px;
+  height: 650px;
+  margin: 0 25px;
+}
+#sponsors > div p {
+  text-align: start;
+  line-height: 1.75em;
+  color: #333;
+  padding: 0;
+}
+#sponsors > div h3 {
+  text-align: center;
+}
+#sponsors > div button {
+  background-color: #ca0032;
+  border-color: #ca0032;
+  color: white;
+  transition-duration: 0ms;
+}
+#sponsors > div button:hover {
+  color: #ca0032;
+  border-color: #ca0032;
+  background-color: white;
+}
+#sponsors > div .card-footer {
+  display: flex;
+  justify-content: center;
 }
