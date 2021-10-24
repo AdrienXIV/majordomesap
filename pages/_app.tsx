@@ -1,5 +1,4 @@
 import type { AppProps } from "next/app";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "@fortawesome/fontawesome-free/css/all.css";
 import "primereact/resources/primereact.min.css";
@@ -26,7 +25,7 @@ axios.defaults.headers = {
   "Content-Type": "application/json",
   credentials: "same-origin",
   mode: "same-origin",
-};
+} as any;
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

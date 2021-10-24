@@ -1,13 +1,13 @@
-import React from "react"
-import type { NextPage } from "next"
-import { Button } from "primereact/button"
-import { Carousel } from "react-responsive-carousel"
+import React from "react";
+import type { NextPage } from "next";
+import { Button } from "primereact/button";
+import Image from "next/image";
 
 const Soyez100Finance: NextPage = () => {
   return (
     <section id="soyez-100-finance">
-      <div>
-        <div>
+      <div className="p-grid">
+        <div className="bloc-texte">
           <h2>Soyez 100% Financé !</h2>
           <br />
           <p>
@@ -18,31 +18,12 @@ const Soyez100Finance: NextPage = () => {
           <br />
           <Button label="Je découvre mon éligibilité CPF" />
         </div>
-        <div>
-          <Carousel showThumbs={false} swipeable emulateTouch className="carousel" interval={3000} autoPlay infiniteLoop>
-            <div>
-              <img src="/images/CERTIFICATIONS-1-150x150.png" />
-            </div>
-            <div>
-              <img src="/images/certifications-3.png" />
-            </div>
-            <div>
-              <img src="/images/competence-5.png" />
-            </div>
-            <div>
-              <img src="/images/essaie-opco-1-e1629058828980.png" />
-            </div>
-            <div>
-              <img src="/images/certifications-2-bis.png" />
-            </div>
-            <div>
-              <img src="/images/certification-6.png" />
-            </div>
-          </Carousel>
+        <div className="bloc-image">
+          <Image alt="sponsors" src="/images/sponsors.png" layout="fill" objectFit="contain" quality={80} />
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Soyez100Finance
+export default Soyez100Finance;
