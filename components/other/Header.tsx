@@ -30,6 +30,11 @@ const Header: NextPage = () => {
     {
       label: "Financement",
       icon: "pi pi-fw pi-money-bill",
+      command: e => {
+        e.originalEvent.preventDefault();
+        router.push("/financement");
+      },
+      url: "/financement",
     },
     {
       label: "Qui sommes-nous ?",

@@ -1,5 +1,5 @@
 #formation-majordomat {
-  padding: 75px 0 0;
+  padding: 100px 0 0;
 }
 #formation-majordomat h2 {
   color: #333;
@@ -291,7 +291,8 @@
   }
 
   #formation-majordomat > .adaptee-pour-tous > .bloc-image {
-    display: none;
+    width: 100%;
+    height: 250px;
   }
   #formation-majordomat > .adaptee-pour-tous > .bloc-texte {
     width: 100%;
@@ -362,7 +363,7 @@
 
 /* ################################################################################## */
 #formations {
-  padding: 0;
+  padding: 100px 0 0 0;
 }
 #formations h2 {
   color: #333;

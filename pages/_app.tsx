@@ -15,6 +15,7 @@ import "@styles/accueil.css";
 import "@styles/formations.css";
 import "@styles/global.css";
 import "@styles/Config.css";
+import "@styles/financement.css";
 
 import axios from "axios";
 import React from "react";

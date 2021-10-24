@@ -1,0 +1,61 @@
+#nhesitez-plus {
+  padding: 100px 0 0 0;
+}
+#nhesitez-plus h2 {
+  color: #333;
+  margin: 15px 0;
+}
+
+#nhesitez-plus > div {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+#nhesitez-plus > div > .bloc-image {
+  position: relative;
+  width: 50%;
+}
+
+#nhesitez-plus > div > .bloc-image img {
+  transition-duration: 750ms;
+}
+#nhesitez-plus > div > .bloc-image img:hover {
+  opacity: 0.75;
+  transform: scale(1.05);
+}
+
+#nhesitez-plus > div > .bloc-texte {
+  width: 50%;
+  padding: 75px;
+}
+#nhesitez-plus > div > .bloc-texte > h3 {
+  font-size: 40px;
+  word-break: break-word;
+}
+#nhesitez-plus > div > .bloc-texte > p {
+  max-width: 100%;
+  text-align: start;
+  width: 100%;
+  padding-left: 0;
+}
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  #nhesitez-plus > div > .bloc-image {
+    width: 100%;
+    height: 250px;
+  }
+
+  #nhesitez-plus > div > .bloc-texte {
+    width: 100%;
+    padding: 0;
+  }
+  #nhesitez-plus > div > .bloc-texte > h3 {
+    text-align: center;
+    font-size: 35px;
+  }
+  #nhesitez-plus > div > .bloc-texte > p {
+    text-align: center;
+    padding: 0 20px;
+  }
+}
