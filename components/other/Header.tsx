@@ -3,6 +3,7 @@ import { Menubar } from "primereact/menubar";
 import { NextPage } from "next";
 import Image from "next/image";
 import { useRouter } from "next/dist/client/router";
+import Link from "next/link";
 
 const Header: NextPage = () => {
   const router = useRouter();
@@ -46,11 +47,17 @@ const Header: NextPage = () => {
     },
   ];
 
-  const start = <Image src="/images/logo.png" alt="logo" width={60} height={60} className="p-mr-2" />;
+  const start = (
+    <Link href="/" passHref>
+      <a>
+        <Image src="/images/logo.png" alt="logo" width={60} height={60} className="p-mr-2" />
+      </a>
+    </Link>
+  );
 
   return (
     <nav>
-      <Menubar className="icons-nav-style " model={items} start={start} />
+      <Menubar className="icons-nav-style" model={items} start={start} />
     </nav>
   );
 };
