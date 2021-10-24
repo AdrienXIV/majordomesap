@@ -29,7 +29,7 @@ const Sponsors: NextPage = () => {
             Ces opérateurs de compétences ont pour missions de financer l’apprentissage, d’aider les branches à construire les certifications
             professionnelles et d’accompagner les PME pour définir leurs besoins en formation.
           </p>
-          <Button label="En savoir plus" onClick={() => window.open("https://www.moncompteformation.gouv.fr/espace-prive/html", "_blank")} />
+          <Button label="En savoir plus" onClick={() => window.open(`${process.env.NEXT_PUBLIC_HOST}/financement/#contact`, "_blank")} />
         </div>
 
         <div>
@@ -40,7 +40,7 @@ const Sponsors: NextPage = () => {
           </p>
           <Button
             label="Me rapprocher d'un conseiller"
-            onClick={() => window.open("https://www.moncompteformation.gouv.fr/espace-prive/html", "_blank")}
+            onClick={() => window.open(`${process.env.NEXT_PUBLIC_HOST}/financement/#contact`, "_blank")}
           />
         </div>
       </div>
