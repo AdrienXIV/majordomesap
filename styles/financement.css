@@ -102,7 +102,21 @@
   border-color: #ca0032;
   background-color: white;
 }
-#sponsors > div .card-footer {
-  display: flex;
-  justify-content: center;
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  #sponsors {
+    padding: 25px 10px;
+  }
+  #sponsors > div > div {
+    width: 100%;
+    height: auto;
+    margin: 25px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  #sponsors > div p {
+    padding: 0;
+  }
+  #sponsors > div h3 {
+    text-align: center;
+  }
 }
