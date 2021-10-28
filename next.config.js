@@ -1,18 +1,31 @@
 module.exports = {
+  swcMinify: true,
   compress: true,
   poweredByHeader: false,
   generateEtags: false,
   images: {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    formats: ["image/avif", "image/webp"],
   },
-  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
-    // Note: we provide webpack above so you should not `require` it
-    // Perform customizations to webpack config
-    config.plugins.push(new webpack.IgnorePlugin(/\/__tests__\//));
+  // experimental: {
+  //   concurrentFeatures: true,
+  //   serverComponents: true,
+  // },
+  future: {
+    webpack5: true,
+  },
+  // // webpack: function (config, options) {
+  // //   config.experiments = {};
+  // //   return config;
+  // // },
+  // webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+  //   // Note: we provide webpack above so you should not `require` it
+  //   // Perform customizations to webpack config
+  //   config.plugins.push(new webpack.IgnorePlugin(/\/__tests__\//));
 
-    // Important: return the modified config
-    return config;
-  },
+  //   // Important: return the modified config
+  //   return config;
+  // },
   exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
     return {
       "/": { page: "/" },
@@ -57,6 +70,10 @@ module.exports = {
           {
             key: "X-Content-Type-Options",
             value: "nosniff",
+          },
+          {
+            key: "X-XSS-Protection",
+            value: "1; mode=block",
           },
         ],
       },
