@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import type { NextPage } from "next";
 import Image from "next/image";
 import { Timeline } from "primereact/timeline";
+import { myLoader } from "@utils/loader";
 
 const Majordomat: NextPage = () => {
   const [layout, setLayout] = useState("horizontal");
@@ -104,6 +105,7 @@ const Majordomat: NextPage = () => {
       <div className="p-grid adaptee-pour-tous">
         <div className="bloc-image">
           <Image
+            loader={myLoader}
             alt="majordomeformationsap-serveurs"
             src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-serveurs.jpeg"
             layout="fill"
@@ -126,6 +128,7 @@ const Majordomat: NextPage = () => {
       <div className="p-grid bloc-modules">
         <div className="second">
           <Image
+            loader={myLoader}
             alt="majordomeformationsap-art-floral"
             src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-art-floral-majordomat.jpeg"
             layout="fill"
@@ -143,6 +146,7 @@ const Majordomat: NextPage = () => {
 
         <div className="second">
           <Image
+            loader={myLoader}
             alt="majordomeformationsap-couture-majordomat"
             src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-couture-majordomat.jpeg"
             layout="fill"
@@ -156,6 +160,7 @@ const Majordomat: NextPage = () => {
         </div>
         <div className="second">
           <Image
+            loader={myLoader}
             alt="majordomeformationsap-femme-chambre-majordomat"
             src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-femme-chambre-majordomat.jpeg"
             layout="fill"
@@ -169,6 +174,7 @@ const Majordomat: NextPage = () => {
         </div>
         <div className="third">
           <Image
+            loader={myLoader}
             alt="majordomeformationsap-enologie-majordomat"
             src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-enologie-majordomat.jpeg"
             layout="fill"
@@ -183,6 +189,7 @@ const Majordomat: NextPage = () => {
 
         <div className="third">
           <Image
+            loader={myLoader}
             alt="majordomeformationsap-gastronomie-majordomat"
             src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-gastronomie-majordomat.png"
             layout="fill"

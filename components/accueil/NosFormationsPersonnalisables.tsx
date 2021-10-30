@@ -2,11 +2,12 @@ import React from "react";
 import type { NextPage } from "next";
 import { Card } from "primereact/card";
 import Image from "next/image";
+import { myLoader } from "@utils/loader";
 
 const NosFormationsPersonnalisables: NextPage = () => {
   return (
     <section id="nos-formations-personnalisables">
-      <Image alt="formations" src="/images/formations.jpg" quality={80} layout="fill" objectFit="cover" />
+      <Image loader={myLoader} alt="formations" src="/images/formations.jpg" quality={80} layout="fill" objectFit="cover" />
       <h2>Nos formations personnalisables</h2>
       <br />
       <div className="bloc-cards">

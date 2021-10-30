@@ -2,6 +2,7 @@ import React from "react";
 import type { NextPage } from "next";
 import { Button } from "primereact/button";
 import Image from "next/image";
+import { myLoader } from "@utils/loader";
 
 const Soyez100Finance: NextPage = () => {
   return (
@@ -22,7 +23,7 @@ const Soyez100Finance: NextPage = () => {
           />
         </div>
         <div className="bloc-image">
-          <Image alt="sponsors" src="/images/sponsors.png" layout="fill" objectFit="contain" quality={80} />
+          <Image loader={myLoader} alt="sponsors" src="/images/sponsors.png" layout="fill" objectFit="contain" quality={80} />
         </div>
       </div>
     </section>

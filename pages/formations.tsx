@@ -7,6 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/dist/client/router";
 import dynamic from "next/dynamic";
+import { myLoader } from "@utils/loader";
 const Contact = dynamic(() => import("@components/contact/Contact"), { ssr: false });
 
 const FormationsPage: NextPage = () => {
@@ -32,6 +33,8 @@ const FormationsPage: NextPage = () => {
             <Link href="/formation-majordomat" passHref>
               <a className="bloc-image">
                 <Image
+                  loader={myLoader}
+                  alt="majordomeformationsap-serveurs"
                   src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-serveurs.jpeg"
                   layout="fill"
                   objectFit="cover"
@@ -46,6 +49,8 @@ const FormationsPage: NextPage = () => {
             <Link href="/formation-advf" passHref>
               <a className="bloc-image">
                 <Image
+                  loader={myLoader}
+                  alt="majordomeformationsap-garde-enfant"
                   src="/images/majordomeformationsap/formationADVF/majordomeformationsap-garde-enfant-min.jpeg"
                   layout="fill"
                   objectFit="cover"
