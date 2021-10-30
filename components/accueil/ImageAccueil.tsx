@@ -20,8 +20,9 @@ const ImageAccueil: NextPage = () => {
 
   return (
     <section className="hero">
-      <Image loader={myLoader} alt="image aléatoire" src={image} quality={80} layout="fill" objectFit="cover" />
-
+      <Suspense fallback={<ProgressSpinner />}>
+        <Image loader={myLoader} alt="image aléatoire" src={image} quality={80} layout="fill" objectFit="cover" />
+      </Suspense>
       <div className="hero-content-area">
         <h1>Devenez Majordome</h1>
         <h3>Titre Reconnue par l'état et le ministère du travail</h3>

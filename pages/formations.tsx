@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { Suspense, useEffect } from "react";
 import type { NextPage } from "next";
 import Footer from "@components/other/Footer";
 import Header from "@components/other/Header";
@@ -8,6 +8,7 @@ import Link from "next/link";
 import { useRouter } from "next/dist/client/router";
 import dynamic from "next/dynamic";
 import { myLoader } from "@utils/loader";
+import { ProgressSpinner } from "primereact/progressspinner";
 const Contact = dynamic(() => import("@components/contact/Contact"), { ssr: false });
 
 const FormationsPage: NextPage = () => {
@@ -32,14 +33,16 @@ const FormationsPage: NextPage = () => {
           <div className="p-grid">
             <Link href="/formation-majordomat" passHref>
               <a className="bloc-image">
-                <Image
-                  loader={myLoader}
-                  alt="majordomeformationsap-serveurs"
-                  src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-serveurs.jpeg"
-                  layout="fill"
-                  objectFit="cover"
-                  quality={80}
-                />
+                <Suspense fallback={<ProgressSpinner />}>
+                  <Image
+                    loader={myLoader}
+                    alt="majordomeformationsap-serveurs"
+                    src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-serveurs.jpeg"
+                    layout="fill"
+                    objectFit="cover"
+                    quality={80}
+                  />
+                </Suspense>
                 <div>
                   <h3>Formation MAJORDOMAT</h3>
                 </div>
@@ -48,14 +51,16 @@ const FormationsPage: NextPage = () => {
 
             <Link href="/formation-advf" passHref>
               <a className="bloc-image">
-                <Image
-                  loader={myLoader}
-                  alt="majordomeformationsap-garde-enfant"
-                  src="/images/majordomeformationsap/formationADVF/majordomeformationsap-garde-enfant-min.jpeg"
-                  layout="fill"
-                  objectFit="cover"
-                  quality={80}
-                />
+                <Suspense fallback={<ProgressSpinner />}>
+                  <Image
+                    loader={myLoader}
+                    alt="majordomeformationsap-garde-enfant"
+                    src="/images/majordomeformationsap/formationADVF/majordomeformationsap-garde-enfant-min.jpeg"
+                    layout="fill"
+                    objectFit="cover"
+                    quality={80}
+                  />
+                </Suspense>
                 <div>
                   <h3>Formation ADVF</h3>
                 </div>
@@ -63,7 +68,9 @@ const FormationsPage: NextPage = () => {
             </Link>
           </div>
         </section>
-        <Contact />
+        <Suspense fallback={<ProgressSpinner />}>
+          <Contact />
+        </Suspense>
       </main>
       <Footer />
     </>

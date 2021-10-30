@@ -1,8 +1,9 @@
-import React from "react";
+import React, { Suspense } from "react";
 import type { NextPage } from "next";
 import { Button } from "primereact/button";
 import Image from "next/image";
 import { myLoader } from "@utils/loader";
+import { ProgressSpinner } from "primereact/progressspinner";
 
 const Soyez100Finance: NextPage = () => {
   return (
@@ -22,9 +23,11 @@ const Soyez100Finance: NextPage = () => {
             onClick={() => window.open("https://www.moncompteformation.gouv.fr/espace-prive/html", "_blank")}
           />
         </div>
-        <div className="bloc-image">
-          <Image loader={myLoader} alt="sponsors" src="/images/sponsors.png" layout="fill" objectFit="contain" quality={80} />
-        </div>
+        <Suspense fallback={<ProgressSpinner />}>
+          <div className="bloc-image">
+            <Image loader={myLoader} alt="sponsors" src="/images/sponsors.png" layout="fill" objectFit="contain" quality={80} />
+          </div>
+        </Suspense>
       </div>
     </section>
   );
