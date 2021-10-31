@@ -276,7 +276,7 @@
   color: #ca0032;
 }
 
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (max-device-width: 480px) {
   #formation-majordomat {
     padding: 100px 0 0 0;
   }
@@ -406,7 +406,7 @@
   transform: scale(1.05);
 }
 
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (max-device-width: 480px) {
   #formations {
     padding: 100px 0 0 0;
   }
