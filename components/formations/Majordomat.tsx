@@ -9,7 +9,7 @@ const Majordomat: NextPage = () => {
 
   useEffect(() => {
     if (process.browser) {
-      window.innerWidth < 450 ? setLayout("vertical") : setLayout("horizontal");
+      window.innerWidth < 959 ? setLayout("vertical") : setLayout("horizontal");
     }
   }, []);
 
