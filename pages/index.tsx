@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { Suspense, useEffect } from "react";
 import type { NextPage } from "next";
 import Footer from "@components/other/Footer";
 import Header from "@components/other/Header";
@@ -13,6 +13,7 @@ import IlsNousOntFaitConfiances from "@components/accueil/IlsNousOntFaitConfianc
 import dynamic from "next/dynamic";
 import TitreProReconnuRncp from "@components/accueil/TitreProReconnuRncp";
 import { useRouter } from "next/dist/client/router";
+import { ProgressSpinner } from "primereact/progressspinner";
 const Contact = dynamic(() => import("@components/contact/Contact"), { ssr: false });
 
 const HomePage: NextPage = () => {
@@ -40,7 +41,9 @@ const HomePage: NextPage = () => {
         <UneEquipeQualifiee />
         <UneDemarcheSimple />
         <IlsNousOntFaitConfiances />
-        <Contact />
+        <Suspense fallback={<ProgressSpinner />}>
+          <Contact />
+        </Suspense>
       </main>
       <Footer />
     </>

@@ -4,6 +4,7 @@ import { NextPage } from "next";
 import Image from "next/image";
 import { useRouter } from "next/dist/client/router";
 import Link from "next/link";
+import { myLoader } from "@utils/loader";
 
 const Header: NextPage = () => {
   const router = useRouter();
@@ -39,6 +40,11 @@ const Header: NextPage = () => {
     {
       label: "Qui sommes-nous ?",
       icon: "pi pi-fw pi-user",
+      command: e => {
+        e.originalEvent.preventDefault();
+        router.push("/qui-sommes-nous");
+      },
+      url: "/qui-sommes-nous",
     },
     {
       label: "Prochaines rentrées",
@@ -55,7 +61,7 @@ const Header: NextPage = () => {
   const start = (
     <Link href="/" passHref>
       <a>
-        <Image src="/images/logo.png" alt="logo" width={60} height={60} className="p-mr-2" />
+        <Image loader={myLoader} src="/images/logo.png" alt="logo" width={60} height={60} className="p-mr-2" />
       </a>
     </Link>
   );

@@ -60,7 +60,31 @@
   font-weight: bold;
 }
 
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+/* PHONES */
+@media only screen and (max-device-width: 480px) {
+  #titre-pro-reconnu-rncp {
+    padding: 15px 0 0 0;
+  }
+  #titre-pro-reconnu-rncp h2 {
+    text-align: center;
+  }
+  #titre-pro-reconnu-rncp > .bloc-icons {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+  }
+  #titre-pro-reconnu-rncp > .bloc-icons > div {
+    padding: 0;
+    height: 150px;
+    width: 150px;
+  }
+  #titre-pro-reconnu-rncp > .bloc-texte {
+    padding: 75px 0;
+  }
+}
+
+/* TABLETS */
+@media only screen and (max-device-width: 959px) {
   #titre-pro-reconnu-rncp {
     padding: 15px 0 0 0;
   }
@@ -129,7 +153,7 @@
   background-color: white;
 }
 
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (max-device-width: 480px) {
   #soyez-100-finance {
     padding: 0;
   }
@@ -142,6 +166,21 @@
     width: 100%;
     height: 250px;
     margin-top: 25px;
+  }
+}
+
+/* TABLETS */
+@media only screen and (max-device-width: 959px) {
+  #soyez-100-finance {
+    padding: 0;
+  }
+  #soyez-100-finance > div > .bloc-texte {
+    width: 50%;
+    padding: 75px 25px;
+    text-align: center;
+  }
+  #soyez-100-finance > div > .bloc-image {
+    width: 50%;
   }
 }
 
@@ -259,7 +298,7 @@
   margin: 15px 0 0 0;
 }
 
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (max-device-width: 480px) {
   #personnalisez-vos-modules {
     padding: 75px 0px;
   }
@@ -279,6 +318,30 @@
   }
 }
 
+/* TABLETS */
+@media only screen and (max-device-width: 959px) {
+  #personnalisez-vos-modules {
+    padding: 0 0 50px;
+  }
+  #personnalisez-vos-modules h2 {
+    text-align: center;
+  }
+  #personnalisez-vos-modules > .bloc-texte {
+    margin: 0;
+  }
+  #personnalisez-vos-modules > .bloc-texte > p {
+    max-width: 100%;
+    text-align: start;
+  }
+  #personnalisez-vos-modules > .bloc-cards > div {
+    width: calc(50% - 5%);
+    margin: 25px 2.5%;
+  }
+  #personnalisez-vos-modules > .bloc-cards > div:last-child {
+    width: calc(100% - 5%);
+    margin: 25px 2.5%;
+  }
+}
 /* #################################################################################### */
 
 #une-equipe-qualifiee {
@@ -317,7 +380,22 @@
   padding-left: 0;
 }
 
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (max-device-width: 480px) {
+  #une-equipe-qualifiee > div > .bloc-image {
+    width: 100%;
+    height: 250px;
+  }
+  #une-equipe-qualifiee > div h2 {
+    text-align: center;
+  }
+  #une-equipe-qualifiee > div > .bloc-texte {
+    width: 100%;
+    padding: 25px;
+  }
+}
+
+/* TABLETS */
+@media only screen and (max-device-width: 959px) {
   #une-equipe-qualifiee > div > .bloc-image {
     width: 100%;
     height: 250px;
@@ -382,7 +460,22 @@
   line-height: 1;
 }
 
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (max-device-width: 480px) {
+  #une-demarche-simple {
+    padding: 75px 5px;
+  }
+  #une-demarche-simple h2 {
+    text-align: center;
+  }
+  #une-demarche-simple > .bloc-texte .timeline-step {
+    padding: 5px 0px;
+  }
+  #une-demarche-simple > .bloc-texte .timeline-step p {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-device-width: 959px) {
   #une-demarche-simple {
     padding: 75px 5px;
   }
@@ -453,7 +546,7 @@
   color: #f1c40f;
 }
 
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (max-device-width: 480px) {
   #ils-nous-ont-fait-confiances {
     padding: 75px 0px;
   }
@@ -464,6 +557,27 @@
     margin: 50px 0;
     width: 100%;
     align-content: center;
+  }
+  #ils-nous-ont-fait-confiances > div .avatar legend {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-device-width: 959px) {
+  #ils-nous-ont-fait-confiances {
+    padding: 0px;
+  }
+  #ils-nous-ont-fait-confiances h2 {
+    text-align: center;
+  }
+  #ils-nous-ont-fait-confiances > div > div {
+    margin: 50px 0;
+    width: 100%;
+    align-content: center;
+    height: auto;
+  }
+  #ils-nous-ont-fait-confiances > div > div:first-child {
+    margin: 0;
   }
   #ils-nous-ont-fait-confiances > div .avatar legend {
     text-align: center;

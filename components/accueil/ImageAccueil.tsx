@@ -1,7 +1,9 @@
 import { NextPage } from "next";
-import React, { useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { ProgressSpinner } from "primereact/progressspinner";
+import { myLoader } from "@utils/loader";
 
 const ImageAccueil: NextPage = () => {
   const [image, setImage] = useState("/images/1.jpg");
@@ -18,7 +20,9 @@ const ImageAccueil: NextPage = () => {
 
   return (
     <section className="hero">
-      <Image alt="image aléatoire" src={image} quality={100} layout="fill" objectFit="cover" />
+      <Suspense fallback={<ProgressSpinner />}>
+        <Image loader={myLoader} alt="image aléatoire" src={image} quality={80} layout="fill" objectFit="cover" />
+      </Suspense>
       <div className="hero-content-area">
         <h1>Devenez Majordome</h1>
         <h3>Titre Reconnue par l'état et le ministère du travail</h3>

@@ -96,7 +96,7 @@
   text-align: left;
 }
 
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (max-device-width: 480px) {
   .number-rncp {
     font: bold 4rem "Amatic SC", sans-serif;
   }
