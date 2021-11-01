@@ -11,6 +11,7 @@ import { myLoader } from "@utils/loader";
 import { ProgressSpinner } from "primereact/progressspinner";
 import UneEquipeQuiSadapte from "@components/qui-sommes-nous/UneEquipeQuiSadapte";
 import EquipePedagogieCertifiee from "@components/qui-sommes-nous/EquipePedagogieCertifiee";
+import ALecouteDeVosEnvies from "@components/qui-sommes-nous/ALecouteDeVosEnvies";
 const Contact = dynamic(() => import("@components/contact/Contact"), { ssr: false });
 
 const QuiSommesNousPage: NextPage = () => {
@@ -39,6 +40,7 @@ const QuiSommesNousPage: NextPage = () => {
         </section>
         <UneEquipeQuiSadapte />
         <EquipePedagogieCertifiee />
+        <ALecouteDeVosEnvies />
         <Suspense fallback={<ProgressSpinner />}>
           <Contact />
         </Suspense>
