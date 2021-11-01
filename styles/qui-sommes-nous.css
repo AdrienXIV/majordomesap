@@ -1,7 +1,19 @@
 #qui-sommes-nous {
   padding: 100px 300px;
 }
+/* PHONES */
+@media only screen and (max-device-width: 480px) {
+  #qui-sommes-nous {
+    padding: 100px 0px;
+  }
+}
 
+/* TABLETS */
+@media only screen and (max-device-width: 959px) {
+  #qui-sommes-nous {
+    padding: 100px 0px;
+  }
+}
 /* ################################### */
 #une-equipe-qui-sadapte {
   background-color: #ca0032;
@@ -14,6 +26,36 @@
 #une-equipe-qui-sadapte > .bloc-texte > p {
   text-align: start;
   max-width: 100%;
+}
+
+/* PHONES */
+@media only screen and (max-device-width: 480px) {
+  #une-equipe-qui-sadapte {
+    padding: 75px 5px 25px;
+    text-align: center;
+  }
+  #une-equipe-qui-sadapte > .bloc-texte {
+    margin: 25px 0 0 0;
+  }
+  #une-equipe-qui-sadapte > .bloc-texte > p {
+    text-align: start;
+    max-width: 100%;
+  }
+}
+
+/* TABLETS */
+@media only screen and (max-device-width: 959px) {
+  #une-equipe-qui-sadapte {
+    padding: 75px 5px 25px;
+    text-align: center;
+  }
+  #une-equipe-qui-sadapte > .bloc-texte {
+    margin: 25px 0 0 0;
+  }
+  #une-equipe-qui-sadapte > .bloc-texte > p {
+    text-align: start;
+    max-width: 100%;
+  }
 }
 /* ################################### */
 #equipe-pedagogie-certifiee {
@@ -71,12 +113,36 @@
   filter: blur(0.5px) brightness(75%);
 }
 
+/* PHONES */
+@media only screen and (max-device-width: 480px) {
+  #equipe-pedagogie-certifiee > .bloc-modules > div {
+    height: auto;
+    padding: 15px 5px;
+  }
+
+  #equipe-pedagogie-certifiee > .bloc-modules > .second {
+    width: 100%;
+  }
+}
+
+/* TABLETS */
+@media only screen and (max-device-width: 959px) {
+  #equipe-pedagogie-certifiee > .bloc-modules > div {
+    height: auto;
+    padding: 15px 5px;
+  }
+
+  #equipe-pedagogie-certifiee > .bloc-modules > .second {
+    width: 100%;
+  }
+}
 /* ################################### */
 #a-lecoute-de-vos-envies {
   padding: 75px 0 0 0;
 }
 #a-lecoute-de-vos-envies > div {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   height: 500px;
   margin: 25px 0 0 0;
@@ -104,4 +170,53 @@
 #a-lecoute-de-vos-envies > div > .bloc-texte > h3 {
   color: #ca0032;
   text-align: center;
+}
+/* PHONES */
+@media only screen and (max-device-width: 480px) {
+  #a-lecoute-de-vos-envies {
+    padding: 50px 0 0 0;
+  }
+  #a-lecoute-de-vos-envies > h2 {
+    text-align: center;
+  }
+  #a-lecoute-de-vos-envies > div {
+    height: auto;
+    margin: 0;
+  }
+
+  #a-lecoute-de-vos-envies > div > .bloc-image {
+    width: 100%;
+    height: 250px;
+  }
+
+  #a-lecoute-de-vos-envies > div > .bloc-texte {
+    padding: 15px;
+    width: 100%;
+    align-self: center;
+  }
+}
+
+/* TABLETS */
+@media only screen and (max-device-width: 959px) {
+  #a-lecoute-de-vos-envies {
+    padding: 50px 0 0 0;
+  }
+  #a-lecoute-de-vos-envies > h2 {
+    text-align: center;
+  }
+  #a-lecoute-de-vos-envies > div {
+    height: auto;
+    margin: 0;
+  }
+
+  #a-lecoute-de-vos-envies > div > .bloc-image {
+    width: 100%;
+    height: 250px;
+  }
+
+  #a-lecoute-de-vos-envies > div > .bloc-texte {
+    padding: 15px;
+    width: 100%;
+    align-self: center;
+  }
 }
