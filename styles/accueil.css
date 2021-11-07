@@ -7,7 +7,7 @@
   display: flex;
   flex-wrap: wrap;
   padding: 0px 100px;
-  margin: 0 0 25px 0;
+  margin: 25px 0;
 }
 #titre-pro-reconnu-rncp > .bandeau-images > div {
   width: 33.33%;
