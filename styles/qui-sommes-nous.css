@@ -2,14 +2,14 @@
   padding: 100px 300px;
 }
 /* PHONES */
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   #qui-sommes-nous {
     padding: 100px 0px;
   }
 }
 
 /* TABLETS */
-@media only screen and (max-device-width: 959px) {
+@media only screen and (max-width: 959px) {
   #qui-sommes-nous {
     padding: 100px 0px;
   }
@@ -29,7 +29,7 @@
 }
 
 /* PHONES */
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   #une-equipe-qui-sadapte {
     padding: 75px 5px 25px;
     text-align: center;
@@ -44,7 +44,7 @@
 }
 
 /* TABLETS */
-@media only screen and (max-device-width: 959px) {
+@media only screen and (max-width: 959px) {
   #une-equipe-qui-sadapte {
     padding: 75px 5px 25px;
     text-align: center;
@@ -114,7 +114,7 @@
 }
 
 /* PHONES */
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   #equipe-pedagogie-certifiee > .bloc-modules > div {
     height: auto;
     padding: 15px 5px;
@@ -126,7 +126,7 @@
 }
 
 /* TABLETS */
-@media only screen and (max-device-width: 959px) {
+@media only screen and (max-width: 959px) {
   #equipe-pedagogie-certifiee > .bloc-modules > div {
     height: auto;
     padding: 15px 5px;
@@ -172,7 +172,7 @@
   text-align: center;
 }
 /* PHONES */
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   #a-lecoute-de-vos-envies {
     padding: 50px 0 0 0;
   }
@@ -197,7 +197,7 @@
 }
 
 /* TABLETS */
-@media only screen and (max-device-width: 959px) {
+@media only screen and (max-width: 959px) {
   #a-lecoute-de-vos-envies {
     padding: 50px 0 0 0;
   }
