@@ -2,8 +2,26 @@
   padding: 75px 0 0 0;
 }
 
-#titre-pro-reconnu-rncp h2 {
+#titre-pro-reconnu-rncp > .bandeau-images {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 100px;
+  margin: 0 0 25px 0;
+}
+#titre-pro-reconnu-rncp > .bandeau-images > div {
+  width: 33.33%;
+  position: relative;
+  height: 200px;
+}
+
+#titre-pro-reconnu-rncp h2,
+#titre-pro-reconnu-rncp h3 {
   color: #333;
+}
+
+#titre-pro-reconnu-rncp h3 {
+  margin: 50px 0;
 }
 
 #titre-pro-reconnu-rncp > .bloc-texte {
@@ -71,7 +89,16 @@
   #titre-pro-reconnu-rncp {
     padding: 15px 0 0 0;
   }
-  #titre-pro-reconnu-rncp h2 {
+  #titre-pro-reconnu-rncp > .bandeau-images {
+    padding: 0 25px;
+  }
+  #titre-pro-reconnu-rncp > .bandeau-images > div {
+    width: 33.33%;
+    height: 200px;
+  }
+
+  #titre-pro-reconnu-rncp h2,
+  #titre-pro-reconnu-rncp h3 {
     text-align: center;
   }
   #titre-pro-reconnu-rncp > .bloc-icons {
@@ -106,7 +133,15 @@
   #titre-pro-reconnu-rncp {
     padding: 15px 0 0 0;
   }
-  #titre-pro-reconnu-rncp h2 {
+  #titre-pro-reconnu-rncp > .bandeau-images {
+    padding: 0 25px;
+  }
+  #titre-pro-reconnu-rncp > .bandeau-images > div {
+    width: 50%;
+    height: 100px;
+  }
+  #titre-pro-reconnu-rncp h2,
+  #titre-pro-reconnu-rncp h3 {
     text-align: center;
   }
   #titre-pro-reconnu-rncp > .bloc-icons {
@@ -161,6 +196,10 @@
 #soyez-100-finance > div > .bloc-texte {
   width: 50%;
   padding: 75px;
+}
+
+#soyez-100-finance > div > .bloc-texte > p {
+  padding-left: 0;
 }
 #soyez-100-finance h2 {
   color: #333;

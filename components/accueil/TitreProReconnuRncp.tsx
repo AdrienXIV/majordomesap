@@ -7,8 +7,41 @@ import { myLoader } from "@utils/loader";
 const TitreProReconnuRncp: NextPage = () => {
   return (
     <section id="titre-pro-reconnu-rncp">
-      <h2>Obtenez votre certification professionnelle</h2>
+      <h2>Formez-vous grâce à SAP Formation</h2>
 
+      <div className="bandeau-images">
+        <div>
+          <Suspense fallback={<ProgressSpinner />}>
+            <Image
+              loader={myLoader}
+              alt="qualiopi"
+              src="/images/majordomeformationsap/Accueil/qualiopi.png"
+              layout="fill"
+              objectFit="contain"
+              quality={80}
+            />
+          </Suspense>
+        </div>
+        <div>
+          <Suspense fallback={<ProgressSpinner />}>
+            <Image
+              loader={myLoader}
+              alt="datadock"
+              src="/images/majordomeformationsap/Accueil/datadock.png"
+              layout="fill"
+              objectFit="contain"
+              quality={80}
+            />
+          </Suspense>
+        </div>
+        <div>
+          <Suspense fallback={<ProgressSpinner />}>
+            <Image loader={myLoader} alt="cpf" src="/images/majordomeformationsap/Accueil/cpf.png" layout="fill" objectFit="contain" quality={80} />
+          </Suspense>
+        </div>
+      </div>
+      <h3>Obtenez votre certification professionnelle</h3>
+      <hr />
       <div className="p-grid bloc-icons">
         <div className="col-2">
           <i className="fas fa-wheelchair"></i>
