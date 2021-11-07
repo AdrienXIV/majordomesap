@@ -12,7 +12,7 @@ const FormationAdvfPage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Majordome Formation SAP | Formation ADVF kimamu</title>
+        <title>Formation ADVF kimamu | Majordome Formation SAP</title>
       </Head>
       <Header />
 

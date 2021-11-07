@@ -12,7 +12,7 @@ const FormationMajordomatPage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Majordome Formation SAP | Formation Majordomat</title>
+        <title>Formation Majordomat | Majordome Formation SAP</title>
       </Head>
       <Header />
 

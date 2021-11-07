@@ -309,7 +309,7 @@
 /* ################################################################################### */
 
 #personnalisez-vos-modules {
-  padding: 75px 300px;
+  padding: 50px 300px 75px;
 }
 
 #personnalisez-vos-modules h2 {
@@ -317,7 +317,7 @@
 }
 
 #personnalisez-vos-modules > .bloc-texte {
-  margin: 0 0 50px 0;
+  margin: 0 0 25px 0;
 }
 
 #personnalisez-vos-modules > .bloc-texte > p {
@@ -375,6 +375,22 @@
 
 #personnalisez-vos-modules > .bloc-cards > div .p-card-footer > .module-transversaux:last-child {
   margin: 15px 0 0 0;
+}
+
+#personnalisez-vos-modules > a {
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  background-color: #ca0032;
+  transition: all 333ms;
+  padding: 10px 15px;
+  border: #ca0032 1px solid;
+}
+
+#personnalisez-vos-modules .btn:hover {
+  color: #ca0032;
+  background-color: white;
 }
 
 /* TABLETS */

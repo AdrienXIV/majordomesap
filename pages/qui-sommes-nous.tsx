@@ -25,7 +25,7 @@ const QuiSommesNousPage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Majordome Formation SAP | Qui sommes-nous ?</title>
+        <title>Qui sommes-nous ? | Majordome Formation SAP</title>
       </Head>
       <Header />
 

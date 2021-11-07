@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import { Card } from "primereact/card";
 import Image from "next/image";
 import { Divider } from "primereact/divider";
+import Link from "next/link";
 
 const PersonnalisezVosModules: NextPage = () => {
   const footerCCP1 = () => (
@@ -48,7 +49,11 @@ const PersonnalisezVosModules: NextPage = () => {
           Majordomat, vous permettant ainsi d’élargir et approfondir vos compétences professionnelles.
         </p>
       </div>
-      <br />
+
+      <Link href="/formation-advf#advf-modules" passHref>
+        <a className="btn">Découvrez nos modules ADVF</a>
+      </Link>
+      {/* <br />
       <div className="p-grid bloc-cards">
         <Card className="col-3" title="CCP 1" subTitle="Entretenir le logement et le linge d’un particulier" footer={footerCCP1}>
           <div className="module">
@@ -96,7 +101,7 @@ const PersonnalisezVosModules: NextPage = () => {
             <i className="pi pi-check-circle"></i> <u>Module 4 :</u> Les techniques et gestes professionnels
           </div>
         </Card>
-      </div>
+      </div> */}
     </section>
   );
 };
