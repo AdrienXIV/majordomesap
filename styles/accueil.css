@@ -7,16 +7,22 @@
 }
 
 #titre-pro-reconnu-rncp > .bloc-texte {
-  position: relative;
-  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
   background-color: #ca0032;
   margin: 100px 0 0 0;
   width: 100%;
-  padding: 75px 300px;
+  padding: 75px 100px;
   color: white;
 }
-
-#titre-pro-reconnu-rncp > .bloc-texte > p {
+#titre-pro-reconnu-rncp > .bloc-texte > .bloc-image {
+  position: relative;
+  width: 25%;
+}
+#titre-pro-reconnu-rncp > .bloc-texte > div {
+  width: 75%;
+}
+#titre-pro-reconnu-rncp > .bloc-texte > div > p {
   max-width: 100%;
   text-align: start;
   width: 100%;
@@ -60,29 +66,6 @@
   font-weight: bold;
 }
 
-/* PHONES */
-@media only screen and (max-device-width: 480px) {
-  #titre-pro-reconnu-rncp {
-    padding: 15px 0 0 0;
-  }
-  #titre-pro-reconnu-rncp h2 {
-    text-align: center;
-  }
-  #titre-pro-reconnu-rncp > .bloc-icons {
-    padding: 0;
-    width: 100%;
-    margin: 0;
-  }
-  #titre-pro-reconnu-rncp > .bloc-icons > div {
-    padding: 0;
-    height: 150px;
-    width: 150px;
-  }
-  #titre-pro-reconnu-rncp > .bloc-texte {
-    padding: 75px 0;
-  }
-}
-
 /* TABLETS */
 @media only screen and (max-device-width: 959px) {
   #titre-pro-reconnu-rncp {
@@ -101,11 +84,58 @@
     height: 150px;
     width: 150px;
   }
+  #titre-pro-reconnu-rncp > .bloc-texte > .bloc-image {
+    width: 100%;
+    height: 100px;
+  }
+  #titre-pro-reconnu-rncp > .bloc-texte > div {
+    width: 100%;
+  }
+  #titre-pro-reconnu-rncp > .bloc-texte > div > p {
+    text-align: center;
+  }
+
   #titre-pro-reconnu-rncp > .bloc-texte {
-    padding: 75px 0;
+    margin: 50px 0 0;
+    padding: 25px 0;
   }
 }
 
+/* PHONES */
+@media only screen and (max-device-width: 480px) {
+  #titre-pro-reconnu-rncp {
+    padding: 15px 0 0 0;
+  }
+  #titre-pro-reconnu-rncp h2 {
+    text-align: center;
+  }
+  #titre-pro-reconnu-rncp > .bloc-icons {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+  }
+  #titre-pro-reconnu-rncp > .bloc-icons > div {
+    padding: 0;
+    height: 150px;
+    width: 150px;
+  }
+
+  #titre-pro-reconnu-rncp > .bloc-texte > .bloc-image {
+    width: 100%;
+    height: 100px;
+  }
+  #titre-pro-reconnu-rncp > .bloc-texte > div {
+    width: 100%;
+  }
+  #titre-pro-reconnu-rncp > .bloc-texte > div > p {
+    text-align: center;
+  }
+
+  #titre-pro-reconnu-rncp > .bloc-texte {
+    margin: 50px 0 0;
+    padding: 25px 0;
+  }
+}
 /* ################################################################################### */
 
 #soyez-100-finance {

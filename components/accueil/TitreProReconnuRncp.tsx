@@ -1,5 +1,8 @@
-import React from "react";
+import React, { Suspense } from "react";
 import type { NextPage } from "next";
+import Image from "next/image";
+import { ProgressSpinner } from "primereact/progressspinner";
+import { myLoader } from "@utils/loader";
 
 const TitreProReconnuRncp: NextPage = () => {
   return (
@@ -34,14 +37,23 @@ const TitreProReconnuRncp: NextPage = () => {
       </div>
 
       <div className="bloc-texte">
-        <p>
-          Notre centre vous propose des formations de Majordomat et d’Assistance De Vie aux Familles (ADVF), des métiers du service à la personne
-          consistant à intervenir auprès des personnes ayant besoin d’assistance dans leurs activités quotidiennes.
-        </p>
-        <p>
-          Nous proposons des modules de formation certifiants permettant de valoriser vos compétences métier et ainsi d’
-          <b>obtenir un titre professionnel reconnu de niveau 3 inscrit au RNCP.</b>
-        </p>
+        <div className="bloc-image">
+          <Suspense fallback={<ProgressSpinner />}>
+            <div className="bloc-image">
+              <Image loader={myLoader} alt="sponsors" src="/images/logo.png" layout="fill" objectFit="contain" quality={80} />
+            </div>
+          </Suspense>
+        </div>
+        <div>
+          <p>
+            Notre centre vous propose des formations de Majordomat et d’Assistance De Vie aux Familles (ADVF), des métiers du service à la personne
+            consistant à intervenir auprès des personnes ayant besoin d’assistance dans leurs activités quotidiennes.
+          </p>
+          <p>
+            Nous proposons des modules de formation certifiants permettant de valoriser vos compétences métier et ainsi d’
+            <b>obtenir un titre professionnel reconnu de niveau 3 inscrit au RNCP.</b>
+          </p>
+        </div>
       </div>
     </section>
   );
