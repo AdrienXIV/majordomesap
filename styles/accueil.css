@@ -153,22 +153,6 @@
   background-color: white;
 }
 
-@media only screen and (max-device-width: 480px) {
-  #soyez-100-finance {
-    padding: 0;
-  }
-  #soyez-100-finance > div > .bloc-texte {
-    width: 100%;
-    padding: 0;
-    text-align: center;
-  }
-  #soyez-100-finance > div > .bloc-image {
-    width: 100%;
-    height: 250px;
-    margin-top: 25px;
-  }
-}
-
 /* TABLETS */
 @media only screen and (max-device-width: 959px) {
   #soyez-100-finance {
@@ -184,6 +168,21 @@
   }
 }
 
+@media only screen and (max-device-width: 480px) {
+  #soyez-100-finance {
+    padding: 0;
+  }
+  #soyez-100-finance > div > .bloc-texte {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+  }
+  #soyez-100-finance > div > .bloc-image {
+    width: 100%;
+    height: 250px;
+    margin-top: 25px;
+  }
+}
 /* ########################################################## */
 
 #nos-formations-personnalisables {
@@ -298,26 +297,6 @@
   margin: 15px 0 0 0;
 }
 
-@media only screen and (max-device-width: 480px) {
-  #personnalisez-vos-modules {
-    padding: 75px 0px;
-  }
-  #personnalisez-vos-modules h2 {
-    text-align: center;
-  }
-  #personnalisez-vos-modules > .bloc-texte {
-    margin: 0;
-  }
-  #personnalisez-vos-modules > .bloc-texte > p {
-    max-width: 100%;
-    text-align: start;
-  }
-  #personnalisez-vos-modules > .bloc-cards > div {
-    width: 95%;
-    margin: 25px 2.5%;
-  }
-}
-
 /* TABLETS */
 @media only screen and (max-device-width: 959px) {
   #personnalisez-vos-modules {
@@ -339,6 +318,26 @@
   }
   #personnalisez-vos-modules > .bloc-cards > div:last-child {
     width: calc(100% - 5%);
+    margin: 25px 2.5%;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  #personnalisez-vos-modules {
+    padding: 75px 0px;
+  }
+  #personnalisez-vos-modules h2 {
+    text-align: center;
+  }
+  #personnalisez-vos-modules > .bloc-texte {
+    margin: 0;
+  }
+  #personnalisez-vos-modules > .bloc-texte > p {
+    max-width: 100%;
+    text-align: start;
+  }
+  #personnalisez-vos-modules > .bloc-cards > div {
+    width: 95%;
     margin: 25px 2.5%;
   }
 }
@@ -380,7 +379,8 @@
   padding-left: 0;
 }
 
-@media only screen and (max-device-width: 480px) {
+/* TABLETS */
+@media only screen and (max-device-width: 959px) {
   #une-equipe-qualifiee > div > .bloc-image {
     width: 100%;
     height: 250px;
@@ -394,8 +394,7 @@
   }
 }
 
-/* TABLETS */
-@media only screen and (max-device-width: 959px) {
+@media only screen and (max-device-width: 480px) {
   #une-equipe-qualifiee > div > .bloc-image {
     width: 100%;
     height: 250px;

@@ -84,7 +84,7 @@
 }
 
 #formation-majordomat > .bloc-modules {
-  padding: 0 0px 0px;
+  padding: 15px 200px;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -103,11 +103,14 @@
 
 #formation-majordomat > .bloc-modules > .second {
   transition-duration: 500ms;
-  width: 33.33%;
+  margin: 10px 20px;
+  width: calc(33.33% - 40px);
 }
 #formation-majordomat > .bloc-modules > .third {
   transition-duration: 500ms;
   width: 50%;
+  margin: 10px 20px;
+  width: calc(50% - 40px);
 }
 #formation-majordomat > .bloc-modules > .second > div,
 #formation-majordomat > .bloc-modules > .third > div {
