@@ -24,6 +24,11 @@ const TitreProReconnuRncp: NextPage = () => {
         </div>
         <div>
           <Suspense fallback={<ProgressSpinner />}>
+            <Image loader={myLoader} alt="cpf" src="/images/majordomeformationsap/Accueil/cpf.png" layout="fill" objectFit="contain" quality={80} />
+          </Suspense>
+        </div>
+        <div>
+          <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
               alt="datadock"
@@ -32,11 +37,6 @@ const TitreProReconnuRncp: NextPage = () => {
               objectFit="contain"
               quality={80}
             />
-          </Suspense>
-        </div>
-        <div>
-          <Suspense fallback={<ProgressSpinner />}>
-            <Image loader={myLoader} alt="cpf" src="/images/majordomeformationsap/Accueil/cpf.png" layout="fill" objectFit="contain" quality={80} />
           </Suspense>
         </div>
       </div>
