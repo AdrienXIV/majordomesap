@@ -81,8 +81,6 @@ const Rncp = () => {
           </Card>
         </div>
       </div>
-      <br />
-      <hr />
     </div>
   );
 };

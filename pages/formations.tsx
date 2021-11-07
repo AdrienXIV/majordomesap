@@ -22,7 +22,7 @@ const FormationsPage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Majordome Formation SAP | Formations</title>
+        <title>Formations | Majordome Formation SAP</title>
       </Head>
       <Header />
 

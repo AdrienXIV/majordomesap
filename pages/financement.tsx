@@ -12,7 +12,7 @@ const FinancementPage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Majordome Formation SAP | Financement</title>
+        <title>Financement | Majordome Formation SAP</title>
       </Head>
       <Header />
 

@@ -2,21 +2,45 @@
   padding: 75px 0 0 0;
 }
 
-#titre-pro-reconnu-rncp h2 {
+#titre-pro-reconnu-rncp > .bandeau-images {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 100px;
+  margin: 25px 0;
+}
+#titre-pro-reconnu-rncp > .bandeau-images > div {
+  width: 33.33%;
+  position: relative;
+  height: 200px;
+}
+
+#titre-pro-reconnu-rncp h2,
+#titre-pro-reconnu-rncp h3 {
   color: #333;
 }
 
+#titre-pro-reconnu-rncp h3 {
+  margin: 50px 0;
+}
+
 #titre-pro-reconnu-rncp > .bloc-texte {
-  position: relative;
-  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
   background-color: #ca0032;
   margin: 100px 0 0 0;
   width: 100%;
-  padding: 75px 300px;
+  padding: 75px 100px;
   color: white;
 }
-
-#titre-pro-reconnu-rncp > .bloc-texte > p {
+#titre-pro-reconnu-rncp > .bloc-texte > .bloc-image {
+  position: relative;
+  width: 25%;
+}
+#titre-pro-reconnu-rncp > .bloc-texte > div {
+  width: 75%;
+}
+#titre-pro-reconnu-rncp > .bloc-texte > div > p {
   max-width: 100%;
   text-align: start;
   width: 100%;
@@ -60,35 +84,21 @@
   font-weight: bold;
 }
 
-/* PHONES */
-@media only screen and (max-device-width: 480px) {
-  #titre-pro-reconnu-rncp {
-    padding: 15px 0 0 0;
-  }
-  #titre-pro-reconnu-rncp h2 {
-    text-align: center;
-  }
-  #titre-pro-reconnu-rncp > .bloc-icons {
-    padding: 0;
-    width: 100%;
-    margin: 0;
-  }
-  #titre-pro-reconnu-rncp > .bloc-icons > div {
-    padding: 0;
-    height: 150px;
-    width: 150px;
-  }
-  #titre-pro-reconnu-rncp > .bloc-texte {
-    padding: 75px 0;
-  }
-}
-
 /* TABLETS */
-@media only screen and (max-device-width: 959px) {
+@media only screen and (max-width: 959px) {
   #titre-pro-reconnu-rncp {
     padding: 15px 0 0 0;
   }
-  #titre-pro-reconnu-rncp h2 {
+  #titre-pro-reconnu-rncp > .bandeau-images {
+    padding: 0 25px;
+  }
+  #titre-pro-reconnu-rncp > .bandeau-images > div {
+    width: 33.33%;
+    height: 200px;
+  }
+
+  #titre-pro-reconnu-rncp h2,
+  #titre-pro-reconnu-rncp h3 {
     text-align: center;
   }
   #titre-pro-reconnu-rncp > .bloc-icons {
@@ -101,11 +111,77 @@
     height: 150px;
     width: 150px;
   }
+  #titre-pro-reconnu-rncp > .bloc-texte > .bloc-image {
+    width: 100%;
+    height: 100px;
+  }
+  #titre-pro-reconnu-rncp > .bloc-texte > div {
+    width: 100%;
+  }
+  #titre-pro-reconnu-rncp > .bloc-texte > div > p {
+    text-align: center;
+  }
+
   #titre-pro-reconnu-rncp > .bloc-texte {
-    padding: 75px 0;
+    margin: 50px 0 0;
+    padding: 25px 0;
   }
 }
 
+/* PHONES */
+@media only screen and (max-width: 480px) {
+  #titre-pro-reconnu-rncp {
+    padding: 15px 0 0 0;
+  }
+  #titre-pro-reconnu-rncp > .bandeau-images {
+    padding: 0 25px;
+    margin: 0;
+  }
+  #titre-pro-reconnu-rncp > .bandeau-images > div {
+    width: 100%;
+    height: 100px;
+    margin: 15px 0;
+  }
+  #titre-pro-reconnu-rncp > .bandeau-images > div:first-child {
+    margin: 0 0 15px 0;
+  }
+  #titre-pro-reconnu-rncp > .bandeau-images > div:last-child {
+    margin: 15px 0 0 0;
+  }
+  #titre-pro-reconnu-rncp h2 {
+    padding: 0 15px;
+  }
+  #titre-pro-reconnu-rncp h2,
+  #titre-pro-reconnu-rncp h3 {
+    text-align: center;
+  }
+  #titre-pro-reconnu-rncp > .bloc-icons {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+  }
+  #titre-pro-reconnu-rncp > .bloc-icons > div {
+    padding: 0;
+    height: 150px;
+    width: 150px;
+  }
+
+  #titre-pro-reconnu-rncp > .bloc-texte > .bloc-image {
+    width: 100%;
+    height: 100px;
+  }
+  #titre-pro-reconnu-rncp > .bloc-texte > div {
+    width: 100%;
+  }
+  #titre-pro-reconnu-rncp > .bloc-texte > div > p {
+    text-align: center;
+  }
+
+  #titre-pro-reconnu-rncp > .bloc-texte {
+    margin: 50px 0 0;
+    padding: 25px 0;
+  }
+}
 /* ################################################################################### */
 
 #soyez-100-finance {
@@ -132,6 +208,10 @@
   width: 50%;
   padding: 75px;
 }
+
+#soyez-100-finance > div > .bloc-texte > p {
+  padding-left: 0;
+}
 #soyez-100-finance h2 {
   color: #333;
 }
@@ -153,24 +233,8 @@
   background-color: white;
 }
 
-@media only screen and (max-device-width: 480px) {
-  #soyez-100-finance {
-    padding: 0;
-  }
-  #soyez-100-finance > div > .bloc-texte {
-    width: 100%;
-    padding: 0;
-    text-align: center;
-  }
-  #soyez-100-finance > div > .bloc-image {
-    width: 100%;
-    height: 250px;
-    margin-top: 25px;
-  }
-}
-
 /* TABLETS */
-@media only screen and (max-device-width: 959px) {
+@media only screen and (max-width: 959px) {
   #soyez-100-finance {
     padding: 0;
   }
@@ -184,6 +248,21 @@
   }
 }
 
+@media only screen and (max-width: 480px) {
+  #soyez-100-finance {
+    padding: 0;
+  }
+  #soyez-100-finance > div > .bloc-texte {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+  }
+  #soyez-100-finance > div > .bloc-image {
+    width: 100%;
+    height: 250px;
+    margin-top: 25px;
+  }
+}
 /* ########################################################## */
 
 #nos-formations-personnalisables {
@@ -230,7 +309,7 @@
 /* ################################################################################### */
 
 #personnalisez-vos-modules {
-  padding: 75px 300px;
+  padding: 50px 300px 75px;
 }
 
 #personnalisez-vos-modules h2 {
@@ -238,7 +317,7 @@
 }
 
 #personnalisez-vos-modules > .bloc-texte {
-  margin: 0 0 50px 0;
+  margin: 0 0 25px 0;
 }
 
 #personnalisez-vos-modules > .bloc-texte > p {
@@ -298,28 +377,24 @@
   margin: 15px 0 0 0;
 }
 
-@media only screen and (max-device-width: 480px) {
-  #personnalisez-vos-modules {
-    padding: 75px 0px;
-  }
-  #personnalisez-vos-modules h2 {
-    text-align: center;
-  }
-  #personnalisez-vos-modules > .bloc-texte {
-    margin: 0;
-  }
-  #personnalisez-vos-modules > .bloc-texte > p {
-    max-width: 100%;
-    text-align: start;
-  }
-  #personnalisez-vos-modules > .bloc-cards > div {
-    width: 95%;
-    margin: 25px 2.5%;
-  }
+#personnalisez-vos-modules > a {
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  background-color: #ca0032;
+  transition: all 333ms;
+  padding: 10px 15px;
+  border: #ca0032 1px solid;
+}
+
+#personnalisez-vos-modules .btn:hover {
+  color: #ca0032;
+  background-color: white;
 }
 
 /* TABLETS */
-@media only screen and (max-device-width: 959px) {
+@media only screen and (max-width: 959px) {
   #personnalisez-vos-modules {
     padding: 0 0 50px;
   }
@@ -339,6 +414,26 @@
   }
   #personnalisez-vos-modules > .bloc-cards > div:last-child {
     width: calc(100% - 5%);
+    margin: 25px 2.5%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #personnalisez-vos-modules {
+    padding: 75px 0px;
+  }
+  #personnalisez-vos-modules h2 {
+    text-align: center;
+  }
+  #personnalisez-vos-modules > .bloc-texte {
+    margin: 0;
+  }
+  #personnalisez-vos-modules > .bloc-texte > p {
+    max-width: 100%;
+    text-align: start;
+  }
+  #personnalisez-vos-modules > .bloc-cards > div {
+    width: 95%;
     margin: 25px 2.5%;
   }
 }
@@ -380,7 +475,8 @@
   padding-left: 0;
 }
 
-@media only screen and (max-device-width: 480px) {
+/* TABLETS */
+@media only screen and (max-width: 959px) {
   #une-equipe-qualifiee > div > .bloc-image {
     width: 100%;
     height: 250px;
@@ -394,8 +490,7 @@
   }
 }
 
-/* TABLETS */
-@media only screen and (max-device-width: 959px) {
+@media only screen and (max-width: 480px) {
   #une-equipe-qualifiee > div > .bloc-image {
     width: 100%;
     height: 250px;
@@ -460,7 +555,7 @@
   line-height: 1;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   #une-demarche-simple {
     padding: 75px 5px;
   }
@@ -475,7 +570,7 @@
   }
 }
 
-@media only screen and (max-device-width: 959px) {
+@media only screen and (max-width: 959px) {
   #une-demarche-simple {
     padding: 75px 5px;
   }
@@ -546,7 +641,7 @@
   color: #f1c40f;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   #ils-nous-ont-fait-confiances {
     padding: 75px 0px;
   }
@@ -563,7 +658,7 @@
   }
 }
 
-@media only screen and (max-device-width: 959px) {
+@media only screen and (max-width: 959px) {
   #ils-nous-ont-fait-confiances {
     padding: 0px;
   }
