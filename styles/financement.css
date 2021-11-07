@@ -43,25 +43,6 @@
   padding-left: 0;
   color: white;
 }
-@media only screen and (max-device-width: 480px) {
-  #nhesitez-plus > div > .bloc-image {
-    width: 100%;
-    height: 250px;
-  }
-
-  #nhesitez-plus > div > .bloc-texte {
-    width: 100%;
-    padding: 0;
-  }
-  #nhesitez-plus > div > .bloc-texte > h3 {
-    text-align: center;
-    font-size: 35px;
-  }
-  #nhesitez-plus > div > .bloc-texte > p {
-    text-align: center;
-    padding: 0 20px;
-  }
-}
 
 /* TABLETS */
 @media only screen and (max-device-width: 959px) {
@@ -73,6 +54,25 @@
   #nhesitez-plus > div > .bloc-texte {
     width: 100%;
     padding: 25px;
+  }
+  #nhesitez-plus > div > .bloc-texte > h3 {
+    text-align: center;
+    font-size: 35px;
+  }
+  #nhesitez-plus > div > .bloc-texte > p {
+    text-align: center;
+    padding: 0 20px;
+  }
+}
+@media only screen and (max-device-width: 480px) {
+  #nhesitez-plus > div > .bloc-image {
+    width: 100%;
+    height: 250px;
+  }
+
+  #nhesitez-plus > div > .bloc-texte {
+    width: 100%;
+    padding: 0;
   }
   #nhesitez-plus > div > .bloc-texte > h3 {
     text-align: center;
@@ -97,11 +97,22 @@
   align-items: flex-start;
   flex-wrap: wrap;
 }
+
 #sponsors > div > div {
   width: calc(33% - 50px);
   padding: 15px;
-  height: 650px;
+  height: 575px;
   margin: 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#sponsors > div > div span {
+  float: left;
+}
+#sponsors > div > div img {
+  padding: 0 10px 5px 0 !important;
 }
 #sponsors > div p {
   text-align: start;
@@ -124,23 +135,6 @@
   background-color: white;
 }
 
-@media only screen and (max-device-width: 480px) {
-  #sponsors {
-    padding: 25px 10px;
-  }
-  #sponsors > div > div {
-    width: 100%;
-    height: auto;
-    margin: 25px 0;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  }
-  #sponsors > div p {
-    padding: 0;
-  }
-  #sponsors > div h3 {
-    text-align: center;
-  }
-}
 /* TABLETS */
 @media only screen and (max-device-width: 959px) {
   #sponsors {
@@ -156,6 +150,32 @@
     padding: 0;
   }
   #sponsors > div h3 {
+    text-align: center;
+  }
+  #sponsors > div > div > div:last-child {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  #sponsors {
+    padding: 25px 10px;
+  }
+  #sponsors > div > div {
+    width: 100%;
+    height: auto;
+    margin: 25px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  #sponsors > div p {
+    padding: 0;
+  }
+  #sponsors > div h3 {
+    text-align: center;
+  }
+
+  #sponsors > div > div > div:last-child {
     text-align: center;
   }
 }

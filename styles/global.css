@@ -35,7 +35,7 @@ legend {
 /* TABLETS */
 @media only screen and (max-device-width: 959px) {
   p {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   h2 {
