@@ -36,8 +36,8 @@ const FormationsPage: NextPage = () => {
                 <Suspense fallback={<ProgressSpinner />}>
                   <Image
                     loader={myLoader}
-                    alt="majordomeformationsap-serveurs"
-                    src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-serveurs.jpeg"
+                    alt="majordomeformationsap-sécurité-travail"
+                    src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-sécurité-travail.jpeg"
                     layout="fill"
                     objectFit="cover"
                     quality={80}
@@ -54,8 +54,8 @@ const FormationsPage: NextPage = () => {
                 <Suspense fallback={<ProgressSpinner />}>
                   <Image
                     loader={myLoader}
-                    alt="majordomeformationsap-garde-enfant"
-                    src="/images/majordomeformationsap/formationADVF/majordomeformationsap-garde-enfant-min.jpeg"
+                    alt="majordomeformationsap-prevention-advf"
+                    src="/images/majordomeformationsap/formationADVF/majordomeformationsap-prevention-advf.jpeg"
                     layout="fill"
                     objectFit="cover"
                     quality={80}
