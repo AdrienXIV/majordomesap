@@ -40,7 +40,7 @@ const TitreProReconnuRncp: NextPage = () => {
           </Suspense>
         </div>
       </div>
-      <h3>Obtenez votre certification professionnelle</h3>
+      {/* <h3>Obtenez votre certification professionnelle</h3>
       <hr />
       <div className="p-grid bloc-icons">
         <div className="col-2">
@@ -67,7 +67,7 @@ const TitreProReconnuRncp: NextPage = () => {
           <i className="fas fa-magic"></i>
           <div>Formations enrichissantes et personnalisables</div>
         </div>
-      </div>
+      </div> */}
 
       <div className="bloc-texte">
         <div className="bloc-image">
