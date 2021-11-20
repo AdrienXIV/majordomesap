@@ -10,6 +10,7 @@ interface IRequestBody {
   message: string;
   email: string;
   formation: string;
+  choix: string;
   captcha: boolean;
   tel: string;
 }
@@ -33,7 +34,7 @@ export default DefaultHandler.post(async (req: NextApiRequest, res: NextApiRespo
     // #################################################
     // Structure du courriel
     // #################################################
-    const content = `Demande de contact : ${body.prenom} ${body.nom}<br> Email : ${body.email}<br>Téléphone portable : ${body.tel}<br>Formation désirée : ${body.formation}<br><br>${body.message}`;
+    const content = `Demande de contact : ${body.prenom} ${body.nom}<br> Email : ${body.email}<br>Téléphone portable : ${body.tel}<br>Formation désirée : ${body.formation}<br>Choix : ${body.choix}<br><br>${body.message}`;
 
     const mailer = await new Mailer(body.email, body.prenom, body.nom, "Demande de contact", content, content).send();
 
@@ -62,6 +63,8 @@ const verifs = (body: IRequestBody) => {
   if (!isExisted(body.tel)) errors.push("Champ message requis");
   if (!isExisted(body.email)) errors.push("Champ mail requis");
   if (!isExisted(body.message)) errors.push("Champ message requis");
+  if (!isExisted(body.choix)) errors.push("Champ formation requis");
+  if (!isExisted(body.formation)) errors.push("Champ vous préférez requis");
 
   // si y'a des erreurs, on envoie une réponse pour signaler à l'utilisateur que tous les champs requis ne sont pas remplis
   if (errors.length > 0) return { code: 409, errors };

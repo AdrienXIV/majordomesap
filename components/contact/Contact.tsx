@@ -13,10 +13,15 @@ import { InputMask } from "primereact/inputmask";
 import animationEmail from "@animations/send-email.json";
 import { Dropdown } from "primereact/dropdown";
 import ReCAPTCHA from "react-google-recaptcha";
+import { Checkbox } from "primereact/checkbox";
 
 const formations = [
   { name: "ADVF", value: 0 },
   { name: "Majordomat", value: 1 },
+];
+const choix = [
+  { name: "Être contacté par email/téléphone portable", value: 0 },
+  { name: "Être invité à une information collective", value: 1 },
 ];
 const Contact = () => {
   const toast = useRef(null);
@@ -28,9 +33,11 @@ const Contact = () => {
     email: "",
     tel: "",
     formation: null,
+    choix: null,
     captcha: false,
     message: "",
   });
+  const [checked, setChecked] = useState(false);
   const [contactSuccess, setContactSuccess] = useState(false);
   const [disable, setDisable] = useState(true);
   const [loading, setLoading] = useState(false);
@@ -42,8 +49,11 @@ const Contact = () => {
     if (!isExisted(state.prenom)) good++;
     if (!isExisted(state.email)) good++;
     if (!isExisted(state.tel)) good++;
+    if (!isExisted(state.formation)) good++;
+    if (!isExisted(state.choix)) good++;
     if (!isExisted(state.message)) good++;
     if (!state.captcha) good++;
+    if (!checked) good++;
 
     good > 0 ? setDisable(true) : setDisable(false);
   }, [state]);
@@ -66,6 +76,8 @@ const Contact = () => {
     if (!isExisted(state.email)) errors.push("Champ email requis");
     if (!isExisted(state.tel)) errors.push("Champ message requis");
     if (!isExisted(state.message)) errors.push("Champ message requis");
+    if (!isExisted(state.choix)) errors.push("Champ formation requis");
+    if (!isExisted(state.formation)) errors.push("Champ vous préférez requis");
     if (!state.captcha) errors.push("Champ Captcha requis");
 
     // si y'a des erreurs
@@ -81,7 +93,11 @@ const Contact = () => {
     //
     try {
       setLoading(true);
-      const dataToSend = { ...state, formation: formations.find(f => f.value === state.formation).name };
+      const dataToSend = {
+        ...state,
+        formation: formations.find(f => f.value === state.formation).name,
+        choix: choix.find(f => f.value === state.choix).name,
+      };
       const { data }: { data: { message: string } } = await axios.post("/api/contact", dataToSend);
       // on remet à 0 le Captcha
       recaptchaRef.current && recaptchaRef.current.props.grecaptcha.reset();
@@ -93,6 +109,7 @@ const Contact = () => {
         prenom: "",
         message: "",
         formation: null,
+        choix: null,
         captcha: false,
         tel: "",
       });
@@ -200,6 +217,18 @@ const Contact = () => {
           placeholder="Sélectionnez une formation"
         />
       </div>
+
+      <div className="col-12 md:col-12 lg:col-12 block-contact">
+        <Dropdown
+          className="col-12 form-input-size"
+          optionLabel="name"
+          value={state.choix}
+          options={choix}
+          onChange={e => setState(prev => ({ ...prev, choix: e.value }))}
+          placeholder="Vous préférez ..."
+        />
+      </div>
+
       <div className="col-12 md:col-12 lg:col-12 block-contact">
         <InputTextarea
           value={state.message}
@@ -220,6 +249,11 @@ const Contact = () => {
             setState(prev => ({ ...prev, captcha: true }));
           }}
         />
+      </div>
+
+      <div className="col-12 md:col-12 lg:col-12 block-contact">
+        <label style={{ marginRight: 10 }}>Acceptez-vous les mentions légales</label>
+        <Checkbox onChange={e => setChecked(e.checked)} checked={checked}></Checkbox>
       </div>
 
       <div className="col-12 md:col-12 lg:col-12 block-contact">

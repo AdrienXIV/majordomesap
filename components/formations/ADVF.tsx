@@ -457,7 +457,7 @@ const ADVF: NextPage = () => {
         <Timeline value={events1} layout={layout as any} className="customized-timeline" marker={customizedMarker} content={customizedContent} />
       </div>
 
-      <div className="p-grid plus-qu-un-simple-assistant">
+      {/* <div className="p-grid plus-qu-un-simple-assistant">
         <div className="bloc-4-images">
           <div className="second">
             <Suspense fallback={<ProgressSpinner />}>
@@ -527,7 +527,7 @@ const ADVF: NextPage = () => {
             bienveillantes avec la personne accompagnée.
           </p>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
