@@ -14,34 +14,6 @@ const Majordomat: NextPage = () => {
     }
   }, []);
 
-  const events1 = [
-    {
-      status: "1. Suivi de la formation",
-      color: "#f1c40f",
-      numero: 1,
-    },
-    {
-      status: "2. Stage pratique",
-      color: "#3498db",
-      numero: 2,
-    },
-    {
-      status: "3. Préparation au jury",
-      color: "#8e44ad",
-      numero: 3,
-    },
-    {
-      status: "4. Passage devant le jury",
-      color: "#006266",
-      numero: 4,
-    },
-    {
-      status: "5. Aide à l'insertion",
-      color: "#e74c3c",
-      numero: 5,
-    },
-  ];
-
   const customizedMarker = item => {
     return (
       <span className="custom-marker p-shadow-2">
@@ -216,9 +188,6 @@ const Majordomat: NextPage = () => {
         </div>
       </div>
 
-      <div className="bloc-timeline">
-        <Timeline value={events1} layout={layout as any} className="customized-timeline" marker={customizedMarker} content={customizedContent} />
-      </div>
     </section>
   );
 };
