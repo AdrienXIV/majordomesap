@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { InputText } from "primereact/inputtext";
 import { InputTextarea } from "primereact/inputtextarea";
 import { Button } from "primereact/button";
@@ -11,21 +11,51 @@ import axios from "axios";
 import { isExisted } from "@utils/validators";
 import { InputMask } from "primereact/inputmask";
 import animationEmail from "@animations/send-email.json";
+import { Dropdown } from "primereact/dropdown";
+import ReCAPTCHA from "react-google-recaptcha";
 
+const formations = [
+  { name: "ADVF", value: 0 },
+  { name: "Majordomat", value: 1 },
+];
 const Contact = () => {
   const toast = useRef(null);
+  const recaptchaRef = useRef(null);
+
   const [state, setState] = useState({
     nom: "",
     prenom: "",
     email: "",
     tel: "",
+    formation: null,
+    captcha: false,
     message: "",
   });
   const [contactSuccess, setContactSuccess] = useState(false);
+  const [disable, setDisable] = useState(true);
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    let good = 0;
+    // on incrémente la variable afin de rendre le botuon désactivé ou non si tous les champs sont remplis
+    if (!isExisted(state.nom)) good++;
+    if (!isExisted(state.prenom)) good++;
+    if (!isExisted(state.email)) good++;
+    if (!isExisted(state.tel)) good++;
+    if (!isExisted(state.message)) good++;
+    if (!state.captcha) good++;
+
+    good > 0 ? setDisable(true) : setDisable(false);
+  }, [state]);
 
   const onSubmit = async () => {
     toast.current.clear();
+
+    // si le bouton est désactivée
+    if (disable) {
+      toast.current.show({ severity: "error", summary: "Erreur", detail: "Veuillez remplir tous les champs", sticky: true });
+      return;
+    }
 
     //
     // Vérification des champs
@@ -36,6 +66,7 @@ const Contact = () => {
     if (!isExisted(state.email)) errors.push("Champ email requis");
     if (!isExisted(state.tel)) errors.push("Champ message requis");
     if (!isExisted(state.message)) errors.push("Champ message requis");
+    if (!state.captcha) errors.push("Champ Captcha requis");
 
     // si y'a des erreurs
     if (errors.length > 0) {
@@ -50,13 +81,19 @@ const Contact = () => {
     //
     try {
       setLoading(true);
-      const { data }: { data: { message: string } } = await axios.post("/api/contact", state);
+      const dataToSend = { ...state, formation: formations.find(f => f.value === state.formation).name };
+      const { data }: { data: { message: string } } = await axios.post("/api/contact", dataToSend);
+      // on remet à 0 le Captcha
+      recaptchaRef.current && recaptchaRef.current.props.grecaptcha.reset();
+
       setContactSuccess(true);
       setState({
         email: "",
         nom: "",
         prenom: "",
         message: "",
+        formation: null,
+        captcha: false,
         tel: "",
       });
 
@@ -152,18 +189,41 @@ const Contact = () => {
           onChange={e => setState(prev => ({ ...prev, tel: e.value }))}
         />
       </div>
+
+      <div className="col-12 md:col-12 lg:col-12 block-contact">
+        <Dropdown
+          className="col-12 form-input-size"
+          optionLabel="name"
+          value={state.formation}
+          options={formations}
+          onChange={e => setState(prev => ({ ...prev, formation: e.value }))}
+          placeholder="Sélectionnez une formation"
+        />
+      </div>
       <div className="col-12 md:col-12 lg:col-12 block-contact">
         <InputTextarea
           value={state.message}
           name="message"
           className="col-12 form-texterea-size"
           required
+          rows={5}
           placeholder="Un message ?"
           onChange={onChange}
         />
       </div>
+
       <div className="col-12 md:col-12 lg:col-12 block-contact">
-        <Button loading={loading} className="col-4 btn-valider-form" label={loading ? "" : "valider"} onClick={onSubmit} />
+        <ReCAPTCHA
+          ref={recaptchaRef}
+          sitekey={process.env.NEXT_PUBLIC_CAPTCHA}
+          onChange={e => {
+            setState(prev => ({ ...prev, captcha: true }));
+          }}
+        />
+      </div>
+
+      <div className="col-12 md:col-12 lg:col-12 block-contact">
+        <Button disabled={disable} loading={loading} className="col-4 btn-valider-form" label={loading ? "" : "valider"} onClick={onSubmit} />
       </div>
     </div>
   );

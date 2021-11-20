@@ -9,12 +9,19 @@ interface IRequestBody {
   prenom: string;
   message: string;
   email: string;
+  formation: string;
+  captcha: boolean;
   tel: string;
 }
 export default DefaultHandler.post(async (req: NextApiRequest, res: NextApiResponse) => {
   const body = req.body as IRequestBody;
 
   try {
+    // si le captcha n'est pas bon
+    if (!body.captcha) {
+      return res.status(400).json({ error: "Veuillez valider le Captcha" });
+    }
+
     // #################################################
     // On vérifie les champs
     // #################################################
@@ -26,7 +33,7 @@ export default DefaultHandler.post(async (req: NextApiRequest, res: NextApiRespo
     // #################################################
     // Structure du courriel
     // #################################################
-    const content = `Demande de contact : ${body.prenom} ${body.nom}<br> Email : ${body.email}<br>Téléphone portable : ${body.tel}<br><br>${body.message}`;
+    const content = `Demande de contact : ${body.prenom} ${body.nom}<br> Email : ${body.email}<br>Téléphone portable : ${body.tel}<br>Formation désirée : ${body.formation}<br><br>${body.message}`;
 
     const mailer = await new Mailer(body.email, body.prenom, body.nom, "Demande de contact", content, content).send();
 
