@@ -20,6 +20,15 @@ const Header: NextPage = () => {
       url: "/",
     },
     {
+      label: "Qui sommes-nous ?",
+      icon: "pi pi-fw pi-user",
+      command: e => {
+        e.originalEvent.preventDefault();
+        router.push("/qui-sommes-nous");
+      },
+      url: "/qui-sommes-nous",
+    },
+    {
       label: "Formations",
       icon: "pi pi-fw pi-pencil",
       command: e => {
@@ -36,15 +45,6 @@ const Header: NextPage = () => {
         router.push("/financement");
       },
       url: "/financement",
-    },
-    {
-      label: "Qui sommes-nous ?",
-      icon: "pi pi-fw pi-user",
-      command: e => {
-        e.originalEvent.preventDefault();
-        router.push("/qui-sommes-nous");
-      },
-      url: "/qui-sommes-nous",
     },
     {
       label: "Prochaines rentrées",
