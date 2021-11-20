@@ -1,47 +1,41 @@
 :root {
-  --white: #eee;
-  --size-font: 1.5rem;
-  --size-icon: 1.3rem;
-  --size-padding: 2rem;
+    --white: #eee;
+    --size-font: 1.5rem;
+    --size-icon: 1.3rem;
+    --size-padding: 2rem;
 }
 
-.icons-nav-style > ul > li > a > span {
-  font-size: var(--size-icon);
+.icons-nav-style>ul>li>a>span {
+    font-size: var(--size-icon);
 }
 
 .icons-nav-style {
-  background-color: var(--white);
-  border: 0px solid;
-  position: fixed;
-  width: 100%;
-  z-index: 999999;
+    background-color: var(--white);
+    border: 0px solid;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
 }
 
-.icons-nav-style > a > i {
-  font-size: var(--size-font);
+.icons-nav-style>a>i {
+    font-size: var(--size-font);
 }
 
-.icons-nav-style > a {
-  margin-left: auto;
-  padding: var(--size-padding);
+.icons-nav-style>a {
+    margin-left: auto;
+    padding: var(--size-padding);
 }
 
 .contact-nav,
 .contact-nav:hover {
-  background: #ca0032;
-  border-radius: 1px;
-  border: 1px solid #ca0032;
-  color: #ca0032 !important;
+    background: #ca0032;
+    border-radius: 1px;
+    border: 1px solid #ca0032;
+    color: #ca0032 !important;
 }
 
-.contact-nav > a > span,
-.contact-nav > a > span:hover {
-  border-radius: 1px;
-  color: #fff !important;
-}
-
-.block-nav-header {
-  height: 6vh;
-  color: aliceblue;
-  background-color: var(--color-black);
+.contact-nav>a>span,
+.contact-nav>a>span:hover {
+    border-radius: 1px;
+    color: #fff !important;
 }

@@ -27,7 +27,7 @@ const ImageAccueil: NextPage = () => {
       </Suspense>
       <div className="hero-content-area">
         <h1 className={className}>
-          Devenez Majordome <br />
+          Devenez ADVF <br />
           Titre Reconnue par l'état et le ministère du travail
         </h1>
 
