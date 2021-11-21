@@ -14,12 +14,17 @@ const TitreProReconnuRncp: NextPage = () => {
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
-              alt="qualiopi"
-              src="/images/majordomeformationsap/Accueil/qualiopi.png"
+              alt="pole-emploi"
+              src="/images/majordomeformationsap/Accueil/poleemploi.png"
               layout="fill"
               objectFit="contain"
               quality={80}
             />
+          </Suspense>
+        </div>
+        <div>
+          <Suspense fallback={<ProgressSpinner />}>
+            <Image loader={myLoader} alt="OPCO" src="/images/majordomeformationsap/Accueil/opco.png" layout="fill" objectFit="contain" quality={80} />
           </Suspense>
         </div>
         <div>
