@@ -14,7 +14,7 @@ const Soyez100Finance: NextPage = () => {
           <br />
           <p>
             Votre formation peut être financée selon votre situation. Vous pouvez selon votre cas, faire une demande de prise en charge de la
-            formation auprès des structures dédiées (CPF, Opco, Pôle Emploi ou Mission locale)
+            formation auprès des structures dédiées (CPF, Opco, Pôle Emploi, Agefiph ou Mission locale)
           </p>
           <p>Jusqu’à 100% de votre formation peut alors vous être alloué.</p>
           <br />
