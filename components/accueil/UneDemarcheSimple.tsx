@@ -9,43 +9,45 @@ const UneDemarcheSimple: NextPage = () => {
     {
       status: "Prise de contact",
       color: "#f1c40f",
-      content: "Prenez contact par téléphone ou remplissez le formulaire, un conseiller vous joindra en moins d'1h",
+      content:
+        "Assistez à nos séances d’information collective, contactez-nous par téléphone ou remplissez le formulaire un conseiller vous contactera dans l’heure qui suit",
       numero: 1,
     },
     {
       status: "Moyens de financement",
       color: "#3498db",
-      content: "Prenez connaissance du financement qui vous est accordé avec notre professionnel",
+      content: "Prenez connaissance du financement qui vous est accordé avec notre conseiller",
       numero: 2,
     },
     {
-      status: "Accès à la formation",
+      status: "Formation à la carte",
       color: "#8e44ad",
-      content: "Profitez de la richesse des cours afin de devenir un as de l’assistance à domicile",
+      content: "Composez votre formation selon vos besoins en choisissant un ou plusieurs modules",
       numero: 3,
     },
     {
-      status: "Module personnalisé",
+      status: "Accès à la formation",
       color: "#006266",
-      content: "Profitez des connaissances de professionnels dans votre module sélectionné",
+      content: "Profitez de la richesse des cours en présentiel et retrouvez tous vos supports de cours sur la plateforme digitale du centre",
       numero: 4,
     },
     {
-      status: "Mise en relation",
+      status: "Certification ",
       color: "#e74c3c",
-      content: "Grâce à notre réseaux, vous aurez des chances d’élargir et de prendre contact avec des professionnels du métier",
+      content:
+        "Obtenez vos certificats de compétences professionnelles et constituez votre dossier de passage devant le Jury pour l’obtention du Titre Professionnel ADVF",
       numero: 5,
     },
     {
       status: "Stage obligatoire",
       color: "#2c3e50",
-      content: "Mettez vos connaissances et compétences en pratique sur le mileu professionnel",
+      content: "Conciliez connaissances et compétences dans le milieu professionnel. Passage devant le jury",
       numero: 6,
     },
     {
       status: "Insertion professionnelle",
       color: "#27ae60",
-      content: "Grâce à notre réseaux, vous aurez des chances d’élargir et de prendre contact avec des professionnels du métier",
+      content: "Profitez de notre réseau pour entrer en contact avec des professionnels du métier et facilitez votre insertion professionnelle",
       numero: 7,
     },
   ];
@@ -63,11 +65,6 @@ const UneDemarcheSimple: NextPage = () => {
       <div className="timeline-step">
         <h3>{item.status}</h3>
         <p style={{ textAlign: item.numero % 2 === 1 ? "start" : "end" }}>{item.content}</p>
-        {item.numero === 6 && (
-          <p style={{ textAlign: "end" }}>
-            <b>Passage à l'examen</b>
-          </p>
-        )}
       </div>
     );
   };
