@@ -595,7 +595,7 @@
 /* #################################################################################### */
 
 #ils-nous-ont-fait-confiances {
-  padding: 75px 200px;
+  padding: 75px 100px;
 }
 
 #ils-nous-ont-fait-confiances h2 {
@@ -611,14 +611,15 @@
 
 #ils-nous-ont-fait-confiances > div > div {
   width: 33%;
-  height: 300px;
+  height: 325px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-#ils-nous-ont-fait-confiances > div p {
+#ils-nous-ont-fait-confiances > div > div p {
   line-height: 1.75em;
+  height: 125px;
   color: #333;
 }
 
@@ -648,23 +649,6 @@
   color: #f1c40f;
 }
 
-@media only screen and (max-width: 480px) {
-  #ils-nous-ont-fait-confiances {
-    padding: 75px 0px;
-  }
-  #ils-nous-ont-fait-confiances h2 {
-    text-align: center;
-  }
-  #ils-nous-ont-fait-confiances > div > div {
-    margin: 50px 0;
-    width: 100%;
-    align-content: center;
-  }
-  #ils-nous-ont-fait-confiances > div .avatar legend {
-    text-align: center;
-  }
-}
-
 @media only screen and (max-width: 959px) {
   #ils-nous-ont-fait-confiances {
     padding: 0px;
@@ -683,5 +667,28 @@
   }
   #ils-nous-ont-fait-confiances > div .avatar legend {
     text-align: center;
+  }
+  #ils-nous-ont-fait-confiances > div > div p {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #ils-nous-ont-fait-confiances {
+    padding: 75px 0px;
+  }
+  #ils-nous-ont-fait-confiances h2 {
+    text-align: center;
+  }
+  #ils-nous-ont-fait-confiances > div > div {
+    margin: 50px 0;
+    width: 100%;
+    align-content: center;
+  }
+  #ils-nous-ont-fait-confiances > div .avatar legend {
+    text-align: center;
+  }
+  #ils-nous-ont-fait-confiances > div > div p {
+    height: auto;
   }
 }

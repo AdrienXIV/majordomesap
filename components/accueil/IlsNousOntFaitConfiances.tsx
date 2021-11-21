@@ -10,16 +10,18 @@ const IlsNousOntFaitConfiances: NextPage = () => {
       <div className="bloc-card">
         <div>
           <div className="avatar">
-            <Image loader={myLoader} alt="avatar" src="/images/avatar1.png" width={150} height={100} quality={50} />
+            <Image loader={myLoader} alt="avatar" src="/images/avatar2.png" width={150} height={150} quality={50} />
             <legend>
               Karima A. <br />
               Formation ADVF
             </legend>
           </div>
-          <p>
-            Toutes mes attentes furent comblées. <br />
-            Merci à l'équipe Majordomat Formation Sap pour leur professionnalisme. C'est d'une telle formation dont j'avais besoin.
-          </p>
+          <div>
+            <p>
+              Toutes mes attentes furent comblées. <br />
+              Merci à l'équipe Majordomat Formation Sap pour leur professionnalisme. C'est d'une telle formation dont j'avais besoin.
+            </p>
+          </div>
           <div className="card-footer">
             <i className="pi pi-star"></i>
             <i className="pi pi-star"></i>
@@ -31,13 +33,15 @@ const IlsNousOntFaitConfiances: NextPage = () => {
 
         <div>
           <div className="avatar">
-            <Image loader={myLoader} alt="avatar" src="/images/avatar1.png" width={150} height={100} quality={50} />
+            <Image loader={myLoader} alt="avatar" src="/images/avatar3.png" width={150} height={150} quality={50} />
             <legend>
               Sara A. <br />
               Formation ADVF
             </legend>
           </div>
-          <p>Je recommande ce centre ! Équipe très professionnelle et à l'écoute. J'occupe aujourd'hui le poste qui me correspond !.</p>
+          <div>
+            <p>Je recommande ce centre ! Équipe très professionnelle et à l'écoute. J'occupe aujourd'hui le poste qui me correspond !.</p>
+          </div>
           <div className="card-footer">
             <i className="pi pi-star"></i>
             <i className="pi pi-star"></i>
@@ -49,13 +53,15 @@ const IlsNousOntFaitConfiances: NextPage = () => {
 
         <div>
           <div className="avatar">
-            <Image loader={myLoader} alt="avatar" src="/images/avatar1.png" width={150} height={100} quality={50} />
+            <Image loader={myLoader} alt="avatar" src="/images/avatar1.png" width={150} height={150} quality={50} />
             <legend>
               Guillaume L. <br />
               Formation Majordomat
             </legend>
           </div>
-          <p>J'ai été impressionné par la qualité du service et de la formation !</p>
+          <div>
+            <p>J'ai été impressionné par la qualité du service et de la formation !</p>
+          </div>
           <div className="card-footer">
             <i className="pi pi-star"></i>
             <i className="pi pi-star"></i>
