@@ -26,6 +26,7 @@ const choix = [
 const Contact = () => {
   const toast = useRef(null);
   const recaptchaRef = useRef(null);
+  const mapRef = useRef(null);
 
   const [state, setState] = useState({
     nom: "",
@@ -41,6 +42,14 @@ const Contact = () => {
   const [contactSuccess, setContactSuccess] = useState(false);
   const [disable, setDisable] = useState(true);
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    return () => {
+      // suppression de la carte
+      mapRef.current?.off();
+      mapRef.current?.remove();
+    };
+  }, []);
 
   useEffect(() => {
     let good = 0;
@@ -136,6 +145,7 @@ const Contact = () => {
   const carte = (
     <MapContainer className="container-map" center={[48.829304, 2.2640404]} zoom={17} scrollWheelZoom={true}>
       <TileLayer
+        ref={mapRef}
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}"
         id="mapbox/streets-v11"
