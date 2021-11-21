@@ -16,30 +16,30 @@ const ADVF: NextPage = () => {
 
   const events1 = [
     {
-      status: "1. Suivi de la formation",
+      status: "1. Mise en situation professionnelle centrée sur la maîtrise des gestes professionnels",
       color: "#f1c40f",
       numero: 1,
     },
     {
-      status: "2. Stage pratique",
+      status: "2. Entretien technique",
       color: "#3498db",
       numero: 2,
     },
     {
-      status: "3. Préparation au jury",
+      status: "3. Dossier professionnel (DP)",
       color: "#8e44ad",
       numero: 3,
     },
     {
-      status: "4. Passage devant le jury",
+      status: "4. Entretien final avec le jury",
       color: "#006266",
       numero: 4,
     },
-    {
-      status: "5. Aide à l'insertion",
-      color: "#e74c3c",
-      numero: 5,
-    },
+    // {
+    //   status: "5. Aide à l'insertion",
+    //   color: "#e74c3c",
+    //   numero: 5,
+    // },
   ];
 
   const customizedMarker = item => {
