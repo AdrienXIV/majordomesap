@@ -38,8 +38,8 @@ const HomePage: NextPage = () => {
           <Rncp />
         </div>
         <PersonnalisezVosModules />
-        <UneEquipeQualifiee />
         <UneDemarcheSimple />
+        <UneEquipeQualifiee />
         <IlsNousOntFaitConfiances />
         <Suspense fallback={<ProgressSpinner />}>
           <Contact />
