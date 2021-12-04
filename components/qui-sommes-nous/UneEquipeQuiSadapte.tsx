@@ -11,10 +11,8 @@ const UneEquipeQuiSadapte: NextPage = () => {
 
       <div className="bloc-texte">
         <p>
-          L’objectif de ce pôle est de promouvoir et valoriser des métiers de passions, en formant les apprenant(e)s à la dextérité professionnelle et
-          au savoir-être, tout en leur permettant d’exprimer leur potentiel. Majordome Formation SAP s’engage dans une démarche de qualité, avec des
-          enseignements définis par l’Éducation Nationale et le Ministère du Travail, afin de prodiguer les meilleures formations par des instructeurs
-          professionnels et expérimentés.
+          L'objectif de ce pôle est de promouvoir et valoriser des métiers de passions, en formant les apprenant(e)s à la dextérité professionnelle et
+          au savoir-être, tout en leur permettant d'exprimer leur potentiel.
         </p>
       </div>
     </section>

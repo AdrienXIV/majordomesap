@@ -38,7 +38,7 @@
 }
 #nhesitez-plus > div > .bloc-texte > p {
   max-width: 100%;
-  text-align: start;
+  text-align: justify;
   width: 100%;
   padding-left: 0;
   color: white;
@@ -115,7 +115,7 @@
   padding: 0 10px 5px 0 !important;
 }
 #sponsors > div p {
-  text-align: start;
+  text-align: justify;
   line-height: 1.75em;
   color: #333;
   padding: 0;

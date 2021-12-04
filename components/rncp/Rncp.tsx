@@ -34,6 +34,12 @@ const Rncp = () => {
       </div>
       <hr />
       <h2 className="text-center title-rncp">Nos Formations RNCP CAP/BAC PRO</h2>
+      <div className="sous-texte-formations">
+        <p>
+          Chaque classe est composée d’un groupe réduit afin d’initier au mieux chaque participant en présentiel avec un accès exclusif de vos cours
+          sur la plateforme du centre.
+        </p>
+      </div>
       <div className="grid grid-rncp">
         <div className="col-12 md:col-6 lg:col-4">
           <Card className="card-rncp effet-rncp" footer={footerCard}>
@@ -63,7 +69,7 @@ const Rncp = () => {
               <h3 className="section-rncp">MAJORDOMAT</h3>
               <div className="voir">
                 <h5 className="p-title1">Adaptée pour tous</h5>
-                <p className="p-text1">
+                {/* <p className="p-text1">
                   Le Titre Professionnel de Majordome de niveau 3 est délivré par le Ministère du Travail et inscrit au RNCP. Il permet d’accéder aux
                   métiers des services à la personne en apportant une intervention professionnelle à domicile de qualité auprès des personnes.{" "}
                 </p>
@@ -73,6 +79,14 @@ const Rncp = () => {
                   l’intervention à domicile.
                   <br />
                   <br />
+                  Les modules transversaux de Majordomat, vous attribuent la prestance et les aptitudes d’un majordome/gouvernante de maison qui vous
+                  permettront de vous situer en tant que véritable professionnel de l’intervention à domicile.
+                </p> */}
+                <p className="p-text1">
+                  Les modules de Majordomat vous attribuent la prestance et les aptitudes d’un majordome/gouvernante de maison qui vous permettront de
+                  vous situer en tant que véritable professionnel de l’intervention à domicile.
+                </p>
+                <p className="p-text1">
                   Les modules transversaux de Majordomat, vous attribuent la prestance et les aptitudes d’un majordome/gouvernante de maison qui vous
                   permettront de vous situer en tant que véritable professionnel de l’intervention à domicile.
                 </p>

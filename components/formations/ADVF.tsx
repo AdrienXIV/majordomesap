@@ -84,6 +84,18 @@ const ADVF: NextPage = () => {
           d’accéder aux métiers des services à la <b>personne en apportant une intervention professionnelle à domicile</b> de qualité auprès des
           personnes assistées.
         </p>
+        <br />
+        <p>
+          Le professionnel ADVF joue un rôle important dans la vie des personnes assistées, en effectuant des tâches diversifiées de façon autonome
+          tout en s’adaptant aux différents contextes familiaux tout au long de l’accompagnement. Il facilite les actes de la vie au quotidien en
+          prenant compte de la personne dans sa globalité en respectant sa vie privée et établit des relations interpersonnelles en maintenant la
+          distance professionnelle nécessaire.
+        </p>
+        <p>
+          La formation se compose de trois pôles d’activités permettant l’acquisition de 13 compétences et de trois compétences dites transversales.
+          Ces compétences seront déclinées tout au long de la formation dans les trois pôles car elles sont le socle du métier d’assistant de vie aux
+          familles.
+        </p>
       </div>
 
       <div className="p-grid bloc">

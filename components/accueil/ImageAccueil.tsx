@@ -5,19 +5,37 @@ import Link from "next/link";
 import { ProgressSpinner } from "primereact/progressspinner";
 import { myLoader } from "@utils/loader";
 
+const H1_CONTENUS = [
+  {
+    texte: () => (
+      <>
+        Obtenez votre certification auxiliaire de vie aux familles (advf) 100% financée<a href="#soyez-100-finance">*</a>
+      </>
+    ),
+    imgPath: "/images/4.jpg",
+  },
+  {
+    texte: () => <>Formation Majordome par excellence</>,
+    imgPath: "/images/2.jpg",
+  },
+  {
+    texte: () => <>Formation auxiliaire de vie aux familles (advf) certifiée de niveau 3</>,
+    imgPath: "/images/3.jpg",
+  },
+];
 const ImageAccueil: NextPage = () => {
-  const [image, setImage] = useState("/images/1.jpg");
+  const [image, setImage] = useState(H1_CONTENUS[0].imgPath);
+  const [texteH1, setTexteH1] = useState(H1_CONTENUS[0].texte());
   const [className, setClassName] = useState("shadow-black");
 
   useEffect(() => {
-    let random = Math.floor(Math.random() * 5);
-    // 0 n'existe pas dans les images
-    if (random === 0) random = 1;
+    let random = Math.floor(Math.random() * 3);
 
-    if (random === 1) setClassName("shadow-white");
+    // if (random === 1) setClassName("shadow-white");
 
     // maj de l'image au hasard
-    setImage(`/images/${random}.jpg`);
+    setImage(H1_CONTENUS[random].imgPath);
+    setTexteH1(H1_CONTENUS[random].texte());
   }, []);
 
   return (
@@ -26,10 +44,7 @@ const ImageAccueil: NextPage = () => {
         <Image loader={myLoader} alt="image aléatoire" src={image} quality={80} layout="fill" objectFit="cover" />
       </Suspense>
       <div className="hero-content-area">
-        <h1 className={className}>
-          Devenez ADVF, <br />
-          Titre Professionnel de niveau 3 inscrit au RNCP.
-        </h1>
+        <h1 className={className}>{texteH1}</h1>
 
         <Link href="/#contact" passHref>
           <a className="btn">Nous rejoindre</a>

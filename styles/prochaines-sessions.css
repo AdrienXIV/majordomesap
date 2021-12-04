@@ -6,33 +6,38 @@
   display: flex;
   flex-wrap: wrap;
   margin: 75px 0;
+  justify-content: space-evenly;
 }
 #dates-sessions .bloc-dates > div {
+  min-width: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 15px;
   width: calc(20% - 30px);
   color: #333;
-  height: 225px;
+  height: auto;
   padding: 15px;
   border-radius: 5px;
   line-height: 1.5em;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-#dates-sessions .bloc-dates > div > h3 {
+#dates-sessions .bloc-dates > div h3 {
   text-align: center;
   color: #333;
   font-size: larger;
 }
 
-#dates-sessions .bloc-dates > div > .preinscription {
+#dates-sessions .bloc-dates > div .preinscription {
   text-align: center;
 }
-#dates-sessions .bloc-dates > div > .preinscription button {
+#dates-sessions .bloc-dates > div .preinscription button {
   background-color: #ca0032;
   border-color: #ca0032;
   color: white;
   transition-duration: 0ms;
 }
-#dates-sessions .bloc-dates > div > .preinscription button:hover {
+#dates-sessions .bloc-dates > div .preinscription button:hover {
   color: #ca0032;
   border-color: #ca0032;
   background-color: white;

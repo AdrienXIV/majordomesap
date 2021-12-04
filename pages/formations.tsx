@@ -29,6 +29,7 @@ const FormationsPage: NextPage = () => {
       <main>
         <section id="formations">
           <h2>Formations</h2>
+          <p>Les métiers des services aux personnes sont en pleine expansion et ils sont reconnus comme de véritables professions</p>
           <hr />
           <div className="p-grid">
             <Link href="/formation-majordomat" passHref>

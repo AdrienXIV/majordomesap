@@ -22,8 +22,8 @@ const EquipePedagogieCertifiee: NextPage = () => {
           <div>
             <h4>Équipe Complète</h4>
             <p>
-              Maître d’Hôtel, Infirmière d’état, Éducateur spécialisé de la petite enfance / Directrice de crèche, Professeur de FLE (français langue
-              étrangère), Formateur en science humaine et sociale &amp; Formateur développement personnel
+              Formateur ADVF, Formateur en science humaine et social, Éducateur spécialisé de la petite enfance, Maître d’hôtel, Formateur
+              développement personnel
             </p>
           </div>
         </div>
@@ -62,8 +62,9 @@ const EquipePedagogieCertifiee: NextPage = () => {
           <div>
             <h4>Reconnue et certifiée</h4>
             <p>
-              Chaque membre de l'équipe possède des certifications de compétences reconnues par l'Etat ainsi que des aptitudes à enseigner. Le centre
-              est également reconnu grâce à ses titres &amp; partenaires : Titre Dotadock, éligibilité étatiques, délivrance d'un statut national..
+              Reconnue et certifiée (déplacer et mettre avant pédagogie en petits groupes): Chaque membre de l’équipe possède des aptitudes et
+              qualifications à enseigner reconnues par l’État. Le centre est également reconnu par ses certifications et accréditations : Datadock,
+              éligibilité étatique, FFP...
             </p>
           </div>
         </div>

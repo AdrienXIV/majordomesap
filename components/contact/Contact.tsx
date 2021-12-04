@@ -18,10 +18,13 @@ import { Checkbox } from "primereact/checkbox";
 const formations = [
   { name: "ADVF", value: 0 },
   { name: "Majordomat", value: 1 },
+  { name: "Réclamation", value: 2 },
+  { name: "Autre", value: 3 },
 ];
 const choix = [
-  { name: "Être contacté par email/téléphone portable", value: 0 },
-  { name: "Être invité à une information collective", value: 1 },
+  { name: "Être contacté par email", value: 0 },
+  { name: "Être contacté par téléphone portable", value: 1 },
+  { name: "Être invité à une information collective", value: 2 },
 ];
 const Contact = () => {
   const toast = useRef(null);
@@ -185,13 +188,21 @@ const Contact = () => {
           className="col-12 form-input-size"
           value={state.prenom}
           required
-          placeholder="Votre prenom"
+          placeholder="Votre prenom *"
           type="text"
           onChange={onChange}
         />
       </div>
       <div className="col-12 md:col-6 lg:col-6 block-contact">
-        <InputText name="nom" className="col-12 form-input-size" value={state.nom} required placeholder="Votre nom" type="text" onChange={onChange} />
+        <InputText
+          name="nom"
+          className="col-12 form-input-size"
+          value={state.nom}
+          required
+          placeholder="Votre nom *"
+          type="text"
+          onChange={onChange}
+        />
       </div>
       <div className="col-12 md:col-6 lg:col-6 block-contact">
         <InputText
@@ -199,7 +210,7 @@ const Contact = () => {
           className="col-12 form-input-size"
           value={state.email}
           required
-          placeholder="Votre email"
+          placeholder="Votre email *"
           type="email"
           onChange={onChange}
         />
@@ -211,7 +222,7 @@ const Contact = () => {
           value={state.tel}
           className="col-12 form-input-size"
           required
-          placeholder="Votre numéro de téléphone"
+          placeholder="Votre numéro de téléphone *"
           type="phone"
           onChange={e => setState(prev => ({ ...prev, tel: e.value }))}
         />
@@ -224,7 +235,7 @@ const Contact = () => {
           value={state.formation}
           options={formations}
           onChange={e => setState(prev => ({ ...prev, formation: e.value }))}
-          placeholder="Sélectionnez une formation"
+          placeholder="Sélectionnez une formation *"
         />
       </div>
 
@@ -235,7 +246,7 @@ const Contact = () => {
           value={state.choix}
           options={choix}
           onChange={e => setState(prev => ({ ...prev, choix: e.value }))}
-          placeholder="Vous préférez ..."
+          placeholder="Vous préférez ... *"
         />
       </div>
 
@@ -262,7 +273,9 @@ const Contact = () => {
       </div>
 
       <div className="col-12 md:col-12 lg:col-12 block-contact">
-        <label style={{ marginRight: 10 }}>Acceptez-vous les mentions légales</label>
+        <label style={{ marginRight: 10 }}>
+          Acceptez-vous les mentions légales <span style={{ color: "red" }}>*</span>
+        </label>
         <Checkbox onChange={e => setChecked(e.checked)} checked={checked}></Checkbox>
       </div>
 

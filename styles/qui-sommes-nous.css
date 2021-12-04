@@ -1,6 +1,9 @@
 #qui-sommes-nous {
   padding: 100px 300px;
 }
+#qui-sommes-nous > p {
+  max-width: 100%;
+}
 /* PHONES */
 @media only screen and (max-width: 480px) {
   #qui-sommes-nous {
@@ -24,7 +27,7 @@
   margin: 25px 0 0 0;
 }
 #une-equipe-qui-sadapte > .bloc-texte > p {
-  text-align: start;
+  /* text-align: start; */
   max-width: 100%;
 }
 

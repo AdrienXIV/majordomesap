@@ -40,7 +40,7 @@ const IlsNousOntFaitConfiances: NextPage = () => {
             </legend>
           </div>
           <div>
-            <p>Je recommande ce centre ! Équipe très professionnelle et à l'écoute. J'occupe aujourd'hui le poste qui me correspond !.</p>
+            <p>Je recommande ce centre ! Équipe très professionnelle et à l'écoute. J'occupe aujourd'hui le poste qui me correspond !</p>
           </div>
           <div className="card-footer">
             <i className="pi pi-star"></i>

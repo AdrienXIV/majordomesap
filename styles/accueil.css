@@ -41,11 +41,14 @@
   width: 75%;
 }
 #titre-pro-reconnu-rncp > .bloc-texte > div > p {
+  margin-left: 25px;
   max-width: 100%;
-  text-align: start;
-  width: 100%;
+  text-align: justify;
 }
-
+#titre-pro-reconnu-rncp > .bloc-texte > div > .handicape {
+  text-align: end;
+  margin: 10px 10px 0;
+}
 #titre-pro-reconnu-rncp i {
   font-size: 50px;
   color: #ca0032;
@@ -224,7 +227,7 @@
 }
 
 #soyez-100-finance p {
-  text-align: start;
+  text-align: justify;
 }
 
 #soyez-100-finance > div > div > button {
@@ -331,6 +334,7 @@
   max-width: 100%;
   margin: 20px auto;
   color: #333;
+  text-align: justify;
 }
 
 #personnalisez-vos-modules > .bloc-cards {
@@ -403,7 +407,7 @@
 /* TABLETS */
 @media only screen and (max-width: 959px) {
   #personnalisez-vos-modules {
-    padding: 0 0 50px;
+    padding: 50px 0;
   }
   #personnalisez-vos-modules h2 {
     text-align: center;
@@ -478,7 +482,7 @@
 }
 
 #une-equipe-qualifiee > div > .bloc-texte > p {
-  text-align: start;
+  text-align: justify;
   padding-left: 0;
 }
 
