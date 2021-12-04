@@ -101,7 +101,7 @@
 #sponsors > div > div {
   width: calc(33% - 50px);
   padding: 15px;
-  height: 575px;
+  min-height: 600px;
   margin: 0 25px;
   display: flex;
   flex-direction: column;
@@ -142,7 +142,7 @@
   }
   #sponsors > div > div {
     width: 100%;
-    height: auto;
+    min-height: auto;
     margin: 25px 0;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
@@ -163,7 +163,7 @@
   }
   #sponsors > div > div {
     width: 100%;
-    height: auto;
+    min-height: auto;
     margin: 25px 0;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
