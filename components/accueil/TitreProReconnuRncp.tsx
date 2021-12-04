@@ -85,7 +85,8 @@ const TitreProReconnuRncp: NextPage = () => {
         <div>
           <p>
             Notre centre vous propose des formations de Majordomat et d’Assistance De Vie aux Familles (ADVF), des métiers du service à la personne
-            consistant à intervenir auprès des personnes ayant besoin d’assistance dans leurs activités quotidiennes.
+            consistant à intervenir auprès des personnes ayant besoin d’assistance dans leurs activités quotidiennes. Il est accessible aux personnes
+            malvoyantes et à mobilité réduite.
           </p>
           <p>
             Nous proposons des modules de formation certifiants permettant de valoriser vos compétences métier et ainsi d’
