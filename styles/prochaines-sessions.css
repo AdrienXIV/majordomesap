@@ -1,0 +1,39 @@
+#dates-sessions {
+  padding: 100px 200px 0;
+}
+
+#dates-sessions .bloc-dates {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 75px 0;
+}
+#dates-sessions .bloc-dates > div {
+  margin: 15px;
+  width: calc(20% - 30px);
+  color: #333;
+  height: 225px;
+  padding: 15px;
+  border-radius: 5px;
+  line-height: 1.5em;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#dates-sessions .bloc-dates > div > h3 {
+  text-align: center;
+  color: #333;
+  font-size: larger;
+}
+
+#dates-sessions .bloc-dates > div > .preinscription {
+  text-align: center;
+}
+#dates-sessions .bloc-dates > div > .preinscription button {
+  background-color: #ca0032;
+  border-color: #ca0032;
+  color: white;
+  transition-duration: 0ms;
+}
+#dates-sessions .bloc-dates > div > .preinscription button:hover {
+  color: #ca0032;
+  border-color: #ca0032;
+  background-color: white;
+}

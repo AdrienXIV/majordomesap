@@ -47,8 +47,9 @@ const Header: NextPage = () => {
       url: "/financement",
     },
     {
-      label: "Prochaines rentrées",
+      label: "Prochaines sessions",
       icon: "pi pi-fw pi-calendar",
+      url: "/prochaines-sessions",
     },
     {
       label: "Contact",
