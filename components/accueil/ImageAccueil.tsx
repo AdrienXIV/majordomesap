@@ -20,7 +20,7 @@ const H1_CONTENUS = [
   },
   {
     texte: () => <>Formation auxiliaire de vie aux familles (advf) certifiée de niveau 3</>,
-    imgPath: "/images/3.jpg",
+    imgPath: "/images/5.jpg",
   },
 ];
 const ImageAccueil: NextPage = () => {
