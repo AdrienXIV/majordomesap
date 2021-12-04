@@ -45,7 +45,7 @@ const Sponsors: NextPage = () => {
             </p>
           </div>
           <div>
-            <Button label="En savoir plus" onClick={() => window.open(`${process.env.NEXT_PUBLIC_HOST}/financement/#contact`, "_blank")} />
+            <Button label="En savoir plus" onClick={() => window.open("https://www.opcoep.fr", "_blank")} />
           </div>
         </div>
 
@@ -68,10 +68,7 @@ const Sponsors: NextPage = () => {
             </p>
           </div>
           <div>
-            <Button
-              label="Me rapprocher d'un conseiller"
-              onClick={() => window.open(`${process.env.NEXT_PUBLIC_HOST}/financement/#contact`, "_blank")}
-            />
+            <Button label="Me rapprocher d'un conseiller" onClick={() => window.open("https://www.pole-emploi.fr/accueil", "_blank")} />
           </div>
         </div>
       </div>
