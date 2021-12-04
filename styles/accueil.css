@@ -40,6 +40,10 @@
 #titre-pro-reconnu-rncp > .bloc-texte > div {
   width: 75%;
 }
+#titre-pro-reconnu-rncp > .bloc-texte h3 {
+  text-align: center;
+  color: white;
+}
 #titre-pro-reconnu-rncp > .bloc-texte > div > p {
   margin-left: 25px;
   max-width: 100%;
@@ -129,7 +133,7 @@
     width: 100%;
   }
   #titre-pro-reconnu-rncp > .bloc-texte > div > p {
-    text-align: center;
+    text-align: justify;
   }
 
   #titre-pro-reconnu-rncp > .bloc-texte {
@@ -184,7 +188,8 @@
     width: 100%;
   }
   #titre-pro-reconnu-rncp > .bloc-texte > div > p {
-    text-align: center;
+    text-align: justify;
+    margin-left: 0;
   }
 
   #titre-pro-reconnu-rncp > .bloc-texte {
@@ -266,6 +271,9 @@
     width: 100%;
     padding: 5px;
     text-align: center;
+  }
+  #soyez-100-finance > div > .bloc-texte p {
+    padding: 0 10px;
   }
   #soyez-100-finance > div > .bloc-image {
     width: 100%;

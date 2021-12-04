@@ -34,13 +34,18 @@ const QuiSommesNousPage: NextPage = () => {
           <h2>Qui sommes nous ?</h2>
           <hr />
           <p>
+            Majordome formation sap est un centre de formation aux métiers d’aide à la personne créée en 2017 sous le régime d’association loi 1901.
+            Nous sommes spécialisés dans les formations d’<b>assistante de vie aux famille (advf) et Majordomat</b> pour le secteur d’activité d’aide
+            à domicile et du service à la personne. Nos formations sont reconnues et certifiées de niveau 3 par le ministère du travail.
+          </p>
+          {/* <p>
             Créé en 2017, <b>Majordome Formation SAP</b> est un centre spécialisé dans les formations du secteur d'activité d'aide à domicile et du
             service à la personne.
           </p>
           <p>
             Majordome Formation SAP s’engage dans une démarche de qualité, avec des enseignements définis par l’Éducation Nationale et le Ministère du
             Travail, afin de prodiguer les meilleures formations par des instructeurs professionnels et expérimentés.
-          </p>
+          </p> */}
           {/* <p>
             Une équipe qui s’adapte : 20 ans d’expertise au cœur de nos méthodes pédagogiques
             <br />

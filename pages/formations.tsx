@@ -37,8 +37,8 @@ const FormationsPage: NextPage = () => {
                 <Suspense fallback={<ProgressSpinner />}>
                   <Image
                     loader={myLoader}
-                    alt="majordomeformationsap-sécurité-travail"
-                    src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-sécurité-travail.jpeg"
+                    alt="majordomeformationsap-femme-menage"
+                    src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-femme-menage-min.jpeg"
                     layout="fill"
                     objectFit="cover"
                     quality={80}

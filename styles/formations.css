@@ -93,7 +93,7 @@
 #formation-majordomat > .bloc-modules > div {
   color: #333;
   position: relative;
-  height: 275px;
+  height: 300px;
   padding: 15px 10px;
   border-radius: 5px;
   transition-duration: 333ms;
@@ -126,13 +126,12 @@
   font-size: 20px;
   max-width: 100%;
   line-height: 1.75rem;
-  text-shadow: -2px 2px 3px #333;
-  text-shadow: -2px 2px 3px #333;
+  text-shadow: -2.5px 1.5px 0.5px #333;
 }
 #formation-majordomat > .bloc-modules > div h3 {
   text-align: center;
   font-weight: bold;
-  text-shadow: -2px 2px 3px #333;
+  text-shadow: -2.5px 1.5px 0.5px #333;
 }
 
 #formation-majordomat > .bloc-modules > .second:hover,
@@ -141,7 +140,7 @@
 }
 
 #formation-majordomat > .bloc-modules img {
-  filter: blur(0.5px) brightness(75%);
+  filter: blur(0.5px) brightness(60%);
 }
 
 #formation-majordomat > .bloc-timeline {
@@ -510,7 +509,7 @@
 }
 /* ################################################################################## */
 #formations {
-  padding: 100px 0 0 0;
+  padding: 100px 0;
 }
 #formations h2 {
   color: #333;

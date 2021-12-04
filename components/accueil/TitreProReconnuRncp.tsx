@@ -83,6 +83,7 @@ const TitreProReconnuRncp: NextPage = () => {
           </Suspense>
         </div>
         <div>
+          <h3>Notre centre de formation</h3>
           {/* <p>
             Notre centre vous propose des formations de Majordomat et d’Assistance De Vie aux Familles (ADVF), des métiers du service à la personne
             consistant à intervenir auprès des personnes ayant besoin d’assistance dans leurs activités quotidiennes.
@@ -91,9 +92,20 @@ const TitreProReconnuRncp: NextPage = () => {
             Nous proposons des modules de formation certifiants permettant de valoriser vos compétences métier et ainsi d’
             <b>obtenir un titre professionnel reconnu de niveau 3 inscrit au RNCP.</b>
           </p> */}
-          <p>
+          {/* <p>
             Notre centre de formation vous propose des modules de formation certifiants d’ADVF permettant de valoriser vos compétences métier et ainsi
             obtenir un <b>Titre Professionnel de niveau 3</b> inscrit au RNCP et délivré par le Ministère du Travail.
+          </p>*/}
+          <p>
+            Majordome Formation SAP est un centre de formation aux métiers du service à la personne (<b>ADVF</b>) par excellence. Nos{" "}
+            <b>formations sont certifiantes</b> avec un titre professionnel reconnu de niveau 3 inscrit au RNC.
+          </p>
+          <p>
+            Nous apportons notre expertise métier à nos apprenants en proposons des formations en petit groupe et des modules spécifiques permettant
+            d’acquérir des connaissances solides, en toute sécurité en adoptant la juste distance professionnelle.
+          </p>
+          <p>
+            <b>Nos formations peuvent être assurées dans nos locaux ou à distance.</b>
           </p>
           <p>
             L’activité de Majordome Formation SAP étant, par définition, centrée sur l’humain, la structure accorde une importance particulière à

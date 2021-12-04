@@ -52,8 +52,8 @@ const Majordomat: NextPage = () => {
       <h2>FORMATION MAJORDOMAT</h2>
       <div className="bloc-texte">
         <p>
-          Le Titre Professionnel de Majordome de niveau 3 est délivré par le Ministère du Travail et inscrit au RNCP. Il permet d’accéder aux métiers
-          des services à la <b>personne en apportant une intervention professionnelle à domicile</b> de qualité auprès des personnes.
+          Il permet d’accéder aux métiers des services à la <b>personne en apportant une intervention professionnelle à domicile</b> de qualité auprès
+          des personnes.
         </p>
       </div>
 
@@ -187,7 +187,6 @@ const Majordomat: NextPage = () => {
           </div>
         </div>
       </div>
-
     </section>
   );
 };
