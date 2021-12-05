@@ -52,6 +52,12 @@ const Majordomat: NextPage = () => {
       <h2>FORMATION MAJORDOMAT</h2>
       <div className="bloc-texte">
         <p>
+          Les modules de Majordomat vous attribuent la prestance et les aptitudes d’un majordome/gouvernante de maison qui vous permettront de vous
+          situer en tant que véritable professionnel de l’intervention à domicile. Vous contribuerez au bien-être des habitants et invités d’une
+          maison dans le respect des consignes par un service de qualité, vous pourrez être en charge de la préparation des repas, du décor floral et
+          du service à table.
+        </p>
+        <p>
           Il permet d’accéder aux métiers des services à la <b>personne en apportant une intervention professionnelle à domicile</b> de qualité auprès
           des personnes.
         </p>
@@ -94,6 +100,15 @@ const Majordomat: NextPage = () => {
             <b>Exercez dans le domaine et pour la cible qui vous convient le mieux.</b>
           </p>
           <p>
+            Chaque classe est composée d’un groupe réduit afin d’initier au mieux chaque participant. Suivez nos formations en présentiel et profitez
+            d’un accès exclusif de vos cours sur la plateforme à tout moment.
+          </p>
+          <p>
+            À l’issue de la formation, vous serez aptes à accompagner des personnes via des services tels que l’assistance pour l’entretien du cadre
+            de vie, l’hygiène corporelle, l’alimentation, les déplacements et la prise en charge des enfants de 0 à 3 ans au domicile de leurs
+            parents.
+          </p>
+          <p>
             Avec les modules de Majordomat, vous aurez les aptitudes et les savoirs d’un majordome / gouvernante de maison qui vous permettront de
             vous situer en tant que véritable professionnel de l’intervention à domicile.
           </p>
@@ -104,7 +119,11 @@ const Majordomat: NextPage = () => {
         <hr />
       </div>
       <div className="p-grid bloc-modules">
-        <div className="second">
+        <div
+          title="Voir le module"
+          className="second"
+          onClick={() => window.open("https://majordomeformationsap.catalogueformpro.com/6/majordomat/364945/lart-de-la-table-lart-floral", "_blank")}
+        >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
@@ -124,7 +143,11 @@ const Majordomat: NextPage = () => {
           </div>
         </div>
 
-        <div className="second">
+        <div
+          className="second"
+          title="Voir le module"
+          onClick={() => window.open("https://majordomeformation-sap.catalogueformpro.com/6/majordomat/364959/couture", "_blank")}
+        >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
@@ -140,7 +163,11 @@ const Majordomat: NextPage = () => {
             <p>Assimilation des éléments de base de la couture : Petits travaux de couture : Ourlet, bouton, ceinture...</p>
           </div>
         </div>
-        <div className="second">
+        <div
+          className="second"
+          title="Voir le module"
+          onClick={() => window.open("https://majordomeformation-sap.catalogueformpro.com/6/majordomat/364941/letiquette", "_blank")}
+        >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
@@ -156,7 +183,11 @@ const Majordomat: NextPage = () => {
             <p>Connaissance et suivi du protocole, apprentissage du code de bonnes manières et assimilation des bonnes tenues &amp; attitudes</p>
           </div>
         </div>
-        <div className="third">
+        <div
+          className="third"
+          title="Voir le module"
+          onClick={() => window.open("https://majordomeformation-sap.catalogueformpro.com/6/majordomat/364937/nologie", "_blank")}
+        >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
@@ -173,7 +204,11 @@ const Majordomat: NextPage = () => {
           </div>
         </div>
 
-        <div className="third">
+        <div
+          className="third"
+          title="Voir le module"
+          onClick={() => window.open("https://majordomeformation-sap.catalogueformpro.com/6/majordomat/440497/gastronomie", "_blank")}
+        >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}

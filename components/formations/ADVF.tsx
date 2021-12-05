@@ -92,8 +92,8 @@ const ADVF: NextPage = () => {
           distance professionnelle nécessaire.
         </p>
         <p>
-          La formation se compose de trois pôles d’activités permettant l’acquisition de 13 compétences et de trois compétences dites transversales.
-          Ces compétences seront déclinées tout au long de la formation dans les trois pôles car elles sont le socle du métier d’assistant de vie aux
+          La formation se compose de trois pôles d’activités permettant l’acquisition de 13 compétences et de 3 compétences dites transversales. Ces
+          compétences seront déclinées tout au long de la formation dans les trois pôles car elles sont le socle du métier d’assistant de vie aux
           familles.
         </p>
       </div>
@@ -157,13 +157,27 @@ const ADVF: NextPage = () => {
 
       {/* CCP1 */}
       <div id="advf-modules" className="module-titre">
-        <h2>Programme de la formation</h2>
+        <h2>Devenez un professionnel rapidement !</h2>
+        <small>
+          Notre formation modulable pouvant aller de <b>2 jours</b> (21 heures) à <b>2 mois</b> (441 heures). Cette qualification passe par
+          l’acquisition de trois certificats de compétences professionnelles indispensables à la validation de l’examen d’AVDF devant le jury. Modulez
+          votre programme en vous aidant de nos 3 programmes prédéfinis.
+        </small>
         <hr />
         CCP1 Entretenir le logement et le linge d’un particulier
       </div>
 
       <div className="p-grid bloc-modules modules-advf">
-        <div className="second">
+        <div
+          className="second"
+          title="Voir le module"
+          onClick={() =>
+            window.open(
+              "https://majordomeformation-sap.catalogueformpro.com/0/ccp1-entretenir/364990/les-fondamentaux-du-metier-dadvf-ccp1-advf",
+              "_blank"
+            )
+          }
+        >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
@@ -183,7 +197,13 @@ const ADVF: NextPage = () => {
           </div>
         </div>
 
-        <div className="second">
+        <div
+          className="second"
+          title="Voir le module"
+          onClick={() =>
+            window.open("https://majordomeformation-sap.catalogueformpro.com/0/ccp1-entretenir/472295/travailler-en-securite-ccp1-advf", "_blank")
+          }
+        >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
@@ -202,7 +222,13 @@ const ADVF: NextPage = () => {
             </p>
           </div>
         </div>
-        <div className="second">
+        <div
+          className="second"
+          title="Voir le module"
+          onClick={() =>
+            window.open("https://majordomeformation-sap.catalogueformpro.com/0/ccp1-entretenir/364956/communication-ccp1-advf", "_blank")
+          }
+        >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
@@ -221,7 +247,16 @@ const ADVF: NextPage = () => {
             </p>
           </div>
         </div>
-        <div className="third">
+        <div
+          className="third"
+          title="Voir le module"
+          onClick={() =>
+            window.open(
+              "https://majordomeformation-sap.catalogueformpro.com/0/ccp1-entretenir/472804/techniques-dentretien-du-logement-et-du-linge-ccp1-advf",
+              "_blank"
+            )
+          }
+        >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
@@ -238,7 +273,7 @@ const ADVF: NextPage = () => {
           </div>
         </div>
 
-        <div className="third">
+        <div className="third" title="Voir le module" onClick={() => window.open(`${process.env.NEXT_PUBLIC_HOST}/formation-majordomat`, "_blank")}>
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
@@ -266,7 +301,16 @@ const ADVF: NextPage = () => {
       </div>
 
       <div className="p-grid bloc-modules modules-advf">
-        <div className="second">
+        <div
+          className="second"
+          title="Voir le module"
+          onClick={() =>
+            window.open(
+              "https://majordomeformation-sap.catalogueformpro.com/1/ccp2-accompagner/472376/developper-une-relation-professionnelle-ccp2-advf",
+              "_blank"
+            )
+          }
+        >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
@@ -286,7 +330,13 @@ const ADVF: NextPage = () => {
           </div>
         </div>
 
-        <div className="second">
+        <div
+          className="second"
+          title="Voir le module"
+          onClick={() =>
+            window.open("https://majordomeformation-sap.catalogueformpro.com/1/ccp2-accompagner/443017/prevention-des-risques-ccp2-advf", "_blank")
+          }
+        >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
@@ -305,7 +355,16 @@ const ADVF: NextPage = () => {
             </p>
           </div>
         </div>
-        <div className="second">
+        <div
+          className="second"
+          title="Voir le module"
+          onClick={() =>
+            window.open(
+              "https://majordomeformation-sap.catalogueformpro.com/1/ccp2-accompagner/364981/comprendre-et-accompagner-la-perte-dautonomie-ccp2-advf",
+              "_blank"
+            )
+          }
+        >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
@@ -324,7 +383,13 @@ const ADVF: NextPage = () => {
             </p>
           </div>
         </div>
-        <div className="second">
+        <div
+          className="second"
+          title="Voir le module"
+          onClick={() =>
+            window.open("https://majordomeformation-sap.catalogueformpro.com/1/ccp2-accompagner/472357/aide-aux-soins-dhygiene-ccp2-advf", "_blank")
+          }
+        >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
@@ -340,7 +405,13 @@ const ADVF: NextPage = () => {
             <p>L’aide à la toilette, l'aide à l’habillage et déshabillage et la manutention des personnes</p>
           </div>
         </div>
-        <div className="second">
+        <div
+          className="second"
+          title="Voir le module"
+          onClick={() =>
+            window.open("https://majordomeformation-sap.catalogueformpro.com/1/ccp2-accompagner/364984/alimentation-ccp2-advf", "_blank")
+          }
+        >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
@@ -359,7 +430,7 @@ const ADVF: NextPage = () => {
             </p>
           </div>
         </div>
-        <div className="second">
+        <div className="second" title="Voir le module" onClick={() => window.open(`${process.env.NEXT_PUBLIC_HOST}/formation-majordomat`, "_blank")}>
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
@@ -386,7 +457,16 @@ const ADVF: NextPage = () => {
       </div>
 
       <div className="p-grid bloc-modules modules-advf">
-        <div className="third">
+        <div
+          className="third"
+          title="Voir le module"
+          onClick={() =>
+            window.open(
+              "https://majordomeformation-sap.catalogueformpro.com/2/ccp3-petite-enfance/472416/definir-le-cadre-de-lintervention-ccp3-advf",
+              "_blank"
+            )
+          }
+        >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
@@ -406,7 +486,16 @@ const ADVF: NextPage = () => {
           </div>
         </div>
 
-        <div className="third">
+        <div
+          className="third"
+          title="Voir le module"
+          onClick={() =>
+            window.open(
+              "https://majordomeformation-sap.catalogueformpro.com/2/ccp3-petite-enfance/472479/prevention-des-risques-et-securite-des-enfants-ccp3-advf",
+              "_blank"
+            )
+          }
+        >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
@@ -425,7 +514,16 @@ const ADVF: NextPage = () => {
             </p>
           </div>
         </div>
-        <div className="third">
+        <div
+          className="third"
+          title="Voir le module"
+          onClick={() =>
+            window.open(
+              "https://majordomeformation-sap.catalogueformpro.com/2/ccp3-petite-enfance/472524/accompagnement-dans-lapprentissage-de-base-la-socialisation-et-les-activites-des-enfants-ccp3-advf",
+              "_blank"
+            )
+          }
+        >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
@@ -444,7 +542,16 @@ const ADVF: NextPage = () => {
             </p>
           </div>
         </div>
-        <div className="third">
+        <div
+          className="third"
+          title="Voir le module"
+          onClick={() =>
+            window.open(
+              "https://majordomeformation-sap.catalogueformpro.com/2/ccp3-petite-enfance/472578/les-gestes-et-techniques-professionnels-ccp3-advf",
+              "_blank"
+            )
+          }
+        >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
