@@ -16,7 +16,7 @@ const H1_CONTENUS = [
   },
   {
     texte: () => <>Formation Majordome par excellence</>,
-    imgPath: "/images/2.jpg",
+    imgPath: "/images/1.jpg",
   },
   {
     texte: () => <>Formation auxiliaire de vie aux familles (advf) certifiée de niveau 3</>,
@@ -31,7 +31,7 @@ const ImageAccueil: NextPage = () => {
   useEffect(() => {
     let random = Math.floor(Math.random() * 3);
 
-    // if (random === 1) setClassName("shadow-white");
+    if (random === 1) setClassName("shadow-white");
 
     // maj de l'image au hasard
     setImage(H1_CONTENUS[random].imgPath);
