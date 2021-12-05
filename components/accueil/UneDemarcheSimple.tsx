@@ -45,10 +45,16 @@ const UneDemarcheSimple: NextPage = () => {
       numero: 6,
     },
     {
+      status: "Test de selection",
+      color: "#f368e0",
+      content: "Les candidats seront soumis à des tests d'évaluations afin de vérifier leurs acquis",
+      numero: 7,
+    },
+    {
       status: "Insertion professionnelle",
       color: "#27ae60",
       content: "Profitez de notre réseau pour entrer en contact avec des professionnels du métier et facilitez votre insertion professionnelle",
-      numero: 7,
+      numero: 8,
     },
   ];
 
@@ -71,7 +77,7 @@ const UneDemarcheSimple: NextPage = () => {
 
   return (
     <section id="une-demarche-simple">
-      <h2>Une Démarche Simple en 7 étapes</h2>
+      <h2>Une Démarche Simple en 8 étapes</h2>
       <br />
       <br />
       <div className="bloc-texte">

@@ -157,6 +157,7 @@ const ADVF: NextPage = () => {
 
       {/* CCP1 */}
       <div id="advf-modules" className="module-titre">
+        <h2>Programme de la formation</h2>
         <hr />
         CCP1 Entretenir le logement et le linge d’un particulier
       </div>

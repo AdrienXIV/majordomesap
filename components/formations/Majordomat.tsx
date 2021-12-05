@@ -99,7 +99,10 @@ const Majordomat: NextPage = () => {
           </p>
         </div>
       </div>
-
+      <div id="advf-modules" className="module-titre">
+        <h2>Programme de la formation</h2>
+        <hr />
+      </div>
       <div className="p-grid bloc-modules">
         <div className="second">
           <Suspense fallback={<ProgressSpinner />}>
