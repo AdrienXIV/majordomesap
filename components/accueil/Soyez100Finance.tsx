@@ -10,11 +10,12 @@ const Soyez100Finance: NextPage = () => {
     <section id="soyez-100-finance">
       <div className="p-grid">
         <div className="bloc-texte">
-          <h2>Soyez 100% Financé !</h2>
+          <h2>* Soyez 100% Financé !</h2>
           <br />
+          <p>Formez vous à l’excellence avec MAJORDOME FORMATION SAP Formation 100% financée.</p>
           <p>
-            *Votre formation peut être financée selon votre situation. Vous pouvez selon votre cas, faire une demande de prise en charge de la
-            formation auprès des structures dédiées (CPF, Opco, Pôle Emploi, Agefiph ou Mission locale)
+            Votre formation peut être financée selon votre situation. Vous pouvez selon votre cas, faire une demande de prise en charge de la
+            formation auprès des structures dédiées (CPF, Opco, Pôle Emploi, Agefiph ou Mission locale).
           </p>
           <p>Jusqu’à 100% de votre formation peut alors vous être alloué.</p>
           <br />
