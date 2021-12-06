@@ -14,7 +14,7 @@ const Footer: NextPage = () => {
           <p className="p-sm-24 p-md-6 p-lg-6 p-xl-6 footer-lien"><a href="/mentions" target="_blank">Mentions légales </a> </p>
           <p className="p-sm-24 p-md-6 p-lg-6 p-xl-6 footer-lien"><a href="https://www.data-dock.fr/" target="_blank">Datadock </a></p>
           <p className="p-sm-24 p-md-6 p-lg-6 p-xl-6 footer-lien"><a href="https://www.pole-emploi.fr/accueil/" target="_blank">Pôle emplois </a></p>
-          <p className="p-sm-24 p-md-6 p-lg-6 p-xl-6 footer-lien"><a href="https://www.digiforma.com/" target="_blank">Digiforma </a></p>
+          <p className="p-sm-24 p-md-6 p-lg-6 p-xl-6 footer-lien"><a href="https://4310529310.digiforma.net" target="_blank">Digiforma </a></p>
         </div>
       </footer>
     </>
