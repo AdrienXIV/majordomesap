@@ -8,6 +8,7 @@ import Link from "next/link";
 import { useRouter } from "next/dist/client/router";
 import dynamic from "next/dynamic";
 import { myLoader } from "@utils/loader";
+import MetaSite from "@components/other/Meta";
 import { ProgressSpinner } from "primereact/progressspinner";
 import UneEquipeQuiSadapte from "@components/qui-sommes-nous/UneEquipeQuiSadapte";
 import EquipePedagogieCertifiee from "@components/qui-sommes-nous/EquipePedagogieCertifiee";
@@ -26,6 +27,10 @@ const QuiSommesNousPage: NextPage = () => {
     <>
       <Head>
         <title>Qui sommes-nous ? | Majordome Formation SAP</title>
+        <MetaSite>
+          <meta name="description" content="Centre de formation qui s’engage à fournir des formations de advf, majordome et de gouvernante de qualité. On propose des modules certifiants avec une équipe qualifiée et engagée, en présentiel ou distanciel" />
+          <meta name="keywords" content="centre de formation paris, formation gratuite, formation zéro à charge, centre de formation de qualité, formation certifiante, formation à distance, formation en ligne, formation pôle emploi" />
+        </MetaSite>
       </Head>
       <Header />
 
