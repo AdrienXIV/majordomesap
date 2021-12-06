@@ -18,9 +18,6 @@ const ProchainesSessionsPage: NextPage = () => {
 
       <main>
         <DatesSessions />
-        <Suspense fallback={<ProgressSpinner />}>
-          <Contact />
-        </Suspense>
       </main>
       <Footer />
     </>

@@ -15,17 +15,20 @@ const FormationAdvfPage: NextPage = () => {
       <Head>
         <title>Formation ADVF kimamu | Majordome Formation SAP</title>
         <MetaSite>
-          <meta name="description" content="Formez vous au métier d’auxiliaire de vie de famille ADVF, avec notre équipe qualifiée et pédagogue. Formation certifiante et 100% financée, avec des modules de spécialisation à la hauteur des compétences recommandées sur le marché de l’emploi."/>
-          <meta name="keywords" content="formation gratuite, formation zéro à charge, formation certifiante, formation à distance, formation en ligne, formation pôle emploi, formation financée"/>
+          <meta
+            name="description"
+            content="Formez vous au métier d’auxiliaire de vie de famille ADVF, avec notre équipe qualifiée et pédagogue. Formation certifiante et 100% financée, avec des modules de spécialisation à la hauteur des compétences recommandées sur le marché de l’emploi."
+          />
+          <meta
+            name="keywords"
+            content="formation gratuite, formation zéro à charge, formation certifiante, formation à distance, formation en ligne, formation pôle emploi, formation financée"
+          />
         </MetaSite>
       </Head>
       <Header />
 
       <main>
         <ADVF />
-        <Suspense fallback={<ProgressSpinner />}>
-          <Contact />
-        </Suspense>
       </main>
       <Footer />
     </>

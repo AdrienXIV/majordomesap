@@ -80,9 +80,6 @@ const FormationsPage: NextPage = () => {
             </Link>
           </div>
         </section>
-        <Suspense fallback={<ProgressSpinner />}>
-          <Contact />
-        </Suspense>
       </main>
       <Footer />
     </>

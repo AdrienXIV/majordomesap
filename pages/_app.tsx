@@ -20,7 +20,11 @@ import "@styles/qui-sommes-nous.css";
 import "@styles/prochaines-sessions.css";
 
 import axios from "axios";
-import React from "react";
+import React, { Suspense } from "react";
+import { ProgressSpinner } from "primereact/progressspinner";
+import dynamic from "next/dynamic";
+
+const Contact = dynamic(() => import("@components/contact/Contact"), { ssr: false });
 
 axios.defaults.baseURL = process.env.URL; // http://localhost:3000
 axios.defaults.headers = {
@@ -33,6 +37,9 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Component {...pageProps} />
+      <Suspense fallback={<ProgressSpinner />}>
+        <Contact />
+      </Suspense>
     </>
   );
 }
