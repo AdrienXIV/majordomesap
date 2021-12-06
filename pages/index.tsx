@@ -14,6 +14,7 @@ import dynamic from "next/dynamic";
 import TitreProReconnuRncp from "@components/accueil/TitreProReconnuRncp";
 import { useRouter } from "next/dist/client/router";
 import { ProgressSpinner } from "primereact/progressspinner";
+import MetaSite from "@components/other/Meta";
 const Contact = dynamic(() => import("@components/contact/Contact"), { ssr: false });
 
 const HomePage: NextPage = () => {
@@ -27,6 +28,10 @@ const HomePage: NextPage = () => {
     <>
       <Head>
         <title>Majordome Formation SAP</title>
+        <MetaSite>
+          <meta name="description" content="Centre de formation aux métiers du service à la personne de qualité et certifiant. Zéro à charge, formez vous aux métiers de gouvernante, advf, auxiliaires de vie avec des formateurs qualifiés.> <meta name=”keywords” content=”formation pole emploi, advf, aide a domicile,  formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"/>
+          <meta name="keywords" content="formation pole emploi, advf, aide a domicile,  formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta" />
+        </MetaSite>
       </Head>
       <Header />
 
