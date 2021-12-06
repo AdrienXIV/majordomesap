@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect } from "react";
+import React, { useEffect } from "react";
 import type { NextPage } from "next";
 import Footer from "@components/other/Footer";
 import Header from "@components/other/Header";
@@ -10,12 +10,9 @@ import PersonnalisezVosModules from "@components/accueil/PersonnalisezVosModules
 import UneEquipeQualifiee from "@components/accueil/UneEquipeQualifiee";
 import UneDemarcheSimple from "@components/accueil/UneDemarcheSimple";
 import IlsNousOntFaitConfiances from "@components/accueil/IlsNousOntFaitConfiances";
-import dynamic from "next/dynamic";
 import TitreProReconnuRncp from "@components/accueil/TitreProReconnuRncp";
 import { useRouter } from "next/dist/client/router";
-import { ProgressSpinner } from "primereact/progressspinner";
 import MetaSite from "@components/other/Meta";
-const Contact = dynamic(() => import("@components/contact/Contact"), { ssr: false });
 
 const HomePage: NextPage = () => {
   const router = useRouter();

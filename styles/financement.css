@@ -1,5 +1,5 @@
 #nhesitez-plus {
-  padding: 100px 0 0 0;
+  padding: 150px 0 0 0;
 }
 #nhesitez-plus h2 {
   color: #333;
@@ -46,6 +46,9 @@
 
 /* TABLETS */
 @media only screen and (max-width: 959px) {
+  #nhesitez-plus {
+    padding: 100px 0 0 0;
+  }
   #nhesitez-plus > div > .bloc-image {
     width: 100%;
     height: 250px;

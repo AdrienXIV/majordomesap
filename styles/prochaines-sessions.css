@@ -1,5 +1,5 @@
 #dates-sessions {
-  padding: 100px 200px 0;
+  padding: 150px 200px 0;
 }
 
 #dates-sessions .bloc-dates {
@@ -41,4 +41,29 @@
   color: #ca0032;
   border-color: #ca0032;
   background-color: white;
+}
+
+/* TABLETS */
+@media only screen and (max-width: 959px) {
+  #dates-sessions {
+    padding: 100px 0;
+  }
+  #dates-sessions .bloc-dates {
+    justify-content: center;
+    margin: 0;
+  }
+  #dates-sessions .bloc-dates > div {
+    width: calc(50% - 30px);
+  }
+}
+
+/* PHONES */
+@media only screen and (max-width: 480px) {
+  #dates-sessions {
+    padding: 100px 0;
+    text-align: center;
+  }
+  #dates-sessions .bloc-dates > div {
+    width: 100%;
+  }
 }

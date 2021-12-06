@@ -1,19 +1,13 @@
-import React, { Suspense, useEffect } from "react";
+import React, { useEffect } from "react";
 import type { NextPage } from "next";
 import Footer from "@components/other/Footer";
 import Header from "@components/other/Header";
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
 import { useRouter } from "next/dist/client/router";
-import dynamic from "next/dynamic";
-import { myLoader } from "@utils/loader";
 import MetaSite from "@components/other/Meta";
-import { ProgressSpinner } from "primereact/progressspinner";
 import UneEquipeQuiSadapte from "@components/qui-sommes-nous/UneEquipeQuiSadapte";
 import EquipePedagogieCertifiee from "@components/qui-sommes-nous/EquipePedagogieCertifiee";
 import ALecouteDeVosEnvies from "@components/qui-sommes-nous/ALecouteDeVosEnvies";
-const Contact = dynamic(() => import("@components/contact/Contact"), { ssr: false });
 
 const QuiSommesNousPage: NextPage = () => {
   const router = useRouter();
