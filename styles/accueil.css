@@ -10,7 +10,7 @@
   margin: 25px 0;
 }
 #titre-pro-reconnu-rncp > .bandeau-images > div {
-  width: 25%;
+  width: 20%;
   position: relative;
   height: 200px;
 }
@@ -239,6 +239,8 @@
   background-color: #ca0032;
   border-color: #ca0032;
   color: white;
+  font-weight: bold;
+  padding: 15px 25px;
   transition-duration: 0ms;
 }
 

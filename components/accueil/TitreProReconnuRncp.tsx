@@ -44,6 +44,18 @@ const TitreProReconnuRncp: NextPage = () => {
             />
           </Suspense>
         </div>
+        <div>
+          <Suspense fallback={<ProgressSpinner />}>
+            <Image
+              loader={myLoader}
+              alt="agefiph"
+              src="/images/majordomeformationsap/Accueil/agefiph.png"
+              layout="fill"
+              objectFit="contain"
+              quality={80}
+            />
+          </Suspense>
+        </div>
       </div>
       {/* <h3>Obtenez votre certification professionnelle</h3>
       <hr />

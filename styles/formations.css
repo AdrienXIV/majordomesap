@@ -10,7 +10,7 @@
 }
 #formation-majordomat > .bloc-texte > p {
   max-width: 100%;
-  text-align: center;
+  text-align: justify;
   width: 100%;
 }
 
@@ -93,7 +93,7 @@
 #formation-majordomat > .bloc-modules > div {
   color: #333;
   position: relative;
-  height: 300px;
+  height: 350px;
   padding: 15px 10px;
   border-radius: 5px;
   transition-duration: 333ms;
@@ -102,12 +102,14 @@
 }
 
 #formation-majordomat > .bloc-modules > .second {
+  cursor: pointer;
   transition-duration: 500ms;
   margin: 10px 20px;
   width: calc(33.33% - 40px);
   min-width: 320px;
 }
 #formation-majordomat > .bloc-modules > .third {
+  cursor: pointer;
   transition-duration: 500ms;
   width: 50%;
   margin: 10px 20px;
@@ -131,6 +133,7 @@
 #formation-majordomat > .bloc-modules > div h3 {
   text-align: center;
   font-weight: bold;
+  line-height: 1.1em;
   text-shadow: -2.5px 1.5px 0.5px #333;
 }
 
@@ -200,7 +203,7 @@
 
 /* on surcharge la taille des cartes car y'a beaucoup plus de texte */
 #formation-majordomat > .modules-advf > div {
-  height: 375px;
+  height: 400px;
 }
 
 /* plus-qu-un-simple-assistant */
@@ -513,7 +516,6 @@
 }
 #formations h2 {
   color: #333;
-  margin: 15px 0;
 }
 
 #formations > div {

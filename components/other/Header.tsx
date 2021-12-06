@@ -67,9 +67,26 @@ const Header: NextPage = () => {
     </Link>
   );
 
+  const end = (
+    <div className="nav-infos">
+      <div>
+        <i className="pi pi-phone"></i>
+        {"01.58.04.24.18 / 07.83.32.02.84"}
+      </div>
+      <div>
+        <i className="pi pi-envelope"></i>
+        <a href="mailto:contact@majordomeformationsap.fr">contact@majordomeformationsap.fr</a>
+      </div>
+      <div>
+        <i className="pi pi-map-marker"></i>
+        13 rue Camille Desmoulins 92130 ISSY-LES-MOULINEAUX
+      </div>
+    </div>
+  );
+
   return (
     <nav>
-      <Menubar className="icons-nav-style" model={items} start={start} />
+      <Menubar className="icons-nav-style" model={items} start={start} end={end} />
     </nav>
   );
 };

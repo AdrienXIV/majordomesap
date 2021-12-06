@@ -77,4 +77,26 @@ legend {
   h4 {
     font-size: 20px;
   }
+  .p-menubar-button {
+    margin-left: 65% !important;
+  }
+
+  .nav-infos {
+    display: none;
+  }
+}
+
+/* ######################### */
+.nav-infos {
+  margin: 0 0 0 25px;
+}
+.nav-infos > div {
+  margin: 7.5px 0;
+}
+.nav-infos > div > a {
+  color: #495057;
+}
+.nav-infos > div > i {
+  margin-right: 10px;
+  color: #ca0032;
 }
