@@ -21,7 +21,6 @@ import "@styles/prochaines-sessions.css";
 
 import axios from "axios";
 import React from "react";
-import Meta from "@components/other/Meta";
 
 axios.defaults.baseURL = process.env.URL; // http://localhost:3000
 axios.defaults.headers = {
@@ -33,7 +32,6 @@ axios.defaults.headers = {
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Meta />
       <Component {...pageProps} />
     </>
   );

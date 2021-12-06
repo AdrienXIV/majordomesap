@@ -10,7 +10,7 @@ const Soyez100Finance: NextPage = () => {
     <section id="soyez-100-finance">
       <div className="p-grid">
         <div className="bloc-texte">
-          <h2>* Soyez 100% Financé !</h2>
+          <h2>Soyez 100% Financé !</h2>
           <br />
           <p>Formez vous à l’excellence avec MAJORDOME FORMATION SAP Formation 100% financée.</p>
           <p>
