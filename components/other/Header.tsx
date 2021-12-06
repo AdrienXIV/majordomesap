@@ -51,12 +51,12 @@ const Header: NextPage = () => {
       icon: "pi pi-fw pi-calendar",
       url: "/prochaines-sessions",
     },
-    {
-      label: "Contact",
-      icon: "pi pi-fw pi-envelope",
-      className: "contact-nav",
-      url: "#contact",
-    },
+    // {
+    //   label: "Contact",
+    //   icon: "pi pi-fw pi-envelope",
+    //   className: "contact-nav",
+    //   url: "#contact",
+    // },
   ];
 
   const start = (
@@ -68,26 +68,18 @@ const Header: NextPage = () => {
   );
 
   const end = (
-    <div className="nav-infos">
-      <div>
-        <i className="pi pi-phone"></i>
-        {"01.58.04.24.18 / 07.83.32.02.84"}
-      </div>
-      <div>
-        <i className="pi pi-envelope"></i>
-        <a href="mailto:contact@majordomeformationsap.fr">contact@majordomeformationsap.fr</a>
-      </div>
-      <div>
-        <i className="pi pi-map-marker"></i>
-        13 rue Camille Desmoulins 92130 ISSY-LES-MOULINEAUX
-      </div>
-    </div>
+    <Link href="#contact" passHref>
+      <a className="contact-nav">
+        <span className="p-menuitem-icon pi pi-fw pi-envelope"></span>
+        <span className="p-menuitem-text">Contact</span>
+      </a>
+    </Link>
   );
 
   return (
     <>
       <nav>
-        <Menubar className="icons-nav-style" model={items} start={start} />
+        <Menubar className="icons-nav-style" model={items} start={start} end={end} />
       </nav>
       <div className="nav-infos">
         <div>

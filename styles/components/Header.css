@@ -45,18 +45,25 @@
   padding: var(--size-padding);
 }
 
-.contact-nav,
-.contact-nav:hover {
+.contact-nav {
+  font-size: larger;
   background: #ca0032;
   border-radius: 1px;
   border: 1px solid #ca0032;
   color: #ca0032 !important;
+  padding: 15px 25px;
+}
+.contact-nav:hover {
+  font-size: larger;
+  background: #af012c;
+  border-color: #af012c;
 }
 
-.contact-nav > a > span,
-.contact-nav > a > span:hover {
-  border-radius: 1px;
-  color: #fff !important;
+.contact-nav > span {
+  color: #fff;
+}
+.contact-nav > span:first-child {
+  margin-right: 5px;
 }
 
 /* TABLETS */
@@ -69,6 +76,22 @@
 /* PHONES */
 @media only screen and (max-width: 480px) {
   .nav-infos {
+    display: none;
+  }
+  .contact-nav {
+    position: fixed;
+    bottom: 1.5vh;
+    right: 1vh;
+    border-radius: 50px;
+    padding: 16px 15px 15px 15px;
+    border: solid 0px white;
+    background-color: #af012c;
+  }
+  .contact-nav > span:first-child {
+    margin-right: 0;
+    font-size: larger;
+  }
+  .contact-nav > span:last-child {
     display: none;
   }
 }
