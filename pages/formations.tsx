@@ -25,8 +25,14 @@ const FormationsPage: NextPage = () => {
       <Head>
         <title>Formations | Majordome Formation SAP</title>
         <MetaSite>
-          <meta name="description" content="Majordome formation propose des formations certifiantes zéro à charge : advf, gouvernante, majordome, aide à domicile  et d’autres. Nos formations se déroulent en petit groupe avec des formateurs de qualité."/>
-          <meta name="keywords" content="centre de formation paris, formation gratuite, formation advf, formation aide à domicile, formation certifiante, formation pôle emploi, formation financée"/>
+          <meta
+            name="description"
+            content="Majordome formation propose des formations certifiantes zéro à charge : advf, gouvernante, majordome, aide à domicile  et d’autres. Nos formations se déroulent en petit groupe avec des formateurs de qualité."
+          />
+          <meta
+            name="keywords"
+            content="centre de formation paris, formation gratuite, formation advf, formation aide à domicile, formation certifiante, formation pôle emploi, formation financée"
+          />
         </MetaSite>
       </Head>
       <Header />
@@ -43,7 +49,7 @@ const FormationsPage: NextPage = () => {
                   <Image
                     loader={myLoader}
                     alt="majordomeformationsap-femme-menage"
-                    src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-femme-menage-min.jpeg"
+                    src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-femme-chambre.jpeg"
                     layout="fill"
                     objectFit="cover"
                     quality={80}
