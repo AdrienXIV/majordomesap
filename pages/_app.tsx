@@ -23,6 +23,7 @@ import axios from "axios";
 import React, { Suspense } from "react";
 import { ProgressSpinner } from "primereact/progressspinner";
 import dynamic from "next/dynamic";
+import Footer from "@components/other/Footer";
 
 const Contact = dynamic(() => import("@components/contact/Contact"), { ssr: false });
 
@@ -40,6 +41,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Suspense fallback={<ProgressSpinner />}>
         <Contact />
       </Suspense>
+      <Footer />
     </>
   );
 }
