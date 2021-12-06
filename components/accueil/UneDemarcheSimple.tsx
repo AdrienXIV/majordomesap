@@ -20,34 +20,34 @@ const UneDemarcheSimple: NextPage = () => {
       numero: 2,
     },
     {
+      status: "Test de selection",
+      color: "#f368e0",
+      content: "Les candidats seront soumis à des tests d'évaluations afin de vérifier leurs acquis",
+      numero: 3,
+    },
+    {
       status: "Formation à la carte",
       color: "#8e44ad",
       content: "Composez votre formation selon vos besoins en choisissant un ou plusieurs modules",
-      numero: 3,
+      numero: 4,
     },
     {
       status: "Accès à la formation",
       color: "#006266",
       content: "Profitez de la richesse des cours en présentiel et retrouvez tous vos supports de cours sur la plateforme digitale du centre",
-      numero: 4,
+      numero: 5,
     },
     {
       status: "Certification ",
       color: "#e74c3c",
       content:
         "Obtenez vos certificats de compétences professionnelles et constituez votre dossier de passage devant le Jury pour l’obtention du Titre Professionnel ADVF",
-      numero: 5,
+      numero: 6,
     },
     {
       status: "Stage obligatoire",
       color: "#2c3e50",
       content: "Conciliez connaissances et compétences dans le milieu professionnel. Passage devant le jury",
-      numero: 6,
-    },
-    {
-      status: "Test de selection",
-      color: "#f368e0",
-      content: "Les candidats seront soumis à des tests d'évaluations afin de vérifier leurs acquis",
       numero: 7,
     },
     {

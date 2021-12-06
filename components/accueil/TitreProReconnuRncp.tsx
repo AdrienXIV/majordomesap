@@ -125,11 +125,6 @@ const TitreProReconnuRncp: NextPage = () => {
             stagiaire de signaler, dès son inscription, la nature de son handicap ainsi que ses besoins spécifiques, afin de l’accueillir dans des
             conditions optimales.
           </p>
-          <div className="handicape">
-            <Suspense fallback={<ProgressSpinner />}>
-              <Image loader={myLoader} alt="handicape" src="/images/handicap.png" width={50} height={50} quality={75} />
-            </Suspense>
-          </div>
         </div>
       </div>
     </section>
