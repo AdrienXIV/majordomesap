@@ -532,7 +532,7 @@
 }
 /* ################################################################################## */
 #formations {
-  padding: 150px 0;
+  padding: 150px 0 0 0;
 }
 #formations h2 {
   color: #333;
@@ -586,6 +586,13 @@
     text-align: center;
     font-size: 35px;
   }
+
+  #formations > div > .bloc-image:first-child > div {
+    top: 33%;
+  }
+  #formations > div > .bloc-image:last-child > div {
+    top: 40%;
+  }
 }
 
 /* TABLETS */
@@ -600,5 +607,36 @@
   #formations > div > .bloc-image > div h3 {
     text-align: center;
     font-size: 35px;
+  }
+
+  #formations > div > .bloc-image:first-child > div {
+    top: 33%;
+  }
+  #formations > div > .bloc-image:last-child > div {
+    top: 40%;
+  }
+}
+
+/* ############################################ */
+#professionnels-et-employeurs {
+  padding: 100px 300px;
+}
+#professionnels-et-employeurs > p {
+  max-width: 100%;
+  text-align: justify;
+}
+
+/* TABLETS */
+@media only screen and (max-width: 959px) {
+  #professionnels-et-employeurs {
+    padding: 100px 100px;
+  }
+}
+
+/* PHONES */
+@media only screen and (max-width: 480px) {
+  #professionnels-et-employeurs {
+    padding: 50px 5px;
+    text-align: center;
   }
 }

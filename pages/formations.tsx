@@ -77,6 +77,14 @@ const FormationsPage: NextPage = () => {
             </Link>
           </div>
         </section>
+        <section id="professionnels-et-employeurs">
+          <h3>Professionnels et employeurs</h3>
+          <hr />
+          <p>
+            Vous souhaitez développer les compétences de vos collaborateurs, mettre en place une formation collective ou mettre en place un plan de
+            formation spécifique. Nous sommes là pour vous accompagner dans votre projet et répondre à votre besoin.
+          </p>
+        </section>
       </main>
     </>
   );
