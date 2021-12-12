@@ -12,12 +12,12 @@ const Soyez100Finance: NextPage = () => {
         <div className="bloc-texte">
           <h2>Soyez 100% Financé !</h2>
           <br />
-          <p>Formez vous à l’excellence avec MAJORDOME FORMATION SAP Formation 100% financée.</p>
+          <p>Formez-vous à l’excellence avec MAJORDOME FORMATION SAP Formation 100% financée.</p>
           <p>
-            Votre formation peut être financée selon votre situation. Vous pouvez selon votre cas, faire une demande de prise en charge de la
-            formation auprès des structures dédiées (CPF, Opco, Pôle Emploi, Agefiph ou Mission locale).
+            En fonction de votre situation, votre formation peut être financée en totalité ou partiellement en sollicitant des dispositifs
+            particuliers tels que CPF, l’OPCO, le Pôle Emploi, AGEFIPH ou la mission locale, etc. Pour les prises en charge partielles, nous vous
+            offrons la possibilité d’un paiement en 4 fois sans frais.
           </p>
-          <p>Jusqu’à 100% de votre formation peut alors vous être alloué. Possibilité de paiement en 4 fois.</p>
           <br />
           <Button
             label="Je découvre mon éligibilité CPF"
