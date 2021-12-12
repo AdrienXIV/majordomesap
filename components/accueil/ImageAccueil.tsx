@@ -19,7 +19,7 @@ const H1_CONTENUS = [
     imgPath: "/images/1.jpg",
   },
   {
-    texte: () => <>Formation auxiliaire de vie aux familles (advf) certifiée de niveau 3</>,
+    texte: () => <>Formation Assistant de vie aux familles (reconnue RNCP de niveau 3)</>,
     imgPath: "/images/5.jpg",
   },
 ];
