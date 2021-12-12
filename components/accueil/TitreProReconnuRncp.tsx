@@ -108,7 +108,7 @@ const TitreProReconnuRncp: NextPage = () => {
             Notre centre de formation vous propose des modules de formation certifiants d’ADVF permettant de valoriser vos compétences métier et ainsi
             obtenir un <b>Titre Professionnel de niveau 3</b> inscrit au RNCP et délivré par le Ministère du Travail.
           </p>*/}
-          <p>
+          {/* <p>
             Majordome Formation SAP est un centre de formation aux métiers du service à la personne (<b>ADVF</b>) par excellence. Nos{" "}
             <b>formations sont certifiantes</b> avec un titre professionnel reconnu de niveau 3 inscrit au RNC.
           </p>
@@ -124,6 +124,20 @@ const TitreProReconnuRncp: NextPage = () => {
             l’accueil des personnes en situation de handicap. Quelle que soit la modalité de formation choisie, Majordome Formation SAP recommande au
             stagiaire de signaler, dès son inscription, la nature de son handicap ainsi que ses besoins spécifiques, afin de l’accueillir dans des
             conditions optimales.
+          </p> */}
+          <p>
+            Majordome Formation SAP est un centre de formation d’excellence dédié spécifiquement aux métiers des services aux personnes. Nos
+            <b>formations sont certifiantes</b>, inscrites au Répertoire National des Certifications Professionnelles (<b>RNCP</b>) reconnues de
+            niveau 3.
+          </p>
+          <p>
+            Nous apportons notre expertise métier à nos apprenants en proposant des formations en petit groupe et des modules spécifiques permettant
+            de faciliter les apprentissages, pour nous permettre de répondre aux besoins spécifiques de tous nos apprenants.
+          </p>
+          <p>
+            Nos formations se déroulent en <b>présentiel et distanciel</b>. Nous disposons d'un <b>appartement témoin</b> pour les mises en situation
+            pratique. Nos locaux sont <b>accessibles aux personnes en situation de handicap</b>. Aussi, n’hésitez pas à nous faire part des
+            adaptations nécessaires à votre confort pour que nous puissions vous accueillir dans les meilleures conditions.
           </p>
         </div>
       </div>
