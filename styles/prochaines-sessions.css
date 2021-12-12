@@ -56,14 +56,36 @@
     width: calc(50% - 30px);
   }
 }
-
 /* PHONES */
 @media only screen and (max-width: 480px) {
   #dates-sessions {
     padding: 100px 0;
+    width: 100%;
     text-align: center;
   }
   #dates-sessions .bloc-dates > div {
     width: 100%;
+  }
+}
+/* ########################################## */
+#prochaines-sessions {
+  padding: 150px 300px;
+}
+#prochaines-sessions > p {
+  max-width: 100%;
+  text-align: justify;
+}
+/* TABLETS */
+@media only screen and (max-width: 959px) {
+  #prochaines-sessions {
+    padding: 100px 100px;
+  }
+}
+
+/* PHONES */
+@media only screen and (max-width: 480px) {
+  #prochaines-sessions {
+    padding: 50px 5px;
+    text-align: center;
   }
 }
