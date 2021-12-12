@@ -570,6 +570,21 @@ const ADVF: NextPage = () => {
         </div>
       </div>
       {/* /CCP3 */}
+      <div className="evolutions-possibles">
+        <h3>Évolutions possibles</h3>
+        <hr />
+        <h4>Poursuite d’études</h4>
+        <p>
+          Après votre certification, vous aurez des facilités à évoluer vers les fonctions d’accompagnant(e) éducatif et social (AES),
+          aide-soignant(e) ou vers les métiers de la petite enfance.
+        </p>
+        <br />
+        <h4>Des passerelles</h4>
+        <p>
+          Des passerelles ont été établies entre le TP ADVF et des certifications des ministères chargés de l’éducation nationale, de l’agriculture,
+          de la cohésion sociale et de la santé, ainsi que celles de la branche des salariés du particulier employeur.
+        </p>
+      </div>
 
       <div className="bloc-timeline-advf">
         <Timeline value={events1} layout={layout as any} className="customized-timeline" marker={customizedMarker} content={customizedContent} />

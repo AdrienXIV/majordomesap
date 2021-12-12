@@ -1,5 +1,5 @@
 #formation-majordomat {
-  padding: 100px 0 0;
+  padding: 150px 0 0;
 }
 #formation-majordomat h2 {
   color: #333;
@@ -293,6 +293,18 @@
   color: #ca0032;
 }
 
+#formation-majordomat > .evolutions-possibles {
+  padding: 75px 0;
+}
+#formation-majordomat > .evolutions-possibles > h3 {
+  text-align: center;
+}
+#formation-majordomat > .evolutions-possibles > p {
+  text-align: justify;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /* TABLETS */
 @media only screen and (max-device-width: 959px) {
   #formation-majordomat {
@@ -409,6 +421,10 @@
   #formation-majordomat > .bloc-timeline-advf .p-timeline-event-opposite {
     max-width: 40%;
   }
+
+  #formation-majordomat > .evolutions-possibles {
+    padding: 50px 20px;
+  }
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -508,6 +524,10 @@
   }
   #formation-majordomat > .bloc-timeline-advf .p-timeline-event-opposite {
     max-width: 40%;
+  }
+
+  #formation-majordomat > .evolutions-possibles {
+    padding: 25px 20px;
   }
 }
 /* ################################################################################## */
