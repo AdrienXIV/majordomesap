@@ -180,7 +180,7 @@ const Majordomat: NextPage = () => {
           </Suspense>
           <div>
             <h3>Module 3 : L'étiquette</h3>
-            <p>Connaissance et suivi du protocole, apprentissage du code de bonnes manières et assimilation des bonnes tenues &amp; attitudes</p>
+            <p>Connaissance et suivi du protocole, apprentissage des « bonnes manières ». Adopter la bonne attitude et la tenue appropriée</p>
           </div>
         </div>
         <div

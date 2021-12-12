@@ -159,9 +159,7 @@ const ADVF: NextPage = () => {
       <div id="advf-modules" className="module-titre">
         <h2>Devenez un professionnel rapidement !</h2>
         <small>
-          Notre formation modulable pouvant aller de <b>2 jours</b> (21 heures) à <b>2 mois</b> (441 heures). Cette qualification passe par
-          l’acquisition de trois certificats de compétences professionnelles indispensables à la validation de l’examen d’AVDF devant le jury. Modulez
-          votre programme en vous aidant de nos 3 programmes prédéfinis.
+          Notre formation modulable pouvant aller de 3 jours (21 heures) à 2 mois (441 heures). Cette certification passe par l'acquisition
         </small>
         <hr />
         CCP1 Entretenir le logement et le linge d’un particulier
@@ -269,7 +267,7 @@ const ADVF: NextPage = () => {
           </Suspense>
           <div>
             <h3>Module 4 : Entretien du logement et du linge</h3>
-            <p>L'utilisation adéquate des produits d’entretien, Organiser la prestation, Entretienir le logement et le linge</p>
+            <p>L'utilisation adéquate des produits d’entretien, Organiser la prestation, Entretenir le logement et le linge</p>
           </div>
         </div>
 
