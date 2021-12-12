@@ -47,7 +47,7 @@ const Rncp = () => {
               <h3 className="section-rncp">ADVF</h3>
               <div className="voir">
                 <h5 className="p-title1">Adaptée pour tous</h5>
-                <p className="p-text1">
+                {/* <p className="p-text1">
                   Le Titre Professionnel d’Assistant De Vie Aux Familles de niveau 3 est délivré par le Ministère du Travail et inscrit au RNCP. Il
                   permet d’accéder aux métiers des services à la personne en apportant une intervention professionnelle à domicile de qualité auprès
                   des personnes assistées.
@@ -58,6 +58,17 @@ const Rncp = () => {
                   de vos cours sur la plateforme à tout moment. À l’issue de la formation, vous avez la possibilité d’accompagner des personnes via
                   des services tels que l’assistance pour l’entretien du cadre de vie, l’hygiène corporelle, l’alimentation, les déplacements et la
                   prise en charge des enfants de 0 à 3 ans au domicile de leurs parents.
+                </p> */}
+                <p className="p-text1">
+                  Avec l’obtention du titre d’assistant de vie aux familles, vous pouvez exercer dans le domaine et avec le public qui vous convient
+                  le mieux. Chaque classe est composée d’un nombre réduit de participants pour favoriser les apprentissages et vous permet un
+                  accompagnement adapté à vos besoins.
+                </p>
+                <p className="p-text1">
+                  Suivez nos formations en présentiel ou distanciel et profitez d’un accès exclusif à vos cours sur notre plateforme à tout moment. A
+                  l’issue de la formation, vous avez la capacité d’accompagner les personnes dans l’entretien de leur domicile, accompagner des
+                  personnes en perte d’autonomie dans l’ensemble des gestes de la vie quotidienne ou de relayer les parents d’enfants en bas âge (0 à
+                  3 ans) durant leur absence.
                 </p>
               </div>
             </div>
@@ -68,7 +79,7 @@ const Rncp = () => {
             <div className="col-md-3">
               <h3 className="section-rncp">MAJORDOMAT</h3>
               <div className="voir">
-                <h5 className="p-title1">Adaptée pour tous</h5>
+                <h5 className="p-title1">Pour aller plus loin</h5>
                 {/* <p className="p-text1">
                   Le Titre Professionnel de Majordome de niveau 3 est délivré par le Ministère du Travail et inscrit au RNCP. Il permet d’accéder aux
                   métiers des services à la personne en apportant une intervention professionnelle à domicile de qualité auprès des personnes.{" "}
@@ -83,12 +94,19 @@ const Rncp = () => {
                   permettront de vous situer en tant que véritable professionnel de l’intervention à domicile.
                 </p> */}
                 <p className="p-text1">
-                  Les modules de Majordomat vous attribuent la prestance et les aptitudes d’un majordome/gouvernante de maison qui vous permettront de
-                  vous situer en tant que véritable professionnel de l’intervention à domicile.
-                </p>
-                <p className="p-text1">
                   Les modules transversaux de Majordomat, vous attribuent la prestance et les aptitudes d’un majordome/gouvernante de maison qui vous
                   permettront de vous situer en tant que véritable professionnel de l’intervention à domicile.
+                </p>
+                <p className="p-text1">
+                  Les modules de Majordomat vous permettent d’acquérir les connaissances et le standing nécessaire à des prestations de hautes
+                  technicités. Vous élargissez ainsi votre culture professionnelle et votre technicité pour incarner le rôle du Majordome /
+                  Gouvernante de maison.
+                  <br />
+                  Vous serez capable de prendre en charge la préparation des repas, le décor floral et le service à table par exemple.
+                </p>
+                <p className="p-text1">
+                  Nos formations en Majordomat vous permettent de répondre aux demandes les plus exigeantes et de proposer des interventions
+                  professionnelles à domicile de grande qualité.
                 </p>
               </div>
             </div>
