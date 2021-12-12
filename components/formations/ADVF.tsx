@@ -654,10 +654,9 @@ const ADVF: NextPage = () => {
           </div>
         </div> */}
         <div className="bloc-texte">
-          <h3>Soyez plus qu'un(e) simple assistant(e) de vie</h3>
+          <h3>Soyez plus qu’une simple assistante de vie</h3>
           <p>
-            Bien plus qu’une formation théorique et pratique, notre centre inculque le savoir être en favorisant des relations saines et
-            bienveillantes avec la personne accompagnée.
+            Grâce à nos formations, gagnez en technicité dans votre travail et développez votre culture générale pour gagner en aisance relationnelle.
           </p>
         </div>
       </div>
