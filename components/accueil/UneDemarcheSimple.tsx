@@ -20,9 +20,10 @@ const UneDemarcheSimple: NextPage = () => {
       numero: 2,
     },
     {
-      status: "Test de selection",
+      status: "Test de sélection",
       color: "#f368e0",
-      content: "Les candidats seront soumis à des tests d'évaluations afin de vérifier leurs acquis",
+      content:
+        "Les candidats seront soumis à des tests d'évaluations afin de vérifier leurs acquis et évaluer leurs besoins spécifiques pour la formation",
       numero: 3,
     },
     {
@@ -47,14 +48,20 @@ const UneDemarcheSimple: NextPage = () => {
     {
       status: "Stage obligatoire",
       color: "#2c3e50",
-      content: "Conciliez connaissances et compétences dans le milieu professionnel. Passage devant le jury",
+      content: "Mettez en application vos nouvelles connaissances dans le milieu professionnel",
       numero: 7,
     },
     {
-      status: "Insertion professionnelle",
+      status: "Passage devant le jury",
       color: "#27ae60",
-      content: "Profitez de notre réseau pour entrer en contact avec des professionnels du métier et facilitez votre insertion professionnelle",
+      content: "Démontrez vos compétences et obtenez votre certification professionnelle",
       numero: 8,
+    },
+    {
+      status: "Insertion professionnelle",
+      color: "#ffa801",
+      content: "Profitez de notre réseau pour entrer en contact avec des employeurs et facilitez votre insertion professionnelle",
+      numero: 9,
     },
   ];
 
@@ -77,7 +84,7 @@ const UneDemarcheSimple: NextPage = () => {
 
   return (
     <section id="une-demarche-simple">
-      <h2>Une Démarche Simple en 8 étapes</h2>
+      <h2>Une Démarche Simple en 9 étapes</h2>
       <br />
       <br />
       <div className="bloc-texte">
