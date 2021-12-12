@@ -22,8 +22,8 @@ const EquipePedagogieCertifiee: NextPage = () => {
           <div>
             <h4>Équipe Complète</h4>
             <p>
-              Formateur ADVF, Formateur en science humaine et social, Éducateur spécialisé de la petite enfance, Maître d’hôtel, Formateur
-              développement personnel
+              Formateur ADVF, Formateur en science humaine et social, Éducateur de jeunes enfants, Maître d’hôtel, Formateur en développement
+              personnel
             </p>
           </div>
         </div>
@@ -32,8 +32,8 @@ const EquipePedagogieCertifiee: NextPage = () => {
           <Suspense fallback={<ProgressSpinner />}>
             <Image
               loader={myLoader}
-              alt="majordomeformationsap-groupe"
-              src="/images/majordomeformationsap/qui-sommes-nous/majordomeformationsap-groupe.jpeg"
+              alt="majordomeformationsap-petite-salle"
+              src="/images/majordomeformationsap/qui-sommes-nous/salle.jpg"
               layout="fill"
               objectFit="cover"
               quality={80}
@@ -62,9 +62,8 @@ const EquipePedagogieCertifiee: NextPage = () => {
           <div>
             <h4>Reconnue et certifiée</h4>
             <p>
-              Reconnue et certifiée (déplacer et mettre avant pédagogie en petits groupes): Chaque membre de l’équipe possède des aptitudes et
-              qualifications à enseigner reconnues par l’État. Le centre est également reconnu par ses certifications et accréditations : Datadock,
-              éligibilité étatique, FFP...
+              Reconnue et certifiée : Chaque membre de l’équipe possède des aptitudes et qualifications à enseigner reconnues par l’État. Le centre
+              est également reconnu par ses certifications et accréditations : Datadock, FFP..
             </p>
           </div>
         </div>

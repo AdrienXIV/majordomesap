@@ -24,12 +24,18 @@ const ALecouteDeVosEnvies: NextPage = () => {
         </Suspense>
         <div className="bloc-texte">
           <h3>Nos Objectifs</h3>
-          <p>
+          {/* <p>
             Notre but est d’enseigner sur les compétences professionnelles en y apportant des savoirs supplémentaires indispensables à un
             accompagnement de qualité afin de faciliter l’insertion professionnelle de nos apprenant(e)s. Nous savons qu’un recrutement local et de
             qualité est un facteur de réussite pour l’apprenant(e) c’est pourquoi Majordome Formation SAP a pour ambition de créer des partenariats
             privilégiés concernant la formation professionnelle et le recrutement, afin de favoriser l’intégration dans nos métiers. Nous souhaitons
             rendre nos formations accessibles à tous.
+          </p> */}
+          <p>
+            Majordome Formation SAP a pour but de favoriser l’accès à la formation et à l’emploi du plus grand nombre. Aussi, nous proposons des
+            formations en petits groupes, alternant connaissances techniques et pratiques. En accompagnant nos apprenants vers l’obtention d’une
+            certification reconnue et en développant des partenariats privilégiés avec des entreprises locales qui recrutent, nous favorisons leur
+            insertion professionnelle.
           </p>
         </div>
       </div>
