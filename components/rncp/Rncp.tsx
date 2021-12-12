@@ -33,11 +33,12 @@ const Rncp = () => {
         </div>
       </div>
       <hr />
-      <h2 className="text-center title-rncp">Nos Formations RNCP CAP/BAC PRO</h2>
+      <h2 className="text-center title-rncp">Formez-vous à un métier d’avenir</h2>
       <div className="sous-texte-formations">
         <p>
-          Chaque classe est composée d’un groupe réduit afin d’initier au mieux chaque participant en présentiel avec un accès exclusif de vos cours
-          sur la plateforme du centre.
+          Nos formations en petits groupes vous permettront d’apprendre à soutenir quotidiennement les personnes à leur domicile. Devenez ainsi, un
+          véritable professionnel de la relation d’aide et d’accompagnement. Gagnez en technicité, en poursuivant votre formation avec nos modules
+          spécifiques de Majordomat.
         </p>
       </div>
       <div className="grid grid-rncp">
