@@ -1,39 +1,83 @@
 import { NextPage } from "next";
 import React from "react";
-import { TabMenu} from 'primereact/tabmenu'
-import { useRouter } from 'next/dist/client/router';
+import { useRouter } from "next/dist/client/router";
+import Link from "next/link";
 
 const Footer: NextPage = () => {
-  const router = useRouter()
+  const router = useRouter();
   return (
     <>
       <footer className="footer">
         <div className="grid">
           <p className="p-sm-24 p-md-6 p-lg-6 p-xl-6 footer-lien">
-            <a href="/mentions" target="_blank">Mentions légales </a><br/><br/>
-            <a href="https://4310529310.digiforma.net" target="_blank">Espace étudiant/professeur </a><br/><br/>
-            <a href="/formation-majordomat" target="_blank">Majordomat </a><br/><br/>
-            <a href="/formation-advf" target="_blank">ADVF </a><br/><br/>
-            <a href="https://majordomeformation-sap.catalogueformpro.com/" target="_blank">Catalogue de formation </a>
+            <Link href="/mentions" passHref>
+              <a target="_blank">Mentions légales</a>
+            </Link>
+            <br />
+            <br />
+            <a href="https://4310529310.digiforma.net" target="_blank">
+              Espace étudiant/professeur
+            </a>
+            <br />
+            <br />
+            <Link href="/formation-majordomat" passHref>
+              <a target="_blank">Majordomat</a>
+            </Link>
+            <br />
+            <br />
+            <Link href="/formation-advf" passHref>
+              <a target="_blank">ADVF</a>
+            </Link>
+            <br />
+            <br />
+            <a href="https://majordomeformation-sap.catalogueformpro.com/" target="_blank">
+              Catalogue des formations
+            </a>
           </p>
           <p className="p-sm-24 p-md-6 p-lg-6 p-xl-6 footer-lien">
-            <a href="/qui-sommes-nous" target="_blank">Qui-sommes-nous </a><br/><br/>
-            <a href="/financement" target="_blank">Financement </a><br/><br/>
-            <a href="/prochaines-sessions" target="_blank">Prochaines-sessions </a><br/><br/>
-            <a href="https://www.facebook.com/majordomeformation/" target="_blank">Facebook </a><br/><br/>  
-            <a href="https://fr.linkedin.com/company/majordome-formation-sap" target="_blank">Linkedin </a><br/><br/>
+            <Link href="/qui-sommes-nous" passHref>
+              <a target="_blank">Qui sommes-nous ?</a>
+            </Link>
+            <br />
+            <br />
+            <Link href="/financement" passHref>
+              <a target="_blank">Financement</a>
+            </Link>
+            <br />
+            <br />
+            <Link href="/prochaines-sessions" passHref>
+              <a target="_blank">Prochaines sessions</a>
+            </Link>
+            <br />
+            <br />
+            <a href="https://www.facebook.com/majordomeformation/" target="_blank">
+              Facebook
+            </a>
+            <br />
+            <br />
+            <a href="https://fr.linkedin.com/company/majordome-formation-sap" target="_blank">
+              Linkedin
+            </a>
+            <br />
+            <br />
           </p>
           <p className="p-sm-24 p-md-6 p-lg-6 p-xl-6 footer-lien">
-            <a className="title-footer">Contact</a><br/>
-            <a>01.58.04.24.18</a><br/>
-            <a> 07.83.32.02.84</a><br/>
-            <a>contact@majordomeformationsap.fr​ </a><br/>
-            <a>13 rue Camille Desmoulins</a><br/>
-            <a>92130
-            ISSY-LES-MOULINEAUX </a>
+            <span className="title-footer">Contact</span>
+            <br />
+            <a href="0158042418">01.58.04.24.18</a>
+            <br />
+            <a href="tel:0783320284">07.83.32.02.84</a>
+            <br />
+            <a href="mailto:contact@majordomeformationsap.fr">contact@majordomeformationsap.fr​</a>
+            <br />
+            <span>13 rue Camille Desmoulins</span>
+            <br />
+            <span>92130 ISSY-LES-MOULINEAUX </span>
           </p>
         </div>
-        <div className="text-center-footer"><p> © Copyright {new Date().getFullYear()+' '} Dev Agency. All Rights Reserved </p></div>
+        <div className="text-center-footer">
+          <p>© Copyright {new Date().getFullYear()} Dev Agency. All Rights Reserved</p>
+        </div>
       </footer>
     </>
   );
