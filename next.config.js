@@ -33,6 +33,8 @@ module.exports = {
       "/formation-majordomat": { page: "/formation-majordomat" },
       "/formation-advf": { page: "/formation-advf" },
       "/financement": { page: "/financement" },
+      "/prochaines-sessions": { page: "/prochaines-sessions" },
+      "/qui-sommes-nous": { page: "/qui-sommes-nous" },
       "/sitemap.xml": { page: "/sitemap.xml" },
       "/robots.txt": { page: "/robots.txt" },
     };
