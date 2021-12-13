@@ -18,6 +18,7 @@ import "@styles/Config.css";
 import "@styles/financement.css";
 import "@styles/qui-sommes-nous.css";
 import "@styles/prochaines-sessions.css";
+import "@styles/footer/styles.css";
 
 import axios from "axios";
 import React, { Suspense } from "react";
