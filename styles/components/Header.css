@@ -13,7 +13,7 @@
   background-color: var(--white);
   border: none;
   position: fixed;
-  height: 10vh;
+  height: 9vh;
   width: 100%;
   z-index: 999999;
   border-radius: 0;
@@ -21,12 +21,12 @@
 .nav-infos {
   display: flex;
   align-items: center;
-  top: 10vh;
+  top: 9vh;
   background-color: #333;
   color: white;
   border: none;
   position: fixed;
-  padding: 20px 0;
+  padding: 15px 0;
   width: 100%;
   z-index: 999999;
   justify-content: space-around;
