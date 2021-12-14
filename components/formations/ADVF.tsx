@@ -584,6 +584,9 @@ const ADVF: NextPage = () => {
           Des passerelles ont été établies entre le TP ADVF et des certifications des ministères chargés de l’éducation nationale, de l’agriculture,
           de la cohésion sociale et de la santé, ainsi que celles de la branche des salariés du particulier employeur.
         </p>
+        <br />
+        <h4>Débouchés</h4>
+        <p>Auxiliaire de vie, assistant(e) de vie, assistant(e) ménager(e), agent à domicile, garde d’enfant à domicile, garde à domicile.</p>
       </div>
 
       <div className="bloc-timeline-advf">

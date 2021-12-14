@@ -225,6 +225,13 @@ const Majordomat: NextPage = () => {
           </div>
         </div>
       </div>
+
+      <div className="evolutions-possibles">
+        <h3>Évolutions possibles</h3>
+        <hr />
+        <h4>Débouchés</h4>
+        <p>Intervenant(e) à domicile.</p>
+      </div>
     </section>
   );
 };

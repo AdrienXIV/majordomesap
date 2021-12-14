@@ -294,7 +294,8 @@
 }
 
 #formation-majordomat > .evolutions-possibles {
-  padding: 75px 0;
+  width: 100%;
+  padding: 75px 300px;
 }
 #formation-majordomat > .evolutions-possibles > h3 {
   text-align: center;
@@ -536,6 +537,7 @@
 }
 #formations h2 {
   color: #333;
+  margin-bottom: 20px;
 }
 
 #formations > div {
