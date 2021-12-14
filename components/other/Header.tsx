@@ -1,10 +1,11 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { Menubar } from "primereact/menubar";
 import { NextPage } from "next";
 import Image from "next/image";
 import { useRouter } from "next/dist/client/router";
 import Link from "next/link";
 import { myLoader } from "@utils/loader";
+import { ProgressSpinner } from "primereact/progressspinner";
 
 const Header: NextPage = () => {
   const router = useRouter();
@@ -82,6 +83,22 @@ const Header: NextPage = () => {
         <Menubar className="icons-nav-style" model={items} start={start} end={end} />
       </nav>
       <div className="nav-infos">
+        <div className="reseaux-sociaux">
+          <div>
+            <Suspense fallback={<ProgressSpinner />}>
+              <a href="https://www.facebook.com/majordomeformation" target="_blank">
+                <Image loader={myLoader} alt="facebook" src="/images/fb.png" width={40} height={40} quality={80} />
+              </a>
+            </Suspense>
+          </div>
+          <div>
+            <Suspense fallback={<ProgressSpinner />}>
+              <a href="https://fr.linkedin.com/company/majordome-formation-sap" target="_blank">
+                <Image loader={myLoader} alt="linkedin" src="/images/linkdin.png" width={40} height={40} quality={80} />
+              </a>
+            </Suspense>
+          </div>
+        </div>
         <div>
           <i className="pi pi-phone"></i>
           {"01.58.04.24.18 / 07.83.32.02.84"}
