@@ -9,7 +9,7 @@ const H1_CONTENUS = [
   {
     texte: () => (
       <>
-        Obtenez votre certification auxiliaire de vie aux familles (advf) 100% financée<a href="#soyez-100-finance">*</a>
+        Obtenez votre certification assitant (e) de vie aux familles (advf) 100% financée<a href="#soyez-100-finance">*</a>
       </>
     ),
     imgPath: "/images/4.jpg",

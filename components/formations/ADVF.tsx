@@ -586,7 +586,7 @@ const ADVF: NextPage = () => {
         </p>
         <br />
         <h4>Débouchés</h4>
-        <p>Auxiliaire de vie, assistant(e) de vie, assistant(e) ménager(e), agent à domicile, garde d’enfant à domicile, garde à domicile.</p>
+        <p>Assitant (e) de vie, assistant(e) de vie, assistant(e) ménager(e), agent à domicile, garde d’enfant à domicile, garde à domicile.</p>
       </div>
 
       <div className="bloc-timeline-advf">

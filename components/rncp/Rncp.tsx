@@ -27,6 +27,7 @@ const Rncp = () => {
           <div className="col-12 md:col-6 lg:col-5">
             <h3 className="title-emplois">
               <span className="number-rncp">949</span> offres d'emploi pour majordome en 2021
+              <p>Taux de réussite : 95 %</p>
             </h3>
             <p className="p-emplois">Source : pôle emploi</p>
           </div>
@@ -94,10 +95,10 @@ const Rncp = () => {
                   Les modules transversaux de Majordomat, vous attribuent la prestance et les aptitudes d’un majordome/gouvernante de maison qui vous
                   permettront de vous situer en tant que véritable professionnel de l’intervention à domicile.
                 </p> */}
-                <p className="p-text1">
+                {/* <p className="p-text1">
                   Les modules transversaux de Majordomat, vous attribuent la prestance et les aptitudes d’un majordome/gouvernante de maison qui vous
                   permettront de vous situer en tant que véritable professionnel de l’intervention à domicile.
-                </p>
+                </p> */}
                 <p className="p-text1">
                   Les modules de Majordomat vous permettent d’acquérir les connaissances et le standing nécessaire à des prestations de hautes
                   technicités. Vous élargissez ainsi votre culture professionnelle et votre technicité pour incarner le rôle du Majordome /
