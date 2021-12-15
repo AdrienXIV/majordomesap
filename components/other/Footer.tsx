@@ -16,7 +16,12 @@ const Footer: NextPage = () => {
             <br />
             <br />
             <a href="https://4310529310.digiforma.net" target="_blank">
-              Espace étudiant/professeur
+              Espace formateur
+            </a>
+            <br />
+            <br />
+            <a href="https://4310529310.digiforma.net" target="_blank">
+              Espace apprenant
             </a>
             <br />
             <br />
@@ -28,13 +33,13 @@ const Footer: NextPage = () => {
             <Link href="/formation-advf" passHref>
               <a target="_blank">ADVF</a>
             </Link>
-            <br />
-            <br />
+          </p>
+          <p className="p-sm-24 p-md-6 p-lg-6 p-xl-6 footer-lien">
             <a href="https://majordomeformation-sap.catalogueformpro.com/" target="_blank">
               Catalogue des formations
             </a>
-          </p>
-          <p className="p-sm-24 p-md-6 p-lg-6 p-xl-6 footer-lien">
+            <br />
+            <br />
             <Link href="/qui-sommes-nous" passHref>
               <a target="_blank">Qui sommes-nous ?</a>
             </Link>

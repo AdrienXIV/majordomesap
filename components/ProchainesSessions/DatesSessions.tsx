@@ -11,15 +11,6 @@ const DatesSessions = () => {
       <div className="bloc-dates">
         <div>
           <div>
-            <h3>Informations collective</h3>
-            <p>03/12/21 – 10/12/21 – 17/12/21</p>
-          </div>
-          <div className="preinscription">
-            <Button label="Me préinscrire" onClick={() => router.push("/prochaines-sessions#contact")} />
-          </div>
-        </div>
-        <div>
-          <div>
             <h3>Session ADVF complète</h3>
             <p>11 janvier 2022 au 20 Mai 2022</p>
           </div>

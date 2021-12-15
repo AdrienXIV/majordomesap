@@ -3,7 +3,8 @@ import type { NextPage } from "next";
 import Image from "next/image";
 import { ProgressSpinner } from "primereact/progressspinner";
 import { myLoader } from "@utils/loader";
-
+import { Button } from "react-bootstrap";
+import Link from "next/link";
 const TitreProReconnuRncp: NextPage = () => {
   return (
     <section id="titre-pro-reconnu-rncp">
@@ -121,7 +122,8 @@ const TitreProReconnuRncp: NextPage = () => {
           </p>
           <p>
             L’activité de Majordome Formation SAP étant, par définition, centrée sur l’humain, la structure accorde une importance particulière à
-            l’accueil des personnes en situation de handicap. Quelle que soit la modalité de formation choisie, Majordome Formation SAP recommande au
+            l’accueil des personnes en situation de handicap. Quelle que soit la modalité de formation choisie, Majordomimport Accueil from './index';
+e Formation SAP recommande au
             stagiaire de signaler, dès son inscription, la nature de son handicap ainsi que ses besoins spécifiques, afin de l’accueillir dans des
             conditions optimales.
           </p> */}
@@ -139,6 +141,12 @@ const TitreProReconnuRncp: NextPage = () => {
             pratique. Nos locaux sont <b>accessibles aux personnes en situation de handicap</b>. Aussi, n’hésitez pas à nous faire part des
             adaptations nécessaires à votre confort pour que nous puissions vous accueillir dans les meilleures conditions.
           </p>
+          <Link href="/info" passHref>
+            <a className="contact-btn-telecharge">
+              <span className="btn-telecharge"
+              >Livret d'accueil</span>
+            </a>
+          </Link>
         </div>
       </div>
     </section>
