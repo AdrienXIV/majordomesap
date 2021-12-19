@@ -59,7 +59,7 @@
 /* PHONES */
 @media only screen and (max-width: 480px) {
   #dates-sessions {
-    padding: 100px 0;
+    padding: 50px 0;
     width: 100%;
     text-align: center;
   }
@@ -79,13 +79,14 @@
 @media only screen and (max-width: 959px) {
   #prochaines-sessions {
     padding: 100px 100px;
+    text-align: center;
   }
 }
 
 /* PHONES */
 @media only screen and (max-width: 480px) {
   #prochaines-sessions {
-    padding: 50px 5px;
+    padding: 100px 5px 50px;
     text-align: center;
   }
 }
