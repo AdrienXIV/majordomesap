@@ -331,6 +331,9 @@
 #personnalisez-vos-modules {
   padding: 50px 300px 75px;
 }
+#personnalisez-vos-modules > a {
+  text-decoration: none;
+}
 
 #personnalisez-vos-modules h2 {
   color: #333;

@@ -54,58 +54,11 @@ const PersonnalisezVosModules: NextPage = () => {
         </p>
       </div>
 
-      <Link href="/formation-advf#advf-modules" passHref>
-        <a className="btn">Découvrez nos modules ADVF</a>
+      <Link href="https://majordomeformation-sap.catalogueformpro.com" passHref>
+        <a target="_blank" className="btn">
+          Catalogue de formation
+        </a>
       </Link>
-      {/* <br />
-      <div className="p-grid bloc-cards">
-        <Card className="col-3" title="CCP 1" subTitle="Entretenir le logement et le linge d’un particulier" footer={footerCCP1}>
-          <div className="module">
-            <i className="pi pi-check-circle"></i> <u>Module 1 :</u> Les fondamentaux du métier d’ADVF
-          </div>
-          <div className="module">
-            <i className="pi pi-check-circle"></i> <u>Module 2 :</u> Le travail en sécurité
-          </div>
-          <div className="module">
-            <i className="pi pi-check-circle"></i> <u>Module 3 :</u> La communication
-          </div>
-          <div className="module">
-            <i className="pi pi-check-circle"></i> <u>Module 4 :</u> Techniques d’entretien du logement et du linge
-          </div>
-        </Card>
-        <Card className="col-3" title="CCP 2" subTitle="Accompagner la personne dans les actes essentiels du quotidien" footer={footerCCP2}>
-          <div className="module">
-            <i className="pi pi-check-circle"></i> <u>Module 1 :</u> Développer une relation professionnelle
-          </div>
-          <div className="module">
-            <i className="pi pi-check-circle"></i> <u>Module 2 :</u> Prévention des risques
-          </div>
-          <div className="module">
-            <i className="pi pi-check-circle"></i> <u>Module 3 :</u> Comprendre et accompagner la perte d’autonomie
-          </div>
-          <div className="module">
-            <i className="pi pi-check-circle"></i> <u>Module 4 :</u> Aide aux soins d’hygiène
-          </div>
-          <div className="module">
-            <i className="pi pi-check-circle"></i> <u>Module 5 :</u> Alimentation
-          </div>
-        </Card>
-        <Card className="col-3" title="CCP 3" subTitle="Relayer les parents dans la prise en charge des enfants à leur domicile">
-          <div className="module">
-            <i className="pi pi-check-circle"></i> <u>Module 1 :</u> Définir le cadre de l’intervention
-          </div>
-          <div className="module">
-            <i className="pi pi-check-circle"></i> <u>Module 2 :</u> Prévenir les risques et assurer la sécurité des enfants
-          </div>
-          <div className="module">
-            <i className="pi pi-check-circle"></i> <u>Module 3 :</u> Accompagnement dans l’apprentissage de base, la socialisation et les activités
-            des enfants
-          </div>
-          <div className="module">
-            <i className="pi pi-check-circle"></i> <u>Module 4 :</u> Les techniques et gestes professionnels
-          </div>
-        </Card>
-      </div> */}
     </section>
   );
 };
