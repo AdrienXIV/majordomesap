@@ -6,8 +6,7 @@ const DatesSessions = () => {
   const router = useRouter();
   return (
     <section id="dates-sessions">
-      <h2>Dates de nos prochaines sessions</h2>
-      <hr />
+      <h3>Dates de nos prochaines sessions</h3>
       <div className="bloc-dates">
         <div>
           <div>

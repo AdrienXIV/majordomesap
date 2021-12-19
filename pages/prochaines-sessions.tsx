@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import Header from "@components/other/Header";
 import Head from "next/head";
 import DatesSessions from "@components/ProchainesSessions/DatesSessions";
+import InformationsCollectives from "@components/ProchainesSessions/InformationsCollectives";
 
 const ProchainesSessionsPage: NextPage = () => {
   return (
@@ -13,12 +14,8 @@ const ProchainesSessionsPage: NextPage = () => {
       <Header />
 
       <main>
+        <InformationsCollectives />
         <DatesSessions />
-        <section id="prochaines-sessions">
-          <h3>Information collective du vendredi</h3>
-          <hr />
-          <p>Chaque vendredi à 11H, nous vous accueillons dans nos locaux ou en visio pour répondre à vos questions et nous présenter.</p>
-        </section>
       </main>
     </>
   );
