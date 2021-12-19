@@ -13,13 +13,13 @@ const IlsNousOntFaitConfiances: NextPage = () => {
             <Image loader={myLoader} alt="avatar" src="/images/avatar2.png" width={150} height={150} quality={50} />
             <legend>
               Karima A. <br />
-              Formation ADVF
+              Formation Majordomat
             </legend>
           </div>
           <div>
             <p>
               Toutes mes attentes furent comblées. <br />
-              Merci à l'équipe Majordomat Formation Sap pour leur professionnalisme. C'est d'une telle formation dont j'avais besoin.
+              Merci à l'équipe Majordomat Formation SAP pour leur professionnalisme. C'est d'une telle formation dont j'avais besoin.
             </p>
           </div>
           <div className="card-footer">
