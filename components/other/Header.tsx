@@ -63,7 +63,7 @@ const Header: NextPage = () => {
   const start = (
     <Link href="/" passHref>
       <a>
-        <Image loader={myLoader} src="/images/logo.png" alt="logo" width={60} height={60} className="p-mr-2" />
+        <Image loader={myLoader} src="/images/logo.png" alt="logo" width={70} height={70} className="p-mr-2" />
       </a>
     </Link>
   );

@@ -5,6 +5,11 @@
   --size-padding: 2rem;
 }
 
+/* ONGLETS */
+.icons-nav-style > .p-menubar-start {
+  margin-right: 25px;
+}
+
 .icons-nav-style > ul > li > a > span {
   font-size: var(--size-icon);
 }
@@ -108,5 +113,9 @@
   }
   .contact-nav > span:last-child {
     display: none;
+  }
+
+  .icons-nav-style > .p-menubar-start {
+    margin-right: 0px;
   }
 }
