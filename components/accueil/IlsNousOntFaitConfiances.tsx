@@ -71,6 +71,8 @@ const IlsNousOntFaitConfiances: NextPage = () => {
           </div>
         </div>
       </div>
+
+      <div className="satisfaction">90% de satisfaction Majordomat !</div>
     </section>
   );
 };

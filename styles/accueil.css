@@ -666,6 +666,13 @@
   color: #f1c40f;
 }
 
+#ils-nous-ont-fait-confiances > .satisfaction {
+  margin-top: 10%;
+  width: 100%;
+  display: block;
+  text-align: end;
+}
+
 @media only screen and (max-width: 959px) {
   #ils-nous-ont-fait-confiances {
     padding: 50px 0;
@@ -688,6 +695,9 @@
   #ils-nous-ont-fait-confiances > div > div p {
     height: auto;
   }
+  #ils-nous-ont-fait-confiances > .satisfaction {
+    margin-right: 5%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -707,5 +717,10 @@
   }
   #ils-nous-ont-fait-confiances > div > div p {
     height: auto;
+  }
+
+  #ils-nous-ont-fait-confiances > .satisfaction {
+    margin-top: 5%;
+    text-align: center;
   }
 }
