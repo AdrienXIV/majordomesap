@@ -63,7 +63,7 @@ const Header: NextPage = () => {
   const start = (
     <Link href="/" passHref>
       <a>
-        <Image loader={myLoader} src="/images/logo.png" alt="logo" width={70} height={70} className="p-mr-2" />
+        <Image alt="logo-sapmajordome-formation" loader={myLoader} src="/images/logo.png" width={70} height={70} className="p-mr-2" />
       </a>
     </Link>
   );
@@ -87,14 +87,14 @@ const Header: NextPage = () => {
           <div>
             <Suspense fallback={<ProgressSpinner />}>
               <a href="https://www.facebook.com/majordomeformation" target="_blank">
-                <Image loader={myLoader} alt="facebook" src="/images/fb.png" width={40} height={40} quality={80} />
+                <Image alt="logo-facebook" loader={myLoader} src="/images/fb.png" width={40} height={40} quality={80} />
               </a>
             </Suspense>
           </div>
           <div>
             <Suspense fallback={<ProgressSpinner />}>
               <a href="https://fr.linkedin.com/company/majordome-formation-sap" target="_blank">
-                <Image loader={myLoader} alt="linkedin" src="/images/linkdin.png" width={40} height={40} quality={80} />
+                <Image alt="logo-linkedin" loader={myLoader} src="/images/linkdin.png" width={40} height={40} quality={80} />
               </a>
             </Suspense>
           </div>

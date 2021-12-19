@@ -21,15 +21,14 @@ import "@styles/prochaines-sessions.css";
 import "@styles/footer/styles.css";
 
 import axios from "axios";
-import React, { Suspense } from "react";
-import { ProgressSpinner } from "primereact/progressspinner";
+import React from "react";
 import dynamic from "next/dynamic";
 import Footer from "@components/other/Footer";
 import Script from "next/script";
 
 const Contact = dynamic(() => import("@components/contact/Contact"), { ssr: false });
 
-axios.defaults.baseURL = process.env.URL; // http://localhost:3000
+axios.defaults.baseURL = process.env.URL;
 axios.defaults.headers = {
   "Content-Type": "application/json",
   credentials: "same-origin",
@@ -40,9 +39,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Component {...pageProps} />
-      <Suspense fallback={<ProgressSpinner />}>
-        <Contact />
-      </Suspense>
+      {process.browser && <Contact />}
       <Footer />
       {/* Global site tag (gtag.js) - Google Analytics */}
       <Script async src="https://www.googletagmanager.com/gtag/js?id=G-DCZDMBD304%22%3E" />

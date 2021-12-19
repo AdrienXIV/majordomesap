@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { Suspense, useEffect } from "react";
 import type { NextPage } from "next";
 import Header from "@components/other/Header";
 import Head from "next/head";
@@ -12,6 +12,7 @@ import IlsNousOntFaitConfiances from "@components/accueil/IlsNousOntFaitConfianc
 import TitreProReconnuRncp from "@components/accueil/TitreProReconnuRncp";
 import { useRouter } from "next/dist/client/router";
 import MetaSite from "@components/other/Meta";
+import { ProgressSpinner } from "primereact/progressspinner";
 
 const HomePage: NextPage = () => {
   const router = useRouter();
@@ -47,7 +48,9 @@ const HomePage: NextPage = () => {
         <PersonnalisezVosModules />
         <UneDemarcheSimple />
         <UneEquipeQualifiee />
-        <IlsNousOntFaitConfiances />
+        <Suspense fallback={<ProgressSpinner />}>
+          <IlsNousOntFaitConfiances />
+        </Suspense>
       </main>
     </>
   );
