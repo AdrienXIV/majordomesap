@@ -16,13 +16,9 @@ const Footer: NextPage = () => {
             <br />
             <br />
             <a href="https://4310529310.digiforma.net" target="_blank">
-              Espace formateur
+              Espace apprenant / formateur
             </a>
-            <br />
-            <br />
-            <a href="https://4310529310.digiforma.net" target="_blank">
-              Espace apprenant
-            </a>
+
             <br />
             <br />
             <Link href="/formation-majordomat" passHref>
@@ -68,13 +64,13 @@ const Footer: NextPage = () => {
           </p>
           <p className="p-sm-24 p-md-6 p-lg-6 p-xl-6 footer-lien">
             <span className="title-footer">Contact</span>
-            <br />
-            <a href="0158042418">01.58.04.24.18</a>
-            <br />
+            <br /> <br />
+            <a href="tel:0158042418">01.58.04.24.18</a>
+            <br /> <br />
             <a href="tel:0783320284">07.83.32.02.84</a>
-            <br />
+            <br /> <br />
             <a href="mailto:contact@majordomeformationsap.fr">contact@majordomeformationsap.fr​</a>
-            <br />
+            <br /> <br />
             <span>13 rue Camille Desmoulins</span>
             <br />
             <span>92130 ISSY-LES-MOULINEAUX </span>
