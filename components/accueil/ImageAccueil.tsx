@@ -7,11 +7,7 @@ import { myLoader } from "@utils/loader";
 
 const H1_CONTENUS = [
   {
-    texte: () => (
-      <>
-        Obtenez votre certification assitant (e) de vie aux familles (advf) 100% financée<a href="#soyez-100-finance">*</a>
-      </>
-    ),
+    texte: () => <>Obtenez votre certification assitant (e) de vie aux familles (advf) 100% financée</>,
     imgPath: "/images/4.jpg",
   },
   {
