@@ -55,7 +55,7 @@ const PersonnalisezVosModules: NextPage = () => {
       </div>
 
       <Link href="https://majordomeformation-sap.catalogueformpro.com" passHref>
-        <a target="_blank" className="btn">
+        <a ref="noopener follow" target="_blank" className="btn">
           Catalogue de formation
         </a>
       </Link>

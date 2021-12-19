@@ -1,9 +1,8 @@
 import React from "react";
-import Head from "next/head";
 
 const MetaSite = ({ children }) => {
   return (
-    <Head>
+    <>
       <meta name="Content-Type" content="UTF-8" />
       <meta name="Content-Language" content="fr" />
       <meta name="Subject" content="Association de formation" />
@@ -40,7 +39,7 @@ const MetaSite = ({ children }) => {
       <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
       <script noModule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    </Head>
+    </>
   );
 };
 
