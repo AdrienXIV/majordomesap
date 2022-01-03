@@ -98,6 +98,13 @@ const Header: NextPage = () => {
               </a>
             </Suspense>
           </div>
+          <div>
+            <Suspense fallback={<ProgressSpinner />}>
+              <a rel="noopener" href="https://majordomeformation-sap.catalogueformpro.com/" target="_blank">
+                <i className="pi pi-key" style={{fontSize: '40px', color: 'gold'}}></i>
+              </a>
+            </Suspense>
+          </div>
         </div>
         <div>
           <i className="pi pi-phone"></i>
