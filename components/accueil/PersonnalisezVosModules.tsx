@@ -40,13 +40,6 @@ const PersonnalisezVosModules: NextPage = () => {
       <h2>Personnalisez vos modules</h2>
 
       <div className="bloc-texte">
-        {/* <p>
-          La qualification professionnelle reconnue par le Titre Professionnel d’ADVF passe par l’acquisition de trois certificats de compétences
-          professionnelles indispensables à la validation de l’examen d’AVDF devant un jury.
-          <br />
-          Cependant, vous pouvez faire la formation d’ADVF au complet ou à la carte par bloc de compétence et y ajouter des modules transversaux de
-          Majordomat, vous permettant ainsi d’élargir et approfondir vos compétences professionnelles.
-        </p> */}
         <p>
           Vous avez la possibilité de personnaliser votre formation en y sélectionnant les modules qui correspondent le plus à vos besoins. Vous
           pouvez faire la formation d’ADVF au complet ou à la carte par bloc de compétence et y ajouter des modules transversaux de Majordomat, vous

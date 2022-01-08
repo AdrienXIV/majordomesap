@@ -6,7 +6,11 @@
   margin-bottom: 3%;
   text-align: center;
 }
-
+.card-rncp-menage {
+  width: 100% !important;
+  padding: 0 100px;
+  margin: 0 !important;
+}
 .sous-texte-formations {
   padding: 0 300px;
 }
@@ -14,9 +18,14 @@
   text-align: justify;
 }
 
-/* .grid-rncp {
-  align-items: center;
-} */
+.grid-rncp {
+  width: 100%;
+  display: flex;
+}
+.grid-rncp > div {
+  width: 50%;
+  min-width: 400px;
+}
 
 .card-rncp {
   height: 100%;
@@ -102,7 +111,7 @@
 
 .p-emplois {
   text-transform: capitalize;
-  font: bold 0.5rem "Amatic SC", sans-serif;
+  font: bold 1.25rem "Amatic SC", sans-serif;
   text-shadow: 2px 2px rgba(255, 255, 255, 0.3);
   color: #333;
   margin-bottom: 3%;
@@ -111,6 +120,21 @@
 
 /* TABLETS */
 @media only screen and (max-width: 959px) {
+  .sous-texte-formations {
+    padding: 0 25px;
+  }
+  .p-emplois {
+    text-align: left;
+    font-size: 16px;
+  }
+  .grid-rncp {
+    margin: 0;
+  }
+  .grid-rncp > div {
+    width: 100%;
+    margin: 15px 0;
+  }
+
   .sous-texte-formations {
     padding: 0 25px;
   }
@@ -123,11 +147,19 @@
 
   .title-emplois {
     text-align: center;
-    font: bold 2rem "Amatic SC", sans-serif;
+    font: bold 1.5rem "Amatic SC", sans-serif;
+  }
+  .p-emplois {
+    text-align: center;
+    font-size: 14px;
   }
 
   .grid-rncp {
     margin: 0;
+  }
+  .grid-rncp > div {
+    width: 100%;
+    margin: 15px 0;
   }
 
   .sous-texte-formations {

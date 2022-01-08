@@ -27,8 +27,8 @@ const Rncp = () => {
           <div className="col-12 md:col-6 lg:col-5">
             <h3 className="title-emplois">
               <span className="number-rncp">949</span> offres d'emploi pour majordome en 2021
-              <p>Taux de réussite : 95 %</p>
             </h3>
+            <p className="p-emplois">Taux de réussite : 95%</p>
             <p className="p-emplois">Source : pôle emploi</p>
           </div>
         </div>

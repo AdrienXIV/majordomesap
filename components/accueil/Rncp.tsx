@@ -1,18 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { Card } from "primereact/card";
-import { Button } from "primereact/button";
-import Image from "next/image";
-import majordome from "../../public/images/majordome.jpeg";
 import Lottie from "lottie-react";
 import menage from "@animations/menage.json";
-import { useRouter } from "next/dist/client/router";
 import Link from "next/link";
 
 const Rncp = () => {
-  const router = useRouter();
-  const [text1, setText1] = useState(false);
-  const [text2, setText2] = useState(false);
-
   const footerCard = (
     <Link href="/formation-advf" passHref>
       <a>Voir plus</a>
