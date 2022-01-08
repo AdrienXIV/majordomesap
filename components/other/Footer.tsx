@@ -6,8 +6,8 @@ const Footer: NextPage = () => {
   return (
     <>
       <footer className="footer">
-        <div className="grid">
-          <p className="p-sm-24 p-md-6 p-lg-6 p-xl-6 footer-lien">
+        <div className="p-fluid p-formgrid p-grid">
+          <p className="p-sm-12 p-md-4 p-lg-4 footer-lien">
             <Link href="/mentions" passHref>
               <a rel="noopener" target="_blank">
                 Mentions légales
@@ -34,7 +34,7 @@ const Footer: NextPage = () => {
               </a>
             </Link>
           </p>
-          <p className="p-sm-24 p-md-6 p-lg-6 p-xl-6 footer-lien">
+          <p className="p-sm-12 p-md-4 p-lg-4 footer-lien">
             <a rel="noopener follow" href="https://majordomeformation-sap.catalogueformpro.com/" target="_blank">
               Catalogue des formations
             </a>
@@ -72,7 +72,7 @@ const Footer: NextPage = () => {
             <br />
             <br />
           </p>
-          <p className="p-sm-24 p-md-6 p-lg-6 p-xl-6 footer-lien">
+          <p className="p-sm-12 p-md-4 p-lg-4 footer-lien">
             <span className="title-footer">Contact</span>
             <br /> <br />
             <a href="tel:0158042418">01.58.04.24.18</a>
@@ -86,8 +86,8 @@ const Footer: NextPage = () => {
             <span>92130 ISSY-LES-MOULINEAUX </span>
           </p>
         </div>
-        <div className="text-center-footer">
-          <p>
+        <div className="p-fluid p-formgrid p-grid">
+          <p className="p-sm-12 p-md-12 p-lg-12 text-center-footer">
             © Copyright {new Date().getFullYear()}{" "}
             <a rel="noopener nofollow" target="_blank" href="https://devagency.vercel.app">
               Dev Agency
