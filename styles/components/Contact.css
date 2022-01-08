@@ -1,82 +1,67 @@
-.block-contact-header {
-  margin: 5%;
-  padding: 10%;
-  margin-top: 15%;
-  margin-bottom: 15%;
+#contact {
+  padding: 100px 150px 0;
+  display: flex;
+  flex-wrap: wrap;
 }
-
-.block-contact-title {
-  margin-bottom: 10%;
+#contact .champs-obligatoires {
+  text-align: end;
 }
-
-.form-input-size {
-  margin-top: 5%;
-  margin-bottom: 10%;
+#contact .champs-obligatoires > span {
+  color: red;
 }
-
-.form-input-size::placeholder,
-.form-texterea-size::placeholder {
-  color: #ca0032;
+#contact > div {
+  min-width: 400px;
+  padding: 0 25px;
 }
-
-input::focus,
-texterea::focus,
-input:focus,
-texterea:focus,
-input:active,
-texterea:active,
-input:hover,
-texterea:hover,
-input::active,
-texterea::active,
-texterea::hover,
-input::hover {
-  outline: none !important;
-  border: 1px solid #ca0032 !important;
-  box-shadow: 0 0 10px #ca0032 !important;
-  color: #ca0032;
-}
-
-.btn-valider-form {
-  background-color: #ca0032;
-  border-color: #ca0032;
-  color: white;
-  transition-duration: 0ms;
-}
-
-.block-contact-title {
-  font-size: 3rem;
-}
-
 .container-map {
   height: 600px;
+  width: calc(50vw - 100px);
 }
 
-.size-school {
-  font-size: 2rem;
-  color: #ca0032;
+#contact-formulaire > div > div {
+  margin: 15px 0;
 }
 
-.title-pop-up {
-  font-size: 1.5rem;
+#contact-formulaire input,
+#contact-formulaire div.p-dropdown,
+#contact-formulaire textarea {
+  margin-top: 5px;
+  border: 1px solid #ced4da;
+}
+#contact-formulaire label > span {
+  color: red;
 }
 
-.span-pop-up {
-  font-size: 1rem;
-}
-
-.btn-valider-form:hover {
-  color: #ca0032;
-  border-color: #ca0032;
-  background-color: white;
-}
-
-.grid {
-  margin: 0;
+@media only screen and (max-width: 959px) {
+  #contact {
+    padding: 75px 0px 0;
+  }
+  #contact-formulaire {
+    width: 100%;
+  }
+  #contact-formulaire h4 {
+    text-align: center;
+  }
+  .container-map {
+    margin-top: 25px;
+    height: 350px;
+    width: calc(100vw - 50px);
+  }
 }
 
 @media only screen and (max-width: 480px) {
+  #contact {
+    padding: 50px 0 0;
+  }
+  #contact-formulaire {
+    width: 100%;
+  }
+  #contact-formulaire h4 {
+    text-align: center;
+  }
   .container-map {
-    height: 300px;
+    margin-top: 25px;
+    height: 350px;
+    width: calc(100vw - 50px);
   }
 }

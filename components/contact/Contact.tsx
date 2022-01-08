@@ -180,129 +180,117 @@ const Contact = () => {
   );
 
   const formulaire = (
-    <div id="contact" className="grid block-contact-header">
-      <h4 className="col-12 md:col-12 lg:col-12 block-contact-title">Formulaire de contact</h4>
-      <div className="col-12 md:col-6 lg:col-6 block-contact">
-        <InputText
-          name="prenom"
-          className="col-12 form-input-size"
-          value={state.prenom}
-          required
-          placeholder="Votre prenom *"
-          type="text"
-          onChange={onChange}
-        />
-      </div>
-      <div className="col-12 md:col-6 lg:col-6 block-contact">
-        <InputText
-          name="nom"
-          className="col-12 form-input-size"
-          value={state.nom}
-          required
-          placeholder="Votre nom *"
-          type="text"
-          onChange={onChange}
-        />
-      </div>
-      <div className="col-12 md:col-6 lg:col-6 block-contact">
-        <InputText
-          name="email"
-          className="col-12 form-input-size"
-          value={state.email}
-          required
-          placeholder="Votre email *"
-          type="email"
-          onChange={onChange}
-        />
-      </div>
-      <div className="col-12 md:col-6 lg:col-6 block-contact">
-        <InputMask
-          mask="9999999999"
-          name="tel"
-          value={state.tel}
-          className="col-12 form-input-size"
-          required
-          placeholder="Votre numéro de téléphone *"
-          type="phone"
-          onChange={e => setState(prev => ({ ...prev, tel: e.value }))}
-        />
+    <div id="contact-formulaire">
+      <h4 className="col-12 md:col-12 lg:col-12 block-contact-title">Formulaire de contact </h4>
+      <div className="champs-obligatoires">
+        <span>*</span> : champs obligatoires
       </div>
 
-      <div className="col-12 md:col-12 lg:col-12 block-contact">
-        <Dropdown
-          className="col-12 form-input-size"
-          optionLabel="name"
-          value={state.formation}
-          options={formations}
-          onChange={e => setState(prev => ({ ...prev, formation: e.value }))}
-          placeholder="Sélectionnez une formation *"
-        />
+      <div className="p-fluid p-formgrid p-grid">
+        <div className="p-field p-col-12 p-md-6">
+          <label>
+            Prénom <span>*</span>
+          </label>
+          <InputText name="prenom" value={state.prenom} required placeholder="Votre prenom" type="text" onChange={onChange} />
+        </div>
+        <div className="p-field p-col-12 p-md-6">
+          <label>
+            Nom <span>*</span>
+          </label>
+          <InputText name="nom" value={state.nom} required placeholder="Votre nom" type="text" onChange={onChange} />
+        </div>
+      </div>
+      <div className="p-fluid p-formgrid p-grid">
+        <div className="p-field p-col-12 p-md-6">
+          <label>
+            Email <span>*</span>
+          </label>
+          <InputText name="email" value={state.email} required placeholder="votre.email@gmail.com" type="email" onChange={onChange} />
+        </div>
+        <div className="p-field p-col-12 p-md-6">
+          <label>Téléphone portable</label>
+          <InputMask
+            mask="9999999999"
+            name="tel"
+            value={state.tel}
+            required
+            placeholder="06xxxxxxxx"
+            type="phone"
+            onChange={e => setState(prev => ({ ...prev, tel: e.value }))}
+          />
+        </div>
+      </div>
+      <div className="p-fluid p-formgrid p-grid">
+        <div className="p-field p-col-12 p-md-6">
+          <label>
+            Sélectionnez une formation <span>*</span>
+          </label>
+          <Dropdown
+            optionLabel="name"
+            value={state.formation}
+            options={formations}
+            onChange={e => setState(prev => ({ ...prev, formation: e.value }))}
+          />
+        </div>
+        <div className="p-field p-col-12 p-md-6">
+          <label>
+            Vous préférez ... <span>*</span>
+          </label>
+          <Dropdown optionLabel="name" value={state.choix} options={choix} onChange={e => setState(prev => ({ ...prev, choix: e.value }))} />
+        </div>
       </div>
 
-      <div className="col-12 md:col-12 lg:col-12 block-contact">
-        <Dropdown
-          className="col-12 form-input-size"
-          optionLabel="name"
-          value={state.choix}
-          options={choix}
-          onChange={e => setState(prev => ({ ...prev, choix: e.value }))}
-          placeholder="Vous préférez ... *"
-        />
+      <div className="p-fluid p-formgrid p-grid">
+        <div className="p-field p-col-12">
+          <label>
+            Un message ? <span>*</span>
+          </label>
+          <InputTextarea value={state.message} name="message" required rows={5} placeholder="Votre message ..." onChange={onChange} />
+        </div>
       </div>
-
-      <div className="col-12 md:col-12 lg:col-12 block-contact">
-        <InputTextarea
-          value={state.message}
-          name="message"
-          className="col-12 form-texterea-size"
-          required
-          rows={5}
-          placeholder="Un message ?"
-          onChange={onChange}
-        />
+      <div className="p-fluid p-formgrid p-grid">
+        <div className="p-field p-col-12">
+          <ReCAPTCHA
+            ref={recaptchaRef}
+            sitekey={process.env.NEXT_PUBLIC_CAPTCHA}
+            onChange={e => {
+              setState(prev => ({ ...prev, captcha: true }));
+            }}
+          />
+        </div>
       </div>
-
-      <div className="col-12 md:col-12 lg:col-12 block-contact">
-        <ReCAPTCHA
-          ref={recaptchaRef}
-          sitekey={process.env.NEXT_PUBLIC_CAPTCHA}
-          onChange={e => {
-            setState(prev => ({ ...prev, captcha: true }));
-          }}
-        />
+      <div className="p-fluid p-formgrid p-grid">
+        <div className="p-field p-col-12">
+          <label style={{ marginRight: 10 }}>
+            Acceptez-vous les mentions légales <span style={{ color: "red" }}>*</span>
+          </label>
+          <Checkbox onChange={e => setChecked(e.checked)} checked={checked}></Checkbox>
+        </div>
       </div>
-
-      <div className="col-12 md:col-12 lg:col-12 block-contact">
-        <label style={{ marginRight: 10 }}>
-          Acceptez-vous les mentions légales <span style={{ color: "red" }}>*</span>
-        </label>
-        <Checkbox onChange={e => setChecked(e.checked)} checked={checked}></Checkbox>
-      </div>
-
-      <div className="col-12 md:col-12 lg:col-12 block-contact">
-        <Button disabled={disable} loading={loading} className="col-4 btn-valider-form" label={loading ? "" : "valider"} onClick={onSubmit} />
+      <div className="p-fluid p-formgrid p-grid">
+        <div className="p-field p-col-3">
+          <Button disabled={disable} loading={loading} label={loading ? "" : "Valider"} onClick={onSubmit} />
+        </div>
       </div>
     </div>
   );
 
   return (
-    <div className="grid">
+    <div id="contact">
       <Toast ref={toast} position="bottom-right" />
-      <div className="grid grid-rncp">
-        <div className="col-12 md:col-6 lg:col-6">
-          {contactSuccess ? (
-            <Lottie
-              alt="Animation indiquant la bonne récéption du courriel"
-              animationData={animationEmail}
-              autoPlay
-              loop={false}
-              style={{ width: 100, margin: "0 auto" }}
-            />
-          ) : (
-            formulaire
-          )}
-        </div>
-        <div className="col-12 md:col-6 lg:col-6 ">{carte}</div>
+      {contactSuccess ? (
+        <Lottie
+          alt="Animation indiquant la bonne récéption du courriel"
+          animationData={animationEmail}
+          autoPlay
+          loop={false}
+          style={{ width: 100, margin: "0 auto" }}
+        />
+      ) : (
+        formulaire
+      )}
+      <div className="p-fluid p-formgrid p-grid">
+        <div className="p-field p-col-12">{carte}</div>
       </div>
     </div>
   );

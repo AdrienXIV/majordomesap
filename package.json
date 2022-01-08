@@ -18,7 +18,7 @@
     "next-connect": "^0.10.2",
     "nodemailer": "^6.7.0",
     "nodemailer-smtp-transport": "^2.7.4",
-    "primeflex": "^3.0.1",
+    "primeflex": "2.0.0",
     "primeicons": "^4.1.0",
     "primereact": "^6.6.0",
     "react": "^18.0.0-alpha-9c8161ba8-20211028",
