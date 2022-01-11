@@ -1,6 +1,11 @@
-Sitemap: 
+User-agent: Googlebot
+Disallow: /nogooglebot/
 
 User-agent: *
-Allow: /*
-
 Disallow: /api/*
+
+User-Agent: *
+Allow: /
+
+
+Sitemap: https://majordomeformationsap.com/
