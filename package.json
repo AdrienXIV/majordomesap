@@ -28,8 +28,7 @@
     "react-leaflet": "^3.2.2",
     "react-leaflet-markercluster": "^3.0.0-rc1",
     "react-leaflet-universal": "^2.2.1",
-    "react-transition-group": "^4.4.2",
-    "sitemap": "^7.0.0"
+    "react-transition-group": "^4.4.2"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
