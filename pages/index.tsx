@@ -32,7 +32,7 @@ const HomePage: NextPage = () => {
           />
           <meta
             name="keywords"
-            content="formation pole emploi, advf, aide a domicile,  formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
+            content="formation pole emploi, advf, aide a domicile, formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
           />
         </MetaSite>
       </Head>

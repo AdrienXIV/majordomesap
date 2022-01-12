@@ -8,9 +8,21 @@ import Link from "next/link";
 const TitreProReconnuRncp: NextPage = () => {
   return (
     <section id="titre-pro-reconnu-rncp">
-      <h2>Formez-vous grâce à SAP Formation</h2>
+      <h2>Formez-vous grâce à Formation SAP</h2>
 
       <div className="bandeau-images">
+        <div>
+          <Suspense fallback={<ProgressSpinner />}>
+            <Image
+              loader={myLoader}
+              alt="qualiopi"
+              src="/images/majordomeformationsap/Accueil/qualiopi.png"
+              layout="fill"
+              objectFit="contain"
+              quality={80}
+            />
+          </Suspense>
+        </div>
         <div>
           <Suspense fallback={<ProgressSpinner />}>
             <Image
@@ -23,6 +35,7 @@ const TitreProReconnuRncp: NextPage = () => {
             />
           </Suspense>
         </div>
+
         <div>
           <Suspense fallback={<ProgressSpinner />}>
             <Image loader={myLoader} alt="OPCO" src="/images/majordomeformationsap/Accueil/opco.png" layout="fill" objectFit="contain" quality={80} />

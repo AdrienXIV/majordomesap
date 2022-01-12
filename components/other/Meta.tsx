@@ -3,6 +3,7 @@ import React from "react";
 const MetaSite = ({ children }) => {
   return (
     <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
       <meta name="Content-Type" content="UTF-8" />
       <meta name="Content-Language" content="fr" />
       <meta name="Subject" content="Association de formation" />
@@ -35,7 +36,7 @@ const MetaSite = ({ children }) => {
       />
       {children}
       <meta charSet="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
       <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
       <script noModule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
