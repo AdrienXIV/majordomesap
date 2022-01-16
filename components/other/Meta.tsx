@@ -3,7 +3,6 @@ import React from "react";
 const MetaSite = ({ children }) => {
   return (
     <>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
       <meta name="Content-Type" content="UTF-8" />
       <meta name="Content-Language" content="fr" />
       <meta name="Subject" content="Association de formation" />
