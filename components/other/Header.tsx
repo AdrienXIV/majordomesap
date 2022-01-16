@@ -87,7 +87,7 @@ const Header: NextPage = () => {
           <div>
             <Suspense fallback={<ProgressSpinner />}>
               <a rel="noopener" href="https://4310529310.digiforma.net" target="_blank">
-              Espace apprenant / formateur 
+                <p style={{ color: 'gold'}}>Espace apprenant / formateur </p>
                 <i className="pi pi-key" style={{fontSize: '40px', color: 'gold'}}></i>
               </a>
             </Suspense>
@@ -109,7 +109,7 @@ const Header: NextPage = () => {
         </div>
         <div>
           <i className="pi pi-phone"></i>
-          {"01.58.04.24.18 / 07.83.32.02.84"}
+          {"01.58.04.24.18"}
         </div>
         <div>
           <i className="pi pi-envelope"></i>
