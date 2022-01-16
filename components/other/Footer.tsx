@@ -77,8 +77,6 @@ const Footer: NextPage = () => {
             <br /> <br />
             <a href="tel:0158042418">01.58.04.24.18</a>
             <br /> <br />
-            <a href="tel:0783320284">07.83.32.02.84</a>
-            <br /> <br />
             <a href="mailto:contact@majordomeformationsap.fr">contact@majordomeformationsap.fr​</a>
             <br /> <br />
             <span>13 rue Camille Desmoulins</span>
