@@ -37,8 +37,12 @@
   #contact {
     padding: 75px 0px 0;
   }
-  #contact-formulaire {
+  #contact > div {
     width: 100%;
+    min-width: 100%;
+  }
+  #contact .button-contact {
+    margin: 5% auto;
   }
   #contact-formulaire h4 {
     text-align: center;
@@ -54,8 +58,12 @@
   #contact {
     padding: 50px 0 0;
   }
-  #contact-formulaire {
+  #contact > div {
     width: 100%;
+    min-width: 100%;
+  }
+  #contact .button-contact {
+    margin: 2.5% auto;
   }
   #contact-formulaire h4 {
     text-align: center;

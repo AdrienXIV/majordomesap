@@ -268,7 +268,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="p-fluid p-formgrid p-grid">
-        <div className="p-field p-col-3">
+        <div className="p-field p-col-5 button-contact">
           <Button disabled={disable} loading={loading} label={loading ? "" : "Valider"} onClick={onSubmit} />
         </div>
       </div>
