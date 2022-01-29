@@ -5,7 +5,6 @@ import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import "leaflet/dist/leaflet.css";
 import "primeflex/primeflex.css";
-
 import "@styles/components/ImageAccueil.css";
 import "@styles/components/Contact.css";
 import "@styles/components/Header.css";

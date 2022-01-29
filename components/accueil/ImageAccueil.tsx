@@ -42,7 +42,7 @@ const ImageAccueil: NextPage = () => {
       <div className="hero-content-area">
         <h1 className={className}>{texteH1}</h1>
 
-        <Link href="/#contact" passHref>
+        <Link href="/#contact" passHref prefetch={false}>
           <a className="btn">Nous rejoindre</a>
         </Link>
       </div>

@@ -69,7 +69,7 @@ const Header: NextPage = () => {
   );
 
   const end = (
-    <Link href="#contact" passHref>
+    <Link href="#contact" passHref prefetch={false}>
       <a className="contact-nav">
         <span className="p-menuitem-icon pi pi-fw pi-envelope"></span>
         <span className="p-menuitem-text">Contact</span>
@@ -86,8 +86,8 @@ const Header: NextPage = () => {
         <div className="reseaux-sociaux">
           <div>
             <Suspense fallback={<ProgressSpinner />}>
-              <a style={{fontSize: '30px', color: 'gold'}} rel="noopener" href="https://4310529310.digiforma.net" target="_blank">
-                Espace formation <i className="pi pi-key" style={{fontSize: '40px', color: 'gold'}}></i>
+              <a style={{ fontSize: "30px", color: "gold" }} rel="noopener" href="https://4310529310.digiforma.net" target="_blank">
+                Espace formation <i className="pi pi-key" style={{ fontSize: "40px", color: "gold" }}></i>
               </a>
             </Suspense>
           </div>

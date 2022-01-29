@@ -47,7 +47,7 @@ const PersonnalisezVosModules: NextPage = () => {
         </p>
       </div>
 
-      <Link href="https://majordomeformation-sap.catalogueformpro.com" passHref>
+      <Link href="https://majordomeformation-sap.catalogueformpro.com" passHref prefetch={false}>
         <a ref="noopener follow" target="_blank" className="btn">
           Catalogue de formation
         </a>
