@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { Suspense, useEffect, useRef, useState } from "react";
 import { InputText } from "primereact/inputtext";
 import { InputTextarea } from "primereact/inputtextarea";
 import { Button } from "primereact/button";
@@ -147,13 +147,15 @@ const Contact = () => {
 
   const carte = (
     <MapContainer className="container-map" center={[48.829304, 2.2640404]} zoom={17} scrollWheelZoom={true}>
-      <TileLayer
-        ref={mapRef}
-        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-        url="https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}"
-        id="mapbox/streets-v11"
-        accessToken="pk.eyJ1IjoiYm9zc2VheiIsImEiOiJjanZkZnk3eGYwMmoyNGVvdWFhMGhld2Y1In0.CuJFWuRK3wsuQ9e77S1Lww"
-      />
+      <Suspense fallback={<div />}>
+        <TileLayer
+          ref={mapRef}
+          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          url="https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}"
+          id="mapbox/streets-v11"
+          accessToken="pk.eyJ1IjoiYm9zc2VheiIsImEiOiJjanZkZnk3eGYwMmoyNGVvdWFhMGhld2Y1In0.CuJFWuRK3wsuQ9e77S1Lww"
+        />
+      </Suspense>
       <Marker
         icon={L.divIcon({
           iconSize: [1, 1],
