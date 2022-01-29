@@ -14,6 +14,18 @@ module.exports = {
   future: {
     webpack5: true,
   },
+  // // webpack: function (config, options) {
+  // //   config.experiments = {};
+  // //   return config;
+  // // },
+  // webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+  //   // Note: we provide webpack above so you should not `require` it
+  //   // Perform customizations to webpack config
+  //   config.plugins.push(new webpack.IgnorePlugin(/\/__tests__\//));
+
+  //   // Important: return the modified config
+  //   return config;
+  // },
   exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
     return {
       "/": { page: "/" },
@@ -64,16 +76,6 @@ module.exports = {
           {
             key: "X-XSS-Protection",
             value: "1; mode=block",
-          },
-        ],
-      },
-      {
-        source: "/:all*(svg|jpg|png)",
-        locale: false,
-        headers: [
-          {
-            key: "Cache-Control",
-            value: "public, max-age=9999999999, must-revalidate",
           },
         ],
       },

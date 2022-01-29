@@ -48,7 +48,7 @@ const Rncp = () => {
             <div className="col-md-3">
               <h3 className="section-rncp">ADVF</h3>
               <div className="voir">
-                <h4 className="p-title1">Adaptée pour tous</h4>
+                <h5 className="p-title1">Adaptée pour tous</h5>
                 {/* <p className="p-text1">
                   Le Titre Professionnel d’Assistant De Vie Aux Familles de niveau 3 est délivré par le Ministère du Travail et inscrit au RNCP. Il
                   permet d’accéder aux métiers des services à la personne en apportant une intervention professionnelle à domicile de qualité auprès
@@ -81,7 +81,7 @@ const Rncp = () => {
             <div className="col-md-3">
               <h3 className="section-rncp">MAJORDOMAT</h3>
               <div className="voir">
-                <h4 className="p-title1">Pour aller plus loin</h4>
+                <h5 className="p-title1">Pour aller plus loin</h5>
                 {/* <p className="p-text1">
                   Le Titre Professionnel de Majordome de niveau 3 est délivré par le Ministère du Travail et inscrit au RNCP. Il permet d’accéder aux
                   métiers des services à la personne en apportant une intervention professionnelle à domicile de qualité auprès des personnes.{" "}
