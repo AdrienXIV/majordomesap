@@ -47,16 +47,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       {/* Global site tag (gtag.js) - Google Analytics */}
       <Script async src="https://www.googletagmanager.com/gtag/js?id=G-DCZDMBD304%22%3E" />
       <Script>{`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag("config", "G-DCZDMBD304");`}</Script>
-      <Script>{`window.axeptioSettings = {
-  clientId: "61f524407d80bb2229133ea8",
-  cookiesVersion: "majordomeformationsap-fr",
-};
- 
-(function(d, s) {
-  var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
-  e.async = true; e.src = "//static.axept.io/sdk.js";
-  t.parentNode.insertBefore(e, t);
-})(document, "script");`}</Script>
     </>
   );
 }

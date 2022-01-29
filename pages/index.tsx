@@ -13,6 +13,7 @@ import TitreProReconnuRncp from "@components/accueil/TitreProReconnuRncp";
 import { useRouter } from "next/dist/client/router";
 import MetaSite from "@components/other/Meta";
 import { ProgressSpinner } from "primereact/progressspinner";
+import Script from "next/script";
 
 const HomePage: NextPage = () => {
   const router = useRouter();
@@ -52,6 +53,16 @@ const HomePage: NextPage = () => {
           <IlsNousOntFaitConfiances />
         </Suspense>
       </main>
+      <Script>{`window.axeptioSettings = {
+  clientId: "61f524407d80bb2229133ea8",
+  cookiesVersion: "majordomeformationsap-fr",
+};
+ 
+(function(d, s) {
+  var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+  e.async = true; e.src = "//static.axept.io/sdk.js";
+  t.parentNode.insertBefore(e, t);
+})(document, "script");`}</Script>
     </>
   );
 };
