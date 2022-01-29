@@ -1,8 +1,7 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { Suspense, useEffect, useRef, useState } from "react";
 import { InputText } from "primereact/inputtext";
 import { InputTextarea } from "primereact/inputtextarea";
 import { Button } from "primereact/button";
-import { MapContainer, TileLayer, Marker, Popup, Circle } from "react-leaflet";
 import L from "leaflet";
 import Lottie from "lottie-react";
 import Ecole from "@animations/ecole.json";
@@ -14,6 +13,8 @@ import animationEmail from "@animations/send-email.json";
 import { Dropdown } from "primereact/dropdown";
 import ReCAPTCHA from "react-google-recaptcha";
 import { Checkbox } from "primereact/checkbox";
+import { MapContainer, TileLayer, Marker, Popup, Circle } from "react-leaflet";
+import dynamic from "next/dynamic";
 
 const formations = [
   { name: "ADVF", value: 0 },
@@ -147,13 +148,16 @@ const Contact = () => {
 
   const carte = (
     <MapContainer className="container-map" center={[48.829304, 2.2640404]} zoom={17} scrollWheelZoom={true}>
-      <TileLayer
-        ref={mapRef}
-        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-        url="https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}"
-        id="mapbox/streets-v11"
-        accessToken="pk.eyJ1IjoiYm9zc2VheiIsImEiOiJjanZkZnk3eGYwMmoyNGVvdWFhMGhld2Y1In0.CuJFWuRK3wsuQ9e77S1Lww"
-      />
+      <Suspense fallback={<div />}>
+        <TileLayer
+          ref={mapRef}
+          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          url="https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}"
+          id="mapbox/streets-v11"
+          accessToken="pk.eyJ1IjoiYm9zc2VheiIsImEiOiJjanZkZnk3eGYwMmoyNGVvdWFhMGhld2Y1In0.CuJFWuRK3wsuQ9e77S1Lww"
+        />
+      </Suspense>
+
       <Marker
         icon={L.divIcon({
           iconSize: [1, 1],
