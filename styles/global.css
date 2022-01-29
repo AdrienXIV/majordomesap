@@ -6,6 +6,11 @@ body {
   width: 100%;
 }
 
+/* cookies bouton */
+#axeptio_main_button {
+  display: none !important;
+}
+
 p {
   font-size: 18px;
   line-height: 1.5;

@@ -8,6 +8,9 @@ const Footer: NextPage = () => {
       <footer className="footer">
         <div className="p-fluid p-formgrid p-grid">
           <p className="p-sm-12 p-md-4 p-lg-4 footer-lien">
+            <a href="javascript:openAxeptioCookies()">Cliquez-ici pour modifier vos préférences en matière de cookies</a>
+            <br />
+            <br />
             <Link href="/mentions" passHref>
               <a rel="noopener" target="_blank">
                 Mentions légales
