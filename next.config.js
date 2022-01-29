@@ -7,6 +7,9 @@ module.exports = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     formats: ["image/avif", "image/webp"],
   },
+  images: {
+    domains: ["https://www.majordomeformationsap.com/"],
+  },
   // experimental: {
   //   concurrentFeatures: true,
   //   serverComponents: true,
