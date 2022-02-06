@@ -1,0 +1,32 @@
+#mentions {
+  padding: 175px 300px 50px;
+}
+#mentions h2 {
+  color: #333;
+}
+#mentions a {
+  color: blue;
+}
+
+#mentions p {
+  text-align: start;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* TABLETS */
+@media only screen and (max-width: 959px) {
+  #mentions {
+    padding: 150px 50px 0px;
+  }
+}
+
+/* PHONES */
+@media only screen and (max-width: 480px) {
+  #mentions {
+    padding: 100px 10px 0px;
+  }
+  #mentions h3 {
+    text-align: center;
+  }
+}
