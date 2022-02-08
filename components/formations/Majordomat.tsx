@@ -122,7 +122,7 @@ const Majordomat: NextPage = () => {
         <div
           title="Voir le module"
           className="second"
-          onClick={() => window.open("https://majordomeformationsap.catalogueformpro.com/6/majordomat/364945/lart-de-la-table-lart-floral", "_blank")}
+          onClick={() => window.open("https://majordomeformation-sap.catalogueformpro.com/6/majordomat/364945/lart-de-la-table-lart-floral", "_blank")}
         >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
