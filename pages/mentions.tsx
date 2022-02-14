@@ -28,13 +28,13 @@ const MentionsPage: NextPage = () => {
           <hr />
           <h3>IDENTIFICATION DE L’EDITEUR</h3>
           <p>
-            Le site non concerné (ci-après "le Site"), accessible à l’adresse non concerné est édité par la société non concerné (ci-après
-            "l'Editeur"), au capital de non concerné euros, dont le siège social est situé non concerné.
+            Le site non concerné (ci-après "majordomeformationsap"), accessible à l’adresse non concerné est édité par la société non concerné (ci-après
+            "Allan BUSI"), au capital de non concerné euros, dont le siège social est situé non concerné.
           </p>
           <h3>HEBERGEUR DU SITE INTERNET</h3>
-          <p>Le site non concerné est hébergé par non concerné, non concerné.</p>
-          <p>L’hébergeur est joignable par mail à l’adresse suivante : non concerné.</p>
-          <p>Il est également joignable au numéro suivant : non concerné.</p>
+          <p>Le site non concerné est hébergé par vercel.</p>
+          <p>L’hébergeur est joignable par mail à l’adresse suivante : busi.travail@gmail.com.</p>
+          <p>Il est également joignable au numéro suivant : 0771023973.</p>
 
           <h3>COLLECTE DE DONNEES PERSONNELLES</h3>
           <p>
