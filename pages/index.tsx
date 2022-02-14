@@ -41,6 +41,7 @@ const HomePage: NextPage = () => {
 
       <main>
         <ImageAccueil />
+        <DatesSessions />
         <TitreProReconnuRncp />
         <Soyez100Finance />
         <div className="block-rncp">
