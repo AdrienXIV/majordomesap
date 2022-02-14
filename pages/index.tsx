@@ -14,6 +14,7 @@ import { useRouter } from "next/dist/client/router";
 import MetaSite from "@components/other/Meta";
 import { ProgressSpinner } from "primereact/progressspinner";
 import Script from "next/script";
+import DatesSessions from "@components/ProchainesSessions/DatesSessions";
 
 const HomePage: NextPage = () => {
   const router = useRouter();
