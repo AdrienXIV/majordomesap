@@ -2,6 +2,10 @@
   padding: 100px 200px 0;
 }
 
+#dates-sessions .calendrier {
+  padding: 0 300px;
+}
+
 #dates-sessions .bloc-dates {
   display: flex;
   flex-wrap: wrap;
@@ -41,6 +45,10 @@
   color: #ca0032;
   border-color: #ca0032;
   background-color: white;
+}
+
+#dates-sessions .autres-dates {
+  margin-bottom: 100px;
 }
 
 /* TABLETS */
