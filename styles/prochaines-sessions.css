@@ -89,6 +89,10 @@
     padding: 100px 100px;
     text-align: center;
   }
+  .card-prochaine {
+    width: 100vw !important;
+  }
+  
 }
 
 /* PHONES */
@@ -97,4 +101,11 @@
     padding: 100px 5px 50px;
     text-align: center;
   }
+  .card-prochaine {
+    width: 100vw !important;
+  }
+}
+
+.card-prochaine {
+  width: 33vw !important;
 }
