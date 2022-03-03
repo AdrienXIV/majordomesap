@@ -22,7 +22,7 @@ const DatesSessions = () => {
         <div className="card-prochaine">
           <div>
             <h3>Module Etiquette complète</h3>
-            <p>1 avril 2022 au 5 avril 2022</p>
+            <p>1 avril 2022 au 5 avril 2022</p> 
           </div>
           <div className="preinscription">
             <Button label="Me préinscrire" onClick={() => router.push("/prochaines-sessions#contact")} />
