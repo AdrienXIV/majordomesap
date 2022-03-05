@@ -18,7 +18,7 @@
   flex-direction: column;
   justify-content: space-between;
   margin: 15px;
-  width: calc(20% - 30px);
+  width: calc(33% - 60px);
   color: #333;
   height: auto;
   padding: 15px;
@@ -80,6 +80,8 @@
   padding: 175px 0px 0px;
 }
 #prochaines-sessions > div {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
   padding: 0;
   margin: 2.5% 0 0 0;
@@ -110,25 +112,57 @@
 /* TABLETS */
 @media only screen and (max-width: 959px) {
   #prochaines-sessions {
-    padding: 100px 100px;
+    padding: 100px 0 0;
     text-align: center;
+  }
+  #dates-sessions {
+    padding: 75px 0 50px 0;
   }
   .card-prochaine {
     width: 100vw !important;
+  }
+  #prochaines-sessions .bloc-image {
+    width: 100%;
+    height: 450px;
+  }
+  #prochaines-sessions .bloc-texte {
+    width: 100%;
+    padding: 50px;
+  }
+
+  .card-prochaine {
+    width: calc(50% - 60px) !important;
+    margin: 25px 0 25px !important;
   }
 }
 
 /* PHONES */
 @media only screen and (max-width: 480px) {
   #prochaines-sessions {
-    padding: 100px 5px 50px;
+    padding: 100px 0px 0px;
     text-align: center;
   }
+  #dates-sessions {
+    padding: 50px 5px 0;
+  }
+
+  #dates-sessions .bloc-dates {
+    justify-content: space-around;
+  }
   .card-prochaine {
-    width: 100vw !important;
+    width: calc(50% - 60px) !important;
+    margin: 25px 0 25px !important;
+  }
+  #prochaines-sessions .bloc-image {
+    width: 100%;
+    height: 450px;
+  }
+  #prochaines-sessions .bloc-texte {
+    width: 100%;
+    padding: 50px;
   }
 }
 
 .card-prochaine {
-  width: 33vw !important;
+  width: calc(50% - 60px);
 }
