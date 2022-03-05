@@ -3,7 +3,6 @@ import type { NextPage } from "next";
 import Image from "next/image";
 import { Button } from "primereact/button";
 import { ProgressSpinner } from "primereact/progressspinner";
-import { myLoader } from "@utils/loader";
 
 const Sponsors: NextPage = () => {
   return (
@@ -15,7 +14,7 @@ const Sponsors: NextPage = () => {
 
             <p>
               <Suspense fallback={<ProgressSpinner />}>
-                <Image loader={myLoader} alt="cpf" src="/images/majordomeformationsap/Accueil/cpf.png" width={150} height={150} quality={50} />
+                <Image alt="cpf" src="/images/majordomeformationsap/Accueil/cpf.png" width={150} height={150} quality={50} />
               </Suspense>
               Le compte personnel de formation (CPF) est proposé pour les demandeurs d’emploi ou pour ceux qui sont en reconversion professionnelle.
               Depuis 2019, pour chaque année travaillée, vous recevez 500€ sur cette plateforme pour vous former sur votre compte en ligne. Vous
@@ -34,7 +33,7 @@ const Sponsors: NextPage = () => {
             <h3>Les opérateurs de compétences (OPCO)</h3>
             <p>
               <Suspense fallback={<ProgressSpinner />}>
-                <Image loader={myLoader} alt="opco" src="/images/majordomeformationsap/Accueil/opco.png" width={250} height={100} quality={50} />
+                <Image alt="opco" src="/images/majordomeformationsap/Accueil/opco.png" width={250} height={100} quality={50} />
               </Suspense>
               Le 1er avril 2019, onze opérateurs de compétences (OPCO), chargés d’accompagner la formation professionnelle, ont été agréés. Ils ont
               remplacé les anciens organismes paritaires collecteurs agréées (OPCA).
@@ -54,14 +53,7 @@ const Sponsors: NextPage = () => {
             <h3>Pôle emploi</h3>
             <p>
               <Suspense fallback={<ProgressSpinner />}>
-                <Image
-                  loader={myLoader}
-                  alt="pole-emploi"
-                  src="/images/majordomeformationsap/Accueil/poleemploi.png"
-                  width={175}
-                  height={100}
-                  quality={50}
-                />
+                <Image alt="pole-emploi" src="/images/majordomeformationsap/Accueil/poleemploi.png" width={175} height={100} quality={50} />
               </Suspense>
               Avec l’aide du conseiller Pôle Emploi, vous pourrez analyser votre situation. Ainsi, connaître toutes les possibilités de prise en
               charge et les différentes modalités administratives qui s’offrent à vous.

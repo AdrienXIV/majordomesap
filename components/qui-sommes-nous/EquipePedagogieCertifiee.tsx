@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import type { NextPage } from "next";
 import { ProgressSpinner } from "primereact/progressspinner";
-import { myLoader } from "@utils/loader";
+
 import Image from "next/image";
 
 const EquipePedagogieCertifiee: NextPage = () => {
@@ -11,7 +11,6 @@ const EquipePedagogieCertifiee: NextPage = () => {
         <div className="second">
           <Suspense fallback={<ProgressSpinner />}>
             <Image
-              loader={myLoader}
               alt="majordomeformationsap-equipe"
               src="/images/majordomeformationsap/qui-sommes-nous/majordomeformationsap-equipe.jpeg"
               layout="fill"
@@ -31,7 +30,6 @@ const EquipePedagogieCertifiee: NextPage = () => {
         <div className="second">
           <Suspense fallback={<ProgressSpinner />}>
             <Image
-              loader={myLoader}
               alt="majordomeformationsap-petite-salle"
               src="/images/majordomeformationsap/qui-sommes-nous/salle.jpg"
               layout="fill"
@@ -51,7 +49,6 @@ const EquipePedagogieCertifiee: NextPage = () => {
         <div className="second">
           <Suspense fallback={<ProgressSpinner />}>
             <Image
-              loader={myLoader}
               alt="majordomeformationsap-formation-reconnue-certifiée"
               src="/images/majordomeformationsap/qui-sommes-nous/majordomeformationsap-formation-reconnue-certifiée.jpeg"
               layout="fill"

@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect } from "react";
+import React, { Suspense } from "react";
 import type { NextPage } from "next";
 import Header from "@components/other/Header";
 import Head from "next/head";
@@ -10,19 +10,12 @@ import UneEquipeQualifiee from "@components/accueil/UneEquipeQualifiee";
 import UneDemarcheSimple from "@components/accueil/UneDemarcheSimple";
 import IlsNousOntFaitConfiances from "@components/accueil/IlsNousOntFaitConfiances";
 import TitreProReconnuRncp from "@components/accueil/TitreProReconnuRncp";
-import { useRouter } from "next/dist/client/router";
 import MetaSite from "@components/other/Meta";
 import { ProgressSpinner } from "primereact/progressspinner";
 import Script from "next/script";
 import DatesSessions from "@components/ProchainesSessions/DatesSessions";
 
 const HomePage: NextPage = () => {
-  const router = useRouter();
-
-  useEffect(() => {
-    router.prefetch("/formations");
-  }, []);
-
   return (
     <>
       <Head>

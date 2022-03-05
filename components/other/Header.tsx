@@ -4,7 +4,7 @@ import { NextPage } from "next";
 import Image from "next/image";
 import { useRouter } from "next/dist/client/router";
 import Link from "next/link";
-import { myLoader } from "@utils/loader";
+
 import { ProgressSpinner } from "primereact/progressspinner";
 
 const Header: NextPage = () => {
@@ -63,7 +63,7 @@ const Header: NextPage = () => {
   const start = (
     <Link href="/" passHref>
       <a>
-        <Image alt="logo-sapmajordome-formation" loader={myLoader} src="/images/logo.png" width={70} height={70} className="p-mr-2" />
+        <Image alt="logo-sapmajordome-formation" src="/images/logo.png" width={70} height={70} className="p-mr-2" />
       </a>
     </Link>
   );
@@ -86,22 +86,22 @@ const Header: NextPage = () => {
         <div className="reseaux-sociaux">
           <div>
             <Suspense fallback={<ProgressSpinner />}>
-              <a style={{fontSize: '30px', color: 'gold'}} rel="noopener" href="https://4310529310.digiforma.net" target="_blank">
-                Espace formation <i className="pi pi-key" style={{fontSize: '40px', color: 'gold'}}></i>
+              <a style={{ fontSize: "30px", color: "gold" }} rel="noopener" href="https://4310529310.digiforma.net" target="_blank">
+                Espace formation <i className="pi pi-key" style={{ fontSize: "40px", color: "gold" }}></i>
               </a>
             </Suspense>
           </div>
           <div>
             <Suspense fallback={<ProgressSpinner />}>
               <a rel="noopener" href="https://www.facebook.com/majordomeformation" target="_blank">
-                <Image alt="logo-facebook" loader={myLoader} src="/images/fb.png" width={40} height={40} quality={80} />
+                <Image alt="logo-facebook" src="/images/fb.png" width={40} height={40} quality={80} />
               </a>
             </Suspense>
           </div>
           <div>
             <Suspense fallback={<ProgressSpinner />}>
               <a rel="noopener" href="https://fr.linkedin.com/company/majordome-formation-sap" target="_blank">
-                <Image alt="logo-linkedin" loader={myLoader} src="/images/linkdin.png" width={40} height={40} quality={80} />
+                <Image alt="logo-linkedin" src="/images/linkdin.png" width={40} height={40} quality={80} />
               </a>
             </Suspense>
           </div>

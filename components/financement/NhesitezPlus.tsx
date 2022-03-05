@@ -1,7 +1,6 @@
 import React from "react";
 import type { NextPage } from "next";
 import Image from "next/image";
-import { myLoader } from "@utils/loader";
 
 const NhesitezPLus: NextPage = () => {
   return (
@@ -12,7 +11,6 @@ const NhesitezPLus: NextPage = () => {
       <div className="p-grid">
         <div className="bloc-image">
           <Image
-            loader={myLoader}
             alt="majordomeformationsap-financement"
             src="/images/majordomeformationsap/financement/majordomeformationsap-financement.jpeg"
             layout="fill"

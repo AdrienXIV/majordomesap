@@ -3,7 +3,6 @@ import React, { Suspense, useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ProgressSpinner } from "primereact/progressspinner";
-import { myLoader } from "@utils/loader";
 
 const H1_CONTENUS = [
   {
@@ -37,7 +36,7 @@ const ImageAccueil: NextPage = () => {
   return (
     <section className="hero">
       <Suspense fallback={<ProgressSpinner />}>
-        <Image loader={myLoader} alt="image aléatoire" src={image} quality={80} layout="fill" objectFit="cover" />
+        <Image alt="image aléatoire" src={image} quality={80} layout="fill" objectFit="cover" />
       </Suspense>
       <div className="hero-content-area">
         <h1 className={className}>{texteH1}</h1>

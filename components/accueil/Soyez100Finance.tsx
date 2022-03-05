@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import type { NextPage } from "next";
 import { Button } from "primereact/button";
 import Image from "next/image";
-import { myLoader } from "@utils/loader";
+
 import { ProgressSpinner } from "primereact/progressspinner";
 
 const Soyez100Finance: NextPage = () => {
@@ -26,7 +26,7 @@ const Soyez100Finance: NextPage = () => {
         </div>
         <Suspense fallback={<ProgressSpinner />}>
           <div className="bloc-image">
-            <Image loader={myLoader} alt="sponsors" src="/images/sponsors.png" layout="fill" objectFit="contain" quality={80} />
+            <Image alt="sponsors" src="/images/sponsors.png" layout="fill" objectFit="contain" quality={80} />
           </div>
         </Suspense>
       </div>

@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import type { NextPage } from "next";
 import Image from "next/image";
-import { myLoader } from "@utils/loader";
+
 import { ProgressSpinner } from "primereact/progressspinner";
 
 const UneEquipeQualifiee: NextPage = () => {
@@ -10,7 +10,7 @@ const UneEquipeQualifiee: NextPage = () => {
       <div className="p-grid">
         <Suspense fallback={<ProgressSpinner />}>
           <div className="bloc-image">
-            <Image loader={myLoader} alt="équipe" src="/images/equipe.jpg" layout="fill" objectFit="cover" quality={80} />
+            <Image alt="équipe" src="/images/equipe.jpg" layout="fill" objectFit="cover" quality={80} />
           </div>
         </Suspense>
         <div className="bloc-texte">

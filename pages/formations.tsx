@@ -5,7 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/dist/client/router";
-import { myLoader } from "@utils/loader";
+
 import { ProgressSpinner } from "primereact/progressspinner";
 import MetaSite from "@components/other/Meta";
 
@@ -44,7 +44,6 @@ const FormationsPage: NextPage = () => {
               <a className="bloc-image">
                 <Suspense fallback={<ProgressSpinner />}>
                   <Image
-                    loader={myLoader}
                     alt="majordomeformationsap-femme-menage"
                     src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-femme-chambre.jpeg"
                     layout="fill"
@@ -62,7 +61,6 @@ const FormationsPage: NextPage = () => {
               <a className="bloc-image">
                 <Suspense fallback={<ProgressSpinner />}>
                   <Image
-                    loader={myLoader}
                     alt="majordomeformationsap-femme-enfant"
                     src="/images/majordomeformationsap/formationADVF/majordomeformationsap-femme-enfant-min.jpeg"
                     layout="fill"

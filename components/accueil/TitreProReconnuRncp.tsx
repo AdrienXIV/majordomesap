@@ -2,9 +2,7 @@ import React, { Suspense } from "react";
 import type { NextPage } from "next";
 import Image from "next/image";
 import { ProgressSpinner } from "primereact/progressspinner";
-import { myLoader } from "@utils/loader";
-import { Button } from "react-bootstrap";
-import Link from "next/link";
+
 const TitreProReconnuRncp: NextPage = () => {
   return (
     <section id="titre-pro-reconnu-rncp">
@@ -13,61 +11,33 @@ const TitreProReconnuRncp: NextPage = () => {
       <div className="bandeau-images">
         <div>
           <Suspense fallback={<ProgressSpinner />}>
-            <Image
-              loader={myLoader}
-              alt="qualiopi"
-              src="/images/majordomeformationsap/Accueil/qualiopi.png"
-              layout="fill"
-              objectFit="contain"
-              quality={80}
-            />
+            <Image alt="qualiopi" src="/images/majordomeformationsap/Accueil/qualiopi.png" layout="fill" objectFit="contain" quality={80} />
           </Suspense>
         </div>
         <div>
           <Suspense fallback={<ProgressSpinner />}>
-            <Image
-              loader={myLoader}
-              alt="pole-emploi"
-              src="/images/majordomeformationsap/Accueil/poleemploi.png"
-              layout="fill"
-              objectFit="contain"
-              quality={80}
-            />
+            <Image alt="pole-emploi" src="/images/majordomeformationsap/Accueil/poleemploi.png" layout="fill" objectFit="contain" quality={80} />
           </Suspense>
         </div>
 
         <div>
           <Suspense fallback={<ProgressSpinner />}>
-            <Image loader={myLoader} alt="OPCO" src="/images/majordomeformationsap/Accueil/opco.png" layout="fill" objectFit="contain" quality={80} />
+            <Image alt="OPCO" src="/images/majordomeformationsap/Accueil/opco.png" layout="fill" objectFit="contain" quality={80} />
           </Suspense>
         </div>
         <div>
           <Suspense fallback={<ProgressSpinner />}>
-            <Image loader={myLoader} alt="cpf" src="/images/majordomeformationsap/Accueil/cpf.png" layout="fill" objectFit="contain" quality={80} />
+            <Image alt="cpf" src="/images/majordomeformationsap/Accueil/cpf.png" layout="fill" objectFit="contain" quality={80} />
           </Suspense>
         </div>
         <div>
           <Suspense fallback={<ProgressSpinner />}>
-            <Image
-              loader={myLoader}
-              alt="datadock"
-              src="/images/majordomeformationsap/Accueil/datadock.png"
-              layout="fill"
-              objectFit="contain"
-              quality={80}
-            />
+            <Image alt="datadock" src="/images/majordomeformationsap/Accueil/datadock.png" layout="fill" objectFit="contain" quality={80} />
           </Suspense>
         </div>
         <div>
           <Suspense fallback={<ProgressSpinner />}>
-            <Image
-              loader={myLoader}
-              alt="agefiph"
-              src="/images/majordomeformationsap/Accueil/agefiph.png"
-              layout="fill"
-              objectFit="contain"
-              quality={80}
-            />
+            <Image alt="agefiph" src="/images/majordomeformationsap/Accueil/agefiph.png" layout="fill" objectFit="contain" quality={80} />
           </Suspense>
         </div>
       </div>
@@ -76,7 +46,7 @@ const TitreProReconnuRncp: NextPage = () => {
         <div className="bloc-image">
           <Suspense fallback={<ProgressSpinner />}>
             <div className="bloc-image">
-              <Image loader={myLoader} alt="sponsors" src="/images/logo.png" layout="fill" objectFit="contain" quality={80} />
+              <Image alt="sponsors" src="/images/logo.png" layout="fill" objectFit="contain" quality={80} />
             </div>
           </Suspense>
         </div>

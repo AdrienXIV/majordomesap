@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import type { NextPage } from "next";
 import { ProgressSpinner } from "primereact/progressspinner";
-import { myLoader } from "@utils/loader";
+
 import Image from "next/image";
 
 const ALecouteDeVosEnvies: NextPage = () => {
@@ -12,14 +12,7 @@ const ALecouteDeVosEnvies: NextPage = () => {
       <div className="p-grid">
         <Suspense fallback={<ProgressSpinner />}>
           <div className="bloc-image">
-            <Image
-              loader={myLoader}
-              alt="objectifs"
-              src="/images/majordomeformationsap/qui-sommes-nous/objectifs.jpg"
-              layout="fill"
-              objectFit="cover"
-              quality={80}
-            />
+            <Image alt="objectifs" src="/images/majordomeformationsap/qui-sommes-nous/objectifs.jpg" layout="fill" objectFit="cover" quality={80} />
           </div>
         </Suspense>
         <div className="bloc-texte">
@@ -54,7 +47,6 @@ const ALecouteDeVosEnvies: NextPage = () => {
         <Suspense fallback={<ProgressSpinner />}>
           <div className="bloc-image">
             <Image
-              loader={myLoader}
               alt="majordomeformationsap-valeurs"
               src="/images/majordomeformationsap/qui-sommes-nous/majordomeformationsap-valeurs.jpeg"
               layout="fill"

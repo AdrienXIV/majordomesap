@@ -2,7 +2,7 @@ import React, { Suspense, useEffect, useState } from "react";
 import type { NextPage } from "next";
 import Image from "next/image";
 import { Timeline } from "primereact/timeline";
-import { myLoader } from "@utils/loader";
+
 import { ProgressSpinner } from "primereact/progressspinner";
 
 const Majordomat: NextPage = () => {
@@ -85,7 +85,6 @@ const Majordomat: NextPage = () => {
         <div className="bloc-image">
           <Suspense fallback={<ProgressSpinner />}>
             <Image
-              loader={myLoader}
               alt="majordomeformationsap-serveurs"
               src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-serveurs.jpeg"
               layout="fill"
@@ -122,11 +121,12 @@ const Majordomat: NextPage = () => {
         <div
           title="Voir le module"
           className="second"
-          onClick={() => window.open("https://majordomeformation-sap.catalogueformpro.com/6/majordomat/364945/lart-de-la-table-lart-floral", "_blank")}
+          onClick={() =>
+            window.open("https://majordomeformation-sap.catalogueformpro.com/6/majordomat/364945/lart-de-la-table-lart-floral", "_blank")
+          }
         >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
-              loader={myLoader}
               alt="majordomeformationsap-art-floral"
               src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-art-floral-majordomat.jpeg"
               layout="fill"
@@ -152,7 +152,6 @@ const Majordomat: NextPage = () => {
         >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
-              loader={myLoader}
               alt="majordomeformationsap-couture-majordomat"
               src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-couture-majordomat.jpeg"
               layout="fill"
@@ -172,7 +171,6 @@ const Majordomat: NextPage = () => {
         >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
-              loader={myLoader}
               alt="majordomeformationsap-femme-chambre-majordomat"
               src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-femme-chambre-majordomat.jpeg"
               layout="fill"
@@ -192,7 +190,6 @@ const Majordomat: NextPage = () => {
         >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
-              loader={myLoader}
               alt="majordomeformationsap-enologie-majordomat"
               src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-enologie-majordomat.jpeg"
               layout="fill"
@@ -213,7 +210,6 @@ const Majordomat: NextPage = () => {
         >
           <Suspense fallback={<ProgressSpinner />}>
             <Image
-              loader={myLoader}
               alt="majordomeformationsap-gastronomie-majordomat"
               src="/images/majordomeformationsap/formationmajordomat/majordomeformationsap-gastronomie-majordomat.png"
               layout="fill"
