@@ -14,6 +14,9 @@ module.exports = {
   //   concurrentFeatures: true,
   //   serverComponents: true,
   // },
+  experimental: {
+    reactRoot: true,
+  },
   future: {
     webpack5: true,
   },
