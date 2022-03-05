@@ -145,15 +145,6 @@ const ADVF: NextPage = () => {
         </div>
       </div>
 
-      {/* <div className="devennez-un-pro">
-        <h2>DEVENEZ UN PROFESSIONNEL RAPIDEMENT !</h2>
-        <p>
-          Notre formation modulable pouvant aller de <b>2 jours</b> (21 heures) à <b>2 mois</b> (441 heures). Cette qualification passe par
-          l’acquisition de trois certificats de compétences professionnelles indispensables à la validation de l’examen d’AVDF devant le jury. Modulez
-          votre programme en vous aidant de nos 3 programmes prédéfinis.
-        </p>
-      </div> */}
-
       {/* CCP1 */}
       <div id="advf-modules" className="module-titre">
         <h2>Devenez un professionnel rapidement !</h2>

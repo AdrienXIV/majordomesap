@@ -77,12 +77,36 @@
 }
 /* ########################################## */
 #prochaines-sessions {
-  padding: 175px 300px 100px;
+  padding: 175px 0px 0px;
 }
-#prochaines-sessions > p {
-  max-width: 100%;
+#prochaines-sessions > div {
+  width: 100%;
+  padding: 0;
+  margin: 2.5% 0 0 0;
+  height: auto;
+}
+#prochaines-sessions .bloc-image {
+  position: relative;
+  width: 50%;
+}
+#prochaines-sessions .bloc-image img {
+  transition-duration: 750ms;
+}
+#prochaines-sessions .bloc-image img:hover {
+  opacity: 0.75;
+  transform: scale(1.05);
+}
+#prochaines-sessions .bloc-texte {
+  background-color: #ca0032;
+  width: 50%;
+  padding: 75px;
+  color: white;
+}
+#prochaines-sessions .bloc-texte > p {
   text-align: justify;
+  padding-left: 0;
 }
+
 /* TABLETS */
 @media only screen and (max-width: 959px) {
   #prochaines-sessions {
@@ -92,7 +116,6 @@
   .card-prochaine {
     width: 100vw !important;
   }
-  
 }
 
 /* PHONES */
