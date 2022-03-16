@@ -5,7 +5,6 @@ import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import "leaflet/dist/leaflet.css";
 import "primeflex/primeflex.css";
-
 import "@styles/components/ImageAccueil.css";
 import "@styles/components/Contact.css";
 import "@styles/components/Header.css";
@@ -20,7 +19,6 @@ import "@styles/qui-sommes-nous.css";
 import "@styles/prochaines-sessions.css";
 import "@styles/mentions.css";
 import "@styles/footer/styles.css";
-
 import axios from "axios";
 import React from "react";
 import dynamic from "next/dynamic";
