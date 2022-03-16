@@ -6,6 +6,9 @@ body {
   width: 100%;
 }
 
+#logo-majordomat {
+  cursor: pointer;
+}
 /* cookies bouton */
 #axeptio_main_button {
   display: none !important;

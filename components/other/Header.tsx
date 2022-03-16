@@ -61,11 +61,7 @@ const Header: NextPage = () => {
   ];
 
   const start = (
-    <Link href="/" passHref>
-      <a>
-        <Image alt="logo-sapmajordome-formation" src="/images/logo.png" width={70} height={70} />
-      </a>
-    </Link>
+    <Image id="logo-majordomat" alt="logo-sapmajordome-formation" src="/images/logo.png" width={70} height={70} onClick={() => router.push("/")} />
   );
 
   const end = (
