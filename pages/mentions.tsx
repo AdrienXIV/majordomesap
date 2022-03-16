@@ -2,23 +2,21 @@ import React from "react";
 import type { NextPage } from "next";
 import Header from "@components/other/Header";
 import Head from "next/head";
-import MetaSite from "@components/other/Meta";
 
 const MentionsPage: NextPage = () => {
   return (
     <>
       <Head>
         <title>Mentions | Majordome Formation SAP</title>
-        <MetaSite>
-          <meta
-            name="description"
-            content="Centre de formation aux métiers du service à la personne de qualité et certifiant. Zéro à charge, formez vous aux métiers de gouvernante, advf, auxiliaires de vie avec des formateurs qualifiés.> <meta name=”keywords” content=”formation pole emploi, advf, aide a domicile,  formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
-          />
-          <meta
-            name="keywords"
-            content="formation pole emploi, advf, aide a domicile, formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
-          />
-        </MetaSite>
+
+        <meta
+          name="description"
+          content="Centre de formation aux métiers du service à la personne de qualité et certifiant. Zéro à charge, formez vous aux métiers de gouvernante, advf, auxiliaires de vie avec des formateurs qualifiés.> <meta name=”keywords” content=”formation pole emploi, advf, aide a domicile,  formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
+        />
+        <meta
+          name="keywords"
+          content="formation pole emploi, advf, aide a domicile, formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
+        />
       </Head>
       <Header />
 
@@ -28,8 +26,8 @@ const MentionsPage: NextPage = () => {
           <hr />
           <h3>IDENTIFICATION DE L’EDITEUR</h3>
           <p>
-            Le site non concerné (ci-après "majordomeformationsap"), accessible à l’adresse non concerné est édité par la société non concerné (ci-après
-            "Allan BUSI"), au capital de non concerné euros, dont le siège social est situé non concerné.
+            Le site non concerné (ci-après "majordomeformationsap"), accessible à l’adresse non concerné est édité par la société non concerné
+            (ci-après "Allan BUSI"), au capital de non concerné euros, dont le siège social est situé non concerné.
           </p>
           <h3>HEBERGEUR DU SITE INTERNET</h3>
           <p>Le site non concerné est hébergé par vercel.</p>

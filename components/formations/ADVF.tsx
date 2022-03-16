@@ -9,7 +9,7 @@ const ADVF: NextPage = () => {
   const [layout, setLayout] = useState("horizontal");
 
   useEffect(() => {
-    if (process.browser) {
+    if (typeof window) {
       window.innerWidth < 959 ? setLayout("vertical") : setLayout("horizontal");
     }
   }, []);

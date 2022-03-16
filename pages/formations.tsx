@@ -7,7 +7,6 @@ import Link from "next/link";
 import { useRouter } from "next/dist/client/router";
 
 import { ProgressSpinner } from "primereact/progressspinner";
-import MetaSite from "@components/other/Meta";
 
 const FormationsPage: NextPage = () => {
   const router = useRouter();
@@ -21,16 +20,15 @@ const FormationsPage: NextPage = () => {
     <>
       <Head>
         <title>Formations | Majordome Formation SAP</title>
-        <MetaSite>
-          <meta
-            name="description"
-            content="Majordome formation propose des formations certifiantes zéro à charge : advf, gouvernante, majordome, aide à domicile  et d’autres. Nos formations se déroulent en petit groupe avec des formateurs de qualité."
-          />
-          <meta
-            name="keywords"
-            content="centre de formation paris, formation gratuite, formation advf, formation aide à domicile, formation certifiante, formation pôle emploi, formation financée"
-          />
-        </MetaSite>
+
+        <meta
+          name="description"
+          content="Majordome formation propose des formations certifiantes zéro à charge : advf, gouvernante, majordome, aide à domicile  et d’autres. Nos formations se déroulent en petit groupe avec des formateurs de qualité."
+        />
+        <meta
+          name="keywords"
+          content="centre de formation paris, formation gratuite, formation advf, formation aide à domicile, formation certifiante, formation pôle emploi, formation financée"
+        />
       </Head>
       <Header />
 
