@@ -38,7 +38,7 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+        {/* <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
         <meta name="Content-Type" content="UTF-8" />
         <meta name="Content-Language" content="fr" />
         <meta name="Subject" content="Association de formation" />
@@ -70,7 +70,7 @@ function App({ Component, pageProps }: AppProps) {
           content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
         />
         <meta charSet="utf-8" />
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" /> */}
       </Head>
       <Component {...pageProps} />
       {typeof window && <Contact />}
