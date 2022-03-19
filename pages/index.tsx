@@ -21,7 +21,7 @@ const HomePage: NextPage = () => {
 
       <meta
         name="description"
-        content="Centre de formation aux métiers du service à la personne de qualité et certifiant. Zéro à charge, formez vous aux métiers de gouvernante ou de majordome, advf, auxiliaires de vie avec des formateurs qualifiés."/>
+        content="Centre de formation aux métiers du service à la personne de qualité et certifiant. Zéro à charge, formez vous aux métiers de gouvernante ou de ma, advf, auxiliaires de vie avec des formateurs qualifiés."/>
       <meta
         name="keywords"
         content="formation pole emploi, advf, aide a domicile, formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
@@ -44,15 +44,15 @@ const HomePage: NextPage = () => {
         </Suspense>
       </main>
       <Script>{`window.axeptioSettings = {
-        clientId: "61f524407d80bb2229133ea8",
-        cookiesVersion: "majordomeformationsap-fr",
-      };
-      
-      (function(d, s) {
-        var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
-        e.async = true; e.src = "//static.axept.io/sdk.js";
-        t.parentNode.insertBefore(e, t);
-      })(document, "script");`}</Script>
+  clientId: "61f524407d80bb2229133ea8",
+  cookiesVersion: "majordomeformationsap-fr",
+};
+ 
+(function(d, s) {
+  var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+  e.async = true; e.src = "//static.axept.io/sdk.js";
+  t.parentNode.insertBefore(e, t);
+})(document, "script");`}</Script>
     </>
   );
 };

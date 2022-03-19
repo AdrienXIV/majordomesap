@@ -40,12 +40,12 @@ function App({ Component, pageProps }: AppProps) {
     
       <Component {...pageProps} />
       {typeof window && <Contact />}
+      <Footer />
       {/* Global site tag (gtag.js) - Google Analytics */}
       <Script async src="https://www.googletagmanager.com/gtag/js?id=G-DCZDMBD304%22%3E" />
-      <Script>{`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag("config", "G-DCZDMBD304");`}</Script>
-      <Footer />
       {/* <Script strategy="afterInteractive" noModule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" />
       <Script strategy="afterInteractive" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" /> */}
+      <Script>{`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag("config", "G-DCZDMBD304");`}</Script>
     </>
   );
 }
