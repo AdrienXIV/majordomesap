@@ -87,13 +87,13 @@ const Footer: NextPage = () => {
         <div className="p-fluid p-formgrid p-grid">
           <p className="p-sm-12 p-md-12 p-lg-12 text-center-footer">
             © Copyright {new Date().getFullYear()}{" "}
-            <a rel="noopener nofollow" target="_blank" href="https://www.linkedin.com/in/allan-busi-25170317a">
+            <a className="pr-1" rel="noopener nofollow" target="_blank" href="https://www.linkedin.com/in/allan-busi-25170317a">
               Allan BUSI 
             </a>
-            <a rel="noopener nofollow" target="_blank" href="https://www.linkedin.com/in/adrien-maillard">
+            <a className="pr-1" rel="noopener nofollow" target="_blank" href="https://www.linkedin.com/in/adrien-maillard">
               Adrien Maillard 
             </a>
-            <a rel="noopener nofollow" target="_blank" href="https://www.linkedin.com/in/sarah-ouri">
+            <a  className="pr-1"rel="noopener nofollow" target="_blank" href="https://www.linkedin.com/in/sarah-ouri">
               Sarah Ouriachi 
             </a>
             . All Rights Reserved
