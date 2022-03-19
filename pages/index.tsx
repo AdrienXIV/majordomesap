@@ -17,7 +17,7 @@ import DatesSessions from "@components/ProchainesSessions/DatesSessions";
 const HomePage: NextPage = () => {
   return (
     <>
-      <Head>
+      {/* <Head> */}
         <title>Majordome Formation SAP</title>
 
         <meta
@@ -27,7 +27,7 @@ const HomePage: NextPage = () => {
           name="keywords"
           content="formation pole emploi, advf, aide a domicile, formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
         />
-      </Head>
+      {/* </Head> */}
       <Header />
 
       <main>
