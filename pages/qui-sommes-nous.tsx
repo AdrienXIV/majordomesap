@@ -9,7 +9,6 @@ import ALecouteDeVosEnvies from "@components/qui-sommes-nous/ALecouteDeVosEnvies
 const QuiSommesNousPage: NextPage = () => {
   return (
     <>
-      <Head>
         <title>Qui sommes-nous ? | Majordome Formation SAP</title>
 
         <meta
@@ -20,7 +19,6 @@ const QuiSommesNousPage: NextPage = () => {
           name="keywords"
           content="centre de formation paris, formation gratuite, formation zéro à charge, centre de formation de qualité, formation certifiante, formation à distance, formation en ligne, formation pôle emploi"
         />
-      </Head>
       <Header />
 
       <main>

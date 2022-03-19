@@ -7,7 +7,6 @@ import Financement from "@components/financement";
 const FinancementPage: NextPage = () => {
   return (
     <>
-      <Head>
         <title>Financement | Majordome Formation SAP</title>
 
         <meta
@@ -18,7 +17,6 @@ const FinancementPage: NextPage = () => {
           name="keywords"
           content="formation gratuite, formation zéro à charge, formation certifiante, formation à distance, formation en ligne, formation pôle emploi, cpf, opco pe, datadock, formation financée"
         />
-      </Head>
       <Header />
 
       <main>

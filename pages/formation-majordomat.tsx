@@ -7,7 +7,6 @@ import Majordomat from "@components/formations/Majordomat";
 const FormationMajordomatPage: NextPage = () => {
   return (
     <>
-      <Head>
         <title>Formation Majordomat | Majordome Formation SAP</title>
 
         <meta
@@ -18,7 +17,6 @@ const FormationMajordomatPage: NextPage = () => {
           name="keywords"
           content="formation gratuite, formation zéro à charge, formation certifiante, formation à distance, formation en ligne, formation pôle emploi, formation financée"
         />
-      </Head>
       <Header />
 
       <main>

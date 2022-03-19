@@ -18,18 +18,16 @@ const FormationsPage: NextPage = () => {
 
   return (
     <>
-      <Head>
-        <title>Formations | Majordome Formation SAP</title>
+      <title>Formations | Majordome Formation SAP</title>
 
-        <meta
-          name="description"
-          content="Majordome formation propose des formations certifiantes zéro à charge : advf, gouvernante, majordome, aide à domicile  et d’autres. Nos formations se déroulent en petit groupe avec des formateurs de qualité."
-        />
-        <meta
-          name="keywords"
-          content="centre de formation paris, formation gratuite, formation advf, formation aide à domicile, formation certifiante, formation pôle emploi, formation financée"
-        />
-      </Head>
+      <meta
+        name="description"
+        content="Majordome formation propose des formations certifiantes zéro à charge : advf, gouvernante, majordome, aide à domicile  et d’autres. Nos formations se déroulent en petit groupe avec des formateurs de qualité."
+      />
+      <meta
+        name="keywords"
+        content="centre de formation paris, formation gratuite, formation advf, formation aide à domicile, formation certifiante, formation pôle emploi, formation financée"
+      />
       <Header />
 
       <main>

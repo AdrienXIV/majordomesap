@@ -6,7 +6,6 @@ import Head from "next/head";
 const MentionsPage: NextPage = () => {
   return (
     <>
-      <Head>
         <title>Mentions | Majordome Formation SAP</title>
 
         <meta
@@ -17,7 +16,6 @@ const MentionsPage: NextPage = () => {
           name="keywords"
           content="formation pole emploi, advf, aide a domicile, formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
         />
-      </Head>
       <Header />
 
       <main>

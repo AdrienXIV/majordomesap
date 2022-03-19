@@ -7,7 +7,6 @@ import ADVF from "@components/formations/ADVF";
 const FormationAdvfPage: NextPage = () => {
   return (
     <>
-      <Head>
         <title>Formation ADVF | Majordome Formation SAP</title>
 
         <meta
@@ -18,7 +17,6 @@ const FormationAdvfPage: NextPage = () => {
           name="keywords"
           content="formation gratuite, formation zéro à charge, formation certifiante, formation à distance, formation en ligne, formation pôle emploi, formation financée"
         />
-      </Head>
       <Header />
 
       <main>
