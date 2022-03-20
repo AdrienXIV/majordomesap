@@ -77,7 +77,7 @@ const Footer: NextPage = () => {
             <br /> <br />
             <a href="tel:0158042418">01.58.04.24.18</a>
             <br /> <br />
-            <a href="mailto:contact@majordomeformationsap.fr">contact@majordomeformationsap.fr​</a>
+            <a href="mailto:contact@majordomeformationsap.fr">contact at majordomeformationsap.fr​</a>
             <br /> <br />
             <span>13 rue Camille Desmoulins</span>
             <br />
@@ -88,13 +88,13 @@ const Footer: NextPage = () => {
           <p className="p-sm-12 p-md-12 p-lg-12 text-center-footer">
             © Copyright {new Date().getFullYear()}{" "}
             <a className="pr-1" rel="noopener nofollow" target="_blank" href="https://www.linkedin.com/in/allan-busi-25170317a">
-              Allan BUSI 
+              Allan BUSI
             </a>
             <a className="pr-1" rel="noopener nofollow" target="_blank" href="https://www.linkedin.com/in/adrien-maillard">
-              Adrien Maillard 
+              Adrien Maillard
             </a>
-            <a  className="pr-1"rel="noopener nofollow" target="_blank" href="https://www.linkedin.com/in/sarah-ouri">
-              Sarah Ouriachi 
+            <a className="pr-1" rel="noopener nofollow" target="_blank" href="https://www.linkedin.com/in/sarah-ouri">
+              Sarah Ouriachi
             </a>
             . All Rights Reserved
           </p>

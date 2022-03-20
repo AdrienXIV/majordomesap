@@ -27,7 +27,7 @@ const MentionsPage: NextPage = () => {
         </p>
         <h3>HEBERGEUR DU SITE INTERNET</h3>
         <p>Le site non concerné est hébergé par vercel.</p>
-        <p>L’hébergeur est joignable par mail à l’adresse suivante : busi.travail@gmail.com.</p>
+        <p>L’hébergeur est joignable par mail à l’adresse suivante : busi.travail at gmail.com.</p>
         <p>Il est également joignable au numéro suivant : 0771023973.</p>
 
         <h3>COLLECTE DE DONNEES PERSONNELLES</h3>

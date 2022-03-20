@@ -25,6 +25,7 @@ import dynamic from "next/dynamic";
 import Footer from "@components/other/Footer";
 import Script from "next/script";
 import Head from "next/head";
+import { useRouter } from "next/router";
 const Contact = dynamic(() => import("@components/contact/Contact"), { ssr: false });
 
 axios.defaults.baseURL = process.env.URL;
@@ -35,6 +36,8 @@ axios.defaults.headers = {
 } as any;
 
 function App({ Component, pageProps }: AppProps) {
+  const router = useRouter();
+  const canonicalUrl = (process.env.NEXT_PUBLIC_HOST + (router.asPath === "/" ? "" : router.asPath)).split("?")[0];
   return (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
@@ -72,6 +75,7 @@ function App({ Component, pageProps }: AppProps) {
       />
       <meta charSet="utf-8" />
       <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+      <link rel="canonical" href={canonicalUrl} />
 
       <Script async src="https://www.googletagmanager.com/gtag/js?id=G-DCZDMBD304%22%3E" />
       {/* <Script strategy="afterInteractive" noModule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" />

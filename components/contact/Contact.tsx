@@ -209,7 +209,7 @@ const Contact = () => {
           <label>
             Email <span>*</span>
           </label>
-          <InputText name="email" value={state.email} required placeholder="votre.email@gmail.com" type="email" onChange={onChange} />
+          <InputText name="email" value={state.email} required placeholder="Votre email" type="email" onChange={onChange} />
         </div>
         <div className="p-field p-col-12 p-md-6">
           <label>Téléphone portable</label>
