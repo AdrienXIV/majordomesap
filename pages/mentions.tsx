@@ -6,17 +6,16 @@ import Head from "next/head";
 const MentionsPage: NextPage = () => {
   return (
     <main>
-      <Head>
-        <title>Mentions | Majordome Formation SAP</title>
-        <meta
-          name="description"
-          content="Centre de formation aux métiers du service à la personne de qualité et certifiant. Zéro à charge, formez vous aux métiers de gouvernante, advf, auxiliaires de vie avec des formateurs qualifiés.> <meta name=”keywords” content=”formation pole emploi, advf, aide a domicile,  formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
-        />
-        <meta
-          name="keywords"
-          content="formation pole emploi, advf, aide a domicile, formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
-        />
-      </Head>
+      <title>Mentions | Majordome Formation SAP</title>
+      <meta
+        name="description"
+        content="Centre de formation aux métiers du service à la personne de qualité et certifiant. Zéro à charge, formez vous aux métiers de gouvernante, advf, auxiliaires de vie avec des formateurs qualifiés.> <meta name=”keywords” content=”formation pole emploi, advf, aide a domicile,  formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
+      />
+      <meta
+        name="keywords"
+        content="formation pole emploi, advf, aide a domicile, formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
+      />
+
       <Header />
       <section id="mentions">
         <h2>Mentions légales</h2>

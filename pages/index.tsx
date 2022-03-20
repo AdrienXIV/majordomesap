@@ -18,17 +18,16 @@ const HomePage: NextPage = () => {
   return (
     <>
       <main>
-        <Head>
-          <title>Majordome Formation SAP | Métier Advf</title>
-          <meta
-            name="description"
-            content="Centre de formation aux métiers du service à la personne de qualité et certifiant. Zéro à charge, formez vous aux métiers de gouvernante ou de majordome, advf , auxiliaires de vie avec des formateurs qualifiés."
-          />
-          <meta
-            name="keywords"
-            content="formation pole emploi, advf, aide a domicile, formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
-          />
-        </Head>
+        <title>Majordome Formation SAP | Métier Advf</title>
+        <meta
+          name="description"
+          content="Centre de formation aux métiers du service à la personne de qualité et certifiant. Zéro à charge, formez vous aux métiers de gouvernante ou de majordome, advf , auxiliaires de vie avec des formateurs qualifiés."
+        />
+        <meta
+          name="keywords"
+          content="formation pole emploi, advf, aide a domicile, formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
+        />
+
         <Header />
         <h2 style={{ opacity: "0%", fontSize: "1px" }}>Envie de devenir Advf</h2>
         <ImageAccueil />

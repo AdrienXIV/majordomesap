@@ -37,15 +37,6 @@ axios.defaults.headers = {
 function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <title>Majordome Formation SAP | Métier Advf</title>
-      <meta
-        name="description"
-        content="Centre de formation aux métiers du service à la personne de qualité et certifiant. Zéro à charge, formez vous aux métiers de gouvernante ou de majordome, advf , auxiliaires de vie avec des formateurs qualifiés."
-      />
-      <meta
-        name="keywords"
-        content="formation pole emploi, advf, aide a domicile, formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
-      />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
       <meta name="robots" content="all" />
       <meta name="google-site-verification" content="-FrNyJNyESokbOqGvXDz0oIWwgDnQ05eNb-D1Z1R5CM" />

@@ -8,6 +8,8 @@ body {
 
 #logo-majordomat {
   cursor: pointer;
+  width: 70px;
+  height: 70px;
 }
 /* cookies bouton */
 #axeptio_main_button {

@@ -9,17 +9,16 @@ import ALecouteDeVosEnvies from "@components/qui-sommes-nous/ALecouteDeVosEnvies
 const QuiSommesNousPage: NextPage = () => {
   return (
     <main>
-      <Head>
-        <title>Qui sommes-nous ? | Majordome Formation SAP</title>
-        <meta
-          name="description"
-          content="Centre de formation qui s’engage à fournir des formations de advf, majordome et de gouvernante de qualité. On propose des modules certifiants avec une équipe qualifiée et engagée, en présentiel ou distanciel"
-        />
-        <meta
-          name="keywords"
-          content="centre de formation paris, formation gratuite, formation zéro à charge, centre de formation de qualité, formation certifiante, formation à distance, formation en ligne, formation pôle emploi"
-        />
-      </Head>
+      <title>Qui sommes-nous ? | Majordome Formation SAP</title>
+      <meta
+        name="description"
+        content="Centre de formation qui s’engage à fournir des formations de advf, majordome et de gouvernante de qualité. On propose des modules certifiants avec une équipe qualifiée et engagée, en présentiel ou distanciel"
+      />
+      <meta
+        name="keywords"
+        content="centre de formation paris, formation gratuite, formation zéro à charge, centre de formation de qualité, formation certifiante, formation à distance, formation en ligne, formation pôle emploi"
+      />
+
       <Header />
       <section id="qui-sommes-nous">
         <h2>Qui sommes nous ?</h2>

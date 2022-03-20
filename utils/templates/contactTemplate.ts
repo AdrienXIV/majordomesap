@@ -5,7 +5,7 @@ const __TITLE = "Votre demande de contact";
 const contactTemplate = (nom: string, prenom: string, email: string, message: string, tel?: string) => {
   return `
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0;">
  	<meta name="format-detection" content="telephone=no"/>
@@ -38,7 +38,7 @@ a, a:hover {
 	<!-- MESSAGE SUBJECT -->
 	<title>Dev Agency | Contact</title>
 
-</head>
+
 
 <!-- BODY -->
 <!-- Set message background color (twice) and text color (twice) -->

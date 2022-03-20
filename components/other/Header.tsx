@@ -60,17 +60,13 @@ const Header: NextPage = () => {
     // },
   ];
 
-  const start = (
-    <Image id="logo-majordomat" alt="logo-sapmajordome-formation" src="/images/logo.png" width={70} height={70} onClick={() => router.push("/")} />
-  );
+  const start = <img id="logo-majordomat" alt="logo-sapmajordome-formation" src="/images/logo.png" onClick={() => router.push("/")} />;
 
   const end = (
-    <Link href="#contact" passHref>
-      <a className="contact-nav">
-        <span className="p-menuitem-icon pi pi-fw pi-envelope"></span>
-        <span className="p-menuitem-text">Contact</span>
-      </a>
-    </Link>
+    <a href="#contact" className="contact-nav">
+      <span className="p-menuitem-icon pi pi-fw pi-envelope"></span>
+      <span className="p-menuitem-text">Contact</span>
+    </a>
   );
 
   return (
