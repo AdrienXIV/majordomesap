@@ -104,7 +104,9 @@ const Header: NextPage = () => {
         </div>
         <div>
           <i className="pi pi-envelope"></i>
-          <a href="mailto:contact@majordomeformationsap.fr">contact@majordomeformationsap.fr</a>
+          <a rel="nofollow" href="mailto:contact@majordomeformationsap.fr">
+            contact at majordomeformationsap.fr
+          </a>
         </div>
         <div>
           <i className="pi pi-map-marker"></i>

@@ -75,9 +75,13 @@ const Footer: NextPage = () => {
           <p className="p-sm-12 p-md-4 p-lg-4 footer-lien">
             <span className="title-footer">Contact</span>
             <br /> <br />
-            <a href="tel:0158042418">01.58.04.24.18</a>
+            <a rel="nofollow" href="tel:0158042418">
+              01.58.04.24.18
+            </a>
             <br /> <br />
-            <a href="mailto:contact@majordomeformationsap.fr">contact at majordomeformationsap.fr​</a>
+            <a rel="nofollow" href="mailto:contact@majordomeformationsap.fr">
+              contact at majordomeformationsap.fr​
+            </a>
             <br /> <br />
             <span>13 rue Camille Desmoulins</span>
             <br />
