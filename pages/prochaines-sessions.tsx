@@ -7,7 +7,8 @@ import InformationsCollectives from "@components/ProchainesSessions/Informations
 
 const ProchainesSessionsPage: NextPage = () => {
   return (
-    <>
+    <main>
+      <Head>
         <title>Prochaines Sessions | Majordome Formation SAP</title>
         <meta
           name="description"
@@ -17,13 +18,11 @@ const ProchainesSessionsPage: NextPage = () => {
           name="keywords"
           content="formation pole emploi, advf, aide a domicile, formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
         />
+      </Head>
       <Header />
-
-      <main>
-        <InformationsCollectives />
-        <DatesSessions />
-      </main>
-    </>
+      <InformationsCollectives />
+      <DatesSessions />
+    </main>
   );
 };
 

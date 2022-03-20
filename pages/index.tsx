@@ -17,23 +17,24 @@ import DatesSessions from "@components/ProchainesSessions/DatesSessions";
 const HomePage: NextPage = () => {
   return (
     <>
-      <title>Majordome Formation SAP | Métier Advf</title>
-
-      <meta
-        name="description"
-        content="Centre de formation aux métiers du service à la personne de qualité et certifiant. Zéro à charge, formez vous aux métiers de gouvernante ou de majordome, advf , auxiliaires de vie avec des formateurs qualifiés."/>
-      <meta
-        name="keywords"
-        content="formation pole emploi, advf, aide a domicile, formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
-      />
-      <Header />
-
       <main>
-        <h2 style={{opacity:'0%', fontSize: '1px'}}>Envie de devenir Advf</h2>
+        <Head>
+          <title>Majordome Formation SAP | Métier Advf</title>
+          <meta
+            name="description"
+            content="Centre de formation aux métiers du service à la personne de qualité et certifiant. Zéro à charge, formez vous aux métiers de gouvernante ou de majordome, advf , auxiliaires de vie avec des formateurs qualifiés."
+          />
+          <meta
+            name="keywords"
+            content="formation pole emploi, advf, aide a domicile, formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
+          />
+        </Head>
+        <Header />
+        <h2 style={{ opacity: "0%", fontSize: "1px" }}>Envie de devenir Advf</h2>
         <ImageAccueil />
-        <h3 style={{opacity:'0%', fontSize: '1px'}}>Formation Advf 100% financer</h3>
+        <h3 style={{ opacity: "0%", fontSize: "1px" }}>Formation Advf 100% financer</h3>
         <DatesSessions />
-        <h3 style={{opacity:'0%', fontSize: '1px'}}>Advf est un titre professionnel reconnue par l'état</h3>
+        <h3 style={{ opacity: "0%", fontSize: "1px" }}>Advf est un titre professionnel reconnue par l'état</h3>
         <TitreProReconnuRncp />
         <Soyez100Finance />
         <div className="block-rncp">
