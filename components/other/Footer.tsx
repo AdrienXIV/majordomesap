@@ -79,7 +79,7 @@ const Footer: NextPage = () => {
               01.58.04.24.18
             </a>
             <br /> <br />
-            <a rel="nofollow" href="mailto:contact@majordomeformationsap.fr">
+            <a rel="nofollow" href="#contact">
               contact at majordomeformationsap.fr​
             </a>
             <br /> <br />
