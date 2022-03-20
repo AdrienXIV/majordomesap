@@ -86,14 +86,14 @@ const Header: NextPage = () => {
           <div>
             <Suspense fallback={<ProgressSpinner />}>
               <a rel="noopener" href="https://www.facebook.com/majordomeformation" target="_blank">
-                <Image alt="logo-facebook" src="/images/fb.png" width={40} height={40} quality={80} />
+                <img className="logo-rs" alt="logo-facebook" src="/images/fb.png" />
               </a>
             </Suspense>
           </div>
           <div>
             <Suspense fallback={<ProgressSpinner />}>
               <a rel="noopener" href="https://fr.linkedin.com/company/majordome-formation-sap" target="_blank">
-                <Image alt="logo-linkedin" src="/images/linkdin.png" width={40} height={40} quality={80} />
+                <img className="logo-rs" alt="logo-linkedin" src="/images/linkdin.png" />
               </a>
             </Suspense>
           </div>

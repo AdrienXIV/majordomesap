@@ -9,7 +9,7 @@ const IlsNousOntFaitConfiances: NextPage = () => {
       <div className="bloc-card">
         <div>
           <div className="avatar">
-            <Image alt="avatar-femme" src="/images/avatar2.png" width={150} height={150} quality={50} />
+            <img className="avatar-confiance" alt="avatar-femme" src="/images/avatar2.png" />
             <legend>
               Karima A. <br />
               Formation Majordomat
@@ -32,7 +32,7 @@ const IlsNousOntFaitConfiances: NextPage = () => {
 
         <div>
           <div className="avatar">
-            <Image alt="avatar-femme" src="/images/avatar3.png" width={150} height={150} quality={50} />
+            <img className="avatar-confiance" alt="avatar-femme" src="/images/avatar3.png" />
             <legend>
               Sara A. <br />
               Formation ADVF
@@ -52,7 +52,7 @@ const IlsNousOntFaitConfiances: NextPage = () => {
 
         <div>
           <div className="avatar">
-            <Image alt="avatar-homme" src="/images/avatar1.png" width={150} height={150} quality={50} />
+            <img className="avatar-confiance" alt="avatar-homme" src="/images/avatar1.png" />
             <legend>
               Guillaume L. <br />
               Formation Majordomat
