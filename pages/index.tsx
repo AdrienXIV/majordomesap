@@ -32,7 +32,7 @@ const HomePage: NextPage = () => {
         <h2 style={{ opacity: "0%", fontSize: "1px" }}>Envie de devenir Advf</h2>
         <ImageAccueil />
         <h3 style={{ opacity: "0%", fontSize: "1px" }}>Formation Advf 100% financer</h3>
-        <DatesSessions />
+        {/* <DatesSessions /> */}
         <h3 style={{ opacity: "0%", fontSize: "1px" }}>Advf est un titre professionnel reconnue par l'état</h3>
         <TitreProReconnuRncp />
         <Soyez100Finance />
