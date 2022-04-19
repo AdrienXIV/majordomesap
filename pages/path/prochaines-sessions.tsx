@@ -20,7 +20,7 @@ const ProchainesSessionsPage: NextPage = () => {
 
       <Header />
       <InformationsCollectives />
-      <DatesSessions />
+      {/* <DatesSessions /> */}
     </main>
   );
 };
