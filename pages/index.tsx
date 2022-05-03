@@ -28,11 +28,11 @@ const HomePage: NextPage = () => {
           content="formation pole emploi, advf, aide a domicile, formation auxiliaire de vie, formation paris, formation gouvernante, centre de formation, formation certifiante, formation majordome, formation  afpa, formation  greta"
         />
 
-        <Header />
+        {/* <Header />
         <h2 style={{ opacity: "0%", fontSize: "1px" }}>Envie de devenir Advf</h2>
         <ImageAccueil />
         <h3 style={{ opacity: "0%", fontSize: "1px" }}>Formation Advf 100% financer</h3>
-        {/* <DatesSessions /> */}
+        {/* <DatesSessions /> 
         <h3 style={{ opacity: "0%", fontSize: "1px" }}>Advf est un titre professionnel reconnue par l'état</h3>
         <TitreProReconnuRncp />
         <Soyez100Finance />
@@ -44,7 +44,7 @@ const HomePage: NextPage = () => {
         <UneEquipeQualifiee />
         <Suspense fallback={<ProgressSpinner />}>
           <IlsNousOntFaitConfiances />
-        </Suspense>
+        </Suspense> */}
       </main>
       <Script>{`window.axeptioSettings = {
   clientId: "61f524407d80bb2229133ea8",
