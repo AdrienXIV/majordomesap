@@ -363,6 +363,11 @@
   transition-duration: 750ms;
 }
 
+.text-bold {
+  font-weight: bold;
+  font-size: 32px;
+}
+
 #personnalisez-vos-modules > .bloc-cards > div:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
