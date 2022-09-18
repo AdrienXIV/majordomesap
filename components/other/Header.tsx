@@ -52,6 +52,15 @@ const Header: NextPage = () => {
       icon: "pi pi-fw pi-calendar",
       url: "/prochaines-sessions",
     },
+    {
+      label: "Alternance",
+      icon: "pi pi-fw pi-briefcase",
+      command: e => {
+        e.originalEvent.preventDefault();
+        router.push("/alternance");
+      },
+      url: "/alternance",
+    },
     // {
     //   label: "Contact",
     //   icon: "pi pi-fw pi-envelope",
@@ -105,7 +114,7 @@ const Header: NextPage = () => {
         <div>
           <i className="pi pi-envelope"></i>
           <a rel="nofollow" href="#contact">
-            contact at majordomeformationsap.fr
+            contact@majordomeformationsap.fr
           </a>
         </div>
         <div>

@@ -11,7 +11,6 @@ import IlsNousOntFaitConfiances from "@components/accueil/IlsNousOntFaitConfianc
 import TitreProReconnuRncp from "@components/accueil/TitreProReconnuRncp";
 import { ProgressSpinner } from "primereact/progressspinner";
 import Script from "next/script";
-import DatesSessions from "@components/ProchainesSessions/DatesSessions";
 import Dynamic from "next/dynamic";
 const PopupComponent = Dynamic(() => import("@components/Popup"), { ssr: false });
 
@@ -33,8 +32,8 @@ const HomePage: NextPage = () => {
         <PopupComponent />
         <h2 style={{ opacity: "0%", fontSize: "1px" }}>Envie de devenir Advf</h2>
         <ImageAccueil />
-        <h3 style={{ opacity: "0%", fontSize: "1px" }}>Formation Advf 100% financer</h3>
-        <DatesSessions />
+        <h3 style={{ opacity: "0%", fontSize: "1px" }}>Formation Advf 100% financée</h3>
+        {/* <DatesSessions /> */}
         <h3 style={{ opacity: "0%", fontSize: "1px" }}>Advf est un titre professionnel reconnue par l'état</h3>
         <TitreProReconnuRncp />
         <Soyez100Finance />

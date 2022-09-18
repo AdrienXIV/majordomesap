@@ -1,7 +1,6 @@
 import React, { Suspense } from "react";
 import type { NextPage } from "next";
 import Header from "@components/other/Header";
-import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 

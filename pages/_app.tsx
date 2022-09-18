@@ -19,6 +19,7 @@ import "@styles/qui-sommes-nous.css";
 import "@styles/prochaines-sessions.css";
 import "@styles/mentions.css";
 import "@styles/footer/styles.css";
+import "@styles/alternance.css";
 import axios from "axios";
 import React from "react";
 import dynamic from "next/dynamic";

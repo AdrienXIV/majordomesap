@@ -1,0 +1,107 @@
+#alternance {
+  padding: 175px 300px 75px;
+}
+#alternance > p {
+  max-width: 100%;
+  text-align: justify;
+}
+/* PHONES */
+@media only screen and (max-width: 480px) {
+  #alternance {
+    padding: 100px 0px 0px;
+  }
+}
+
+/* TABLETS */
+@media only screen and (max-width: 959px) {
+  #alternance {
+    padding: 100px 0px 0px;
+  }
+}
+
+/* TABLETS */
+
+/* ################################### */
+#alternance-comment-ca-marche {
+  padding: 0 0 75px 0;
+}
+#alternance-comment-ca-marche > div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 500px;
+  margin: 0;
+}
+
+#alternance-comment-ca-marche > div > .bloc-image {
+  position: relative;
+  width: 50%;
+}
+#alternance-comment-ca-marche > div > .bloc-image img {
+  transition-duration: 750ms;
+}
+#alternance-comment-ca-marche > div > .bloc-image img:hover {
+  opacity: 0.75;
+  transform: scale(1.05);
+}
+#alternance-comment-ca-marche > div > .bloc-texte {
+  padding: 25px 15px;
+  width: 50%;
+  align-self: center;
+}
+#alternance-comment-ca-marche > div > .bloc-texte > p {
+  text-align: justify;
+}
+#alternance-comment-ca-marche > div > .bloc-texte > h3 {
+  color: #ca0032;
+  text-align: center;
+}
+/* PHONES */
+@media only screen and (max-width: 480px) {
+  #alternance-comment-ca-marche {
+    padding: 0;
+  }
+  #alternance-comment-ca-marche > h2 {
+    text-align: center;
+  }
+  #alternance-comment-ca-marche > div {
+    height: auto;
+    margin: 0;
+  }
+
+  #alternance-comment-ca-marche > div > .bloc-image {
+    width: 100%;
+    height: 250px;
+  }
+
+  #alternance-comment-ca-marche > div > .bloc-texte {
+    padding: 15px;
+    width: 100%;
+    align-self: center;
+  }
+}
+
+/* TABLETS */
+@media only screen and (max-width: 959px) {
+  #alternance-comment-ca-marche {
+    padding: 0;
+  }
+  #alternance-comment-ca-marche > h2 {
+    text-align: center;
+  }
+  #alternance-comment-ca-marche > div {
+    height: auto;
+    margin: 0;
+  }
+
+  #alternance-comment-ca-marche > div > .bloc-image {
+    width: 100%;
+    height: 250px;
+  }
+
+  #alternance-comment-ca-marche > div > .bloc-texte {
+    padding: 15px;
+    width: 100%;
+    align-self: center;
+  }
+}
