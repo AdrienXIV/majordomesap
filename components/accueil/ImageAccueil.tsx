@@ -40,7 +40,7 @@ const ImageAccueil: NextPage = () => {
       </Suspense>
       <div className="hero-content-area">
         <h1 className={className}>{texteH1}</h1>
-        <p className="text-bold">Informations collective le 5 septembre 2022 à 14 heure dans nos locaux </p>
+        {/* <p className="text-bold">Informations collective le 5 septembre 2022 à 14 heure dans nos locaux </p> */}
 
         <Link href="/#contact" passHref>
           <a className="btn">Nous rejoindre</a>
