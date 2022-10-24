@@ -9,7 +9,7 @@ const PopupComponent = () => {
 
   const footer = (
     <div>
-      <Button label="Fermer" icon="pi pi-times" onClick={handleClose} />
+      <Button style={{ backgroundColor: "#ca0032", borderColor: "#ca0032" }} label="Fermer" icon="pi pi-times" onClick={handleClose} />
     </div>
   );
 
