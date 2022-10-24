@@ -22,7 +22,10 @@ const FormationsPage: NextPage = () => {
       <Header />
       <section id="formations">
         <h2>Formations</h2>
-        <p>Les métiers des services aux personnes sont en pleine expansion et ils sont reconnus comme de véritables professions</p>
+        {/* <p>Les métiers des services aux personnes sont en pleine expansion et ils sont reconnus comme de véritables professions</p> */}
+        <p>
+          Venez-vous former chez <b>Majordome Formation SAP</b> ! Formation + diplôme + emploi = rémunération
+        </p>
         <hr />
         <div className="p-grid">
           <Link href="/formation-majordomat" passHref>

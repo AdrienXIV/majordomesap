@@ -20,7 +20,8 @@ const HomePage: NextPage = () => {
       <Header />
       <section id="alternance">
         <h2>Alternance</h2>
-        <p>Vous trouverez ci-après tout ce dont vous avez besoin pour trouver votre alternance avec SAP Majordome Formation</p>
+        {/* <p>Vous trouverez ci-après tout ce dont vous avez besoin pour trouver votre alternance avec SAP Majordome Formation</p> */}
+        <p>Vous trouverez toutes les indications nécessaires pour votre inscription à la formation en alternance.</p>
         <hr />
       </section>
       <section id="alternance-comment-ca-marche">
@@ -40,10 +41,10 @@ const HomePage: NextPage = () => {
               2. <b>Choisissez votre formation SAP Majordome</b>, que vous pouvez identifier parmi nos parcours éligibles à l’alternance.
             </p>
             <p>
-              3. <b>Soumettez votre candidature</b> à SAP Majordome en complétant le formulaire en bas de cette page.
+              3. <b>Soumettez votre candidature</b> à Majordome Formation SAP en complétant le formulaire en bas de cette page.
             </p>
             <p>
-              4. <b>Fêtez votre admission</b> 😃 Vous signez avec SAP Majordome et avec l’entreprise qui vous accueille.
+              4. <b>Fêtez votre admission</b> 😃 Vous signez avec Majordome Formation SAP et avec l’entreprise qui vous accueille.
             </p>
             <p>
               5. <b>Formez-vous en alternance sans attendre !</b> Votre carrière commence ici : Vous apprenez un métier tout en étant rémunéré.
