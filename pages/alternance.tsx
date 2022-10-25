@@ -38,7 +38,7 @@ const HomePage: NextPage = () => {
               1. <b>Postulez à un emploi</b> en répondant aux annonces de notre CarreerCenter ou par vos propres moyens.
             </p>
             <p>
-              2. <b>Choisissez votre formation SAP Majordome</b>, que vous pouvez identifier parmi nos parcours éligibles à l’alternance.
+              2. <b>Choisissez votre formation Majordome Formation SAP</b>, que vous pouvez identifier parmi nos parcours éligibles à l’alternance.
             </p>
             <p>
               3. <b>Soumettez votre candidature</b> à Majordome Formation SAP en complétant le formulaire en bas de cette page.
