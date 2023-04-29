@@ -14,7 +14,6 @@ import { Dropdown } from "primereact/dropdown";
 import ReCAPTCHA from "react-google-recaptcha";
 import { Checkbox } from "primereact/checkbox";
 import { MapContainer, TileLayer, Marker, Popup, Circle } from "react-leaflet";
-import dynamic from "next/dynamic";
 
 const formations = [
   { name: "ADVF", value: 0 },
@@ -147,12 +146,14 @@ const Contact = () => {
   };
 
   const carte = (
-    <MapContainer className="container-map" center={[48.829304, 2.2640404]} zoom={17} scrollWheelZoom={true}>
+    <MapContainer className="container-map" center={[48.829304, 2.2640404]} zoom={16} scrollWheelZoom={true}>
       <Suspense fallback={<div />}>
         <TileLayer
           ref={mapRef}
-          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-          url="https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}"
+          // attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          // url="https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           id="mapbox/streets-v11"
           accessToken="pk.eyJ1IjoiYm9zc2VheiIsImEiOiJjanZkZnk3eGYwMmoyNGVvdWFhMGhld2Y1In0.CuJFWuRK3wsuQ9e77S1Lww"
         />

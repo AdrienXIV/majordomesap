@@ -1,6 +1,5 @@
 import React from "react";
 import type { NextPage } from "next";
-import Image from "next/image";
 
 const IlsNousOntFaitConfiances: NextPage = () => {
   return (
