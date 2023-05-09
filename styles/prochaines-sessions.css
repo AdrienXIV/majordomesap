@@ -54,6 +54,13 @@
   margin-bottom: 100px;
 }
 
+.formations-longues p {
+  text-align: left;
+  width: 66.66%;
+}
+.formations-longues span {
+  font-weight: bold;
+}
 /* TABLETS */
 @media only screen and (max-width: 959px) {
   #dates-sessions {
@@ -66,6 +73,13 @@
   #dates-sessions .bloc-dates > div {
     width: calc(50% - 30px);
   }
+
+  .formations-longues h3 {
+    text-align: center;
+  }
+  .formations-longues p {
+    width: 100%;
+  }
 }
 /* PHONES */
 @media only screen and (max-width: 480px) {
@@ -75,6 +89,13 @@
     text-align: center;
   }
   #dates-sessions .bloc-dates > div {
+    width: 100%;
+  }
+
+  .formations-longues h3 {
+    text-align: center;
+  }
+  .formations-longues p {
     width: 100%;
   }
 }

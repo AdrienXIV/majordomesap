@@ -2,6 +2,7 @@ import React from "react";
 import type { NextPage } from "next";
 import Header from "@components/other/Header";
 import InformationsCollectives from "@components/ProchainesSessions/InformationsCollectives";
+import Formations from "@components/ProchainesSessions/Formations";
 
 const ProchainesSessionsPage: NextPage = () => {
   return (
@@ -19,6 +20,7 @@ const ProchainesSessionsPage: NextPage = () => {
       <Header />
       <InformationsCollectives />
       {/* <DatesSessions /> */}
+      <Formations />
     </main>
   );
 };
