@@ -54,6 +54,9 @@
   margin-bottom: 100px;
 }
 
+.formations-longues h3 {
+  text-align: center;
+}
 .formations-longues p {
   text-align: left;
   width: 66.66%;
@@ -74,9 +77,6 @@
     width: calc(50% - 30px);
   }
 
-  .formations-longues h3 {
-    text-align: center;
-  }
   .formations-longues p {
     width: 100%;
   }
@@ -92,9 +92,6 @@
     width: 100%;
   }
 
-  .formations-longues h3 {
-    text-align: center;
-  }
   .formations-longues p {
     width: 100%;
   }
