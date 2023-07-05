@@ -77,17 +77,61 @@ const PetiteEnfance: NextPage = () => {
 
   return (
     <section id="formation-majordomat">
-      <h2>Formation petite enfance</h2>
+      <h2 style={{ textAlign: "center" }}>CAP Petite Enfance : Développez votre passion pour le bien-être des enfants</h2>
       <div className="bloc-texte">
         <p>
-            Grace au CAP petite enfance, vous allez apprendre a faire évoluer l'enfant jusqu'a son arrivé a l'école.
-            Le CAP petite enfance est ouvert a tous, sans qualification et sans le BAC
+          Bienvenue sur notre page dédiée à la formation CAP Petite Enfance, une étape essentielle pour tous ceux qui souhaitent travailler dans le
+          domaine de la petite enfance. Si vous êtes passionné par le développement et le bien-être des enfants, cette formation est faite pour vous.
+        </p>
+        <p>
+          Le CAP Petite Enfance est un diplôme reconnu qui vous ouvrira les portes d'une carrière enrichissante et valorisante. Il vous permettra
+          d'acquérir les connaissances et les compétences nécessaires pour prendre soin des enfants de 0 à 6 ans, que ce soit en milieu familial ou en
+          structure d'accueil collectif.
+        </p>
+        <p>
+          Notre programme de formation est conçu pour vous offrir une solide base théorique ainsi que des compétences pratiques indispensables pour
+          travailler efficacement avec les jeunes enfants. Vous apprendrez à comprendre et à répondre à leurs besoins fondamentaux, à favoriser leur
+          épanouissement et à assurer leur sécurité.
+        </p>
+        <p>
+          Pendant votre formation, vous explorerez des domaines clés tels que le développement de l'enfant, la nutrition, l'hygiène, la prévention des
+          accidents, la communication avec les parents et l'animation d'activités ludiques et éducatives. Vous serez encadré par des professionnels
+          expérimentés qui vous guideront et vous soutiendront tout au long de votre parcours.
+        </p>
+        <p>
+          Le CAP Petite Enfance offre également de nombreuses perspectives professionnelles. Une fois diplômé, vous pourrez travailler dans des
+          crèches, des garderies, des écoles maternelles, des centres de loisirs ou même devenir assistant maternel à votre compte. Vous pourrez
+          accompagner les enfants dans leur développement, les aider à acquérir de nouvelles compétences et contribuer à leur éveil.
+        </p>
+        <p>
+          Nous mettons tout en œuvre pour vous offrir une formation de qualité, adaptée aux exigences du secteur de la petite enfance. Nos formateurs
+          passionnés et nos infrastructures modernes vous permettront d'apprendre dans les meilleures conditions.
+        </p>
+        <p>
+          N'attendez plus pour concrétiser votre passion pour les enfants et faire de votre vocation une réalité. Inscrivez-vous dès maintenant à
+          notre formation CAP Petite Enfance et ouvrez les portes d'une carrière épanouissante dans le domaine de la petite enfance.
+        </p>
+        <p>
+          Contactez-nous aujourd'hui pour plus d'informations ou pour vous inscrire. Nous serons ravis de répondre à toutes vos questions et de vous
+          accompagner dans votre parcours vers la réussite.
+        </p>
+        <p>
+          La formation se compose de trois pôles d’activités permettant l’acquisition de 13 compétences et de 3 compétences dites transversales. Ces
+          compétences seront déclinées tout au long de la formation dans les trois pôles car elles sont le socle du métier d’assistant de vie aux
+          familles.
+        </p>
+      </div>
+
+      {/* <div className="bloc-texte">
+        <p>
+          Grace au CAP petite enfance, vous allez apprendre a faire évoluer l'enfant jusqu'a son arrivé a l'école. Le CAP petite enfance est ouvert a
+          tous, sans qualification et sans le BAC
         </p>
         <br />
         <p>
-          Le professionnel Petite enfnat joue un rôle important dans la vie des enfants, en effectuant des tâches diversifiées de façon autonome
-          tout en s’adaptant aux différents contextes familiaux tout au long de l’accompagnement. Il facilite les actes de la vie au quotidien en
-          prenant compte les besoins de l'enfant dans sa globalité en respectant sa vie privée et établit des relations interpersonnelles en maintenant la
+          Le professionnel Petite enfnat joue un rôle important dans la vie des enfants, en effectuant des tâches diversifiées de façon autonome tout
+          en s’adaptant aux différents contextes familiaux tout au long de l’accompagnement. Il facilite les actes de la vie au quotidien en prenant
+          compte les besoins de l'enfant dans sa globalité en respectant sa vie privée et établit des relations interpersonnelles en maintenant la
           distance professionnelle nécessaire.
         </p>
         <p>
@@ -96,6 +140,8 @@ const PetiteEnfance: NextPage = () => {
           familles.
         </p>
       </div>
+
+    */}
 
       <div className="p-grid bloc">
         <div>
@@ -147,9 +193,7 @@ const PetiteEnfance: NextPage = () => {
       {/* CCP1 */}
       <div id="advf-modules" className="module-titre">
         <h2>Devenez un professionnel rapidement !</h2>
-        <small>
-          Notre formation modulable pouvant aller de 3 jours à 2 mois. Cette certification passe par l'acquisition
-        </small>
+        <small>Notre formation modulable pouvant aller de 3 jours à 2 mois. Cette certification passe par l'acquisition</small>
         <hr />
       </div>
 
