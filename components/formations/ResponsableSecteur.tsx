@@ -76,8 +76,48 @@ const ResponsableSecteur: NextPage = () => {
 
   return (
     <section id="formation-majordomat">
-      <h2>Formation petite enfance</h2>
+      <h2 style={{ textAlign: "center" }}>Formation Responsable de Secteur : Devenez un leader dans votre domaine</h2>
       <div className="bloc-texte">
+        <p>
+          Bienvenue sur notre page dédiée à la formation Responsable de Secteur, une étape clé pour tous ceux qui aspirent à devenir des leaders dans
+          leur domaine professionnel. Si vous êtes motivé par les défis de gestion et le développement stratégique, cette formation est faite pour
+          vous.
+        </p>
+        <p>
+          La formation Responsable de Secteur vous permettra d'acquérir les compétences essentielles pour gérer et développer un secteur d'activité
+          spécifique au sein d'une entreprise. Que vous envisagiez une promotion interne ou que vous souhaitiez vous reconvertir, cette formation vous
+          donnera les outils nécessaires pour réussir.
+        </p>
+        <p>
+          Notre programme de formation est conçu pour vous offrir une solide base théorique ainsi que des compétences pratiques indispensables pour
+          exceller en tant que Responsable de Secteur. Vous apprendrez les principes de la gestion d'équipe, la planification stratégique, la prise de
+          décision éclairée et la gestion efficace des opérations quotidiennes.
+        </p>
+        <p>
+          Pendant votre formation, vous explorerez des sujets clés tels que la gestion des ressources humaines, la gestion financière, la
+          communication interne et externe, ainsi que la résolution de problèmes. Vous serez encadré par des formateurs expérimentés qui partageront
+          leur expertise et vous aideront à développer les compétences nécessaires pour devenir un leader reconnu.
+        </p>
+        <p>
+          Le rôle de Responsable de Secteur offre de nombreuses opportunités de carrière dans divers secteurs d'activité. Vous pourrez évoluer vers
+          des postes de direction, prendre en charge des responsabilités élargies et contribuer activement à la croissance et au développement de
+          votre entreprise.
+        </p>
+        <p>
+          Nous nous engageons à vous fournir une formation de haute qualité, adaptée aux exigences du monde professionnel. Nous mettons à votre
+          disposition des ressources pédagogiques modernes, des ateliers pratiques et un encadrement personnalisé pour vous permettre de développer
+          tout votre potentiel.
+        </p>
+        <p>
+          N'attendez plus pour saisir cette opportunité de devenir un leader dans votre domaine. Inscrivez-vous dès maintenant à notre formation
+          Responsable de Secteur et prenez les commandes de votre carrière.
+        </p>
+        <p>
+          Contactez-nous dès aujourd'hui pour obtenir plus d'informations sur nos programmes de formation et discuter de la meilleure option pour
+          vous. Nous serons ravis de vous accompagner dans votre parcours vers le succès professionnel.
+        </p>
+      </div>
+      {/* <div className="bloc-texte">
         <p>
           Grace au CAP petite enfance, vous allez apprendre a faire évoluer l'enfant jusqu'a son arrivé a l'école. Le CAP petite enfance est ouvert a
           tous, sans qualification et sans le BAC
@@ -94,7 +134,7 @@ const ResponsableSecteur: NextPage = () => {
           compétences seront déclinées tout au long de la formation dans les trois pôles car elles sont le socle du métier d’assistant de vie aux
           familles.
         </p>
-      </div>
+      </div> */}
 
       <div className="p-grid bloc">
         <div>

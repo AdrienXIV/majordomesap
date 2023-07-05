@@ -9,12 +9,9 @@ const ResponsableSecteurPage: NextPage = () => {
       <title>Formation Responsable Secteur | Majordome Formation SAP</title>
       <meta
         name="description"
-        content="Formez vous au métier petite enfance, avec notre équipe qualifiée et pédagogue. Formation certifiante et 100% financée, avec des modules de spécialisation à la hauteur des compétences recommandées sur le marché de l’emploi."
+        content="Découvrez le métier de Responsable de Secteur et les compétences requises pour réussir dans ce domaine. Trouvez des opportunités de carrière et des formations pour devenir un professionnel compétent et qualifié."
       />
-      <meta
-        name="keywords"
-        content="formation gratuite, formation zéro à charge, formation certifiante, formation à distance, formation en ligne, formation pôle emploi, formation financée"
-      />
+      <meta name="keywords" content="Responsable de Secteur, métier, compétences, carrière, formation" />
 
       <Header />
       <ResponsableSecteur />
