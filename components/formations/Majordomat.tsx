@@ -1,7 +1,6 @@
 import React, { Suspense, useEffect, useState } from "react";
 import type { NextPage } from "next";
 import Image from "next/image";
-import { Timeline } from "primereact/timeline";
 
 import { ProgressSpinner } from "primereact/progressspinner";
 
@@ -13,39 +12,6 @@ const Majordomat: NextPage = () => {
       window.innerWidth < 959 ? setLayout("vertical") : setLayout("horizontal");
     }
   }, []);
-
-  const customizedMarker = item => {
-    return (
-      <span className="custom-marker p-shadow-2">
-        {(() => {
-          switch (item.numero) {
-            case 1:
-              return <i className="pi pi-pencil"></i>;
-            case 2:
-              return <i className="pi pi-calendar"></i>;
-            case 3:
-              return <i className="pi pi-compass"></i>;
-            case 4:
-              return <i className="pi pi-users"></i>;
-            case 5:
-              return <i className="pi pi-thumbs-up"></i>;
-
-            default:
-              return <i className="pi pi-pencil"></i>;
-          }
-        })()}
-      </span>
-    );
-  };
-
-  const customizedContent = item => {
-    return (
-      <div className="timeline-step">
-        <h3>{item.status}</h3>
-        <p style={{ textAlign: item.numero % 2 === 1 ? "start" : "end" }}>{item.content}</p>
-      </div>
-    );
-  };
 
   return (
     <section id="formation-majordomat">

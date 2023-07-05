@@ -25,7 +25,6 @@ import React from "react";
 import dynamic from "next/dynamic";
 import Footer from "@components/other/Footer";
 import Script from "next/script";
-import Head from "next/head";
 import { useRouter } from "next/router";
 const Contact = dynamic(() => import("@components/contact/Contact"), { ssr: false });
 

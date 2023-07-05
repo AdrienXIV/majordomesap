@@ -87,8 +87,8 @@ const Header: NextPage = () => {
         <div className="reseaux-sociaux">
           <div>
             <Suspense fallback={<ProgressSpinner />}>
-              <a style={{ fontSize: "30px", color: "gold" }} rel="noopener" href="https://4310529310.digiforma.net" target="_blank">
-                Espace formation <i className="pi pi-key" style={{ fontSize: "40px", color: "gold" }}></i>
+              <a style={{ fontSize: "20px", color: "gold" }} rel="noopener" href="https://4310529310.digiforma.net" target="_blank">
+                Espace formation <i className="pi pi-key" style={{ fontSize: "25px", color: "gold" }}></i>
               </a>
             </Suspense>
           </div>

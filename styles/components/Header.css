@@ -47,6 +47,7 @@
 }
 .nav-infos .reseaux-sociaux > div {
   margin-right: 20px;
+  align-self: center;
 }
 .nav-infos .reseaux-sociaux > div span {
   border-radius: 5px;
