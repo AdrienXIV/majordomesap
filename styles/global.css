@@ -146,3 +146,79 @@ legend {
   margin-bottom: 10%;
   height: 250vh;
 }
+
+.formation-petite-enfance-table td {
+  border: solid 1px silver;
+}
+
+.panel {
+  padding: 0 250px;
+}
+
+.panel-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.panel-link:hover {
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+.txt {
+  margin-left: 1.5rem;
+}
+
+.txt p {
+  text-align: start;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.txt ul {
+  list-style-type: disc;
+  margin-bottom: 1rem;
+}
+
+.txt ol {
+  list-style-type: decimal;
+  margin-bottom: 1rem;
+}
+
+.txt ul li,
+.txt ol li {
+  margin-left: 1.5rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .panel {
+    padding: 0;
+  }
+
+  .panel-heading {
+    padding: 10px;
+  }
+  .panel-title {
+    margin-bottom: 0;
+  }
+  .panel-body {
+    padding: 0;
+  }
+  .title {
+    font-size: 1rem;
+  }
+  .txt {
+    margin: 0 !important;
+  }
+  .txt p,
+  .txt ul,
+  .txt ol {
+    margin: 0 !important;
+  }
+}

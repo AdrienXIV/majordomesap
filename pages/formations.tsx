@@ -63,6 +63,18 @@ const FormationsPage: NextPage = () => {
           </Link>
         </div>
       </section>
+      <section>
+        <h3>Nos autres formations</h3>
+        <hr />
+        <a style={{ color: "black" }} href="/formation-petite-enfance" target="_blank">
+          Formation petite enfance
+        </a>
+        <br />
+        <br />
+        <a style={{ color: "black" }} href="/formation-responsable-secteur" target="_blank">
+          Formation responsable secteur
+        </a>
+      </section>
       <section id="professionnels-et-employeurs">
         <h3>Professionnels et employeurs</h3>
         <hr />
