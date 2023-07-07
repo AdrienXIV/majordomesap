@@ -87,29 +87,17 @@ const PetiteEnfance: NextPage = () => {
             </tr>
             <tr>
               <td style={{ width: 311 }}>
-                <a style={{ color: "red" }} target="_blank" href="https://cap-petite-enfance-pratique.com/ep1-cap-petite-enfance/">
-                  EP1 : Prise en charge de l’enfant à domicile
-                </a>
+                <a>EP1 : Prise en charge de l’enfant à domicile</a>
                 <p>Épreuve écrite et pratique de 2h15</p>
               </td>
               <td style={{ width: 300 }}>
-                <a
-                  target="_blank"
-                  style={{ color: "red" }}
-                  href="https://cap-petite-enfance-pratique.com/lep1-du-cap-accompagnant-educatif-petite-enfance-aepe-accompagner-le-developpement-du-jeune-enfant/"
-                >
-                  EP1 : accompagner le développement du jeune enfant
-                </a>{" "}
-                + PSE (Prévention, Santé, Environnement)
+                <a>EP1 : accompagner le développement du jeune enfant</a> + PSE (Prévention, Santé, Environnement)
                 <p>Oral de 25 minutes (coef 7) + 1 heure PSE (coef 1)</p>
               </td>
             </tr>
             <tr>
               <td style={{ width: 311 }}>
-                <a target="_blank" style={{ color: "red" }} href="https://cap-petite-enfance-pratique.com/ep2-cap-petite-enfance-epreuve-double/">
-                  EP2 : Accompagnement éducatif de l’enfant
-                </a>{" "}
-                et PSE (Prévention, Santé, Environnement)
+                <a>EP2 : Accompagnement éducatif de l’enfant</a> et PSE (Prévention, Santé, Environnement)
                 <p>Oral 30 min + écrit PSE d’1h</p>
               </td>
               <td style={{ width: 300 }}>
@@ -119,13 +107,7 @@ const PetiteEnfance: NextPage = () => {
             </tr>
             <tr>
               <td style={{ width: 311 }}>
-                <a
-                  target="_blank"
-                  style={{ color: "red" }}
-                  href="https://cap-petite-enfance-pratique.com/ep3-cap-petite-enfance-technique-de-service-a-lusager/"
-                >
-                  EP3 : Techniques de services à l’usager
-                </a>
+                <a>EP3 : Techniques de services à l’usager</a>
                 <p>Ecrit et pratique d’1H30</p>
               </td>
               <td style={{ width: 300 }}>
@@ -165,15 +147,8 @@ const PetiteEnfance: NextPage = () => {
               <td style={{ textAlign: "left", width: 311 }}>12 semaines de stage dont 3 semaines consécutives</td>
               <td style={{ width: 311 }}>
                 <p style={{ textAlign: "left" }}>
-                  <strong>16 semaines</strong> de{" "}
-                  <a
-                    target="_blank"
-                    style={{ color: "black" }}
-                    href="https://cap-petite-enfance-pratique.com/stages-cap-accompagnant-educatif-petite-enfance-cap-aepe-16-semaines-sinon-rien/"
-                  >
-                    stage CAP Accompagnant éducatif Petite Enfance
-                  </a>{" "}
-                  dont 2×4 semaines minimum l’année de passage de l’examen.
+                  <strong>16 semaines</strong> de <a>stage CAP Accompagnant éducatif Petite Enfance</a> dont 2×4 semaines minimum l’année de passage
+                  de l’examen.
                 </p>
                 <p style={{ textAlign: "left" }}>A réaliser en 3 périodes distinctes si possible en individuel et collectif</p>
               </td>
